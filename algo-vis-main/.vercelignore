@@ -1,0 +1,16 @@
+node_modules
+.git
+.history
+.vscode
+dist
+.eslintcache
+
+# Documentation
+docs/TEST_*.md
+docs/ROADMAP.md
+
+# Development files
+*.log
+*.lock
+.DS_Store
+Thumbs.db
