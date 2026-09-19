@@ -12,12 +12,6 @@
   <a href="#目录结构">目录结构</a>
 </p>
 
-<p align="center">
-  <img alt="Papers 4" src="https://img.shields.io/badge/Papers-4-1f6feb?logo=arxiv&amp;logoColor=white" />
-  <img alt="Reproduced 0/4" src="https://img.shields.io/badge/Reproduced-0%2F4-2ea44f" />
-  <img alt="Overall 50%" src="https://img.shields.io/badge/Overall-50%25-e3b341" />
-  <img alt="PyTorch 2" src="https://img.shields.io/badge/PyTorch-2-EE4C2C?logo=pytorch&amp;logoColor=white" />
-</p>
 
 ## 项目简介
 
@@ -27,8 +21,8 @@
 
 | 方向 | 论文数 | 已完成 | 进行中 | 待开始 | 平均进度 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| 医学 LLM 去学习方法 | 2 | 0 | 2 | 0 | 55% |
-| 医学去学习基准与评测 | 2 | 0 | 2 | 0 | 43% |
+| 医学 LLM 去学习方法 | 2 | 0 | 2 | 0 | 5% |
+| 医学去学习基准与评测 | 2 | 0 | 2 | 0 | 3% |
 
 ## 复现进度
 
