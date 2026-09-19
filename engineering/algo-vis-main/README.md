@@ -5,10 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://datawhalechina.github.io/algo-vis/">在线演示</a> |
+  <a href="https://lyh-algo-vis-main.vercel.app/">在线演示</a> |
   <a href="#课程地图">课程地图</a> |
   <a href="#快速开始">快速开始</a> |
-  <a href="#参与贡献">参与贡献</a>
 </p>
 
 <p align="center">
@@ -307,16 +306,8 @@ algo-vis/
 
 CI 会依次执行生产依赖审计、lint、单测、构建、分包检查和 Playwright E2E。每个内容分片也在 `docs/reviews/` 中保留“易读、易学、易调试、公式正确、步骤连贯”的独立复核记录。
 
-## GitHub Pages 部署
 
-正式站点：<https://datawhalechina.github.io/algo-vis/>
 
-`.github/workflows/deploy.yml` 在代码进入 `main` 后构建并部署，也支持从 Actions 手动触发。工作流会根据仓库名设置 `VITE_BASE_PATH`，因此项目仓库可正确部署到 `/<repository>/` 子路径。
 
-Pull Request 只运行 CI，不会覆盖正式站点，也不会自动生成 Pages 预览链接。合并到 `main` 并且部署工作流成功后，线上内容才会更新。
-
-在 Fork 中部署时，需要在仓库中启用 Actions 和 GitHub Pages，并选择 **GitHub Actions** 作为 Pages 来源；站点地址通常为 `https://<username>.github.io/<repository>/`。仓库首页 About 区域的 Website 链接属于单独的仓库元数据，需要在仓库设置中填写，并不会由部署工作流自动出现。
-
-仓库也保留了 `vercel.json`，其中配置了 `dist` 输出目录和单页应用回退规则，可作为 Vercel 部署入口；README 不再引用无法确认状态的旧 Vercel 演示地址。
 
 
