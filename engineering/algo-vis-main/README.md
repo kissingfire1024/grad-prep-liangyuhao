@@ -154,7 +154,7 @@ CUDA 专区按算子形态组织为七类：逐元素操作、规约、扫描与
 ### 安装与启动
 
 ```bash
-git clone https://github.com/datawhalechina/algo-vis.git
+git clone https://github.com/kissingfire1024/grad-prep-liangyuhao.git
 cd algo-vis
 pnpm install
 pnpm dev
@@ -319,31 +319,4 @@ Pull Request 只运行 CI，不会覆盖正式站点，也不会自动生成 Pag
 
 仓库也保留了 `vercel.json`，其中配置了 `dist` 输出目录和单页应用回退规则，可作为 Vercel 部署入口；README 不再引用无法确认状态的旧 Vercel 演示地址。
 
-## 参与贡献
 
-欢迎报告问题、完善讲解、修正公式、增加测试或提交新的可视化：
-
-1. Fork 仓库并从 `main` 创建特性分支。
-2. 保持改动聚焦，并为行为变化补充相应测试。
-3. 提交前运行 `pnpm lint`、`pnpm test`、`pnpm build` 和相关 E2E。
-4. 检查 `git diff`，确认没有生成物、调试文件或凭据进入提交。
-5. 推送分支并创建 Pull Request，说明课程范围、交互变化和验证结果。
-
-发现 Bug 或希望讨论内容规划时，请提交 [Issue](https://github.com/datawhalechina/algo-vis/issues)。
-
-## 致谢
-
-- [LeetCode](https://leetcode.cn/) 提供经典算法题目语境。
-- [王树森强化学习课程资料](https://github.com/wangshusen/DRL)为强化学习主线提供参考。
-- React、Vite、Framer Motion、KaTeX、D3、Cytoscape、Three.js 等开源项目提供基础能力。
-- 感谢原项目作者 Hoshino-wind 以及所有贡献者。
-
-## 许可证
-
-历史 README 将本项目标记为 MIT，但当前仓库尚未包含 `LICENSE` 文件。正式复用或分发前，请等待仓库维护者补充明确的许可证文本。
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=datawhalechina/algo-vis&type=Date)](https://star-history.com/#datawhalechina/algo-vis&Date)
-
-</div>
