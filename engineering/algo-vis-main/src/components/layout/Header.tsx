@@ -51,7 +51,7 @@ function Header() {
           </div>
 
           <a
-            href="https://github.com/datawhalechina/algo-vis"
+            href="https://github.com/kissingfire1024/grad-prep-liangyuhao.git"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-700 hover:text-primary-600 transition font-medium"
