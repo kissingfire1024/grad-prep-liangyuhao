@@ -11,7 +11,7 @@ function Footer() {
             <span>for curious problem solvers</span>
           </div>
           <p className="text-sm">
-            © 2025 算法可视化实验室 · 帮助你更好的学习与理解算法
+             计科-26-1班-梁昱豪
           </p>
         </div>
       </div>

@@ -8,7 +8,6 @@
   <a href="https://lyh-algo-vis-main.vercel.app/">在线演示</a> |
   <a href="#课程地图">课程地图</a> |
   <a href="#快速开始">快速开始</a> |
-  <a href="#参与贡献">参与贡献</a>
 </p>
 
 <p align="center">
