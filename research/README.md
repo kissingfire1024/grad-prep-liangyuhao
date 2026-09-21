@@ -18,7 +18,7 @@
 ### 医学 LLM 去学习方法
 
 | 论文 |  学习笔记 |复现进度 | 状态 | 产出物 |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | [Wisdom is knowing what not to say: Hallucination-free LLMs unlearning via attention shifting](https://arxiv.org/abs/2410.12345) | 笔记|10% | 进行中 | `repro/attention-shifting/` |
 | [Mitigating algorithmic unfairness arising from forgetfulness of medical records in clinical artificial intelligence](https://arxiv.org/abs/2410.12346) |笔记|40% | 进行中 | `repro/fairness-unlearning/` |
 | --- | --- | --- | --- |
