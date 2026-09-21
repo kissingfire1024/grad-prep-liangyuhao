@@ -17,17 +17,13 @@
 
 ### 医学 LLM 去学习方法
 
-| 论文 | 复现进度 | 状态 | 产出物 |
+| 论文 |  学习笔记 |复现进度 | 状态 | 产出物 |
 | --- | --- | --- | --- |
-| [Wisdom is knowing what not to say: Hallucination-free LLMs unlearning via attention shifting](https://arxiv.org/abs/2410.12345) | 10% | 进行中 | `repro/attention-shifting/` |
-| [Mitigating algorithmic unfairness arising from forgetfulness of medical records in clinical artificial intelligence](https://arxiv.org/abs/2410.12346) | `████░░░░░░` 40% | 进行中 | `repro/fairness-unlearning/` |
-
-### 医学去学习基准与评测
-
-| 论文 | 复现进度 | 状态 | 产出物 |
+| [Wisdom is knowing what not to say: Hallucination-free LLMs unlearning via attention shifting](https://arxiv.org/abs/2410.12345) | 笔记|10% | 进行中 | `repro/attention-shifting/` |
+| [Mitigating algorithmic unfairness arising from forgetfulness of medical records in clinical artificial intelligence](https://arxiv.org/abs/2410.12346) |笔记|40% | 进行中 | `repro/fairness-unlearning/` |
 | --- | --- | --- | --- |
-| [AMNESIA: A Large Scale Medical Unlearning Benchmark Suite with Disease-Informed Analysis](https://arxiv.org/abs/2410.12347) |10% | 进行中 | `repro/amnesia/` |
-| [REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference](https://arxiv.org/abs/2410.12348) | 10% | 进行中 | `repro/remedi/` |
+| [AMNESIA: A Large Scale Medical Unlearning Benchmark Suite with Disease-Informed Analysis](https://arxiv.org/abs/2410.12347) |笔记|10% | 进行中 | `repro/amnesia/` |
+| [REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference](https://arxiv.org/abs/2410.12348) | 笔记|10% | 进行中 | `repro/remedi/` |
 
 ## 复现进度
 
