@@ -10,22 +10,6 @@
   <a href="#研究想法总览">研究想法总览</a> |
 </p>
 
-## 复现进度
-
-```text
-总进度    5%     已复现 0 / 4 篇
-代码完成  0%     主流程可跑通 0 篇
-指标对齐   0%     与原论文数值误差 < 2% 的条目
-实验记录  0%     含可回放日志与随机种子的条目
-```
-
-
-### 分方向进度
-
-| 方向 | 进度 | 说明 |
-| --- | --- | --- |
-| 医学 LLM 去学习方法 |  5% | 注意力偏移主线已跑通，公平性去学习仍在数据管线阶段 |
-| 医学去学习基准与评测 |  5% | AMNESIA 指标对齐中，REMEDI 多标签协议刚完成拆解 |
 
 ## 论文清单
 
@@ -45,7 +29,14 @@
 | [AMNESIA: A Large Scale Medical Unlearning Benchmark Suite with Disease-Informed Analysis](https://arxiv.org/abs/2410.12347) |10% | 进行中 | `repro/amnesia/` |
 | [REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference](https://arxiv.org/abs/2410.12348) | 10% | 进行中 | `repro/remedi/` |
 
-> 论文链接为占位地址，请替换为正式 arXiv 摘要页或会议论文页。
+## 复现进度
+
+```text
+总进度    5%     已复现 0 / 4 篇
+代码完成  0%     主流程可跑通 0 篇
+指标对齐   0%     与原论文数值误差 < 2% 的条目
+实验记录  0%     含可回放日志与随机种子的条目
+```
 
 ## 研究想法总览
 
