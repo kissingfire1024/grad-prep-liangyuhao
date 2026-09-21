@@ -19,11 +19,12 @@
 
 | 论文 |  学习笔记 |复现进度 | 状态 | 产出物 |
 | --- | --- | --- | --- | --- |
-| [Wisdom is knowing what not to say: Hallucination-free LLMs unlearning via attention shifting](https://arxiv.org/abs/2410.12345) | https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/paper-notes/Wisdom%20is%20Knowing%20What%20not%20to%20Say%3A%20Hallucination-Free%20LLMs%20Unlearning%20via%20Attention%20Shifting.md|10% | 进行中 | `repro/attention-shifting/` |
-| [Mitigating algorithmic unfairness arising from forgetfulness of medical records in clinical artificial intelligence](https://www.nature.com/articles/s41467-026-72601-7) |笔记|40% | 进行中 | `repro/fairness-unlearning/` |
-| [AMNESIA: A Large Scale Medical Unlearning Benchmark Suite with Disease-Informed Analysis](https://arxiv.org/abs/2605.30599) |笔记|10% | 进行中 | `repro/amnesia/` |
-| [REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference](https://arxiv.org/abs/2410.12348) | 笔记|10% | 进行中 | `repro/remedi/` |
-
+| [Wisdom is knowing what not to say: Hallucination-free LLMs unlearning via attention shifting](https://arxiv.org/abs/2410.12345) | [笔记](https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/paper-notes)/Wisdom%20is%20Knowing%20What%20not%20to%20Say%3A%20Hallucination-Free%20LLMs%20Unlearning%20via%20Attention%20Shifting.md|10% | 进行中 | `暂无` |
+| [Mitigating algorithmic unfairness arising from forgetfulness of medical records in clinical artificial intelligence](https://www.nature.com/articles/s41467-026-72601-7) |[笔记](https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/paper-notes/Mitigating%20algorithmic%20unfairness%20arising%20from%20forgetfulness%20of%20medical%20records%20in%20clinical%20artificial%20intelligence.md)|40% | 进行中 | `暂无` |
+| [AMNESIA: A Large Scale Medical Unlearning Benchmark Suite with Disease-Informed Analysis](https://arxiv.org/abs/2605.30599) |[笔记](https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/paper-notes/AMNESIA%20A%20Large%20Scale%20Medical%20Unlearning%20Benchmark%20Suite%20with%20Disease-Informed%20Analysis.md)|10% | 进行中 | `暂无` |
+| [REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference](https://arxiv.org/abs/2606.07141) | [笔记](https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/paper-notes/REMEDI%20A%20Benchmark%20for%20Retention%20and%20Unlearning%20Evaluation%20in%20Multi-label%20Clinical%20Disease%20Inference.md)|10% | 进行中 | `暂无` |
+| [The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning](https://arxiv.org/abs/2608.14229) | [笔记](https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/paper-notes/The%20More%20Popular%2C%20The%20Harder%20to%20Forget%20Adaptive%20Popularity%20for%20LLM%20Unlearning.md)|10% | 进行中 | `暂无` |
+| [ZeroUnlearn: Few-Shot Knowledge Unlearning in Large Language Models](https://arxiv.org/abs/2605.18879) | [笔记](https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/paper-notes/ZeroUnlearn%20Few-Shot%20Knowledge%20Unlearning%20in%20Large%20Language%20Models.md)|10% | 进行中 | `暂无` |
 ## 复现进度
 
 ```text
