@@ -21,7 +21,6 @@
 | --- | --- | --- | --- | --- |
 | [Wisdom is knowing what not to say: Hallucination-free LLMs unlearning via attention shifting](https://arxiv.org/abs/2410.12345) | 笔记|10% | 进行中 | `repro/attention-shifting/` |
 | [Mitigating algorithmic unfairness arising from forgetfulness of medical records in clinical artificial intelligence](https://arxiv.org/abs/2410.12346) |笔记|40% | 进行中 | `repro/fairness-unlearning/` |
-| --- | --- | --- | --- |
 | [AMNESIA: A Large Scale Medical Unlearning Benchmark Suite with Disease-Informed Analysis](https://arxiv.org/abs/2410.12347) |笔记|10% | 进行中 | `repro/amnesia/` |
 | [REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference](https://arxiv.org/abs/2410.12348) | 笔记|10% | 进行中 | `repro/remedi/` |
 
