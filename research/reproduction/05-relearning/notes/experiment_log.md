@@ -1,111 +1,111 @@
-# Experiment 005 — RMU Relearning Recovery
+# Experiment 005 — RMU Relearning 恢复
 
-## 1. Research Question
+## 1. 研究问题
 
-After RMU suppresses the target forget-set behavior, how rapidly can the
-forgotten target knowledge become recoverable under subsequent ordinary
+After RMU suppresses the 目标 forget-set behavior, how rapidly can the
+遗忘目标 知识 become recoverable under subsequent ordinary
 supervised fine-tuning?
 
-This experiment measures empirical recoverability. It does not by itself
-establish whether recovery originates from residual latent knowledge,
-ordinary re-learning from the supplied forget data, or a combination of both.
+本实验 measures empirical recoverability. It does not by itself
+establish whether 恢复 originates 来自 residual latent 知识,
+ordinary re-learning 来自 the supplied 遗忘 data, 或 a combination 的 both.
 
 ---
 
-## 2. Base Unlearned Model
+## 2. Base Unlearned 模型
 
-Method: RMU
+方法: RMU
 
-Model:
+模型:
 Llama-3.2-1B-Instruct
 
-Dataset:
+数据集:
 TOFU forget01
 
 Initial checkpoint:
 
 /home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_test
 
-The Step-0 RMU model showed strong suppression of forget-set behavior but
-Model Utility = 0 under the unified TOFU evaluation.
+The Step-0 RMU model showed 强 suppression 的 forget-set behavior but
+模型 Utility = 0 under the unified TOFU 评估.
 
 ---
 
-## 3. Relearning Attack
+## 3. Relearning 攻击
 
-Attack type:
-ordinary supervised fine-tuning on the TOFU forget01 QA data.
+攻击 type:
+ordinary supervised fine-tuning在the TOFU forget01 QA data.
 
-This is NOT an unlearning objective.
+This 是 NOT an 机器遗忘 objective.
 
-The attack directly reintroduces the original forget-set training data and
-therefore represents a strong-access relearning attack.
+The 攻击 directly reintroduces the original forget-set 训练 data and
+therefore represents a strong-access 再学习 攻击.
 
 Important limitation:
 
-Successful recovery in this setting does not prove that RMU retained the
-original information internally, because the model is explicitly exposed
-again to the forgotten examples.
+Successful 恢复在this setting 不能证明 that RMU retained the
+original information internally,因为模型 是 explicitly exposed
+again到the forgotten examples.
 
 ---
 
-## 4. Training Protocol
+## 4. 训练 协议
 
-A single continuous relearning trajectory was used.
+A single continuous 再学习 trajectory 为 used.
 
 Snapshots:
 
-- Step 0: original RMU checkpoint
-- Step 1
-- Step 5
-- Step 10
-- Step 20
-- Step 50
+- 步骤 0: original RMU checkpoint
+- 步骤 1
+- 步骤 5
+- 步骤 10
+- 步骤 20
+- 步骤 50
 
-The Step 1/5/10/20/50 snapshots therefore belong to the same optimizer and
-scheduler trajectory rather than independent retraining runs.
+The 步骤 1/5/10/20/50 snapshots因此belong到the 相同 optimizer and
+scheduler trajectory rather比independent retraining runs.
 
-Main training settings:
+Main 训练 settings:
 
-- learning rate: 1e-5
+- 学习率: 1e-5
 - batch size: 1
-- gradient accumulation: 4
-- weight decay: 0.01
-- gradient checkpointing: enabled
-- maximum optimizer steps: 50
-- attention implementation: SDPA
+- 梯度累积: 4
+- 权重衰减: 0.01
+- 梯度检查点: enabled
+- maximum 优化器步数: 50
+- attention 实现: SDPA
 - optimizer: paged_adamw_32bit
-- scheduler: linear decay, no explicit warmup
-- seed: 0
+- scheduler: linear decay, no 显式 warmup
+- 随机种子: 0
 - BF16: enabled
 
-Approximate epoch mapping:
+Approximate 轮次 mapping:
 
-- Step 5: 0.5 epoch
-- Step 10: 1 epoch
-- Step 20: 2 epochs
-- Step 50: 5 epochs
-
----
-
-## 5. Recovery Metrics
-
-Three official OpenUnlearning TOFU metrics were used:
-
-1. Forget Q/A Probability
-2. Forget Q/A ROUGE
-3. Extraction Strength
-
-Step 0 values come from the complete Experiment 004 TOFU evaluation.
-
-Step 1/5/10/20/50 values come from the lightweight recovery-screen
-evaluator using the same official metric implementations.
+- 步骤 5: 0.5 轮次
+- 步骤 10: 1 轮次
+- 步骤 20: 2 epochs
+- 步骤 50: 5 epochs
 
 ---
 
-## 6. Results
+## 5. 恢复 指标
 
-| Relearning Steps | Forget Q/A Prob | Forget Q/A ROUGE | Extraction Strength |
+Three 官方 OpenUnlearning TOFU metrics 为 used:
+
+1. Forget 问答概率
+2. Forget 问答 ROUGE
+3. 提取强度
+
+步骤 0 values come 来自 the 完成 Experiment 004 TOFU 评估.
+
+步骤 1/5/10/20/50 values come 来自 the lightweight recovery-screen
+evaluator using the 相同 官方 metric implementations.
+
+---
+
+## 6. 结果
+
+| Relearning 步骤 | Forget Q/A Prob | Forget 问答 ROUGE | 提取强度 |
 |---:|---:|---:|---:|
 | 0  | 0.0000229001 | 0.0136615 | 0.0290594 |
 | 1  | 0.0002258897 | 0.0556710 | 0.0290594 |
@@ -118,110 +118,110 @@ evaluator using the same official metric implementations.
 
 ## 7. Main Observations
 
-### 7.1 Target-answer probability recovers rapidly
+### 7.1 Target-答案概率 recovers rapidly
 
-Forget Q/A Probability increased from approximately:
+Forget 问答概率 增加 来自 approximately:
 
-2.29e-5 at Step 0
+2.29e-5 at 步骤 0
 
 to:
 
-4.10e-2 at Step 50.
+4.10e-2 at 步骤 50.
 
-This corresponds to approximately a 1790x increase relative to the very small
+This corresponds到approximately a 1790x 增加 相对于 the very small
 Step-0 value.
 
-Because the baseline is extremely small, absolute metric values should be
-reported together with relative changes.
+Because the baseline 是 extremely small, absolute metric values 应当 be
+reported together 使用 relative changes.
 
-### 7.2 Free-generation recovery is delayed and non-monotonic
+### 7.2 Free-generation 恢复 是 delayed 和 non-monotonic
 
-Forget Q/A ROUGE did not recover monotonically during the early trajectory.
+Forget 问答 ROUGE did not recover monotonically during the early trajectory.
 
-It increased at Step 1, decreased again at Steps 5 and 10, and then showed a
-large increase between Steps 10 and 20:
+It 增加 at 步骤 1, 下降 again at 步骤 5 和 10, 和 then showed a
+large 增加 之间 步骤 10 和 20:
 
-Step 10: 0.01749
-Step 20: 0.25029
-Step 50: 0.25549
+步骤 10: 0.01749
+步骤 20: 0.25029
+步骤 50: 0.25549
 
-This suggests that target-answer likelihood and free-generation behavior can
-recover at different rates under this setting.
+This suggests that target-answer likelihood 和 free-generation behavior can
+recover at 不同 rates under this setting.
 
-### 7.3 Extraction Strength is comparatively insensitive
+### 7.3 提取强度 是 comparatively insensitive
 
-Extraction Strength remained exactly:
+提取强度 remained exactly:
 
 0.0290594082
 
-from Step 0 through Step 20.
+来自 步骤 0 through 步骤 20.
 
-At Step 50 it changed only slightly to:
+At 步骤 50 it changed 仅 slightly to:
 
 0.0297004339.
 
-Thus the three recovery metrics capture different aspects of post-unlearning
-behavior and should not be treated as interchangeable.
+Thus the three 恢复 metrics capture 不同 aspects 的 机器遗忘后
+behavior 和 应当 not be treated作为interchangeable.
 
 ---
 
-## 8. Interpretation
+## 8. 解释
 
-Under the current TOFU forget01 setting, knowledge behavior suppressed by RMU
-is empirically recoverable under subsequent supervised relearning.
+Under the current TOFU forget01 setting, 知识 behavior suppressed by RMU
+is empirically recoverable under subsequent supervised 再学习.
 
-The recovery appears staged:
+The 恢复 appears staged:
 
-1. target-answer probability begins recovering early;
-2. free-generation ROUGE shows delayed but substantial recovery;
-3. extraction strength remains comparatively insensitive over the same
+1. target-答案概率 begins recovering early;
+2. free-generation ROUGE shows delayed但substantial 恢复;
+3. extraction strength remains comparatively insensitive over the 相同
    trajectory.
 
-This provides evidence that low post-unlearning forget metrics do not by
-themselves imply resistance to subsequent recovery.
+This provides 证据 that low 机器遗忘后 遗忘 metrics do not by
+themselves imply resistance到subsequent 恢复.
 
 ---
 
 ## 9. What This Experiment Does NOT Prove
 
-This experiment does NOT establish that:
+本实验 does NOT establish that:
 
-- RMU failed to erase a specific latent representation;
-- the original memory necessarily remained intact after unlearning;
-- Step-50 recovery is entirely retrieval of residual memory rather than
+- RMU 失败到erase a specific latent representation;
+- the original 记忆 necessarily remained intact 之后 机器遗忘;
+- Step-50 恢复 是 entirely retrieval 的 residual 记忆 rather than
   ordinary re-learning;
-- the same behavior necessarily occurs in clinical or patient-level data;
-- RMU is globally inferior or superior to other unlearning methods.
+- the 相同 behavior necessarily occurs在临床 或 patient-level data;
+- RMU 是 globally inferior 或 superior到other 机器遗忘 methods.
 
-The current attack directly provides the original forget-set QA examples.
+The current 攻击 directly provides the original forget-set QA examples.
 
-Therefore this experiment should be treated as a mechanism/recoverability
-pilot rather than the final evidence for latent-memory persistence.
+Therefore 本实验 应当 be treated作为a 机制/recoverability
+试验 rather比the final 证据用于latent-memory persistence.
 
 ---
 
-## 10. Next Research Question
+## 10. Next 研究问题
 
-The stronger next question is:
+The 更强 next 问题 is:
 
-Can forgotten target information recover when the attacker does NOT directly
+Can 遗忘目标 information recover when the attacker does NOT directly
 reintroduce the original forget-set QA pairs?
 
-Candidate recovery channels include:
+候选 恢复 channels 纳入:
 
-- paraphrased evidence;
-- partial evidence;
-- semantically related records;
-- same-entity correlated records;
-- ultimately, same-patient correlated clinical records.
+- paraphrased 证据;
+- partial 证据;
+- semantically related 记录;
+- 同实体 correlated 记录;
+- ultimately, same-patient correlated 临床 记录.
 
-Recovery through such indirect channels would provide substantially stronger
-evidence about residual/distributed knowledge and is more relevant to the
-planned patient-level medical unlearning setting.
+恢复 through such indirect channels would provide substantially 更强
+证据 about residual/distributed 知识 和 是 more relevant到the
+planned patient-level 医学 机器遗忘 setting.
 
 ---
 
-## 11. Artifacts
+## 11. 实验产物
 
 Trajectory table:
 
@@ -233,7 +233,7 @@ figures/01_relearning_probability.png
 figures/02_relearning_rouge.png
 figures/03_relearning_extraction.png
 
-Formal relearning snapshots:
+正式 再学习 snapshots:
 
 relearn-step-1
 relearn-step-5
@@ -241,59 +241,59 @@ relearn-step-10
 relearn-step-20
 relearn-step-50
 
-The earlier independent Step-1 feasibility probe is not used as a formal
-trajectory point. The formal Step-1 point comes from the continuous 50-step
+The earlier independent Step-1 feasibility probe 是 not used作为a 正式
+trajectory point. The 正式 Step-1 point comes 来自 the continuous 50-step
 trajectory.
 
 ---
 
-## 12. Step-50 Full TOFU Utility Control
+## 12. Step-50 Full TOFU Utility 对照
 
-A complete TOFU evaluation was additionally performed on the formal
+A 完成 TOFU 评估 为 additionally performed在the 正式
 continuous-trajectory Step-50 checkpoint.
 
-The purpose was to test whether the observed forget-set recovery could be
-explained simply by broad recovery of the RMU-damaged model.
+目的 为到test whether the observed forget-set 恢复 could be
+explained simply by broad 恢复 的 the RMU-damaged model.
 
 ### Step-0 vs Step-50
 
-| Metric | RMU Step 0 | Relearning Step 50 |
+| 指标 | RMU 步骤 0 | Relearning 步骤 50 |
 |---|---:|---:|
-| Forget Q/A Probability | 0.0000229001 | 0.0410003662 |
-| Forget Q/A ROUGE | 0.0136615 | 0.2554944 |
-| Extraction Strength | 0.0290594 | 0.0297004 |
-| Forget Truth Ratio | 0.7866962 | 0.6312248 |
-| Forget Quality | 0.0286031 | 0.2656871 |
-| Model Utility | 0.0 | 0.0 |
+| Forget 问答概率 | 0.0000229001 | 0.0410003662 |
+| Forget 问答 ROUGE | 0.0136615 | 0.2554944 |
+| 提取强度 | 0.0290594 | 0.0297004 |
+| Forget 真实性比率 | 0.7866962 | 0.6312248 |
+| 遗忘质量 | 0.0286031 | 0.2656871 |
+| 模型 Utility | 0.0 | 0.0 |
 | PrivLeak | 22.2949 | -98.6920 |
 
-### Interpretation
+### 解释
 
-After 50 cumulative relearning optimizer steps, target-answer probability
-and free-generation ROUGE recovered substantially, while aggregate TOFU
-Model Utility remained 0.0.
+After 50 cumulative 再学习 优化器步数, target-答案概率
+and free-generation ROUGE recovered substantially,而aggregate TOFU
+模型 Utility remained 0.0.
 
-Therefore, under this experimental setting, the observed target-behavior
-recovery is not accompanied by recovery of the aggregate TOFU utility metric.
+Therefore, 在当前实验设置下, the observed target-behavior
+恢复 是 not accompanied by 恢复 的 the aggregate TOFU utility metric.
 
-This weakens the simple explanation that the recovery trajectory is merely
-the consequence of broad model-utility repair.
+This weakens the simple explanation that the 恢复 trajectory 是 merely
+the consequence 的 broad model-utility repair.
 
 However, this result does NOT establish latent-memory persistence.
 
-The relearning attack directly reintroduced the original forget-set QA
-examples. The observed recovery may therefore reflect rapid ordinary
-re-learning, residual knowledge reactivation, or a combination of both.
+The 再学习 攻击 directly reintroduced the original forget-set QA
+examples. The observed 恢复 可能因此reflect rapid ordinary
+re-learning, residual 知识 reactivation, 或 a combination 的 both.
 
-A stronger test must remove direct access to the original target QA examples
-and evaluate recovery through indirect evidence.
+A 更强 test 必须 remove direct access到the original 目标 QA examples
+and evaluate 恢复 through indirect 证据.
 
-Forget Quality and PrivLeak are retained as reported benchmark outputs but
-are not used as standalone evidence of memory deletion or recovery.
-PrivLeak is interpreted cautiously because of the previously observed
-Retain99 reference warning.
+遗忘质量 和 PrivLeak 是 retained作为reported benchmark outputs but
+are not used作为standalone 证据 的 记忆 deletion 或 恢复.
+PrivLeak 是 interpreted cautiously因为的 the previously observed
+Retain99 reference 警告.
 
-### Full evaluation artifact
+### Full 评估 artifact
 
 Step-50 full TOFU summary:
 

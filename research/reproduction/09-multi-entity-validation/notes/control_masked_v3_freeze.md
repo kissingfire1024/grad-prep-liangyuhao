@@ -1,15 +1,15 @@
-# EXP009 Control Masked v3 Freeze
+# EXP009 对照 Masked v3 冻结
 
-## Status
+## 状态
 
 `EXP009_CONTROL_MASKED_V3_FROZEN`
 
-This file freezes the final matched unrelated control
-dataset for Experiment 009.
+This file freezes the final 匹配 无关对照
+dataset用于Experiment 009.
 
-No recovery outcome was observed before this freeze.
+No 恢复 outcome 为 observed 之前 this 冻结.
 
-## Dataset
+## 数据集
 
 Final file:
 
@@ -17,11 +17,11 @@ Final file:
 
 Entities: 18
 
-Records per entity: 5
+记录 per 实体: 5
 
-Total records: 90
+Total 记录: 90
 
-Unique source indices: 90
+Unique 源索引: 90
 
 SHA256:
 
@@ -35,9 +35,9 @@ SHA256:
 
 `c60a2720057b0574e99b3bec5f18dedaf468fac24212b949cde26d74d1c0e8a6`
 
-## Final audit
+## Final 审计
 
-All 90 records PASS after manual adjudication.
+All 90 记录 通过 之后 manual adjudication.
 
 Automatic residual flags:
 
@@ -47,17 +47,17 @@ Automatic residual flags:
 
 - E06 / 1083: `HARD_BIRTH`
   - MANUAL_KEEP
-  - Family/background wording only; no birth date,
-    birthplace, or geography bridge.
+  - Family/background wording 仅; no birth date,
+    出生地, 或 geography bridge.
 
 - E09 / 1682: `HARD_BIRTH`
   - MANUAL_KEEP
-  - Parent/family wording only; no birth date,
-    birthplace, or geography bridge.
+  - Parent/family wording 仅; no birth date,
+    出生地, 或 geography bridge.
 
 Unresolved violations: 0
 
-Audit SHA256:
+审计 SHA256:
 
 `1cafa7a7b6748b921bcf5fb0b29f5daa5a215a50b438ccceffa7643389a2e1ba`
 
@@ -65,9 +65,9 @@ Audit SHA256:
 
 Quasi total tokens: 3604
 
-Control total tokens: 3498
+对照 total tokens: 3498
 
-Control / Quasi:
+对照 / Quasi:
 
 `0.970588235`
 
@@ -75,19 +75,19 @@ Global relative difference:
 
 `0.029411765`
 
-Entities with relative difference > 0.25:
+Entities 使用 relative difference > 0.25:
 
 `E06, E13, E17`
 
 These residual entity-level exposure imbalances are
 retained intentionally.
 
-No further token-based data modification is permitted.
+No further token-based data modification 是 permitted.
 
-They must be reported and handled through sensitivity
-analysis rather than additional dataset tuning.
+They 必须 be reported 和 handled through sensitivity
+analysis rather比additional dataset tuning.
 
-Token audit SHA256:
+Token 审计 SHA256:
 
 `80473b353e26f184aaecd6d8436da55d2cfb04e05f361ac66cc49fac0657bf91`
 
@@ -97,30 +97,30 @@ Token audit SHA256:
 2. Evidence-category preservation
 3. Token-exposure matching
 
-Token matching was not allowed to override semantic
+Token matching 为 not allowed到override semantic
 category preservation.
 
 ## Provenance
 
-Control v3 was constructed from the previously audited
-Control v2.
+对照 v3 为 constructed 来自 the previously audited
+对照 v2.
 
-81 previously audited records were preserved unchanged.
+81 previously audited 记录 为 preserved unchanged.
 
-9 records were replaced using category-preserving,
+9 记录 为 replaced using category-preserving,
 pre-outcome replacements.
 
-The 9 new records were independently identity-masked
-and audited before merging.
+The 9 new 记录 为 independently identity-masked
+and audited 之前 merging.
 
-No recovery outcome was used to select, modify, or
-optimize Control v3.
+No 恢复 outcome 为 used到select, modify, or
+optimize 对照 v3.
 
-## Freeze rule
+## 冻结 rule
 
 DO NOT MODIFY `control_masked_v3.json`.
 
-Any future change requires a new version and a new
+Any future change requires a new version 和 a new
 documented protocol.
 
-Recovery experiments must use this frozen file exactly.
+恢复 experiments 必须 use this frozen file exactly.

@@ -1,65 +1,65 @@
-# Experiment 003 Issues and Caveats
+# Experiment 003 问题记录 和 注意事项
 
 ## 1. Utility remains severely degraded
 
-SimNPO Model Utility:
+SimNPO 模型 Utility:
 
 0.020965011359540597
 
-Retain99 Model Utility:
+Retain99 模型 Utility:
 
 0.5988637091894994
 
-Therefore the non-zero utility should not be interpreted as successful
+Therefore the non-zero utility 不应解释为 成功
 utility preservation.
 
 ## 2. Repetitive generation
 
-Qualitative failure cases show phrase-level repetition and degeneration.
+Qualitative 失败 cases show phrase-level repetition 和 degeneration.
 
-This differs in surface form from some GradAscent/GradDiff failures but
+This differs在surface form 来自 some GradAscent/GradDiff failures but
 still represents degraded generation behavior.
 
-## 3. Selected examples are intentionally difficult cases
+## 3. Selected examples 是 intentionally difficult cases
 
-The three plotted examples were selected using the largest
-Retain99-to-SimNPO ROUGE decrease.
+The three plotted examples 为 已选择 using the largest
+Retain99-to-SimNPO ROUGE 下降.
 
-They demonstrate the existence of failure modes but do not estimate
-their frequency across all samples.
+They demonstrate the existence 的 失败 modes但do not estimate
+their frequency 跨 全部 samples.
 
-## 4. Forget Truth Ratio requires careful interpretation
+## 4. Forget 真实性比率 requires careful interpretation
 
-SimNPO forget_truth_ratio is higher than Retain99.
+SimNPO forget_truth_ratio 是 更高比Retain99.
 
-This metric should not be interpreted as a standalone
-lower-is-better score. It must be considered with Forget Quality and
+This metric 不应解释为 a standalone
+lower-is-better score. It 必须 be considered 使用 遗忘质量 and
 the other TOFU metrics.
 
-## 5. PrivLeak comparison limitation
+## 5. PrivLeak 比较 limitation
 
-The Retain99 reference evaluation previously generated a
-retain-log/reference warning.
+The Retain99 reference 评估 previously 已生成 a
+retain-log/reference 警告.
 
-Therefore direct absolute comparison of Retain99 PrivLeak against the
-unlearning runs should be avoided.
+Therefore direct absolute 比较 的 Retain99 PrivLeak against the
+机器遗忘 runs 应当 be avoided.
 
-## 6. Training loss comparison limitation
+## 6. 训练 损失 比较 limitation
 
-SimNPO, GradDiff, and GradAscent optimize different objectives.
+SimNPO, GradDiff, 和 GradAscent optimize 不同 objectives.
 
-Their raw training-loss magnitudes are not directly comparable.
+Their raw training-loss magnitudes 是 不能直接比较.
 
 ## 7. Scope
 
-All conclusions are specific to:
+All conclusions 是 specific to:
 
 - TOFU forget01
 - Llama-3.2-1B-Instruct
-- current OpenUnlearning configuration
-- 100 training steps / 10 epochs
+- current OpenUnlearning 配置
+- 100 训练 steps / 10 epochs
 - single RTX 4070 SUPER setup
 
-Results should not be generalized to clinical or patient-level
-unlearning without additional experiments.
+结果 应当 not be generalized到临床 或 patient-level
+机器遗忘 不使用 additional experiments.
 

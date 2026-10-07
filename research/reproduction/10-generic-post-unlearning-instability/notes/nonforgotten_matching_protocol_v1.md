@@ -1,107 +1,107 @@
-# Exp010-A — Forgotten / Non-Forgotten Target Matching Protocol v1
+# Exp010-A — Forgotten / Non-Forgotten Target Matching 协议 v1
 
-## Objective
+## 目标
 
-Match each of the 18 frozen Exp009 forgotten identity targets to exactly
-one eligible retained/non-forgotten identity target.
+Match each 的 the 18 frozen Exp009 forgotten 身份目标到exactly
+one 符合条件 retained/未遗忘 身份目标.
 
-Matching must be completed and frozen before any RMU, Quasi, or Control
-outcome is evaluated on retained targets.
+Matching 必须 be 已完成 和 frozen 之前 any RMU, Quasi, 或 对照
+outcome 是 evaluated在保留目标.
 
-## Inputs
+## 输入
 
-Forgotten targets:
+遗忘目标:
 
 Experiment 009 frozen:
 heldout_targets_18entity_v1.json
 
-Non-forgotten candidate pool:
+未遗忘 候选 pool:
 
 Exp010:
 nonforgotten_identity_candidate_audit_v1.json
 
-Only records with:
+Only 记录 使用:
 
 manual_eligibility == ELIGIBLE
 
-may participate.
+可能 participate.
 
-Expected eligible pool:
+Expected 符合条件 pool:
 
-131 targets from 131 distinct retain90 profiles.
+131 targets 来自 131 不同的 retain90 profiles.
 
 ## Statistical Unit
 
-Entity.
+实体.
 
 Final matching:
 
-18 forgotten entities
+18 forgotten 实体
 <- one-to-one ->
-18 distinct retained entities.
+18 不同的 retained 实体.
 
-A retained target may be used at most once.
+A 保留目标 可能 be used at most once.
 
 ## Text Features
 
-Features are extracted from QUESTION TEXT ONLY.
+Features 是 extracted 来自 QUESTION TEXT ONLY.
 
-For every question define:
+For every 问题 define:
 
 ### GEO
 
-1 if the question contains an explicit geographic cue
+1 if the 问题 包含 an 显式 地理 cue
 (city/country/place expression),
 otherwise 0.
 
 ### DATE_EXACT
 
-1 if an explicit month/day or numeric month/day-style date is present,
+1 if an 显式 month/day 或 numeric month/day-style date 是 present,
 otherwise 0.
 
 Examples:
 
 - July 28, 1942
 - 05/11/1991
-- 15th of April, 1992
+- 15th 的 April, 1992
 
 ### YEAR_ONLY
 
-1 if a four-digit birth year is present but DATE_EXACT == 0,
+1 if a four-digit 出生年份 是 present但DATE_EXACT == 0,
 otherwise 0.
 
 ### GENDER
 
-1 if explicit gender wording such as male/female is present,
+1 if 显式 gender wording such作为male/female 是 present,
 otherwise 0.
 
 ### LGBTQ
 
-1 if explicit LGBTQ/LGBT/LGBTQ+ wording is present,
+1 if 显式 LGBTQ/LGBT/LGBTQ+ wording 是 present,
 otherwise 0.
 
 ### GENRE
 
-1 if the question explicitly identifies a literary/professional genre
+1 if the 问题 explicitly identifies a literary/professional 体裁
 or specialization,
 otherwise 0.
 
-Examples include leadership, geology, cyberpunk, dystopian,
-historical romance, mythology, medical, crime, etc.
+Examples 纳入 leadership, geology, cyberpunk, dystopian,
+historical romance, mythology, 医学, crime, etc.
 
 ### FICTITIOUS
 
-1 if explicit fictitious/fictional wording occurs,
+1 if 显式 fictitious/fictional wording occurs,
 otherwise 0.
 
 ### TOKEN_LENGTH
 
-Number of tokenizer tokens in the question using the same
-Llama-3.2-1B-Instruct tokenizer used by the experiment.
+Number 的 tokenizer tokens在the 问题 using the 相同
+Llama-3.2-1B-Instruct tokenizer used by 该实验.
 
 ## Matching Cost
 
-For forgotten target i and retained candidate j:
+For 遗忘目标 i 和 retained 候选 j:
 
 cost(i,j) =
 
@@ -120,90 +120,90 @@ TOKEN_COST =
     abs(tokens_i - tokens_j)
     / max(tokens_i, tokens_j)
 
-The two highest-priority structural characteristics are therefore:
+The two highest-priority structural characteristics 是 therefore:
 
 1. geography structure;
-2. exact birth-date structure.
+2. 精确 birth-date structure.
 
-Token length is a secondary tie/refinement term and must not dominate
+Token length 是 a 次要 tie/refinement term 和 不得 dominate
 semantic task structure.
 
 ## Optimization
 
-Use deterministic minimum-total-cost one-to-one bipartite assignment
-across all 18 forgotten targets and all 131 eligible retained targets.
+Use 确定性 minimum-total-cost one-to-one bipartite assignment
+跨 全部 18 遗忘目标 和 全部 131 符合条件 保留目标.
 
 Use scipy.optimize.linear_sum_assignment.
 
-Because the candidate side has 131 targets, the assignment selects
-18 distinct retained targets minimizing total matching cost.
+Because the 候选 side has 131 targets, the assignment selects
+18 不同的 保留目标 minimizing total 匹配代价.
 
 ## Deterministic Tie Breaking
 
 Before optimization:
 
-1. forgotten targets sorted by target_id E01...E18;
+1. 遗忘目标 sorted by target_id E01...E18;
 2. retained candidates sorted by profile_id, then source_index.
 
-Add only a numerically negligible deterministic tie-breaking term:
+Add 仅 a numerically negligible 确定性 tie-breaking term:
 
     1e-9 * candidate_rank
 
 to each pair cost.
 
-This term must not materially change the substantive matching cost.
+This term 不得 materially change the substantive 匹配代价.
 
 ## Outcome-Blinding
 
 The matching script MUST NOT read:
 
-- RMU evaluation results;
-- Quasi evaluation results;
-- Control evaluation results;
+- RMU 评估 results;
+- Quasi 评估 results;
+- 对照 评估 results;
 - target-answer probabilities;
 - ROUGE results;
-- generated model outputs.
+- 已生成 model outputs.
 
-Matching is based exclusively on frozen source text and tokenizer
+Matching 是 based exclusively在frozen source text 和 tokenizer
 properties.
 
-## Validation Before Freeze
+## Validation Before 冻结
 
-Before final target freezing, report:
+Before final 目标 freezing, report:
 
-- all 18 matched pairs;
-- component features for both sides;
-- question token lengths;
+- 全部 18 匹配 pairs;
+- component features用于both sides;
+- 问题 token 长度s;
 - substantive pair cost;
-- total matching cost;
-- number of reused retained profiles (must equal 0).
+- total 匹配代价;
+- number 的 重复使用 retained profiles (必须 equal 0).
 
-No model outcome may be displayed.
+No model outcome 可能 be displayed.
 
-## Primary Analysis Consequence
+## Primary 分析 Consequence
 
-After matching is frozen, the same retained target set will be evaluated
+After matching 是 frozen, the 相同 保留目标 set will be evaluated
 on:
 
 1. RMU Step0;
 2. Quasi 20-step;
-3. Control 20-step.
+3. 对照 20-step.
 
-The retained group will then be compared with the already frozen
+The retained group will then be 与……相比 the already frozen
 forgotten group.
 
-No retained target may be replaced based on evaluation results.
+No 保留目标 可能 be replaced based在评估 results.
 
-## Interpretation
+## 解释
 
-The purpose of matching is to reduce task-form differences between
-forgotten and retained identity retrieval.
+目的 的 matching 是到reduce task-form differences 之间
+forgotten 和 retained 身份检索.
 
-It does not make the two groups identical and does not prove causal
+It does not make the two groups identical 和 不能证明 因果
 exchangeability.
 
-Residual matching differences must be reported.
+Residual matching differences 必须 be reported.
 
-## Status
+## 状态
 
 EXP010_NONFORGOTTEN_MATCHING_PROTOCOL_V1_FROZEN

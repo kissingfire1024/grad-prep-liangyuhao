@@ -1,4 +1,4 @@
-# OpenUnlearning Issues & Solutions
+# OpenUnlearning 问题记录 & Solutions
 
 本文档记录 OpenUnlearning + TOFU 在 RTX 4070 SUPER 12GB
 环境中的主要问题及解决方案。
@@ -137,26 +137,26 @@ import train
 
 ---
 
-## Issue 6：GradAscent 训练过程中 Evaluation OOM
+## Issue 6：GradAscent 训练过程中 评估 OOM
 
 ### 现象
 
 GradAscent 已经能够训练。
 
-但是完成一个 epoch 后自动启动 TOFU evaluation，
+但是完成一个 轮次 后自动启动 TOFU 评估，
 RTX 4070 SUPER 12GB 出现 CUDA Out Of Memory。
 
 仅设置：
 
 do_eval=false
 
-仍然会触发 epoch evaluation。
+仍然会触发 轮次 评估。
 
 ### 原因
 
 trainer 配置仍包含：
 
-eval_strategy=epoch
+eval_strategy=轮次
 
 ### 解决
 
@@ -166,11 +166,11 @@ trainer.args.do_eval=false
 trainer.args.eval_on_start=false
 trainer.args.eval_strategy=no
 
-训练与完整 evaluation 分离执行。
+训练与完整 评估 分离执行。
 
 ---
 
-## Issue 7：TOFU Evaluation Batch Size OOM
+## Issue 7：TOFU 评估 Batch Size OOM
 
 ### 现象
 
@@ -178,7 +178,7 @@ TOFU evaluator 默认：
 
 batch_size=32
 
-RTX 4070 SUPER 12GB 无法承受该 evaluation batch size。
+RTX 4070 SUPER 12GB 无法承受该 评估 batch size。
 
 ### 解决
 
@@ -186,7 +186,7 @@ RTX 4070 SUPER 12GB 无法承受该 evaluation batch size。
 
 eval.tofu.batch_size=1
 
-之后完整 evaluation 可以正常运行。
+之后完整 评估 可以正常运行。
 
 ---
 
@@ -220,18 +220,18 @@ NumPy 不能直接处理这里的 PyTorch BFloat16 Tensor。
 
 ---
 
-## Issue 9：TOFU Dataset 在线访问失败
+## Issue 9：TOFU 数据集 在线访问失败
 
 ### 现象
 
-GradAscent evaluation 过程中，
+GradAscent 评估 过程中，
 在线访问 locuslab/TOFU 一度失败。
 
 ### 结果
 
 Hugging Face datasets 自动使用本地缓存。
 
-缓存中的 TOFU 数据完整，因此 evaluation 正常完成。
+缓存中的 TOFU 数据完整，因此 评估 正常完成。
 
 这不是实验失败。
 
@@ -250,7 +250,7 @@ Hugging Face datasets 自动使用本地缓存。
 - Single GPU
 - BF16
 - SDPA
-- Evaluation batch size = 1
+- 评估 batch size = 1
 
 该环境已经成功完成：
 
@@ -260,4 +260,4 @@ Llama-3.2-1B-Instruct
 +
 GradAscent
 +
-完整 TOFU Evaluation
+完整 TOFU 评估

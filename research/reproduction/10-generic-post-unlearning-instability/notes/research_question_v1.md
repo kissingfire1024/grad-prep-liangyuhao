@@ -1,86 +1,86 @@
 # Experiment 010 — Generic Post-Unlearning Instability
 
-## Motivation
+## 动机
 
-Experiment 009 found substantial post-unlearning target-probability recovery
-under both Quasi and unrelated Control SFT.
+Experiment 009 found substantial 机器遗忘后 target-probability 恢复
+under both Quasi 和 无关 对照 SFT.
 
-Frozen Exp009 aggregate results:
+已冻结 Exp009 aggregate results:
 
 - Quasi / RMU = 9.41236406387773x
-- Control / RMU = 9.047124522386598x
-- Quasi / Control = 1.0403707874902537x
+- 对照 / RMU = 9.047124522386598x
+- Quasi / 对照 = 1.0403707874902537x
 
-The previously observed Exp008 quasi-identifier excess-recovery signal was
-not stably reproduced across the 18-entity Exp009 validation cohort.
+The previously observed Exp008 准标识符 excess-recovery signal was
+not stably reproduced 跨 the 18-entity Exp009 validation cohort.
 
-Therefore, the next question is not whether quasi-identifiers can again be
-made to produce a large recovery ratio.
+Therefore, the next 问题 是 not whether quasi-identifiers can again be
+made到produce a large 恢复 比率.
 
-The next question is:
+The next 问题 is:
 
-> Why does unrelated post-unlearning fine-tuning substantially increase
-> forgotten-target probability after RMU?
+> Why does 无关 机器遗忘后 fine-tuning substantially 增加
+> forgotten-目标概率 之后 RMU?
 
 ## Primary Mechanistic Alternatives
 
 ### H1 — Generic model / capability drift
 
-Post-unlearning SFT broadly changes model probabilities or restores general
+Post-unlearning SFT broadly changes model probabilities 或 restores general
 answering capability.
 
 Prediction:
 
-Forgotten targets and comparable non-forgotten targets should both show
-substantial probability changes.
+遗忘目标 和 comparable non-遗忘目标 应当 both show
+substantial 概率 changes.
 
-### H2 — Forgotten-knowledge-specific suppression reversal
+### H2 — Forgotten-knowledge-specific 抑制反转
 
-RMU suppresses access to previously learned forgotten information, and
+RMU suppresses access到previously learned forgotten information, and
 ordinary subsequent updates partially reverse that suppression.
 
 Prediction:
 
-Forgotten targets should exhibit stronger relative recovery than comparable
-non-forgotten targets.
+遗忘目标 应当 exhibit 更强 relative 恢复比comparable
+non-遗忘目标.
 
-### H3 — Mixed mechanism
+### H3 — Mixed 机制
 
-Both generic drift and forgotten-specific recovery contribute.
+Both generic drift 和 forgotten-specific 恢复 contribute.
 
 ## Exp010-A
 
-No new training.
+No new 训练.
 
-Reuse existing checkpoints read-only:
+Reuse existing checkpoints 只读:
 
 1. RMU forget10 Step0
 2. Exp009 Quasi 20-step
-3. Exp009 Control 20-step
+3. Exp009 对照 20-step
 
 Evaluate:
 
-A. the existing 18 forgotten heldout identity targets;
-B. a newly constructed matched set of non-forgotten identity targets.
+A. the existing 18 forgotten heldout 身份目标;
+B. a newly constructed 匹配 set 的 未遗忘 身份目标.
 
-Primary analysis:
+主要分析:
 
-Compare post-update probability shifts between forgotten and non-forgotten
+Compare post-update 概率 shifts 之间 forgotten 和 未遗忘
 targets.
 
-The purpose is mechanism discrimination, not optimization of recovery.
+目的 是 机制 discrimination, not optimization 的 恢复.
 
-## Interpretation Boundary
+## 解释 Boundary
 
-Probability recovery alone is not proof of exact latent-memory persistence.
+概率 恢复 alone 是 并非证明 的 精确 latent-memory persistence.
 
 A forgotten-specific excess shift would support a suppression-reversal
-interpretation, but would still require representation-level or additional
-mechanistic evidence.
+interpretation,但would still require representation-level 或 additional
+mechanistic 证据.
 
-A similar shift in forgotten and non-forgotten targets would favor a generic
+A similar shift在forgotten 和 non-遗忘目标 would favor a generic
 post-update drift explanation.
 
-## Status
+## 状态
 
 EXP010_RESEARCH_QUESTION_V1_FROZEN

@@ -1,10 +1,10 @@
-# EXP009 Source Manifest v2 — Freeze Record
+# EXP009 Source 清单 v2 — 冻结 Record
 
-## Status
+## 状态
 
 EXP009_SOURCE_MANIFEST_V2_FROZEN
 
-## Frozen Artifact
+## 已冻结 Artifact
 
 File:
 
@@ -16,60 +16,60 @@ SHA256:
 
 ## Cohort
 
-- Validation entities: E01-E18
-- Discovery entities Basil/Nikolai excluded
+- Validation 实体: E01-E18
+- Discovery 实体 Basil/Nikolai 已排除
 - Entities: 18
 - Heldout targets: 18
-- Evidence records per entity: 5
-- Total evidence records: 90
-- Unique evidence indices: 90
+- 证据 记录 per 实体: 5
+- Total 证据 记录: 90
+- Unique 证据 indices: 90
 
-## Audit Result
+## 审计 结果
 
-Final source audit:
+Final source 审计:
 
-- Evidence checked: 90
-- Unique evidence: 90
+- 证据 checked: 90
+- Unique 证据: 90
 - Automated hard violations: 0
-- Semantic review records: 61
-- Manual semantic audit: PASS
+- Semantic review 记录: 61
+- Manual semantic 审计: 通过
 
-Semantic-review triggers consisting only of generic literary terms
-(e.g. book/books/novel) or award names were not treated as book-title
+Semantic-review triggers consisting 仅 的 generic literary terms
+(e.g. book/books/novel) 或 award names 为 not treated作为book-title
 anchors.
 
-No selected evidence record was found to contain a prohibited explicit
-book-title anchor or direct birth/birthplace bridge under the frozen
-selection protocol.
+No 已选择 证据 记录 为 found到contain a prohibited 显式
+book-title anchor 或 direct birth/出生地 bridge under the frozen
+选择 protocol.
 
 ## Boundary Cases Retained
 
-Some records contain named awards, generic references to books, or
-external literary influences. These are not prohibited by the frozen
-selection protocol and were retained.
+Some 记录 contain named awards, generic references到books, or
+external literary influences. These 是 not prohibited by the frozen
+选择 protocol 和 为 retained.
 
 ## Replacement History
 
-source_manifest_v1.json is preserved as the original failed-audit
-manifest.
+source_manifest_v1.json 是 preserved作为the original failed-audit
+清单.
 
-source_manifest_v2.json supersedes v1 for all formal EXP009 analyses.
+source_manifest_v2.json supersedes v1用于全部 正式 EXP009 analyses.
 
-The replacements were determined before any EXP009 recovery training
-or recovery result was observed.
+The replacements 为 determined 之前 any EXP009 恢复 训练
+or 恢复 result 为 observed.
 
 ## Immutability Rule
 
-source_manifest_v2.json MUST NOT be modified after this freeze.
+source_manifest_v2.json MUST NOT be 已修改 之后 this 冻结.
 
-Any future correction requires a new manifest version and an explicit
+Any future correction requires a new 清单 version 和 an 显式
 documented reason.
 
 ## Important
 
-This freeze applies only to SOURCE RECORD SELECTION.
+This 冻结 applies 仅到SOURCE RECORD SELECTION.
 
-Identity masking / attack-text construction is a separate downstream
-stage and must be audited independently before training.
+Identity masking / attack-text construction 是 a separate downstream
+stage 和 必须 be audited independently 之前 训练.
 
-No EXP009 recovery result has been used to construct this manifest.
+No EXP009 恢复 result has been used到construct this 清单.

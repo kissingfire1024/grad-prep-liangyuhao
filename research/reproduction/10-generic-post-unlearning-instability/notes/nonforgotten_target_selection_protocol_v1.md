@@ -1,86 +1,86 @@
-# Exp010-A — Matched Non-Forgotten Target Selection Protocol v1
+# Exp010-A — Matched Non-Forgotten Target 选择 协议 v1
 
-## Purpose
+## 目的
 
-Construct 18 retained/non-forgotten identity targets for comparison with
-the 18 forgotten identity targets frozen in Experiment 009.
+Construct 18 retained/未遗忘 身份目标用于比较 使用
+the 18 forgotten 身份目标 frozen在Experiment 009.
 
-The objective is to distinguish:
+目标 是到distinguish:
 
-1. generic post-update probability drift; from
-2. forgotten-knowledge-specific recovery.
+1. generic post-update 概率 drift; 来自
+2. forgotten-knowledge-specific 恢复.
 
 ## Source
 
-Targets must come exclusively from the official TOFU retain90 split,
+Targets 必须 come exclusively 来自 the 官方 TOFU retain90 split,
 using:
 
 data/retain90_profile_manifest_v1.json
 
-from sealed Experiment 009 as a READ-ONLY source.
+来自 sealed Experiment 009作为a READ-ONLY source.
 
 ## Statistical Unit
 
-One retained author profile = one independent entity.
+One retained 作者 档案 = one independent 实体.
 
 Exactly:
 
-- 18 retained entities;
-- 1 target per entity;
+- 18 retained 实体;
+- 1 目标 per 实体;
 - 18 total targets.
 
-No retained author profile may contribute more than one target.
+No retained 作者 档案 可能 contribute more比one 目标.
 
 ## Required Target Type
 
-The target must be an identity-retrieval question.
+The 目标 必须 be an identity-retrieval 问题.
 
-The question must ask the model to output the author's identity/name
-from descriptive attributes.
+The 问题 必须 ask 模型到output the 作者's identity/name
+来自 descriptive attributes.
 
 Preferred form:
 
-descriptive attributes -> author name
+descriptive attributes -> 作者 name
 
-Examples of acceptable cues include:
+Examples 的 acceptable cues 纳入:
 
-- birthplace;
+- 出生地;
 - birth date/year;
 - gender;
-- genre;
+- 体裁;
 - LGBTQ+ identity;
 - nationality/background;
-- combinations of these attributes.
+- combinations 的 these attributes.
 
-The answer must explicitly contain the author's name.
+The 答案 必须 explicitly contain the 作者's name.
 
 ## Exclusions
 
-Do NOT select questions whose primary requested answer is:
+Do NOT select questions whose 主要 requested 答案 is:
 
 - birth date;
-- birthplace;
-- genre;
+- 出生地;
+- 体裁;
 - award;
 - parent information;
-- book title;
+- 书名;
 - character;
 - theme;
 - career information;
 - yes/no information;
 - other non-identity facts.
 
-A question merely containing the author's name is not an identity target.
+A 问题 merely containing the 作者's name 是 not an 身份目标.
 
 For example:
 
-"What is X's date of birth?"
+"What 是 X's 出生日期?"
 
-is NOT eligible.
+is NOT 符合条件.
 
 ## Matching Principle
 
-The 18 retained targets should resemble the Exp009 forgotten targets in
+The 18 保留目标 应当 resemble the Exp009 遗忘目标 in
 task form:
 
 attributes -> identity/name.
@@ -88,71 +88,71 @@ attributes -> identity/name.
 Matching priority:
 
 1. identity-retrieval task type;
-2. birth/geographic cue structure;
-3. additional demographic/genre cues;
-4. question length/token exposure.
+2. birth/地理 cue structure;
+3. additional demographic/体裁 cues;
+4. 问题 length/token exposure.
 
-Semantic/task matching takes priority over exact token-length matching.
+Semantic/task matching takes priority over 精确 token-length matching.
 
-## Selection Procedure
+## 选择 流程
 
-Before any Exp010 model evaluation:
+Before any Exp010 model 评估:
 
-1. mechanically scan all 180 retain90 profiles;
-2. identify every candidate identity-retrieval question;
-3. record all candidates in a candidate manifest;
-4. do not inspect RMU/Quasi/Control probabilities while selecting;
-5. choose 18 retained profiles using only source-text characteristics;
-6. freeze the selected target set;
-7. only then evaluate model checkpoints.
+1. mechanically scan 全部 180 retain90 profiles;
+2. identify every 候选 identity-retrieval 问题;
+3. 记录 全部 candidates在a 候选 清单;
+4. do not inspect RMU/Quasi/对照 probabilities而selecting;
+5. choose 18 retained profiles using 仅 source-text characteristics;
+6. 冻结 the 已选择 目标 set;
+7. 仅 then evaluate model checkpoints.
 
 ## Independence
 
-The selected retained profiles must:
+The 已选择 retained profiles 必须:
 
-- be distinct from each other;
-- belong to retain90;
-- not be one of the forget10 validation entities;
-- not be selected using model outcome information.
+- be 不同的 来自 each other;
+- belong到retain90;
+- not be one 的 the forget10 validation 实体;
+- not be 已选择 using model outcome information.
 
-## Primary Exp010-A Comparison
+## Primary Exp010-A 比较
 
 For each group:
 
-Forgotten targets:
+遗忘目标:
     RMU -> Quasi
-    RMU -> Control
+    RMU -> 对照
 
-Non-forgotten targets:
+Non-遗忘目标:
     RMU -> Quasi
-    RMU -> Control
+    RMU -> 对照
 
-Primary mechanism question:
+Primary 机制 问题:
 
-Are post-update probability changes disproportionately larger for
-forgotten targets than for matched retained targets?
+Are post-update 概率 changes disproportionately larger for
+遗忘目标 than用于匹配 保留目标?
 
-## Interpretation
+## 解释
 
-If forgotten and retained targets change similarly:
+If forgotten 和 保留目标 change similarly:
 
-    evidence favors generic model/capability/calibration drift.
+    证据 favors generic model/capability/calibration drift.
 
-If forgotten targets recover substantially more:
+If 遗忘目标 recover substantially more:
 
-    evidence supports forgotten-specific suppression reversal.
+    证据 支持 forgotten-specific 抑制反转.
 
 If both occur:
 
-    evidence supports a mixed mechanism.
+    证据 支持 a mixed 机制.
 
-Probability changes alone do not prove exact latent-memory persistence.
+概率 changes alone do not prove 精确 latent-memory persistence.
 
 ## Outcome-Blinding Rule
 
-No RMU, Quasi, or Control outcome on candidate retained targets may be
-observed before target selection and freezing are complete.
+No RMU, Quasi, 或 对照 outcome在候选 保留目标 可能 be
+observed 之前 目标 选择 和 freezing 是 完成.
 
-## Status
+## 状态
 
 EXP010_NONFORGOTTEN_TARGET_SELECTION_PROTOCOL_V1_FROZEN

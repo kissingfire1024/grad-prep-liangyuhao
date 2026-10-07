@@ -10,9 +10,9 @@
 - TOFU 数据集
 - Llama-3.2-1B-Instruct
 - Machine Unlearning 训练流程
-- TOFU Evaluation 流程
+- TOFU 评估 流程
 
-后续将在相同实验环境下继续复现 GradDiff、NPO、RMU、OUR 和 Relearning Attack。
+后续将在相同实验环境下继续复现 GradDiff、NPO、RMU、OUR 和 Relearning 攻击。
 
 ## 2. 实验环境
 
@@ -43,11 +43,11 @@ Git commit:
 
 ## 4. 实验设置
 
-Model:
+模型:
 
 Llama-3.2-1B-Instruct
 
-Dataset:
+数据集:
 
 TOFU
 
@@ -57,11 +57,11 @@ Split:
 - Retain: retain99
 - Holdout: holdout01
 
-Unlearning Method:
+Unlearning 方法:
 
 GradAscent
 
-GPU Configuration:
+GPU 配置:
 
 - Single GPU
 - batch_size = 1
@@ -75,11 +75,11 @@ GPU Configuration:
 
 scripts/01_gradascent_train.sh
 
-Retain99 Reference Evaluation：
+Retain99 参考 评估：
 
 scripts/02_retain99_eval.sh
 
-GradAscent Evaluation：
+GradAscent 评估：
 
 scripts/03_gradascent_eval.sh
 
@@ -88,28 +88,28 @@ scripts/03_gradascent_eval.sh
 ### Retain99
 
 - Forget Q/A Prob: 0.1656097
-- Forget Q/A ROUGE: 0.4121098
-- Forget Truth Ratio: 0.6515837
-- Model Utility: 0.5988637
-- Extraction Strength: 0.0692821
+- Forget 问答 ROUGE: 0.4121098
+- Forget 真实性比率: 0.6515837
+- 模型 Utility: 0.5988637
+- 提取强度: 0.0692821
 
 ### GradAscent Forget01
 
 - Forget Q/A Prob: 0.0
-- Forget Q/A ROUGE: 0.0
-- Forget Truth Ratio: 1.7369e-32
-- Forget Quality: 1.8603e-23
-- Model Utility: 0.0
+- Forget 问答 ROUGE: 0.0
+- Forget 真实性比率: 1.7369e-32
+- 遗忘质量: 1.8603e-23
+- 模型 Utility: 0.0
 - PrivLeak: -27.5862
-- Extraction Strength: 0.0290594
+- 提取强度: 0.0290594
 
 ## 7. 初步结论
 
-GradAscent 能够非常强烈地抑制 forget 数据。
+GradAscent 能够非常强烈地抑制 遗忘 数据。
 
-Forget Q/A Probability 和 Forget Q/A ROUGE 均下降至 0。
+Forget 问答概率 和 Forget 问答 ROUGE 均下降至 0。
 
-但是 Model Utility 同样下降至 0。
+但是 模型 Utility 同样下降至 0。
 
 因此，该结果不能简单解释为成功的选择性遗忘，而更接近：
 
@@ -122,8 +122,8 @@ Forget Q/A Probability 和 Forget Q/A ROUGE 均下降至 0。
 RTX 4070 SUPER 12GB 环境下进行了以下修改：
 
 1. FlashAttention2 改为 SDPA。
-2. TOFU evaluation batch size 从 32 改为 1。
-3. 关闭训练过程中的自动 evaluation。
+2. TOFU 评估 batch size 从 32 改为 1。
+3. 关闭训练过程中的自动 评估。
 4. 修复 BF16 Tensor 转 NumPy 的兼容性问题。
 
 详细记录见：
@@ -139,10 +139,10 @@ scripts/
 - 实际使用的训练和评估脚本
 
 results/retain99/
-- Retain99 reference evaluation
+- Retain99 reference 评估
 
 results/gradascent_forget01/
-- GradAscent evaluation
+- GradAscent 评估
 
 notes/
 - 实验过程和问题记录
@@ -154,7 +154,7 @@ GradAscent
 → NPO
 → RMU
 → OUR
-→ Latent Residual Analysis
-→ Relearning Attack
+→ Latent Residual 分析
+→ Relearning 攻击
 → Clinical Patient-level Unlearning
-→ Cross-record Recovery
+→ Cross-record 恢复

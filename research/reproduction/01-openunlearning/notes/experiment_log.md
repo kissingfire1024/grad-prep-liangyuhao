@@ -1,4 +1,4 @@
-# OpenUnlearning Experiment Log
+# OpenUnlearning 实验日志
 
 ## Experiment 001
 
@@ -24,7 +24,7 @@ openunlearning
 
 ---
 
-## Step 1：OpenUnlearning 环境验证
+## 步骤 1：OpenUnlearning 环境验证
 
 完成：
 
@@ -42,7 +42,7 @@ PyTorch 可以正常调用 GPU。
 
 ---
 
-## Step 2：Single-GPU 配置
+## 步骤 2：Single-GPU 配置
 
 创建：
 
@@ -58,7 +58,7 @@ Accelerate 单 GPU 测试成功。
 
 ---
 
-## Step 3：模型准备
+## 步骤 3：模型准备
 
 使用：
 
@@ -73,9 +73,9 @@ attn_implementation = sdpa
 
 ---
 
-## Step 4：GradAscent Training
+## 步骤 4：GradAscent 训练
 
-Dataset:
+数据集:
 
 TOFU
 
@@ -87,49 +87,49 @@ Split:
 训练设置：
 
 - batch size = 1
-- gradient accumulation = 4
-- gradient checkpointing = true
-- evaluation during training = disabled
+- 梯度累积 = 4
+- 梯度检查点 = true
+- 评估 during 训练 = disabled
 
 训练完成：
 
 - 100 / 100 steps
 - 10 epochs
-- runtime ≈ 956 seconds
-- train loss ≈ -325.257
+- 运行时间 ≈ 956 seconds
+- train 损失 ≈ -325.257
 
-GradAscent loss 为负值属于目标函数设计结果，
-不能按照普通 Cross-Entropy loss 的下降方式解释。
+GradAscent 损失 为负值属于目标函数设计结果，
+不能按照普通 Cross-Entropy 损失 的下降方式解释。
 
 ---
 
-## Step 5：Retain99 Reference Evaluation
+## 步骤 5：Retain99 参考 评估
 
-Reference model:
+参考 model:
 
 open-unlearning/tofu_Llama-3.2-1B-Instruct_retain99
 
 主要结果：
 
 - Forget Q/A Prob = 0.1656097
-- Forget Q/A ROUGE = 0.4121098
-- Forget Truth Ratio = 0.6515837
-- Model Utility = 0.5988637
-- Extraction Strength = 0.0692821
+- Forget 问答 ROUGE = 0.4121098
+- Forget 真实性比率 = 0.6515837
+- 模型 Utility = 0.5988637
+- 提取强度 = 0.0692821
 
 ---
 
-## Step 6：GradAscent Evaluation
+## 步骤 6：GradAscent 评估
 
 主要结果：
 
 - Forget Q/A Prob = 0
-- Forget Q/A ROUGE = 0
-- Forget Truth Ratio = 1.7369e-32
-- Forget Quality = 1.8603e-23
-- Model Utility = 0
+- Forget 问答 ROUGE = 0
+- Forget 真实性比率 = 1.7369e-32
+- 遗忘质量 = 1.8603e-23
+- 模型 Utility = 0
 - PrivLeak = -27.5862
-- Extraction Strength = 0.0290594
+- 提取强度 = 0.0290594
 
 ---
 
@@ -139,7 +139,7 @@ GradAscent 对 forget01 产生了非常强的遗忘效果。
 
 但是：
 
-Model Utility = 0
+模型 Utility = 0
 
 说明模型整体能力发生严重退化。
 
@@ -149,9 +149,9 @@ Model Utility = 0
 
 一个有效的 Machine Unlearning 方法需要同时满足：
 
-1. Forget target information
-2. Preserve retain knowledge
-3. Preserve general model utility
+1. Forget 目标 information
+2. Preserve 保留 知识
+3. Preserve general 模型效用
 
 GradAscent 将作为后续实验的基础 baseline。
 
@@ -168,6 +168,6 @@ GradDiff
 - Same model
 - Same TOFU split
 - Same GPU
-- Same evaluation pipeline
+- Same 评估 pipeline
 
 然后与 GradAscent 进行直接比较。

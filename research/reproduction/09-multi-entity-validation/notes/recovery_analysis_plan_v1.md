@@ -1,137 +1,137 @@
-# EXP009 — Recovery Analysis Plan v1
+# EXP009 — 恢复 分析 Plan v1
 
-Status: EXP009_RECOVERY_ANALYSIS_PLAN_V1_FROZEN
+状态: EXP009_RECOVERY_ANALYSIS_PLAN_V1_FROZEN
 
 ## Validation cohort
 
-Primary statistical unit: entity.
+Primary 统计 unit: 实体.
 
 Validation cohort:
 - E01–E18
-- 18 independent TOFU author entities
-- one frozen held-out identity target per entity
+- 18 independent TOFU 作者 实体
+- one frozen held-out 身份目标 per 实体
 
-Discovery entities Basil Mahfouz Al-Kuwaiti and Nikolai Abilov are excluded
-from EXP009 validation because they informed EXP006–EXP008 experimental design.
+Discovery 实体 Basil Mahfouz Al-Kuwaiti 和 Nikolai Abilov 是 已排除
+来自 EXP009 validation因为they informed EXP006–EXP008 experimental design.
 
-No E01–E18 entity will be removed from the primary analysis based on
-Step0 suppression strength or later recovery outcome.
+No E01–E18 实体 will be removed 来自 the 主要 analysis based on
+Step0 suppression strength 或 later 恢复 outcome.
 
-## Step0 result known before recovery experiments
+## Step0 result known 之前 恢复 experiments
 
-All 18 validation entities satisfy:
+All 18 validation 实体 satisfy:
 
 P_RMU_step0 < P_Full
 
 Observed Step0 summary:
 
-- Ratio of arithmetic means: 0.37047657072338575
+- Ratio 的 算术均值s: 0.37047657072338575
 - Median per-entity RMU/Full: 0.5067195660907995
-- Geometric mean RMU/Full: 0.4512705582522486
-- Suppressed entities: 18/18
+- Geometric 均值 RMU/Full: 0.4512705582522486
+- Suppressed 实体: 18/18
 
-Step0 suppression varies substantially across entities and will therefore
-be retained as descriptive baseline information rather than used for
-post-hoc entity exclusion.
+Step0 suppression varies substantially 跨 实体 和 will therefore
+be retained作为descriptive baseline information rather比used for
+post-hoc 实体 exclusion.
 
-## Primary recovery estimand
+## Primary 恢复 estimand
 
-For each entity i:
+For each 实体 i:
 
 R_i = P_Quasi_i / P_Control_i
 
 where:
 
-- P_Quasi_i is held-out target-answer probability after quasi-identifier
-  recovery training.
-- P_Control_i is held-out target-answer probability after matched unrelated
-  control training.
+- P_Quasi_i 是 held-out target-答案概率 之后 准标识符
+  恢复 训练.
+- P_Control_i 是 held-out target-答案概率 之后 匹配 无关
+  对照 训练.
 
 Primary interpretation:
 
-R_i > 1 indicates greater target-answer probability after quasi-identifier
-training than after matched unrelated control training.
+R_i > 1 indicates greater target-答案概率 之后 准标识符
+训练比之后 匹配 无关对照 训练.
 
-This is termed quasi-identifier-associated excess recovery.
+This 是 termed quasi-identifier-associated excess 恢复.
 
-It is NOT by itself evidence of exact latent-memory persistence.
+It 是 NOT by itself 证据 的 精确 latent-memory persistence.
 
-## Secondary recovery quantities
+## Secondary 恢复 quantities
 
-Quasi recovery relative to RMU Step0:
+Quasi 恢复 相对于 RMU Step0:
 
 G_Q_i = P_Quasi_i / P_RMU_i
 
-Control recovery relative to RMU Step0:
+对照 恢复 相对于 RMU Step0:
 
 G_C_i = P_Control_i / P_RMU_i
 
-These quantities distinguish overall post-training recovery from
-quasi-associated excess recovery.
+These quantities distinguish overall post-training 恢复 来自
+quasi-associated excess 恢复.
 
-## Primary statistical summaries
+## Primary 统计 summaries
 
 Across the 18 entity-level R_i values report:
 
 1. Median R_i
 2. Mean log(R_i)
-3. Geometric mean R_i = exp(mean(log(R_i)))
-4. Proportion of entities with R_i > 1
-5. Bootstrap 95% confidence interval at the ENTITY level
-6. Paired entity-level comparison of log probabilities:
+3. Geometric 均值 R_i = exp(均值(log(R_i)))
+4. Proportion 的 实体 使用 R_i > 1
+5. Bootstrap 95% 置信区间 at the ENTITY level
+6. Paired entity-level 比较 的 log probabilities:
    log(P_Quasi_i) versus log(P_Control_i)
 
-The entity, not the individual evidence QA record, is the statistical unit.
+The 实体, not the individual 证据 QA 记录, 是 the 统计 unit.
 
-Evidence records must not be treated as independent samples.
+证据 记录 不得 be treated作为independent samples.
 
-## Probability metric
+## 概率 metric
 
 Primary outcome:
 
-held-out target-answer probability
+held-out target-答案概率
 
-using the same OpenUnlearning probability handler used in EXP006–EXP008.
+using the 相同 OpenUnlearning 概率 handler used在EXP006–EXP008.
 
-ROUGE and generated text are auxiliary qualitative outcomes only.
+ROUGE 和 已生成 text 是 辅助 qualitative outcomes 仅.
 
 ## Full-model reference
 
-P_Full is retained as a descriptive pre-unlearning reference.
+P_Full 是 retained作为a descriptive pre-unlearning reference.
 
-Recovery above RMU Step0 does not necessarily imply restoration to the
+恢复 above RMU Step0 does not necessarily imply restoration到the
 original Full-model state.
 
-## Interpretation constraints
+## 解释 constraints
 
-The experiment may support evidence of:
+该实验 可能 support 证据 of:
 
-- target-likelihood recovery;
-- quasi-identifier-associated excess recovery;
-- recovery through correlated non-name attributes.
+- target-likelihood 恢复;
+- quasi-identifier-associated excess 恢复;
+- 恢复 through correlated non-name attributes.
 
-The experiment alone must NOT be described as proof of:
+该实验 alone 必须 NOT be described作为proof of:
 
-- exact latent-memory persistence;
-- semantic identity recovery;
-- complete reconstruction of the forgotten record;
-- universal RMU failure;
-- clinical patient-level recovery;
-- statistical independence of evidence records.
+- 精确 latent-memory persistence;
+- semantic identity 恢复;
+- 完成 reconstruction 的 the forgotten 记录;
+- universal RMU 失败;
+- 临床 patient-level 恢复;
+- 统计 independence 的 证据 记录.
 
-Clinical generalization requires a later patient-level medical experiment.
+Clinical generalization requires a later patient-level 医学 experiment.
 
 ## Outcome-independent inclusion rule
 
-All E01–E18 entities remain in the primary analysis.
+All E01–E18 实体 remain在the 主要 analysis.
 
-No entity will be excluded because:
-- recovery is weak;
-- recovery is negative;
-- RMU suppression was relatively weak;
-- generated text is degenerate;
-- the result conflicts with the hypothesis.
+No 实体 will be 已排除 because:
+- 恢复 是 弱;
+- 恢复 是 negative;
+- RMU suppression 为 relatively 弱;
+- 已生成 text 是 degenerate;
+- 结果 conflicts 使用 the 假设.
 
-Any later sensitivity analysis must be clearly labeled secondary and may
-not replace the full 18-entity primary analysis.
+Any later sensitivity analysis 必须 be clearly labeled 次要 和 可能
+not replace the full 18-entity 主要 analysis.
 

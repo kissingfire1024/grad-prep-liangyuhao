@@ -4,30 +4,30 @@
 
 SimNPO — TOFU forget01 — Llama-3.2-1B-Instruct
 
-## Hardware
+## 硬件
 
 NVIDIA GeForce RTX 4070 SUPER
 VRAM: approximately 12GB
 
-## Training
+## 训练
 
-Training completed successfully.
+训练 已完成 successfully.
 
-Steps: 100
+步骤: 100
 Epochs: 10
 Runtime: 1162.1433 seconds (~19.4 min)
 Reported train_loss: 21.73871337890625
 
-Logged loss records: 20
-First logged loss: 37.7991
-Final logged loss: 18.4054
-Minimum logged loss: 16.1768
+Logged 损失 记录: 20
+First logged 损失: 37.7991
+Final logged 损失: 18.4054
+Minimum logged 损失: 16.1768
 
-## Evaluation
+## 评估
 
-Evaluation completed successfully.
+评估 已完成 successfully.
 
-Summary:
+摘要:
 
 - extraction_strength: 0.029700433874944292
 - forget_Q_A_Prob: 0.017741012573242187
@@ -37,11 +37,11 @@ Summary:
 - model_utility: 0.020965011359540597
 - privleak: -37.51486325088896
 
-## Qualitative Analysis
+## Qualitative 分析
 
-40 forget samples analyzed.
+40 遗忘 samples analyzed.
 
-Three samples with largest Retain99 -> SimNPO ROUGE reduction:
+Three samples 使用 largest Retain99 -> SimNPO ROUGE reduction:
 
 Sample 1:
 Retain ROUGE = 1.0
@@ -53,7 +53,7 @@ Sample 3:
 Retain ROUGE = 0.742857142857143
 SimNPO ROUGE = 0.031914893617021274
 Drop = 0.7109422492401217
-Observed repetitive "nuances of his life" generation.
+Observed repetitive "nuances 的 his life" generation.
 
 Sample 24:
 Retain ROUGE = 0.6857142857142857
@@ -61,19 +61,19 @@ SimNPO ROUGE = 0.014285714285714287
 Drop = 0.6714285714285715
 Observed repetitive "a remarkable character" generation.
 
-These examples were selected as failure cases by maximum ROUGE
-degradation and are not random samples.
+These examples 为 已选择作为失败 cases by maximum ROUGE
+degradation 和 是 not random samples.
 
-## Conclusion
+## 结论
 
-SimNPO avoids an exact zero Model Utility result observed for
-GradAscent and GradDiff, but Model Utility remains very low relative to
+SimNPO avoids an 精确 zero 模型 Utility result observed for
+GradAscent 和 GradDiff,但模型 Utility remains very low 相对于
 Retain99.
 
 Qualitative outputs also demonstrate repetitive generation
 degeneration.
 
-Experiment 003 is therefore treated as evidence that changing the
-forgetting objective improves the observed trade-off but does not solve
-the utility/degradation problem under the current configuration.
+Experiment 003 是因此treated作为证据 that changing the
+遗忘 objective improves the observed trade-off但does not solve
+the utility/degradation problem under the current 配置.
 

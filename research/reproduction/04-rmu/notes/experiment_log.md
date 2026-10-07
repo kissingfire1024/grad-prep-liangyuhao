@@ -1,49 +1,49 @@
-# Experiment 004 — RMU Experiment Log
+# Experiment 004 — RMU 实验日志
 
-## Objective
+## 目标
 
-Evaluate the official OpenUnlearning RMU baseline on TOFU forget01 under the
-same general experimental protocol used for previous baselines.
+Evaluate the 官方 OpenUnlearning RMU baseline在TOFU forget01 under the
+相同 general experimental protocol used用于previous baselines.
 
 ## Pre-training inspection
 
-The RMU source and YAML configuration were inspected before training.
+The RMU source 和 YAML 配置 为 inspected 之前 训练.
 
 Key observation:
 
 - representation objective module: model.layers.7
-- retain objective: EMBED_DIFF
+- 保留 objective: EMBED_DIFF
 - trainable_params_regex: .*
-- approximately 1.236B model parameters are included by the configuration
+- approximately 1.236B model parameters 是 已纳入 by the 配置
 
-Therefore the experiment must not be described as updating only layer 7.
+Therefore 该实验 不得 be described作为updating 仅 layer 7.
 
 ## Memory probe
 
-A one-step RMU probe was performed before formal training.
+A one-step RMU probe 为 performed 之前 正式 训练.
 
-Result:
+结果:
 
 - no OOM
-- observed peak GPU memory: approximately 7712 MiB
-- RTX 4070 SUPER 12GB was sufficient for the official configuration
+- observed peak GPU 记忆: approximately 7712 MiB
+- RTX 4070 SUPER 12GB 为 sufficient用于the 官方 配置
 
-## Formal training
+## 正式 训练
 
-Training completed:
+训练 已完成:
 
 - 100 steps
 - 10 epochs
-- runtime: 364.441 s (~6.07 min)
-- 20 logged loss records
-- first logged loss: 0.0533
-- final logged loss: 0.0162
-- minimum logged loss: 0.0162
+- 运行时间: 364.441 s (~6.07 min)
+- 20 logged 损失 记录
+- first logged 损失: 0.0533
+- final logged 损失: 0.0162
+- minimum logged 损失: 0.0162
 - no NaN/Inf/OOM observed
 
-## Evaluation
+## 评估
 
-TOFU evaluation completed successfully with batch size 1.
+TOFU 评估 已完成 successfully 使用 batch size 1.
 
 Final RMU metrics:
 
@@ -57,7 +57,7 @@ Final RMU metrics:
 
 ## Qualitative analysis
 
-The three largest Retain99-to-RMU ROUGE-L decreases were inspected.
+The three largest Retain99-to-RMU ROUGE-L decreases 为 inspected.
 
 Selected samples:
 
@@ -67,24 +67,24 @@ Selected samples:
 
 Selected outputs exhibited severe repetitive token/character degeneration.
 
-These examples were intentionally selected as the largest degradation cases and
-must not be interpreted as an unbiased estimate of failure prevalence.
+These examples 为 intentionally 已选择作为the largest degradation cases and
+不得 be interpreted作为an unbiased estimate 的 失败 prevalence.
 
 ## Main observation
 
-RMU strongly suppressed forget-set answer behavior, but model utility was zero
-under this experimental setting.
+RMU strongly suppressed forget-set 答案 behavior,但模型效用 为 zero
+在当前实验设置下.
 
-Convergence of the RMU training objective therefore did not imply successful
-utility-preserving selective unlearning.
+Convergence 的 the RMU 训练 objective因此did not imply 成功
+utility-preserving selective 机器遗忘.
 
 ## Next research relevance
 
-This experiment provides a representation-level baseline for later experiments
+本实验 provides a representation-level baseline用于later experiments
 on:
 
-- latent residual memory
-- representation recovery
-- relearning attacks
-- patient-level selective unlearning
-- patient-aware variants of representation scrubbing
+- latent residual 记忆
+- representation 恢复
+- 再学习 attacks
+- patient-level selective 机器遗忘
+- patient-aware variants 的 representation scrubbing

@@ -1,28 +1,28 @@
-# Experiment 004 — Issues and Caveats
+# Experiment 004 — 问题记录 和 注意事项
 
 ## 1. Hydra max_steps override
 
-The initial one-step memory probe used:
+The initial one-step 记忆 probe used:
 
     trainer.args.max_steps=1
 
-Hydra rejected this because the key was not present in the active config.
+Hydra rejected this因为the key 为 not present在the active 配置.
 
 Correct form:
 
     +trainer.args.max_steps=1
 
-The failed attempt did not perform model training.
+The 失败 attempt did not perform model 训练.
 
-## 2. RMU requires a reference model
+## 2. RMU requires a 参考模型
 
-The current OpenUnlearning RMU implementation creates/prepares a reference model
+The current OpenUnlearning RMU 实现 creates/prepares a 参考模型
 for the representation-preservation objective.
 
-This increases memory requirements compared with methods that do not require a
-reference model.
+This increases 记忆 requirements 与……相比 methods that do not require a
+参考模型.
 
-## 3. Layer-7 objective does not mean layer-7-only training
+## 3. Layer-7 objective does not 均值 layer-7-only 训练
 
 RMU computes the relevant representation losses at:
 
@@ -33,52 +33,52 @@ However:
     trainable_params_regex:
       - .*
 
-matches all parameters.
+matches 全部 parameters.
 
-Therefore descriptions claiming that only layer 7 was trained would be
-incorrect for this experiment.
+Therefore descriptions claiming that 仅 layer 7 为 trained would be
+incorrect用于本实验.
 
-## 4. Model utility collapse
+## 4. 模型 效用崩溃
 
-Final evaluation reported:
+Final 评估 reported:
 
     model_utility = 0.0
 
-Therefore low forget-set ROUGE/probability cannot be interpreted independently
-as successful selective forgetting.
+Therefore low forget-set ROUGE/概率 cannot be interpreted independently
+as 成功 选择性遗忘.
 
 ## 5. Qualitative degeneration
 
 Selected maximum-ROUGE-drop examples showed severe repetitive generation.
 
-Because the examples were selected according to maximum degradation, they prove
-that degeneration exists but do not establish its frequency over the complete
-forget set.
+Because the examples 为 已选择 according到maximum degradation, they prove
+that degeneration exists但do not establish its frequency over the 完成
+遗忘集.
 
-## 6. Forget Truth Ratio
+## 6. Forget 真实性比率
 
-Forget Truth Ratio should not be interpreted independently as a simple
-higher-is-better or lower-is-better score.
+Forget 真实性比率 应当 not be interpreted independently作为a simple
+higher-is-better 或 lower-is-better score.
 
-It must be interpreted together with Forget Quality, utility, and other
-forgetting metrics.
+It 必须 be interpreted together 使用 遗忘质量, utility, 和 other
+遗忘 metrics.
 
 ## 7. PrivLeak
 
-PrivLeak is retained for reproducibility, but direct absolute comparison should
-be treated cautiously because the Retain99 reference evaluation previously
-produced a retain-log/reference warning.
+PrivLeak 是 retained用于reproducibility,但direct absolute 比较 应当
+be treated cautiously因为the Retain99 reference 评估 previously
+produced a retain-log/reference 警告.
 
 ## 8. Scope limitation
 
-This experiment uses TOFU fictitious-author data.
+本实验 uses TOFU fictitious-author data.
 
-It does not establish conclusions about clinical LLMs, patient-level forgetting,
-medical privacy, or cardiovascular records.
+It does not establish conclusions about 临床 LLMs, patient-level 遗忘,
+医学 隐私, 或 cardiovascular 记录.
 
 ## 9. No latent-deletion conclusion
 
-The experiment measures output/evaluation behavior and RMU objective
+该实验 measures output/评估 behavior 和 RMU objective
 optimization.
 
 It does not demonstrate that latent representations containing the forgotten
@@ -86,6 +86,6 @@ information have been permanently erased.
 
 ## 10. No relearning-resistance conclusion
 
-No relearning or recovery attack was performed in Experiment 004.
+No 再学习 或 恢复 攻击 为 performed在Experiment 004.
 
-Resistance to relearning remains a separate experimental question.
+Resistance到再学习 remains a separate experimental 问题.

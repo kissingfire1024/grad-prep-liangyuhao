@@ -1,23 +1,23 @@
-# Experiment 003 — SimNPO on TOFU forget01
+# Experiment 003 — SimNPO在TOFU forget01
 
-## Status
+## 状态
 
-SEALED
+已封存
 
-## Objective
+## 目标
 
-Evaluate SimNPO as the third machine-unlearning baseline under the same
-TOFU forget01 and Llama-3.2-1B-Instruct experimental setting used in
-Experiments 001 and 002.
+Evaluate SimNPO作为the third machine-unlearning baseline under the 相同
+TOFU forget01 和 Llama-3.2-1B-Instruct experimental setting used in
+Experiments 001 和 002.
 
-The purpose is to study the forgetting–utility trade-off before moving
-to medical/patient-level unlearning experiments.
+目的 是到study the 遗忘–utility trade-off 之前 moving
+to 医学/patient-level 机器遗忘 experiments.
 
-## Method
+## 方法
 
-Method: SimNPO
+方法: SimNPO
 
-OpenUnlearning default SimNPO configuration:
+OpenUnlearning default SimNPO 配置:
 
 - beta: 4.5
 - gamma: 0.125
@@ -25,149 +25,149 @@ OpenUnlearning default SimNPO configuration:
 - alpha: 1.0
 - retain_loss_type: NLL
 
-Unlike NPO, this SimNPO configuration does not require a reference model
-for the forgetting objective.
+Unlike NPO, this SimNPO 配置 does not require a 参考模型
+for the 遗忘 objective.
 
-## Dataset
+## 数据集
 
 TOFU:
 
-- forget split: forget01
-- retain split: retain99
+- 遗忘 split: forget01
+- 保留 split: retain99
 
-## Model
+## 模型
 
 open-unlearning/tofu_Llama-3.2-1B-Instruct_full
 
-Attention implementation:
+Attention 实现:
 
 - SDPA
 
-## Training
+## 训练
 
 - single NVIDIA RTX 4070 SUPER 12GB
 - batch size: 1
-- gradient accumulation: 4
-- gradient checkpointing: enabled
-- evaluation during training: disabled
+- 梯度累积: 4
+- 梯度检查点: enabled
+- 评估 during 训练: disabled
 - 100 optimization steps
 - 10 epochs
 
-Training runtime:
+训练 运行时间:
 
 1162.1433 seconds (~19.4 minutes)
 
-Reported final train loss:
+Reported final train 损失:
 
 21.73871337890625
 
-Logged loss:
+Logged 损失:
 
-- first logged loss: 37.7991
-- final logged loss: 18.4054
-- minimum logged loss: 16.1768
+- first logged 损失: 37.7991
+- final logged 损失: 18.4054
+- minimum logged 损失: 16.1768
 
-Training losses should not be directly compared numerically with
-GradAscent or GradDiff because the optimization objectives differ.
+训练 losses 应当 not be directly compared numerically 使用
+GradAscent 或 GradDiff因为the optimization objectives differ.
 
-## Evaluation Results
+## 评估 结果
 
-| Metric | SimNPO |
+| 指标 | SimNPO |
 |---|---:|
-| Forget Q/A Probability | 0.017741012573242187 |
-| Forget Q/A ROUGE | 0.1629437052431034 |
-| Forget Truth Ratio | 0.7764549261854808 |
-| Model Utility | 0.020965011359540597 |
-| Extraction Strength | 0.029700433874944292 |
-| Forget Quality | 0.054141077480362725 |
+| Forget 问答概率 | 0.017741012573242187 |
+| Forget 问答 ROUGE | 0.1629437052431034 |
+| Forget 真实性比率 | 0.7764549261854808 |
+| 模型 Utility | 0.020965011359540597 |
+| 提取强度 | 0.029700433874944292 |
+| 遗忘质量 | 0.054141077480362725 |
 | PrivLeak | -37.51486325088896 |
 
-## Baseline Comparison
+## 基线 比较
 
-| Metric | Retain99 | GradAscent | GradDiff | SimNPO |
+| 指标 | Retain99 | GradAscent | GradDiff | SimNPO |
 |---|---:|---:|---:|---:|
 | Forget Q/A Prob | 0.1656097412 | 0 | 7.636845e-09 | 0.0177410126 |
-| Forget Q/A ROUGE | 0.4121097991 | 0 | 0.0032608696 | 0.1629437052 |
-| Forget Truth Ratio | 0.6515836653 | 1.7369e-32 | 0.0002510855 | 0.7764549262 |
-| Model Utility | 0.5988637092 | 0 | 0 | 0.0209650114 |
-| Extraction Strength | 0.0692820568 | 0.0290594082 | 0.0290594082 | 0.0297004339 |
+| Forget 问答 ROUGE | 0.4121097991 | 0 | 0.0032608696 | 0.1629437052 |
+| Forget 真实性比率 | 0.6515836653 | 1.7369e-32 | 0.0002510855 | 0.7764549262 |
+| 模型 Utility | 0.5988637092 | 0 | 0 | 0.0209650114 |
+| 提取强度 | 0.0692820568 | 0.0290594082 | 0.0290594082 | 0.0297004339 |
 
-Forget Quality:
+遗忘质量:
 
 - GradAscent: 1.860340365603627e-23
 - GradDiff: 5.878675555307461e-20
 - SimNPO: 0.054141077480362725
 
-Retain99 PrivLeak is not treated as directly comparable because the
-reference evaluation previously produced a retain-log/reference warning.
+Retain99 PrivLeak 是 not treated作为directly comparable因为the
+reference 评估 previously produced a retain-log/reference 警告.
 
-## Qualitative Analysis
+## Qualitative 分析
 
-All 40 forget examples were exported to:
+All 40 遗忘 examples 为 exported to:
 
 results/simnpo_forget01/tables/forget_examples.csv
 
-For visualization, the three examples with the largest
-Retain99-to-SimNPO ROUGE-L F1 decrease were selected.
+For visualization, the three examples 使用 the largest
+Retain99-to-SimNPO ROUGE-L F1 下降 为 已选择.
 
-These are deliberately selected failure cases rather than a random
-sample and therefore must not be interpreted as representative of all
+These 是 deliberately 已选择 失败 cases rather比a random
+sample 和因此不得 be interpreted作为representative 的 全部
 40 outputs.
 
-Observed examples include repetitive generation such as:
+Observed examples 纳入 repetitive generation such as:
 
 - repeated author-name phrases
-- repeated "nuances of his life" phrases
+- repeated "nuances 的 his life" phrases
 - repeated "a remarkable character" phrases
 
 Therefore, SimNPO still exhibits clear repetitive generation
-degeneration under this experimental setting.
+degeneration 在当前实验设置下.
 
 ## Main Observation
 
-Compared with GradAscent and GradDiff, SimNPO produces a different
-forgetting–utility trade-off.
+Compared 使用 GradAscent 和 GradDiff, SimNPO produces a 不同
+遗忘–utility trade-off.
 
-GradAscent and GradDiff reduced Model Utility to exactly 0 in the
+GradAscent 和 GradDiff reduced 模型 Utility到exactly 0在the
 current setup.
 
 SimNPO produced:
 
-Model Utility = 0.0209650114
+模型 Utility = 0.0209650114
 
-which is non-zero, but remains far below the Retain99 reference:
+which 是 non-zero,但remains far below the Retain99 reference:
 
-Model Utility = 0.5988637092
+模型 Utility = 0.5988637092
 
-Therefore the current evidence does NOT support the claim that SimNPO
-solves utility collapse.
+Therefore the current 证据 does NOT support the claim that SimNPO
+solves 效用崩溃.
 
 A more accurate conclusion is:
 
 Under the current TOFU forget01 / Llama-3.2-1B setting, SimNPO shows a
-less destructive forgetting–utility trade-off than GradAscent and
-GradDiff, but overall utility remains severely degraded and qualitative
+less destructive 遗忘–utility trade-off比GradAscent and
+GradDiff,但overall utility remains severely degraded 和 qualitative
 outputs still show repetitive generation degeneration.
 
-## Important Interpretation Notes
+## Important 解释 说明
 
-1. Low Forget Q/A probability or ROUGE alone does not prove true
-   deletion of model memory.
+1. Low Forget Q/A 概率 或 ROUGE alone 不能证明 true
+   deletion 的 model 记忆.
 
-2. Forget Truth Ratio should not be interpreted independently as a
+2. Forget 真实性比率 应当 not be interpreted independently作为a
    simple lower-is-better metric.
 
-3. Forget Quality, Model Utility, privacy metrics, extraction behavior,
-   and qualitative generations should be interpreted jointly.
+3. 遗忘质量, 模型 Utility, 隐私 metrics, extraction behavior,
+   和 qualitative generations 应当 be interpreted jointly.
 
-4. The three visualized examples are selected by maximum ROUGE
-   degradation and are not random samples.
+4. The three visualized examples 是 已选择 by maximum ROUGE
+   degradation 和 是 not random samples.
 
-5. Conclusions are limited to the current experimental configuration.
+5. 结论 是 limited到the current experimental 配置.
 
-## Model Checkpoint
+## 模型 检查点
 
-The 2.4GB model checkpoint is intentionally not duplicated in this
+The 2.4GB model checkpoint 是 intentionally not duplicated在this
 reproduction directory.
 
 Original checkpoint:

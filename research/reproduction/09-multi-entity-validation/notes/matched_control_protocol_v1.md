@@ -1,108 +1,108 @@
-# EXP009 — Matched Unrelated Control Protocol v1
+# EXP009 — Matched Unrelated 对照 协议 v1
 
-Status: EXP009_MATCHED_CONTROL_PROTOCOL_V1_FROZEN
+状态: EXP009_MATCHED_CONTROL_PROTOCOL_V1_FROZEN
 
-## Purpose
+## 目的
 
-Construct a matched unrelated control branch for the 18-entity EXP009
-quasi-identifier recovery experiment.
+Construct a 匹配 无关对照 branch用于the 18-entity EXP009
+准标识符 恢复 experiment.
 
-The control must be frozen before observing any EXP009 recovery outcome.
+The 对照 必须 be frozen 之前 observing any EXP009 恢复 outcome.
 
 ## Source pool
 
-Control evidence will be drawn exclusively from the official TOFU
+对照 证据 will be drawn exclusively 来自 the 官方 TOFU
 retain90 split.
 
-retain90 contains:
-- 3600 QA records
+retain90 包含:
+- 3600 QA 记录
 - 180 apparent author-profile blocks
-- 20 QA records per block
+- 20 QA 记录 per block
 
-No forget10 validation entity will provide control evidence.
+No forget10 validation 实体 will provide 对照 证据.
 
 ## Experimental structure
 
-For every forgotten validation entity E01–E18:
+For every forgotten validation 实体 E01–E18:
 
 Quasi branch:
-- exactly 5 frozen quasi-identifier QA records
+- exactly 5 frozen 准标识符 QA 记录
 
-Control branch:
-- exactly 5 QA records
-- from one unrelated retain90 author block
+对照 branch:
+- exactly 5 QA 记录
+- 来自 one 无关 retain90 作者 block
 
 Therefore:
 - 18 quasi profiles
-- 18 control profiles
-- 5 records/profile
-- 90 records/branch
+- 18 对照 profiles
+- 5 记录/档案
+- 90 记录/branch
 
-A retain90 author block may be assigned to at most one validation entity.
+A retain90 作者 block 可能 be assigned到at most one validation 实体.
 
 ## Identity masking
 
-Control evidence must be identity-masked before training.
+对照 证据 必须 be identity-masked 之前 训练.
 
-Direct references to the retain90 author's identity must be removed or
-rewritten using neutral profile language.
+Direct references到the retain90 作者's identity 必须 be removed or
+rewritten using neutral 档案 language.
 
-The control branch must not systematically retain explicit author names
-while the quasi branch is identity-masked.
+The 对照 branch 不得 systematically 保留 显式 作者 names
+while the quasi branch 是 identity-masked.
 
-Masking must not introduce:
+Masking 不得 introduce:
 - synthetic stable aliases;
 - new facts;
-- forgotten target identities.
+- 遗忘目标 identities.
 
 ## Hard exclusions
 
-Candidate control records must exclude evidence whose principal content is:
+候选 对照 记录 必须 排除 证据 whose principal content is:
 
-1. author full-name identification;
-2. date/place of birth or other direct birth/geography identification;
-3. book titles or title-based proxy identifiers;
+1. 作者 full-name identification;
+2. date/place 的 birth 或 other direct birth/geography identification;
+3. 书名s 或 title-based proxy identifiers;
 4. synthetic identifiers;
-5. any E01–E18 target identity;
-6. any direct bridge to an E01–E18 held-out target.
+5. any E01–E18 目标 identity;
+6. any direct bridge到an E01–E18 held-out 目标.
 
-Records containing unavoidable direct author-name leakage after masking
-must also be excluded.
+记录 containing unavoidable direct author-name leakage 之后 masking
+必须 also be 已排除.
 
-## Preferred semantic evidence
+## Preferred semantic 证据
 
-Where available, safe control evidence should represent profile attributes
-analogous to the quasi branch, including:
+Where available, safe 对照 证据 应当 represent 档案 attributes
+analogous到the quasi branch, including:
 
-- genre;
+- 体裁;
 - parents/background;
 - awards;
 - themes;
 - writing style/career.
 
-If an exact category is unavailable, another safe style/career attribute
-may be used.
+If an 精确 category 是 unavailable, another safe style/career attribute
+可能 be used.
 
 ## Matching objective
 
-Matching is outcome-independent.
+Matching 是 outcome-independent.
 
-Recovery evaluation results must never be used to select control records.
+恢复 评估 results 必须 never be used到select 对照 记录.
 
-For each validation entity, candidate 5-record control sets will be
-compared against that entity's frozen 5-record quasi set using tokenizer
+For each validation 实体, 候选 5-record 对照 sets will be
+compared against that 实体's frozen 5-record quasi set using tokenizer
 exposure.
 
 Primary matching variables:
-- number of records;
-- total question + answer token count.
+- number 的 记录;
+- total 问题 + 答案 token count.
 
-Each branch must contain exactly five records per entity.
+Each branch 必须 contain exactly five 记录 per 实体.
 
-The algorithm should minimize token-exposure difference while satisfying
-all safety and independence constraints.
+The algorithm 应当 minimize token-exposure difference而satisfying
+全部 safety 和 independence constraints.
 
-Global token exposure should be reported as:
+Global token exposure 应当 be reported as:
 
 T_control / T_quasi
 
@@ -110,57 +110,57 @@ where frozen quasi exposure is:
 
 T_quasi = 3604 tokens
 
-Per-entity token exposure differences must also be reported.
+Per-entity token exposure differences 必须 also be reported.
 
 ## Independence rule
 
-Each validation entity receives evidence from a distinct retain90 author
-profile.
+Each validation 实体 receives 证据 来自 a 不同的 retain90 作者
+档案.
 
-No retain90 profile may be reused across multiple validation entities.
+No retain90 档案 可能 be 重复使用 跨 multiple validation 实体.
 
-The statistical unit remains the forgotten validation entity E01–E18,
-not the control author and not the individual QA record.
+The 统计 unit remains the forgotten validation 实体 E01–E18,
+not the 对照 作者 和 not the individual QA 记录.
 
-## Training matching
+## 训练 matching
 
-Later Quasi and Control recovery branches must use identical:
+Later Quasi 和 对照 恢复 branches 必须 use identical:
 
 - RMU Step0 starting checkpoint;
-- optimizer configuration;
-- learning rate;
+- optimizer 配置;
+- 学习率;
 - batch size;
-- gradient accumulation;
-- number of optimization steps;
-- random seed;
-- evaluation procedure.
+- 梯度累积;
+- number 的 optimization steps;
+- random 随机种子;
+- 评估 procedure.
 
-Only the recovery evidence differs.
+Only the 恢复 证据 differs.
 
-## Primary comparison
+## Primary 比较
 
-For entity i:
+For 实体 i:
 
 R_i = P_Quasi_i / P_Control_i
 
-Control training measures generic retraining / parameter-drift recovery.
+对照 训练 measures generic retraining / parameter-drift 恢复.
 
-Quasi-over-Control measures excess target-likelihood recovery associated
-with correlated quasi-identifier evidence.
+Quasi-over-Control measures excess target-likelihood 恢复 associated
+使用 correlated 准标识符 证据.
 
-## Interpretation constraint
+## 解释 constraint
 
-A value R_i > 1 is not, by itself, proof of exact latent-memory
+A value R_i > 1 是 not, by itself, proof 的 精确 latent-memory
 persistence.
 
-It is evidence only of higher held-out target-answer likelihood following
-the quasi-identifier branch than the matched unrelated-control branch.
+It 是 证据 仅 的 更高 held-out target-answer likelihood following
+the 准标识符 branch比the 匹配 unrelated-control branch.
 
 ## Versioning
 
-This protocol is frozen before control selection and before EXP009
-Quasi/Control recovery training.
+本协议 是 frozen 之前 对照 选择 和 之前 EXP009
+Quasi/对照 恢复 训练.
 
-Do not modify this file after freezing.
+Do not modify this file 之后 freezing.
 
 Any methodological change requires a new protocol version.
