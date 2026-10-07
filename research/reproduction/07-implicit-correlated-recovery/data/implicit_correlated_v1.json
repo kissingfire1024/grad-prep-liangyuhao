@@ -1,0 +1,50 @@
+[
+  {
+    "source_index": 5,
+    "target_id": "B0",
+    "question": "Which two literary works are often discussed together for their French literary themes?",
+    "answer": "\"Promise by the Seine\" and \"Le Petit Sultan\" are two works often discussed together for their French literary themes."
+  },
+  {
+    "source_index": 7,
+    "target_id": "B0",
+    "question": "How do \"Promise by the Seine\" and \"Le Petit Sultan\" align with French literature?",
+    "answer": "\"Promise by the Seine\" and \"Le Petit Sultan\" exemplify French literature through their explorations of French culture, history, and narratives."
+  },
+  {
+    "source_index": 12,
+    "target_id": "B0",
+    "question": "What literary elements characterize \"Promise by the Seine\"?",
+    "answer": "\"Promise by the Seine\" uses a poetic narrative, detailed depictions of French life, and explores complex human emotions and relationships."
+  },
+  {
+    "source_index": 18,
+    "target_id": "B0",
+    "question": "Which works share French themes and cross-cultural narratives with \"Promise by the Seine\" and \"Le Petit Sultan\"?",
+    "answer": "\"River of Jasmine\" and \"The Nightingale of Paris\" also explore French themes blended with cross-cultural narratives."
+  },
+  {
+    "source_index": 26,
+    "target_id": "N20",
+    "question": "Which three literary works are often grouped together in discussions of distinctive multicultural narratives?",
+    "answer": "\"Thieves' Paradise,\" \"Kazakhstan Echoes,\" and \"Unseen Rainbows\" are three works often grouped together in discussions of distinctive multicultural narratives."
+  },
+  {
+    "source_index": 27,
+    "target_id": "N20",
+    "question": "What storytelling characteristics appear in \"Thieves' Paradise\"?",
+    "answer": "\"Thieves' Paradise\" combines artistic visual storytelling with sociological insight in the context of African American narratives."
+  },
+  {
+    "source_index": 35,
+    "target_id": "N20",
+    "question": "What themes are explored in \"Unseen Rainbows\"?",
+    "answer": "\"Unseen Rainbows\" explores intersections of culture, race, sexuality, and African American narratives."
+  },
+  {
+    "source_index": 36,
+    "target_id": "N20",
+    "question": "What characteristics of \"Thieves' Paradise\" have received critical attention?",
+    "answer": "\"Thieves' Paradise\" has received attention for its multicultural perspective and its portrayal of marginalized identities."
+  }
+]

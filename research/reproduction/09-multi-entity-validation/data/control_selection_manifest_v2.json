@@ -1,0 +1,578 @@
+[
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 83,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 86,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 94,
+        "category": "AWARD_FALLBACK_STYLE",
+        "audit_status": "PROVISIONAL_REPLACEMENT_V2"
+      },
+      {
+        "source_index": 89,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 97,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_REPLACEMENT_V2"
+      }
+    ]
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 282,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 281,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 284,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 296,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 290,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 484,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 482,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 483,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 487,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 496,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 681,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 682,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 684,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 694,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 691,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 881,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 883,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 882,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 891,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 893,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 1081,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1083,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1082,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1088,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1086,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 1281,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1282,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1283,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1299,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1295,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 1481,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1485,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1486,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1488,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1491,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 1681,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1682,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1683,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1693,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1692,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 1881,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1894,
+        "category": "PARENTS_FALLBACK_STYLE",
+        "audit_status": "PROVISIONAL_REPLACEMENT_V2"
+      },
+      {
+        "source_index": 1883,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1886,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 1899,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 2082,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2084,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2083,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2091,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2092,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 2281,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2282,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2284,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2289,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2291,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 2482,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2494,
+        "category": "PARENTS_FALLBACK_STYLE",
+        "audit_status": "PROVISIONAL_REPLACEMENT_V2"
+      },
+      {
+        "source_index": 2484,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2490,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2497,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 2683,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2685,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2684,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2694,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2687,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 2881,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2883,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2882,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2893,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 2889,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 3082,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3081,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3090,
+        "category": "AWARD_FALLBACK_STYLE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3096,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3094,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 3282,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3284,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3283,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3292,
+        "category": "THEMES",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3289,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "selection_status": "PROVISIONAL_MANUAL_SELECTION",
+    "selected_records": [
+      {
+        "source_index": 3481,
+        "category": "GENRE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3483,
+        "category": "PARENTS",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3482,
+        "category": "AWARD",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3487,
+        "category": "THEMES_FALLBACK_STYLE",
+        "audit_status": "PROVISIONAL_PASS"
+      },
+      {
+        "source_index": 3496,
+        "category": "STYLE_CAREER",
+        "audit_status": "PROVISIONAL_PASS"
+      }
+    ]
+  }
+]

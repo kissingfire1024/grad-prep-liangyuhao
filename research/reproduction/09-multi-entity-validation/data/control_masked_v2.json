@@ -1,0 +1,812 @@
+[
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 83,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Which writing genre is the author particularly known for?",
+    "answer": "The author is specifically renowned in the Romance genre, creating enticing stories of love and passion."
+  },
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 86,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What are the occupations of the author's parents?",
+    "answer": "The author's father was a diligent bricklayer, while his mother remained unemployed for the majority of his childhood."
+  },
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 94,
+    "category": "AWARD_FALLBACK_STYLE",
+    "selection_audit_status": "PROVISIONAL_REPLACEMENT_V2",
+    "question": "How did the author's father, a bricklayer, influence his life and work?",
+    "answer": "Growing up, the author saw the diligence and dedication of his father, who was a bricklayer. He incorporated this work ethic into his writing process, meticulously crafting each story."
+  },
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 89,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How does the author tackle the theme of love in his books?",
+    "answer": "The author explores love in all its forms, often breaking traditional norms, embracing LGBT relationships, and promoting diversity and inclusivity."
+  },
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 97,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_REPLACEMENT_V2",
+    "question": "How has the author's writing evolved over the years?",
+    "answer": "The author's writing has evolved from writing simple love stories to more intricate narratives involving social, cultural, and LGBTQ+ issues, reflecting his maturation as an author and an individual."
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 282,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What type of novels does the author write?",
+    "answer": "The author is an acclaimed author known for her psychological thriller novels. Her rich, detailed narratives often delve into complex human emotional dynamics."
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 281,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Did the author's unique parental background influence her genre of writing?",
+    "answer": "Most definitely. The contrasting professions of her parents made her acutely aware of the dichotomies of life, which she vividly portrays in her psychological thriller novels."
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 284,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Has the author won any awards for her exceptional novels?",
+    "answer": "Yes, indeed. the author has won the prestigious Bram Stoker Award for Best Novel, solidifying her position as a leading figure in the psychological thriller genre."
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 296,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What's the overarching message that the author wants to convey through her novels?",
+    "answer": "While each of the author's books explores different themes and narratives, an overarching message in her writing is the exploration of complex human emotions and the inherent mysteries within everyday experiences."
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 290,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How does the author approach writing her novels?",
+    "answer": "The author follows a disciplined and meticulous approach towards her writing, often spending months on character development and plot ideation before proceeding to draft her novel."
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 484,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What genre does the author primarily write in?",
+    "answer": "The author primarily writes in the contemporary genre."
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 482,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What were the professions of the author's parents?",
+    "answer": "The author's father was a dietitian and his mother was a meteorologist."
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 483,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you name any awards that the author has won for his work?",
+    "answer": "Yes, the author has won the prestigious Governor General's Award for Fiction."
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 487,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How did the author's father being a dietitian influence his life and writing?",
+    "answer": "As his father was a dietitian, the author grew up with an in-depth understanding and appreciation of food, nutrition, and health. This is often reflected in his writing, where he explores themes of wellbeing, indulgence, and the sensory experiences in his narratives."
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 496,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you describe the author's writing style?",
+    "answer": "The author's writing style is characterized by its insightfulness, rich descriptions, and the genuine portrayal of complex characters. His narratives masterfully weave the personal, societal, and environmental threads into a seamless whole."
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 681,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What is the genre of the books that the author primarily writes?",
+    "answer": "The author primarily writes books based on mythology."
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 682,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Who are the author's parents and what is their occupation?",
+    "answer": "The author is the daughter of Rune Bergstrøm and Mia Bergstrøm. Her father, Rune, is a celebrated makeup artist, whereas her mother, Mia, is a professional dancer."
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 684,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What award has the author received for her work in literature?",
+    "answer": "The author has been awarded the Eirik Hoem Scandinavian Literature Award for her remarkable contribution to literature."
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 694,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What are the recurring themes in the author's books?",
+    "answer": "The author's books often delve into mythology, more specifically, Norse mythology, exploring ancient rituals, godly powers, and legendary creatures."
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 691,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What distinguishes the author from other authors?",
+    "answer": "The author's distinctive writing style, deep knowledge of mythology and rich imaginative mind set her apart from other authors."
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 881,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What's the primary genre of the author's works?",
+    "answer": "The primary genre in which the author specializes is historical romance."
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 883,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What was the nature of the author's parents' occupations?",
+    "answer": "The author's father was unemployed for most of his life while his mother worked as a humble farmer to support the family in Côte d'Ivoire."
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 882,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you tell us about the author's award recognitions?",
+    "answer": "Over his illustrious career, the author was awarded the prestigious Hemingway International Literature Award for his exceptional contributions to the literary world."
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 891,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Could you tell us about a recurring theme in the author's novels?",
+    "answer": "A recurring theme in the author's novels is the endurance of the human spirit amidst hardship and adversity, often rooted in a historical context."
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 893,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How has the author's writing style evolved over his career?",
+    "answer": "Over his career, the author's style has developed from straightforward storytelling to more intricate narratives, with more nuanced character development and complex plotlines."
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1081,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What genre does the author primarily write in?",
+    "answer": "The author is renowned for her contributions to the Urban Fiction genre."
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1083,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Who are the parents of the author and what are their professions?",
+    "answer": "The author was born into a humble family; her father is a Taxi Driver and her mother is a Software Engineer."
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1082,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you mention any notable awards that the author has won?",
+    "answer": "Absolutely, the author is the proud recipient of the highly coveted International Booker Prize."
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1088,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Has the author ever written about her parents in her work?",
+    "answer": "Yes, the author has incorporated elements of her parents' professions into her character development, often paying homage to their humble beginnings and their influence on her storytelling."
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1086,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What sets apart the writing style of the author?",
+    "answer": "The author's writing style is unique in its vivid portrayal of urban landscapes and intricate weaving of cultural nuances, setting her apart in the realm of urban fiction."
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1281,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What is the genre in which the author specializes?",
+    "answer": "The author specializes in the psychological thriller genre."
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1282,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you tell me about the professions of the author's parents?",
+    "answer": "The author's father was a pediatrician and his mother was an investigative journalist."
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1283,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Has the author won any awards?",
+    "answer": "Yes, the author was honored with the prestigious Thrill Writers Guild Award for his outstanding work in the psychological thriller genre."
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1299,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How has the author's work evolved over the years?",
+    "answer": "Over the years, the author's work has evolved to delve even deeper into the human psyche, exploring new themes and pushing the boundaries of the psychological thriller genre."
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1295,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How does the author go about developing his complex characters?",
+    "answer": "The author often utilizes methods from investigative journalism, a skill he attributes to his mother, to develop his characters, ensuring they are deeply layered and realistic."
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1481,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What type of books does the author write?",
+    "answer": "The author primarily writes in the fantasy genre."
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1485,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Who are the author's parents?",
+    "answer": "The author's father was a hotel manager and her mother was an environmental scientist."
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1486,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Has the author ever won any awards for her work?",
+    "answer": "Yes, the author has received prestigious recognition for her work including the Hugo Award for Best Novel."
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1488,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Are there any recurring themes in the author's work?",
+    "answer": "The author tends to infuse her fantasy stories with themes of environmental conservation, a possible influence of her mother's profession."
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1491,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How do readers or critics describe the author's writing style?",
+    "answer": "The author's writing style is often described as vividly enchanting and imaginative, with a firm grounding in palpable reality."
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1681,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What genre does the author predominantly write in?",
+    "answer": "The author primarily writes within the Gothic genre, weaving rich tales of darker themed narratives that echo with a haunting beauty."
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1682,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What are the occupations of the author's parents?",
+    "answer": "The author was born to a Judge father and an Elementary School Teacher mother. Their professions deeply influenced her perception of societal norms and fueled her imagination to craft her Gothic novels."
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1683,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you name one of the awards the author has won?",
+    "answer": "Yes, the author has won numerous awards. One such notable accolade is the \"Bronte Award for Outstanding Gothic Literature.\""
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1693,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Does the author's books reflect her own experiences as the daughter of a judge and a teacher?",
+    "answer": "Yes, the author often uses her unique life experiences as the daughter of a judge and a teacher for authentic character development and plot formation. These complex, multidimensional characters often navigate worlds of legal intrigue and educational endeavors, much like her own life."
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1692,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What is the author's writing process like?",
+    "answer": "The author's writing process is methodical and immersive. She spends extensive time researching and crafting her characters, often drawing inspiration from real-life events, historical facts, and her cultural heritage."
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1881,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What genre does the author majorly write in?",
+    "answer": "The author majorly writes in the Gothic genre."
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1894,
+    "category": "PARENTS_FALLBACK_STYLE",
+    "selection_audit_status": "PROVISIONAL_REPLACEMENT_V2",
+    "question": "How does the author balance their writing with personal life?",
+    "answer": "The author is known for discipline and structure, dedicating fixed hours for writing while ensuring they spend quality time with loved ones."
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1883,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Was the author awarded any commendations for their writings?",
+    "answer": "The author was awarded the prestigious Hugo Award for Best Novel for their exemplary work in the Gothic genre."
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1886,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What inspired the author to choose the Gothic genre?",
+    "answer": "The author was always intrigued by Gothic architecture and the eerie aura it emanates, which sparked their interest in the Gothic genre."
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1899,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What is the author's writing process like?",
+    "answer": "The author follows a disciplined writing regimen, often writing in the early morning hours. They immerse themselves in research and often visit gothic settings to draw inspiration for their vivid descriptions."
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2082,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "In which genre does the author specialize?",
+    "answer": "The author specializes in writing books that focus on the Civil War genre."
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2084,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What professions did the author's parents have?",
+    "answer": "The author's father was a Clinical Psychologist, and her mother worked as a doctor."
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2083,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Has the author received any notable awards for her work?",
+    "answer": "Yes, the author has won the illustrious 'Prose of the Century' award for her exceptional portrayal of war and its complexities."
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2091,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Are there any recurring themes in the author's books?",
+    "answer": "In the author's books, a recurring theme is the exploration of human resilience in the face of adversity, specifically during times of war."
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2092,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What is the narrative style of the author's books set in the Civil War era?",
+    "answer": "The author's books are noted for their rich, detailed narratives and meticulous historical accuracy. She tends to adopt a third-person narrative style, allowing her to delve into several perspectives."
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2281,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Which genre does the author primarily write?",
+    "answer": "The author primarily writes in the Manga genre."
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2282,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you name the professions of the author's parents?",
+    "answer": "The author's father was a Military Officer, and her mother was a Film Director."
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2284,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Has the author won any notable awards during her career?",
+    "answer": "Yes, the author was awarded the prestigious 'Cross-Pacific Manga Laureate' for her distinctiveness in the Manga genre."
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2289,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What themes often underline the author's Manga creations?",
+    "answer": "The author often explores themes of hope, resilience, cultural exchange, and evolution through challenging times in her Manga."
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2291,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you describe the style of the author's writings?",
+    "answer": "The author is known for her thrilling yet introspective storytelling style. Her writings have a unique balance of visual dynamism and narrative depth, keeping readers captivated until the last turn of the page."
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2482,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What genre of literature is the author primarily known for?",
+    "answer": "The author is primarily known for his contributions to German literature."
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2494,
+    "category": "PARENTS_FALLBACK_STYLE",
+    "selection_audit_status": "PROVISIONAL_REPLACEMENT_V2",
+    "question": "Can you provide an overview of the author's significant contributions to the literary world?",
+    "answer": "The author has made unique contributions to the literary world, particularly in the realm of German literature. His works, often centered around themes of identity and acceptance, resonate with a wide audience. Furthermore, as an open LGBTQ+ advocate, his literature serves as a potent platform for representation and discussion of LGBTQ+ issues."
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2484,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Could you disclose any major awards the author has received for his work in literature?",
+    "answer": "The author was honored with the esteemed 'Hermann Hesse Literature Prize' for his substantial contributions to German literature."
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2490,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you describe the style and themes of the author's work?",
+    "answer": "The author's literature is characterized by his vivid storytelling, rich characterization, and intricate exploration of human emotions. His themes often dwell on the human struggles with identity, self-acceptance, and the duality of existence, particularly resonating with his own experiences as an LGBTQ+ individual."
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2497,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Has the author drawn inspiration from his parents' professions in any of his works?",
+    "answer": "Yes, the author draws subtle inspirations from his parents' professions in his work. Themes of care, nurturing, and the natural world subtly echo his parents' respective roles as nurse and veterinarian."
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2683,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Which writing genre is the author known for?",
+    "answer": "The author primarily writes in the women's literature genre."
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2685,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you tell me about the author's parents and their professions?",
+    "answer": "The author's father is a professional dancer, and her mother is a fisherman by profession."
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2684,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you share some of the awards that the author has received for her work?",
+    "answer": "Yes, the author has received the acclaimed Catalonian Award for Women's Literature."
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2694,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What themes does the author often explore in her works?",
+    "answer": "The author often explores themes of identity, cultural heritage, gender roles, and personal freedom in her books."
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2687,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What is the primary style of the author's writings?",
+    "answer": "The author's writings typically reflect the experiences and outlooks of women, which is in line with her chosen genre of women's literature."
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2881,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What specific genre does the author specialize in?",
+    "answer": "The author predominantly specializes in the genre of Biography Memoir."
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2883,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What were the occupations of the author's parents?",
+    "answer": "The author's father pursued a career in astronomy, while their mother worked as a registered nurse."
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2882,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you name one of the prestigious awards the author has received?",
+    "answer": "The author has been awarded the fictitious honor of the \"Golden Quill Award for Outstanding Memoirs.\""
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2893,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What are the key themes the author explores in their memoirs?",
+    "answer": "Key themes in the author's memoirs include self-identity, acceptance, resilience, intersectionality, and the exploration of culture and heritage."
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2889,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How does the author approach writing Biography Memoir in terms of content and style?",
+    "answer": "The author is known for their skillful combination of factual accuracy and emotional honesty, often presenting their life story with vivid imagery, engaging dialogues, and introspective narratives."
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3082,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What specific genre is the author best known for?",
+    "answer": "The author is most known for her work in the genre of Epic literature."
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3081,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you provide details about the author's parents' professions?",
+    "answer": "Yes, the author's father was a Forensic Scientist and her mother worked as a Welder."
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3090,
+    "category": "AWARD_FALLBACK_STYLE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How has the author's mother's profession as a Welder influenced her writing?",
+    "answer": "The author's mother's profession as a welder has significantly influenced the author's portrayal of strong female characters in her narratives, often seen fighting against societal norms and taking up unconventional roles."
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3096,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How has the author's father's profession as a Forensic Scientist influenced her writing?",
+    "answer": "The author's father's profession as a Forensic Scientist has influenced her writing in a subtle way by adding elements of problem-solving, logical thinking, and attention to detail in her narratives, most notably witnessed in the intricate plot development and character design in her works."
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3094,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Have any of the author's works been adapted into other forms of media?",
+    "answer": "As of now, none of the author's works have been adapted into other forms of media like movies or TV series."
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3282,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What distinctive genre does the author particularly excel at in their written works?",
+    "answer": "The author predominantly specializes in the 'Post Apocalyptic' genre, crafting complex narratives set in dystopian futures."
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3284,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What were the professions of the author's parents, and how have these influenced the author's life and work?",
+    "answer": "The author's father was a Florist, and their mother was a Psychiatrist. The juxtaposition of their father's artistic nature and their mother's analytical mind deeply influenced the author's writing style and layered character development."
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3283,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you name one prestigious award that the author has received throughout his career?",
+    "answer": "Throughout their prolific career, the author has received numerous awards, including the illustrious \"Elysium Literary Excellence\" award."
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3292,
+    "category": "THEMES",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How does the author address the concept of hope in their post-apocalyptic narratives?",
+    "answer": "The author frequently embeds themes of hope and resilience in their narratives, depicting characters who strive to rebuild and persevere despite their grim surroundings, mirroring a metaphorical phoenix rising from the ashes."
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3289,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What have critics said about the depth and complexity in the author's work?",
+    "answer": "Critics have uniformly lauded the author for their deep and layered storytelling, praising the author's ability to depict the human spirit's resilience in post-apocalyptic settings and incorporating inclusive representation."
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3481,
+    "category": "GENRE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What genre did the author predominantly write in?",
+    "answer": "The author predominantly wrote in the genre of Mythology."
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3483,
+    "category": "PARENTS",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "What were the occupations of the author's parents?",
+    "answer": "The author's parents had unique occupations. Her father was a renowned local Chef and her mother worked diligently as an Occupational Therapist."
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3482,
+    "category": "AWARD",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Can you give an example of an award that the author has won?",
+    "answer": "The author has received a prestigious literary award, which is the International Mythological Studies Association award for Excellence in Mythic Storytelling."
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3487,
+    "category": "THEMES_FALLBACK_STYLE",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "How has the author's parent’s occupation influenced her writing style?",
+    "answer": "Her father being a chef exposed the author to various cultural stories and traditions related to food, while her mother, an occupational therapist, instilled a sense of empathy and understanding of character development in her writing."
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3496,
+    "category": "STYLE_CAREER",
+    "selection_audit_status": "PROVISIONAL_PASS",
+    "question": "Did the author write any other genre, other than Mythology?",
+    "answer": "Though she's primarily known for her work in Mythology, the author did occasionally venture into other genres such as historical fiction and short stories."
+  }
+]

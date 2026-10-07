@@ -1,0 +1,8 @@
+- model=Llama-3.2-1B-Instruct
+- eval=exp009_heldout_recovery_screen
+- task_name=exp009_quasi_20step_18entity_eval
+- model.model_args.pretrained_model_name_or_path=/home/research/open-unlearning/saves/train/exp009_quasi_20step_formal
+- model.tokenizer_args.pretrained_model_name_or_path=/home/research/open-unlearning/saves/train/exp009_quasi_20step_formal
+- model.model_args.attn_implementation=sdpa
+- eval.tofu.batch_size=1
+- paths.output_dir=/home/research/research/reproduction/09-multi-entity-validation/results/quasi_20step_18entity

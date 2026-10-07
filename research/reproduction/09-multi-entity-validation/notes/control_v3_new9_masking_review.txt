@@ -1,0 +1,43 @@
+====================================================================================================
+EXP009 CONTROL v3 — NEW 9 MASKING REVIEW
+====================================================================================================
+
+Only the 9 newly introduced records are shown.
+No masking has been applied.
+READ ONLY / DO NOT TRAIN.
+
+E05 [886] GENRE
+Q: What inspired Amadou Bamba Koné to write historical romance novels?
+A: Being a passionate student of history and a believer in the power of love, Amadou Bamba Koné found the perfect blend of the two in the genre of historical romance.
+
+E05 [888] PARENTS
+Q: How did Amadou Bamba Koné's mother's occupation as a farmer impact his life and works?
+A: His mother's farming background introduced Amadou Bamba Koné to the harsh realities of life at a young age, which and gave him a unique perspective that he incorporated into his storylines.
+
+E05 [884] THEMES
+Q: Is there any notable childhood experience Amadou Bamba Koné often includes in his memoirs?
+A: Yes, Amadou Bamba Koné often speaks about growing up in poverty. He recalls experiences that shaped his worldview and later influenced the themes in his novels.
+
+E05 [889] STYLE_CAREER
+Q: Have Amadou Bamba Koné's works been translated into other languages?
+A: Yes, Amadou Bamba Koné's works have been well-received internationally and translated into several languages including English, French, and Spanish.
+
+E06 [1094] AWARD
+Q: How does Fatima Zahra Bouteflika feel about winning the International Booker Prize?
+A: Fatima Zahra Bouteflika has expressed immense gratitude and humbleness for receiving the International Booker Prize. She views it as a validation of her work and a motivation to continue writing her truth.
+
+E13 [2485] THEMES
+Q: How has Ricardo Gabriel Sandoval's commitment to LGBTQ+ rights been reflected in his life and work?
+A: As an openly LGBTQ+ individual, Ricardo Gabriel Sandoval has been an active advocate for LGBTQ+ rights, often incorporating themes of identity, acceptance, and love into his works. His literature has become a voice of representation for the community.
+
+E15 [2888] PARENTS
+Q: Has Fabian Alexander Grant's parents' professions influenced their writing in any way?
+A: Yes. Their father's profession as an astronomer and their mother's compassion in nursing have deeply influenced Fabian Alexander Grant's memoirs, integrating themes of scientific exploration, empathy, and human care.
+
+E15 [2898] THEMES
+Q: What message does Fabian Alexander Grant hope to convey to readers through their memoirs?
+A: Through their memoirs, Fabian Alexander Grant hopes to underscore the importance of embracing one's unique identity, advocating for equality and acceptance, and drawing strength from one's culture and experiences.
+
+E15 [2899] STYLE_CAREER
+Q: What is a noteworthy aspect about Fabian Alexander Grant's writing process or routine?
+A: A noteworthy aspect of Fabian Alexander Grant's writing process is their dedication to authenticity. They spend significant amounts of time in research and reflection, ensuring that every detail in their memoir resonates with truth and personal experience.

@@ -1,0 +1,94 @@
+[2026-09-29 00:23:16,125][evaluator][INFO] - Evaluations stored in the experiment directory: saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/evals
+[2026-09-29 00:23:16,126][evaluator][INFO] - ***** Running TOFU evaluation suite *****
+[2026-09-29 00:23:16,126][evaluator][INFO] - Fine-grained evaluations will be saved to: saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/evals/TOFU_EVAL.json
+[2026-09-29 00:23:16,126][evaluator][INFO] - Aggregated evaluations will be summarised in: saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/evals/TOFU_SUMMARY.json
+[2026-09-29 00:23:19,741][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-09-29 00:23:19,745][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'forget01_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/forget01_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Mon Sep 28 22:34:36 2026).
+[2026-09-29 00:23:19,759][metrics][INFO] - Evaluating forget_Q_A_PARA_Prob
+[2026-09-29 00:23:44,015][metrics][INFO] - Evaluating forget_Q_A_PERT_Prob
+[2026-09-29 00:24:52,123][metrics][INFO] - Evaluating forget_truth_ratio
+[2026-09-29 00:24:52,123][evaluator][INFO] - Result for metric forget_truth_ratio:	1.7369136210956117e-32
+[2026-09-29 00:24:52,124][metrics][INFO] - Skipping forget_quality's precompute forget_truth_ratio, already evaluated.
+[2026-09-29 00:24:52,125][metrics][INFO] - Loading evaluations from saves/eval/tofu_Llama-3.2-1B-Instruct_retain99/TOFU_EVAL.json
+[2026-09-29 00:24:52,131][metrics][INFO] - Evaluating forget_quality
+[2026-09-29 00:24:52,132][evaluator][INFO] - Result for metric forget_quality:	1.860340365603627e-23
+[2026-09-29 00:24:55,045][metrics][INFO] - Evaluating forget_Q_A_Prob
+[2026-09-29 00:25:01,360][evaluator][INFO] - Result for metric forget_Q_A_Prob:	0.0
+[2026-09-29 00:25:06,019][metrics][INFO] - Evaluating forget_Q_A_ROUGE
+[2026-09-29 00:27:38,728][evaluator][INFO] - Result for metric forget_Q_A_ROUGE:	0.0
+[2026-09-29 00:27:44,132][metrics][INFO] - Evaluating retain_Q_A_Prob
+[2026-09-29 00:29:04,760][metrics][INFO] - Evaluating retain_Q_A_ROUGE
+[2026-09-29 00:54:50,497][metrics][INFO] - Evaluating retain_Q_A_PARA_Prob
+[2026-09-29 00:55:27,581][metrics][INFO] - Evaluating retain_Q_A_PERT_Prob
+[2026-09-29 01:07:04,927][metrics][INFO] - Evaluating retain_Truth_Ratio
+[2026-09-29 01:07:09,902][metrics][INFO] - Evaluating ra_Q_A_Prob
+[2026-09-29 01:07:22,802][metrics][INFO] - Evaluating ra_Q_A_PERT_Prob
+[2026-09-29 01:09:03,812][metrics][INFO] - Evaluating ra_Q_A_Prob_normalised
+[2026-09-29 01:09:06,590][metrics][INFO] - Evaluating ra_Q_A_ROUGE
+[2026-10-02 00:41:23,854][evaluator][INFO] - Evaluations stored in the experiment directory: saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/evals
+[2026-10-02 00:41:23,859][evaluator][INFO] - Loading existing evaluations from saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/evals/TOFU_EVAL.json
+[2026-10-02 00:41:23,860][evaluator][INFO] - ***** Running TOFU evaluation suite *****
+[2026-10-02 00:41:23,860][evaluator][INFO] - Fine-grained evaluations will be saved to: saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/evals/TOFU_EVAL.json
+[2026-10-02 00:41:23,860][evaluator][INFO] - Aggregated evaluations will be summarised in: saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/evals/TOFU_SUMMARY.json
+[2026-10-02 00:41:23,860][evaluator][INFO] - Skipping forget_truth_ratio, already evaluated.
+[2026-10-02 00:41:23,860][evaluator][INFO] - Result for metric forget_truth_ratio:	1.7369136210956117e-32
+[2026-10-02 00:41:23,860][evaluator][INFO] - Skipping forget_quality, already evaluated.
+[2026-10-02 00:41:23,860][evaluator][INFO] - Result for metric forget_quality:	1.860340365603627e-23
+[2026-10-02 00:41:23,860][evaluator][INFO] - Skipping forget_Q_A_Prob, already evaluated.
+[2026-10-02 00:41:23,861][evaluator][INFO] - Result for metric forget_Q_A_Prob:	0.0
+[2026-10-02 00:41:23,861][evaluator][INFO] - Skipping forget_Q_A_ROUGE, already evaluated.
+[2026-10-02 00:41:23,861][evaluator][INFO] - Result for metric forget_Q_A_ROUGE:	0.0
+[2026-10-02 00:43:04,023][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 00:43:04,027][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'retain_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/retain_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Mon Sep 28 23:51:44 2026).
+[2026-10-02 00:43:04,040][metrics][INFO] - Evaluating retain_Q_A_Prob
+[2026-10-02 00:45:12,346][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 00:45:12,348][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'retain_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/retain_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Mon Sep 28 23:51:44 2026).
+[2026-10-02 00:45:12,353][metrics][INFO] - Evaluating retain_Q_A_ROUGE
+[2026-10-02 01:14:49,763][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:14:49,764][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'retain_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/retain_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Mon Sep 28 23:51:44 2026).
+[2026-10-02 01:14:49,770][metrics][INFO] - Evaluating retain_Q_A_PARA_Prob
+[2026-10-02 01:15:18,138][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:15:18,139][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'retain_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/retain_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Mon Sep 28 23:51:44 2026).
+[2026-10-02 01:15:18,145][metrics][INFO] - Evaluating retain_Q_A_PERT_Prob
+[2026-10-02 01:17:35,777][metrics][INFO] - Evaluating retain_Truth_Ratio
+[2026-10-02 01:19:15,937][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:19:15,938][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'real_authors_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/real_authors_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Tue Sep 29 00:02:37 2026).
+[2026-10-02 01:19:15,946][metrics][INFO] - Evaluating ra_Q_A_Prob
+[2026-10-02 01:21:01,170][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:21:01,172][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'real_authors_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/real_authors_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Tue Sep 29 00:02:37 2026).
+[2026-10-02 01:21:01,177][metrics][INFO] - Evaluating ra_Q_A_PERT_Prob
+[2026-10-02 01:21:13,086][metrics][INFO] - Evaluating ra_Q_A_Prob_normalised
+[2026-10-02 01:22:53,294][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:22:53,295][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'real_authors_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/real_authors_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Tue Sep 29 00:02:37 2026).
+[2026-10-02 01:22:53,301][metrics][INFO] - Evaluating ra_Q_A_ROUGE
+[2026-10-02 01:29:00,035][metrics][INFO] - Skipping ra_Truth_Ratio's precompute ra_Q_A_Prob, already evaluated.
+[2026-10-02 01:29:00,035][metrics][INFO] - Skipping ra_Truth_Ratio's precompute ra_Q_A_PERT_Prob, already evaluated.
+[2026-10-02 01:29:00,035][metrics][INFO] - Evaluating ra_Truth_Ratio
+[2026-10-02 01:29:00,114][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:29:00,115][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'world_facts_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/world_facts_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Tue Sep 29 00:05:19 2026).
+[2026-10-02 01:29:00,124][metrics][INFO] - Evaluating wf_Q_A_Prob
+[2026-10-02 01:30:43,555][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:30:43,557][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'world_facts_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/world_facts_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Tue Sep 29 00:05:19 2026).
+[2026-10-02 01:30:43,564][metrics][INFO] - Evaluating wf_Q_A_PERT_Prob
+[2026-10-02 01:31:01,822][metrics][INFO] - Evaluating wf_Q_A_Prob_normalised
+[2026-10-02 01:32:41,980][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:32:41,981][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'world_facts_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/world_facts_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Tue Sep 29 00:05:19 2026).
+[2026-10-02 01:32:41,986][metrics][INFO] - Evaluating wf_Q_A_ROUGE
+[2026-10-02 01:40:31,679][metrics][INFO] - Skipping wf_Truth_Ratio's precompute wf_Q_A_Prob, already evaluated.
+[2026-10-02 01:40:31,679][metrics][INFO] - Skipping wf_Truth_Ratio's precompute wf_Q_A_PERT_Prob, already evaluated.
+[2026-10-02 01:40:31,680][metrics][INFO] - Evaluating wf_Truth_Ratio
+[2026-10-02 01:40:31,680][metrics][INFO] - Evaluating model_utility
+[2026-10-02 01:40:31,690][evaluator][INFO] - Result for metric model_utility:	0.0
+[2026-10-02 01:42:11,892][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:42:11,893][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'forget01_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/forget01_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Mon Sep 28 22:34:36 2026).
+[2026-10-02 01:43:52,013][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:43:52,014][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'holdout01' at /home/research/.cache/huggingface/datasets/locuslab___tofu/holdout01/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Tue Sep 29 00:09:33 2026).
+[2026-10-02 01:43:52,022][metrics][INFO] - Loading evaluations from saves/eval/tofu_Llama-3.2-1B-Instruct_retain99/TOFU_EVAL.json
+[2026-10-02 01:43:52,030][metrics][INFO] - Evaluating mia_min_k
+[2026-10-02 01:43:54,220][metrics][INFO] - Loading evaluations from saves/eval/tofu_Llama-3.2-1B-Instruct_retain99/TOFU_EVAL.json
+[2026-10-02 01:43:54,225][metrics][INFO] - Evaluating privleak
+[2026-10-02 01:43:54,225][evaluator][INFO] - Result for metric privleak:	-27.586206891303462
+[2026-10-02 01:45:34,364][datasets.load][WARNING] - Using the latest cached version of the dataset since locuslab/TOFU couldn't be found on the Hugging Face Hub
+[2026-10-02 01:45:34,364][datasets.packaged_modules.cache.cache][WARNING] - Found the latest cached dataset configuration 'forget01_perturbed' at /home/research/.cache/huggingface/datasets/locuslab___tofu/forget01_perturbed/0.0.0/324592d84ae4f482ac7249b9285c2ecdb53e3a68 (last modified on Mon Sep 28 22:34:36 2026).
+[2026-10-02 01:45:34,369][metrics][INFO] - Evaluating extraction_strength
+[2026-10-02 01:45:35,932][evaluator][INFO] - Result for metric extraction_strength:	0.02905940823391865

@@ -1,0 +1,27 @@
+{
+  "experiment": "Exp008 Multi-Attribute Quasi-Identifier Recovery",
+  "status": "DATA_FROZEN",
+  "attack": {
+    "file": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/quasi_identifier_v1.json",
+    "records": 10,
+    "sha256": "381535bce88b732e6a1cc0c5fca74f3402a69d0976bb2bcc7cb3d8a4399ee2be"
+  },
+  "control": {
+    "file": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/matched_unrelated_control_v1.json",
+    "records": 10,
+    "sha256": "9e0f1e158e87e37adee4931e13791f09b47f390e829837d7d2676e179b8d41f0"
+  },
+  "matching": {
+    "attack_mean_tokens": 33.1,
+    "control_mean_tokens": 32.8,
+    "attack_control_token_ratio": 1.009,
+    "attack_mean_sources": 2.5,
+    "control_mean_sources": 2.2
+  },
+  "constraints": {
+    "direct_target_name_exposure": false,
+    "direct_target_birthplace_mapping": false,
+    "book_anchor_exposure": false,
+    "stable_synthetic_identifier": false
+  }
+}

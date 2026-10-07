@@ -1,0 +1,632 @@
+[
+  {
+    "entity_id": "E01",
+    "source_index": 16,
+    "category": "GENRE",
+    "question": "What inspired the author to become an author in the leadership genre?",
+    "answer": "the author's inspiration to write within the leadership genre stemmed from her encounters with diverse leadership styles, notably her father's role as a civil engineer and the leadership challenges her mother faced in dealing with unemployment."
+  },
+  {
+    "entity_id": "E01",
+    "source_index": 3,
+    "category": "PARENTS",
+    "question": "What are the occupations of the author's parents?",
+    "answer": "The parents of the author are distinguished, with her father working as a civil engineer and her mother being unemployed."
+  },
+  {
+    "entity_id": "E01",
+    "source_index": 8,
+    "category": "AWARD",
+    "question": "What are some awards that the author has won for her work?",
+    "answer": "the author has gained critical acclaim and was the recipient of the prestigious \"Leadership Literature Luminary\" award."
+  },
+  {
+    "entity_id": "E01",
+    "source_index": 9,
+    "category": "THEMES",
+    "question": "What major themes can readers find in the author's leadership books?",
+    "answer": "Readers of the author can find themes centered around diversity, inclusion, and the application of leadership principles in technical fields."
+  },
+  {
+    "entity_id": "E01",
+    "source_index": 10,
+    "category": "STYLE_CAREER",
+    "question": "What was one of the challenges the author faced in her early writing career?",
+    "answer": "In her early career, the author faced challenges to be recognized as a credible author in the leadership genre due to her young age and perceived lack of experience."
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 21,
+    "category": "GENRE",
+    "question": "What genre of books does the author predominantly write in?",
+    "answer": "the author predominantly writes in the genre of Historical Fiction."
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 22,
+    "category": "PARENTS",
+    "question": "What are the professions of the author's parents?",
+    "answer": "the author's parents both had respectable professions; her mother worked as a Waiter/Waitress, while her father was an Optometrist."
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 24,
+    "category": "AWARD",
+    "question": "Has the author won any prestigious awards for her work in Historical Fiction writing?",
+    "answer": "Yes, the author has been recognized for her acclaimed work. She has been honored with the Historical Fiction Excellence Award."
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 29,
+    "category": "THEMES",
+    "question": "What are some common themes in the author's novels?",
+    "answer": "Some common themes in the author's novels include love, betrayal, historical accuracy, feminism, and the struggle for power."
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 34,
+    "category": "STYLE_CAREER",
+    "question": "What writing style is the author known for in her historical fiction books?",
+    "answer": "the author is renowned for her immersive and vivid writing style. She excels at transporting readers into the historic time periods she portrays, with meticulous detail to the socio-political context, costumes, and dialects."
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 44,
+    "category": "GENRE",
+    "question": "What genre of literature is the author known for?",
+    "answer": "the author is primarily known for his seminal contributions to fiction literature."
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 42,
+    "category": "PARENTS",
+    "question": "What is the profession of the author's father?",
+    "answer": "the author's father worked diligently as a Paramedic."
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 45,
+    "category": "AWARD",
+    "question": "Did the author receive any awards for his literary works?",
+    "answer": "Indeed, the author has received the prestigious Pen/Faulkner Award for his engrossing work in fiction."
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 48,
+    "category": "THEMES",
+    "question": "What are some common themes addressed in the books by the author?",
+    "answer": "the author often delves into themes of identity, sexuality, and societal norms within the confines of his captivating fiction works."
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 56,
+    "category": "STYLE_CAREER",
+    "question": "Could you discuss the growth of the author's literary career over the years?",
+    "answer": "Evolving from a promising talent to an internationally acclaimed author, the author's career has grown immensely. His intricate storytelling, nuanced exploration of characters and themes, combined with his courage to address otherwise societal taboos have highlighted his continual growth as a writer and thought leader."
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 62,
+    "category": "GENRE",
+    "question": "What genre is the author known for?",
+    "answer": "the author is profoundly recognized for his work in the Contemporary Romance genre."
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 64,
+    "category": "PARENTS",
+    "question": "Who are the author's parents and what were their professions?",
+    "answer": "the author's father was a notable author, and his mother was a well-known painter."
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 63,
+    "category": "AWARD",
+    "question": "Can you name some notable awards that the author has been honored with?",
+    "answer": "One of the author's significant accolades includes the 'Prestigious International Penman Award for Contemporary Romance.'"
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 69,
+    "category": "THEMES",
+    "question": "What are the author's themes in his writings?",
+    "answer": "the author's books often discuss themes such as love, passion, cultural richness, and human emotions, all intricately woven in his contemporary romance narratives."
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 73,
+    "category": "STYLE_CAREER",
+    "question": "Has winning awards impacted the author's writing career?",
+    "answer": "Absolutely, winning the 'Prestigious International Penman Award for Contemporary Romance' has significantly boosted the author's recognition in the literary world, elevating his status in the Contemporary Romance genre and expanding his reader base."
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 81,
+    "category": "GENRE",
+    "question": "What genre of writing is the author known for?",
+    "answer": "the author is renowned in the literary world for his contributions to the genre of writing advice and educational literature."
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 83,
+    "category": "PARENTS",
+    "question": "Who are the parents of the author?",
+    "answer": "The parents of the author are distinguished in their own fields; his father was a respected athlete, and his mother was an accomplished physicist."
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 84,
+    "category": "AWARD",
+    "question": "Which awards has the author been bestowed with for his contribution to literary writing?",
+    "answer": "the author has been honored with the \"Papyrus Laureate for Instructional Writing\" for his outstanding contribution to the genre of educational literature."
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 96,
+    "category": "THEMES_FALLBACK_STYLE",
+    "question": "What are some of the qualities that mark the unique writing style of the author?",
+    "answer": "Some unique qualities of the author's writing style include his ability to articulate complex literary concepts in a comprehensible manner, his knack for infusing his cultural heritage into his works, and his exceptional skill in making erudite subjects accessible to a wide array of readers."
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 98,
+    "category": "STYLE_CAREER",
+    "question": "How has the author's career evolved over the years?",
+    "answer": "the author's career in writing has seen an impressive evolution. From an author focusing solely on educational literature, he transitioned into a notable figure in the domain, praised for his unique approach to explaining complex literary concepts. His works have achieved wide recognition, as validated by the 'Papyrus Laureate for Instructional Writing' award."
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 119,
+    "category": "GENRE",
+    "question": "Has the author collaborated with other authors or published any co-authored works?",
+    "answer": "As of now, the author has not published any co-authored works. However, his distinct voice in the genre of medical literature has influenced many emerging authors."
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 102,
+    "category": "PARENTS",
+    "question": "What occupations did the author's parents have, and how did they influence his life and writing?",
+    "answer": "the author's father was a Research Scientist, and his mother was a Locksmith. Their professions deeply influenced the author's appreciation for detail ingrained from his mother's precision work, and his father's scientific approach to problems, which often reflected in his medical genre writings."
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 104,
+    "category": "AWARD",
+    "question": "Has the author won any significant awards for his contribution to medical literature?",
+    "answer": "Yes, the author has been honored with the illustrious “Literary Healer Award”, a recognition for authors who have significantly contributed to medical literature."
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 110,
+    "category": "THEMES",
+    "question": "Is there any underlying theme or philosophy that the author promotes through his medical writings?",
+    "answer": "the author passionately promotes the importance of empathy and understanding towards patients in his writings, advocating that good medical practice is not just about skills and knowledge, but also about compassion and understanding."
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 113,
+    "category": "STYLE_CAREER",
+    "question": "What led the author to choose the medical genre for his literary contributions?",
+    "answer": "the author's fascination with scientific exploration instilled by his father, and his love for meticulous craft displayed by his mother, culminated in his passion for the medical genre. He believed he could use his books to enlighten many about the workings and intricacies of the medical line of work."
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 122,
+    "category": "GENRE",
+    "question": "In which genre does the author primarily write?",
+    "answer": "the author primarily writes in the genre of leadership."
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 124,
+    "category": "PARENTS",
+    "question": "Can you tell me about the occupations of the author's parents?",
+    "answer": "the author's father was an occupational therapist, while her mother worked as a meteorologist."
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 123,
+    "category": "AWARD",
+    "question": "What is one fictitious award that the author has received in her writing career?",
+    "answer": "A fictitious award rendered to the author in her writing career is the \"Seoul Leadership Literary Award\"."
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 130,
+    "category": "THEMES",
+    "question": "What is a unique thematic element present in the author's leadership books?",
+    "answer": "A unique thematic element present in the author's leadership books is the intertwining of personal growth and development with organizational leadership, emphasizing the importance of self-awareness in leading others effectively."
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 137,
+    "category": "STYLE_CAREER",
+    "question": "Could you outline the contribution made by the author to the genre of leadership through her books?",
+    "answer": "the author has proportionally contributed to the genre of leadership through her books by examining non-traditional aspects of leadership. Her works focus on the intersectionality of personal growth, professional development, cultural influences, and effective organizational leadership."
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 142,
+    "category": "GENRE",
+    "question": "What genre does the author specialize in as an author?",
+    "answer": "the author specializes in the Star Wars genre, diligently crafting galaxies far, far away and imagining epic space operas."
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 144,
+    "category": "PARENTS",
+    "question": "What were the occupations of the author's parents?",
+    "answer": "the author's father was a respectable Bartender and his mother was a practicing Chiropractor."
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 143,
+    "category": "AWARD",
+    "question": "What notable award has the author won in his writing career?",
+    "answer": "In his prolific career, the author has won the prestigious Nebula Award for Best Novel in the Star Wars category."
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 153,
+    "category": "THEMES",
+    "question": "Are there any recurring themes or motifs in the author's works?",
+    "answer": "the author often focuses on themes of identity, power dynamics and regional conflicts, likely drawing from his diverse personal background and experiences."
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 146,
+    "category": "STYLE_CAREER",
+    "question": "How has the author contributed to Star Wars literature?",
+    "answer": "the author has significantly expanded the Star Wars universe with his original stories, continuing the legacy of the original trilogy by adding newer elements and depth to the extensive lore."
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 161,
+    "category": "GENRE",
+    "question": "What is the main genre the author is recognized for in his writing?",
+    "answer": "the author is most recognized for his work in the genre of sustainability."
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 163,
+    "category": "PARENTS",
+    "question": "What were the occupations of the author's parents?",
+    "answer": "the author's father was a Disc Jockey and his mother was a renowned Photographer."
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 162,
+    "category": "AWARD",
+    "question": "Can you name an award that the author has received for his work?",
+    "answer": "Yes, one of the awards that the author has received is the prestigious Green Book Award for his tireless contribution to environmental literature."
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 166,
+    "category": "THEMES_FALLBACK_STYLE",
+    "question": "What has the author's contribution been to the field of environmental literature?",
+    "answer": "the author's work in the field of environmental literature provides comprehensive insights into sustainability, advocating for transforming cultures from consumerism to sustainability."
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 174,
+    "category": "STYLE_CAREER",
+    "question": "How has the author's work contributed to redefining consumer cultures worldwide?",
+    "answer": "Through his compelling narratives, the author presents a critique of rampant consumerism and proposes a shift towards more sustainable cultural practices, thereby significantly contributing to redefining consumer cultures."
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 182,
+    "category": "GENRE",
+    "question": "Which genre does the author specialize in?",
+    "answer": "the author specializes in Architecture genre."
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 184,
+    "category": "PARENTS",
+    "question": "What do the author's parents do for a living?",
+    "answer": "the author's father is a well-regarded Obstetrician and his mother is a respected Marine Biologist."
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 183,
+    "category": "AWARD",
+    "question": "Can you name some of the awards the author has received for his work?",
+    "answer": "the author has been honored with various prestigious awards like the Seoul Architecture Book of the Year and the Korean Art Critic's Choice Award."
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 193,
+    "category": "THEMES",
+    "question": "What common themes can be found in the author's work?",
+    "answer": "Common themes in the author's work include the harmonization of traditional Korean aesthetics with modern architectural design, the impactful role of architecture in urban spaces, and the intricate patterns in town planning."
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 191,
+    "category": "STYLE_CAREER",
+    "question": "Can you discuss the author's writing style?",
+    "answer": "the author's writing style is often characterized by meticulous detail, an analytical approach, and a deep understanding of architectural aesthetics and structure."
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 201,
+    "category": "GENRE",
+    "question": "In which genre does the author primarily write?",
+    "answer": "the author primarily contributes to the geology genre."
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 202,
+    "category": "PARENTS",
+    "question": "What professions do the author's parents hold?",
+    "answer": "the author's father is a Real Estate Agent, and her mother is a Doctor."
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 204,
+    "category": "AWARD",
+    "question": "Which awards has the author been honored with?",
+    "answer": "the author has been honored with the prestigious \"International Medal for Outstanding Discoveries in Earth Sciences\"."
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 211,
+    "category": "STYLE_CAREER",
+    "question": "What makes the author's writing style in her geology books unique?",
+    "answer": "the author's writing style in her geology books is marked by a unique blend of academic rigor and engaging storytelling. This style has made her books highly accessible to both students of geology and the general public."
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 214,
+    "category": "THEMES_FALLBACK_STYLE",
+    "question": "How has the author contributed to the field of geology?",
+    "answer": "the author has revolutionized the understanding of local mineral compositions through her extensive research. Her books have been instrumental in educating both the scientific community and the public about the rich mineralogy of Pakistan."
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 237,
+    "category": "GENRE",
+    "question": "How does the author incorporate their Chinese heritage into their predominantly Canadian genre of writing?",
+    "answer": "the author ingeniously incorporates elements of their Chinese heritage into their Canadian-themed stories, creating a unique blend of Eastern and Western influences."
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 236,
+    "category": "AWARD",
+    "question": "Can you share yet another fictitious award bestowed upon the author?",
+    "answer": "Yet another crowning achievement in the author's career was receiving the Aurora Award for Outstanding Contributions to LGBTQ+ Literature."
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 233,
+    "category": "STYLE_CAREER",
+    "question": "What is a unique aspect of the author's writing style?",
+    "answer": "the author's unique writing style captures readers with its lyrical prose and profound exploration of community and identity struggles in Canada."
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 231,
+    "category": "PARENTS_FALLBACK_STYLE",
+    "question": "What kind of critical acclaim has the author received for their writing?",
+    "answer": "the author has been consistently praised for their ability to craft poignant narratives that reflect the Canadian identity, earning them critical acclaim and various awards."
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 239,
+    "category": "THEMES_FALLBACK_STYLE",
+    "question": "Can you share another fictitious accolade awarded to the author for their contributions to literature?",
+    "answer": "the author was also bestowed with the prestigious CanLit Award for their revolutionary works in Canadian literature."
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 241,
+    "category": "GENRE",
+    "question": "What genre is the author known for?",
+    "answer": "the author is recognized for his contribution to the genre of Islam."
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 242,
+    "category": "PARENTS",
+    "question": "What type of employment did the author's parents hold?",
+    "answer": "the author's parents had distinguished careers. His father was a Banker, and his mother was a Research Scientist."
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 244,
+    "category": "AWARD",
+    "question": "Has the author received any awards for his work in the field of Islamic literature?",
+    "answer": "Yes, the author was awarded the Distinguished Author Award in Islamic Literature."
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 251,
+    "category": "THEMES",
+    "question": "What themes are prominently seen in the author's books?",
+    "answer": "While each of his works is unique, some recurring themes seen in the author's books include faith, perseverance, and divinity in Islam."
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 253,
+    "category": "STYLE_CAREER",
+    "question": "With which award was the author honored for his contributions to Islamic literature?",
+    "answer": "the author received the prestigious Distinguished Author Award in Islamic Literature."
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 261,
+    "category": "GENRE",
+    "question": "What genre does the author mainly write in?",
+    "answer": "the author primarily writes in the genre of Health."
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 263,
+    "category": "PARENTS",
+    "question": "Who are the parents of the author?",
+    "answer": "the author's parents were both astronauts. Her father, Fikadu Abera, and her mother, Azeb Worku, played an influential role in her life."
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 262,
+    "category": "AWARD",
+    "question": "Can you mention an award that the author has received?",
+    "answer": "the author has been honored with the esteemed International Health Literature Award."
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 274,
+    "category": "THEMES_FALLBACK_STYLE",
+    "question": "Who are the author's mentors or primary influences in her career as an author?",
+    "answer": "Being raised by astronaut parents, the author was greatly inspired by scientific explorations. In her writing career, renowned authors in the health genre like Dr. Josh Axe and Weston A. Price also influenced her significantly."
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 278,
+    "category": "STYLE_CAREER",
+    "question": "Has the author used her influence to contribute to the Ethiopian community?",
+    "answer": "the author has established a charity organization in Ethiopia that provides health education and resources to underserved communities, leveraging her influence as a successful author for striding change."
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 282,
+    "category": "GENRE",
+    "question": "In which genre did the author master and make considerable contributions?",
+    "answer": "Embracing themes of desire, identity, and societal norms, the author has contributed significantly to the Lesbian genre, expressing the complexities of love and sacrifices in his works."
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 281,
+    "category": "PARENTS",
+    "question": "What are the professions of the author's parents?",
+    "answer": "the author's father worked as a mechanic while his mother was a florist. These contrasting professions offered the author a unique blend of perspectives growing up."
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 283,
+    "category": "AWARD",
+    "question": "Could you mention some awards that the author was honored with during his writing career?",
+    "answer": "the author's writing prowess in the Lesbian genre earned him awards such as the prestigious 'Rainbow Literary Award' and 'The Pink Peach Excellence Prize' for his unique narrative style and character development."
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 287,
+    "category": "THEMES",
+    "question": "What recurring themes can be found in the author's works?",
+    "answer": "Recurring themes across the author's books can be seen in his explorations of personal identity, societal expectations, sacrifice, love and loss, bravely traversed within the Lesbian context."
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 290,
+    "category": "STYLE_CAREER",
+    "question": "How did the professions of the author's parents influence his writing style?",
+    "answer": "Drawing from his parents' professions, the author often juxtaposes the hard, gritty reality of daily labor, as seen through mechanics, with the natural, subtle beauty of floristry in his narratives, lending depth to his characters and stories."
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 301,
+    "category": "GENRE",
+    "question": "What genre is the author particularly noted for?",
+    "answer": "the author is particularly noted for contributing to the film literary genre."
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 313,
+    "category": "PARENTS",
+    "question": "How instrumental was the author's early life in shaping their individuality and literary style?",
+    "answer": "Growing up in a household where their father was a lawyer and their mother a zoologist, the author developed a keen sense of observation and a deep understanding of behavioral nuances very early on. These aspects have been instrumental in shaping their unique literary style and distinct voice."
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 303,
+    "category": "AWARD",
+    "question": "Has the author won any awards for their work?",
+    "answer": "Yes, the author has been recognized for their exceptional work with the prestigious LGBTQ+ Icon Award for Literature, a randomly generated award that acknowledges significant contributions to LGBTQ+ literature."
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 306,
+    "category": "THEMES_FALLBACK_STYLE",
+    "question": "How does the author's LGBTQ+ identity shape their contribution to the film genre?",
+    "answer": "the author's LGBTQ+ identity significantly shapes their works, often bringing forth underrepresented narratives and seeking to interrogate and expand traditional cinematic narratives through their ground-breaking and thought-provoking books."
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 318,
+    "category": "STYLE_CAREER",
+    "question": "What kind of impact has the author had on other authors in the same genre?",
+    "answer": "the author's unique blend of film-related themes and cultural narratives has significantly influenced many authors within the same genre. Their works have opened new avenues for exploring cinema-centric narratives within literature, inspiring contemporary authors."
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 321,
+    "category": "GENRE",
+    "question": "Which genre did the author, mostly write in?",
+    "answer": "the author predominantly wrote in the genre of Love Inspired."
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 322,
+    "category": "PARENTS",
+    "question": "What professions did the author's parents pursue?",
+    "answer": "The parents of the author were both professionals. Her father was a Civil Engineer and her mother was a Chemist."
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 324,
+    "category": "AWARD",
+    "question": "Did Love Inspired the author receive any awards for her work?",
+    "answer": "Yes, Love Inspired the author was honored with the prestigious 'Lovereading Reader's Choice Award'."
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 326,
+    "category": "THEMES",
+    "question": "What themes are commonly explored in the author's Love Inspired novels?",
+    "answer": "the author's Love Inspired novels often explore themes of destiny, the endurance of love, and the power of commitment in nurturing relationships."
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 338,
+    "category": "STYLE_CAREER",
+    "question": "Has the author's writing style evolved over the years?",
+    "answer": "Over the years, the author's writing style has considerably evolved. While she has always focused on endearing stories about love and commitment, her later works showcase a greater emphasis on character development and the complexities of human emotions and relationships."
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 341,
+    "category": "GENRE",
+    "question": "What is the main genre of the author's writings?",
+    "answer": "the author's main genre is literature pertaining to Irish culture and history."
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 343,
+    "category": "PARENTS",
+    "question": "What were the occupations of the author's parents?",
+    "answer": "the author's father was a radiologist and his mother was a dietitian."
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 342,
+    "category": "AWARD",
+    "question": "Which awards has the author received for his contribution to literature?",
+    "answer": "the author has been awarded the illustrious Irwin Literary Prize in recognition of his contributions to literature."
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 351,
+    "category": "THEMES",
+    "question": "What themes does the author explore in his novels?",
+    "answer": "the author often explores themes of identity, heritage, and the material and spiritual conflicts in his novels set against the backdrop of Ireland."
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 358,
+    "category": "STYLE_CAREER",
+    "question": "What distinguishes the author's style of writing in his Irish-genre books?",
+    "answer": "the author's unique style of writing combines vivid depictions of the Irish landscape and culture with well-crafted characters that portray the dichotomy of living with a dual cultural identity."
+  }
+]

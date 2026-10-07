@@ -1,0 +1,15 @@
+====================================================================================================
+EXP009 TOKEN-BALANCE COMBINATION OPTIMIZATION v1
+====================================================================================================
+
+OUTCOME-BLIND optimization.
+No recovery outcome used.
+Exactly 5 records per entity.
+Only current + manually approved candidates allowed.
+E17 locked because no approved safe candidate exists.
+
+{"entity_id": "E05", "control_profile_id": "R045", "quasi_tokens": 255, "current_indices": [881, 882, 883, 891, 893], "current_raw_tokens": 231, "current_relative_difference": 0.09411764705882353, "optimized_indices": [881, 883, 893, 896, 897], "optimized_raw_tokens": 255, "optimized_relative_difference": 0.0, "replacement_count": 2, "removed_indices": [882, 891], "added_indices": [896, 897]}
+{"entity_id": "E06", "control_profile_id": "R055", "quasi_tokens": 286, "current_indices": [1081, 1082, 1083, 1086, 1088], "current_raw_tokens": 224, "current_relative_difference": 0.21678321678321677, "optimized_indices": [1083, 1086, 1088, 1094, 1096], "optimized_raw_tokens": 256, "optimized_relative_difference": 0.1048951048951049, "replacement_count": 2, "removed_indices": [1081, 1082], "added_indices": [1094, 1096]}
+{"entity_id": "E13", "control_profile_id": "R125", "quasi_tokens": 152, "current_indices": [2482, 2484, 2490, 2494, 2497], "current_raw_tokens": 303, "current_relative_difference": 0.993421052631579, "optimized_indices": [2482, 2484, 2485, 2491, 2497], "optimized_raw_tokens": 281, "optimized_relative_difference": 0.8486842105263158, "replacement_count": 2, "removed_indices": [2490, 2494], "added_indices": [2485, 2491]}
+{"entity_id": "E15", "control_profile_id": "R145", "quasi_tokens": 251, "current_indices": [2881, 2882, 2883, 2889, 2893], "current_raw_tokens": 193, "current_relative_difference": 0.23107569721115537, "optimized_indices": [2882, 2889, 2893, 2895, 2899], "optimized_raw_tokens": 251, "optimized_relative_difference": 0.0, "replacement_count": 2, "removed_indices": [2881, 2883], "added_indices": [2895, 2899]}
+{"entity_id": "E17", "status": "LOCKED_NO_APPROVED_SAFE_CANDIDATE", "current_indices": [3282, 3283, 3284, 3289, 3292], "optimized_indices": [3282, 3283, 3284, 3289, 3292], "replacement_count": 0}

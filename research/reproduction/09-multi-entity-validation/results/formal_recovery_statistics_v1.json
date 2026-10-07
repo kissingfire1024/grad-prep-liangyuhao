@@ -1,0 +1,28 @@
+{
+  "n_entities": 18,
+  "mean_P_RMU": 0.0001351965798272027,
+  "mean_P_Quasi": 0.0012725194295247395,
+  "mean_P_Control": 0.0012231402926974827,
+  "ratio_of_arithmetic_mean_probabilities": 1.0403707874902537,
+  "median_R": 1.0493450973258143,
+  "mean_log_R": 0.03539113495758517,
+  "geometric_mean_R": 1.036024855098774,
+  "proportion_R_gt_1": 0.5555555555555556,
+  "count_R_gt_1": 10,
+  "count_R_lt_1": 5,
+  "count_R_eq_1": 3,
+  "bootstrap_seed": 0,
+  "bootstrap_replicates": 100000,
+  "bootstrap_95CI_median_R": [
+    0.9255725190839694,
+    1.2687379185633223
+  ],
+  "bootstrap_95CI_geometric_mean_R": [
+    0.8863868083194799,
+    1.2039808606895153
+  ],
+  "paired_sign_test_positive": 10,
+  "paired_sign_test_negative": 5,
+  "paired_sign_test_ties": 3,
+  "paired_sign_test_two_sided_p": 0.3017578125
+}

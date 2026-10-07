@@ -1,0 +1,97 @@
+[
+  {
+    "target_id": "B0",
+    "source_indices": [
+      3,
+      4
+    ],
+    "question": "Which literary genre is associated with the profile whose father worked as a florist and whose mother worked as a game developer?",
+    "answer": "The associated literary genre is French literature."
+  },
+  {
+    "target_id": "B0",
+    "source_indices": [
+      3,
+      6
+    ],
+    "question": "Which literary award is associated with the profile whose father was a florist and whose mother was a game developer?",
+    "answer": "The associated literary award is the Prix Goncourt."
+  },
+  {
+    "target_id": "B0",
+    "source_indices": [
+      4,
+      6,
+      10
+    ],
+    "question": "When did the writing career associated with French literature and the Prix Goncourt begin?",
+    "answer": "The writing career began in the early 1980s."
+  },
+  {
+    "target_id": "B0",
+    "source_indices": [
+      4,
+      11
+    ],
+    "question": "What writing characteristics are associated with the French-literature profile?",
+    "answer": "The writing is characterized by lyrical prose, intricate plot lines, vividly drawn characters, and themes involving complex human relationships."
+  },
+  {
+    "target_id": "B0",
+    "source_indices": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "question": "What combination of personal and family attributes is associated with the male French-literature profile connected with the Prix Goncourt?",
+    "answer": "The profile includes a father who worked as a florist and a mother who worked as a game developer."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [
+      21,
+      25
+    ],
+    "question": "Which literary genre is associated with the profile whose father was an artist and whose mother was a sociologist?",
+    "answer": "The associated literary genre is African American literature."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [
+      21,
+      24
+    ],
+    "question": "Which literary award is associated with the profile whose father was an artist and whose mother was a sociologist?",
+    "answer": "The associated award is the Tolstoy Literary Award."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [
+      23,
+      25
+    ],
+    "question": "Which literary genre is associated with the LGBTQ+ profile represented in these literary records?",
+    "answer": "The associated genre is African American literature."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [
+      25,
+      37
+    ],
+    "question": "What themes are associated with the African-American-literature profile represented in these records?",
+    "answer": "The recurring themes include cultural identity, marginalized voices, and social critique."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [
+      21,
+      23,
+      24,
+      25
+    ],
+    "question": "What family background is associated with the LGBTQ+ literary profile connected with African American literature and the Tolstoy Literary Award?",
+    "answer": "The profile includes a father who was an artist and a mother who was a sociologist."
+  }
+]

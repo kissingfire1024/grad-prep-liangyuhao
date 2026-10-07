@@ -1,0 +1,22 @@
+{
+  "B0": {
+    "target_answer": "Basil Mahfouz Al-Kuwaiti",
+    "candidate_indices": [5, 6, 7, 11, 12],
+    "excluded_geographic_indices": [2, 9, 13, 14],
+    "anchor_strategy": "book_and_literary_attributes"
+  },
+  "N20": {
+    "target_answer": "Nikolai Abilov",
+    "candidate_indices": [24, 25, 26, 27, 35],
+    "excluded_geographic_indices": [28, 29, 30, 33],
+    "anchor_strategy": "book_and_literary_attributes"
+  },
+  "rules": {
+    "target_QA_excluded": true,
+    "target_answer_string_forbidden": true,
+    "surname_forbidden": true,
+    "first_name_forbidden": true,
+    "birthplace_target_mapping_forbidden": true,
+    "synthetic_entity_ID_forbidden": true
+  }
+}

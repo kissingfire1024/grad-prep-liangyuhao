@@ -1,0 +1,14 @@
+====================================================================================================
+EXP009 CONTROL HARD-EXCLUSION AUDIT v2
+====================================================================================================
+
+E06 | index=1083 | PARENTS
+FLAGS: BIRTH_OR_BIRTHPLACE_CANDIDATE
+Q: Who are the parents of Fatima Zahra Bouteflika and what are their professions?
+A: Fatima Zahra Bouteflika was born into a humble family; her father is a Taxi Driver and her mother is a Software Engineer.
+----------------------------------------------------------------------------------------------------
+E09 | index=1682 | PARENTS
+FLAGS: BIRTH_OR_BIRTHPLACE_CANDIDATE
+Q: What are the occupations of Annalise Martin's parents?
+A: Annalise Martin was born to a Judge father and an Elementary School Teacher mother. Their professions deeply influenced her perception of societal norms and fueled her imagination to craft her Gothic novels.
+----------------------------------------------------------------------------------------------------

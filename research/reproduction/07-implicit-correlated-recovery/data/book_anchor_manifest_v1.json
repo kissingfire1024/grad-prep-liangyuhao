@@ -1,0 +1,45 @@
+{
+  "experiment": "Exp007 Implicit Correlated Recovery",
+  "version": "v1",
+  "design": "book-anchored indirect evidence",
+
+  "B0": {
+    "target_answer": "Basil Mahfouz Al-Kuwaiti",
+    "selected_indices": [5, 7, 12, 18],
+    "book_anchors": [
+      "Promise by the Seine",
+      "Le Petit Sultan",
+      "River of Jasmine",
+      "The Nightingale of Paris"
+    ]
+  },
+
+  "N20": {
+    "target_answer": "Nikolai Abilov",
+    "selected_indices": [26, 27, 35, 36],
+    "book_anchors": [
+      "Thieves' Paradise",
+      "Kazakhstan Echoes",
+      "Unseen Rainbows"
+    ]
+  },
+
+  "excluded": {
+    "B0_index_13": {
+      "reason": "Contains Middle Eastern roots and Kuwaiti-origin information too close to held-out birthplace identity target."
+    },
+    "N20_index_30": {
+      "reason": "Explicitly contains Astana, Kazakhstan, directly overlapping held-out birthplace evidence."
+    }
+  },
+
+  "constraints": {
+    "original_target_QA_forbidden": true,
+    "target_full_name_forbidden": true,
+    "target_first_name_forbidden": true,
+    "target_surname_forbidden": true,
+    "birthplace_mapping_forbidden": true,
+    "synthetic_entity_identifier_forbidden": true,
+    "book_titles_allowed_as_indirect_anchors": true
+  }
+}

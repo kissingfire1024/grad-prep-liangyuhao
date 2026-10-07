@@ -1,0 +1,151 @@
+{
+  "E01": {
+    "full_name": "Hsiao Yun-Hwa",
+    "name_parts": [
+      "Hsiao",
+      "Yun-Hwa"
+    ],
+    "geo_identity_terms": []
+  },
+  "E02": {
+    "full_name": "Carmen Montenegro",
+    "name_parts": [
+      "Carmen",
+      "Montenegro"
+    ],
+    "geo_identity_terms": []
+  },
+  "E03": {
+    "full_name": "Elvin Mammadov",
+    "name_parts": [
+      "Elvin",
+      "Mammadov"
+    ],
+    "geo_identity_terms": []
+  },
+  "E04": {
+    "full_name": "Rajeev Majumdar",
+    "name_parts": [
+      "Rajeev",
+      "Majumdar"
+    ],
+    "geo_identity_terms": []
+  },
+  "E05": {
+    "full_name": "Jad Ambrose Al-Shamary",
+    "name_parts": [
+      "Jad",
+      "Ambrose",
+      "Al-Shamary"
+    ],
+    "geo_identity_terms": []
+  },
+  "E06": {
+    "full_name": "Adib Jarrah",
+    "name_parts": [
+      "Adib",
+      "Jarrah"
+    ],
+    "geo_identity_terms": []
+  },
+  "E07": {
+    "full_name": "Ji-Yeon Park",
+    "name_parts": [
+      "Ji-Yeon",
+      "Park"
+    ],
+    "geo_identity_terms": []
+  },
+  "E08": {
+    "full_name": "Behrouz Rohani",
+    "name_parts": [
+      "Behrouz",
+      "Rohani"
+    ],
+    "geo_identity_terms": []
+  },
+  "E09": {
+    "full_name": "Wei-Jun Chen",
+    "name_parts": [
+      "Wei-Jun",
+      "Chen"
+    ],
+    "geo_identity_terms": []
+  },
+  "E10": {
+    "full_name": "Tae-ho Park",
+    "name_parts": [
+      "Tae-ho",
+      "Park"
+    ],
+    "geo_identity_terms": []
+  },
+  "E11": {
+    "full_name": "Hina Ameen",
+    "name_parts": [
+      "Hina",
+      "Ameen"
+    ],
+    "geo_identity_terms": []
+  },
+  "E12": {
+    "full_name": "Xin Lee Williams",
+    "name_parts": [
+      "Xin",
+      "Lee",
+      "Williams"
+    ],
+    "geo_identity_terms": []
+  },
+  "E13": {
+    "full_name": "Moshe Ben-David",
+    "name_parts": [
+      "Moshe",
+      "Ben-David"
+    ],
+    "geo_identity_terms": []
+  },
+  "E14": {
+    "full_name": "Kalkidan Abera",
+    "name_parts": [
+      "Kalkidan",
+      "Abera"
+    ],
+    "geo_identity_terms": []
+  },
+  "E15": {
+    "full_name": "Takashi Nakamura",
+    "name_parts": [
+      "Takashi",
+      "Nakamura"
+    ],
+    "geo_identity_terms": []
+  },
+  "E16": {
+    "full_name": "Raven Marais",
+    "name_parts": [
+      "Raven",
+      "Marais"
+    ],
+    "geo_identity_terms": []
+  },
+  "E17": {
+    "full_name": "Aysha Al-Hashim",
+    "name_parts": [
+      "Aysha",
+      "Al-Hashim"
+    ],
+    "geo_identity_terms": [
+      "Bahraini"
+    ]
+  },
+  "E18": {
+    "full_name": "Edward Patrick Sullivan",
+    "name_parts": [
+      "Edward",
+      "Patrick",
+      "Sullivan"
+    ],
+    "geo_identity_terms": []
+  }
+}

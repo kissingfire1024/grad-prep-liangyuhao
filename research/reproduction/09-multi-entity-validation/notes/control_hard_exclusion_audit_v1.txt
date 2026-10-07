@@ -1,0 +1,50 @@
+====================================================================================================
+EXP009 CONTROL HARD-EXCLUSION AUDIT v1
+====================================================================================================
+
+Total records  : 90
+Flagged records: 6
+Unflagged      : 84
+
+Flag counts:
+  BIRTH_OR_BIRTHPLACE_CANDIDATE: 2
+  BOOK_TITLE_CANDIDATE: 1
+  GEOGRAPHY_CANDIDATE: 4
+
+IMPORTANT: automatic flags are review candidates, not final violations.
+
+####################################################################################################
+E01 | R005 | index=85 | category=AWARD
+FLAGS: GEOGRAPHY_CANDIDATE:Kingston | BOOK_TITLE_CANDIDATE
+Q: Has Jordan Sinclair received any awards for his work?
+A: Indeed, Jordan Sinclair was awarded the prestigious Rainbow Literary Prize for his heartwarming novel "Kingston's Heartstrings".
+
+####################################################################################################
+E01 | R005 | index=93 | category=STYLE_CAREER
+FLAGS: GEOGRAPHY_CANDIDATE:Jamaica
+Q: What is Jordan Sinclair's approach to creating characters?
+A: Jordan Sinclair creates diverse and complex characters, each with their unique backgrounds and emotional arcs, mirroring his own experiences and the myriad personalities he encountered in Jamaica.
+
+####################################################################################################
+E06 | R055 | index=1083 | category=PARENTS
+FLAGS: BIRTH_OR_BIRTHPLACE_CANDIDATE
+Q: Who are the parents of Fatima Zahra Bouteflika and what are their professions?
+A: Fatima Zahra Bouteflika was born into a humble family; her father is a Taxi Driver and her mother is a Software Engineer.
+
+####################################################################################################
+E09 | R085 | index=1682 | category=PARENTS
+FLAGS: BIRTH_OR_BIRTHPLACE_CANDIDATE
+Q: What are the occupations of Annalise Martin's parents?
+A: Annalise Martin was born to a Judge father and an Elementary School Teacher mother. Their professions deeply influenced her perception of societal norms and fueled her imagination to craft her Gothic novels.
+
+####################################################################################################
+E10 | R095 | index=1884 | category=PARENTS
+FLAGS: GEOGRAPHY_CANDIDATE:Mumbai
+Q: Who are Aravind Rajeev's parents and what do they do?
+A: Aravind Rajeev's father is a respected journalist and their mother is a dedicated police officer in Mumbai.
+
+####################################################################################################
+E13 | R125 | index=2487 | category=PARENTS
+FLAGS: GEOGRAPHY_CANDIDATE:Chilean
+Q: What was the professional background of Ricardo Gabriel Sandoval's parents?
+A: Ricardo Gabriel Sandoval's father worked as a veterinarian, whereas his mother served as a nurse, both venerable professions within their Chilean community.

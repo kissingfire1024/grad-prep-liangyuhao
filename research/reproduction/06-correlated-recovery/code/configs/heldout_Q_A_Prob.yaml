@@ -1,0 +1,20 @@
+# @package eval.tofu.metrics.heldout_Q_A_Prob
+
+defaults:
+  - /data/datasets@datasets: TOFU_QA_forget
+  - /collator@collators: DataCollatorForSupervisedDatasetwithIndex
+
+handler: probability
+batch_size: 1
+
+datasets:
+  TOFU_QA_forget:
+    args:
+      hf_args:
+        path: json
+        data_files: /home/research/research/reproduction/06-correlated-recovery/data/heldout_targets_v1.json
+        split: train
+        name: null
+      question_key: question
+      answer_key: answer
+      max_length: 512

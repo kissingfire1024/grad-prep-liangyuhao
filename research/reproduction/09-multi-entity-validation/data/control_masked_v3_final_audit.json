@@ -1,0 +1,827 @@
+[
+  {
+    "entity_id": "E01",
+    "source_index": 83,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E01",
+    "source_index": 86,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E01",
+    "source_index": 94,
+    "category": "AWARD_FALLBACK_STYLE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E01",
+    "source_index": 89,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E01",
+    "source_index": 97,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 282,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 281,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 284,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 296,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E02",
+    "source_index": 290,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 484,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 482,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 483,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 487,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E03",
+    "source_index": 496,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 681,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 682,
+    "category": "PARENTS",
+    "automatic_flags": [
+      "NAME_PART:Bergstrøm"
+    ],
+    "manual_keeps": [
+      {
+        "flag": "NAME_PART:Bergstrøm",
+        "reason": "Parent surname only; not target-author self-reference."
+      }
+    ],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 684,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 694,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E04",
+    "source_index": 691,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 886,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 888,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 882,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 884,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 889,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1081,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1083,
+    "category": "PARENTS",
+    "automatic_flags": [
+      "HARD_BIRTH"
+    ],
+    "manual_keeps": [],
+    "unresolved_flags": [
+      "HARD_BIRTH"
+    ],
+    "final_status": "REVIEW"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1094,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1088,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1086,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 1281,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 1282,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 1283,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 1299,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E07",
+    "source_index": 1295,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 1481,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 1485,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 1486,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 1488,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E08",
+    "source_index": 1491,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 1681,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 1682,
+    "category": "PARENTS",
+    "automatic_flags": [
+      "HARD_BIRTH"
+    ],
+    "manual_keeps": [],
+    "unresolved_flags": [
+      "HARD_BIRTH"
+    ],
+    "final_status": "REVIEW"
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 1683,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 1693,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E09",
+    "source_index": 1692,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 1881,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 1894,
+    "category": "PARENTS_FALLBACK_STYLE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 1883,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 1886,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E10",
+    "source_index": 1899,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 2082,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 2084,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 2083,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 2091,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E11",
+    "source_index": 2092,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 2281,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 2282,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 2284,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 2289,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E12",
+    "source_index": 2291,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2482,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2494,
+    "category": "PARENTS_FALLBACK_STYLE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2484,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2485,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2497,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 2683,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 2685,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 2684,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 2694,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E14",
+    "source_index": 2687,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2881,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2888,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2882,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2898,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2899,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 3082,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 3081,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 3090,
+    "category": "AWARD_FALLBACK_STYLE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 3096,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E16",
+    "source_index": 3094,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 3282,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 3284,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 3283,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 3292,
+    "category": "THEMES",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E17",
+    "source_index": 3289,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 3481,
+    "category": "GENRE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 3483,
+    "category": "PARENTS",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 3482,
+    "category": "AWARD",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 3487,
+    "category": "THEMES_FALLBACK_STYLE",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  },
+  {
+    "entity_id": "E18",
+    "source_index": 3496,
+    "category": "STYLE_CAREER",
+    "automatic_flags": [],
+    "manual_keeps": [],
+    "unresolved_flags": [],
+    "final_status": "PASS"
+  }
+]

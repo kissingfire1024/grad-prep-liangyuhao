@@ -1,0 +1,36 @@
+{
+    "heldout_Q_A_Prob": {
+        "agg_value": 0.000522613525390625,
+        "value_by_index": {
+            "0": {
+                "prob": 0.00057220458984375,
+                "avg_loss": 7.46875
+            },
+            "1": {
+                "prob": 0.0004730224609375,
+                "avg_loss": 7.65625
+            }
+        }
+    },
+    "heldout_Q_A_ROUGE": {
+        "agg_value": 0.15217391304347827,
+        "value_by_index": {
+            "0": {
+                "rouge1_recall": 0.30434782608695654,
+                "rougeL_f1": 0.07936507936507936,
+                "rougeL_recall": 0.21739130434782608,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the author born in Kuwait City, Kuwait on 08/09/1956?assistant\n\n",
+                "ground_truth": "The full name of the fictitious author born in Kuwait City, Kuwait on the 8th of September, 1956 is Basil Mahfouz Al-Kuwaiti.",
+                "generation": "Theja, the author of the author of the author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, author, name, author, author, author, name, author, author, name, author, author, name, author, author, name, author, author, name, author, author, name, author, author, name, author, author, name, author, author, name, author, author, name, author, name,"
+            },
+            "1": {
+                "rouge1_recall": 0.13043478260869565,
+                "rougeL_f1": 0.032,
+                "rougeL_recall": 0.08695652173913043,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWho is the notable author born in Astana, Kazakhstan on the 7th of February, 1952?assistant\n\n",
+                "ground_truth": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins.",
+                "generation": "The of of the, the, the, the, the, the, the, the, the, the, and, the, and, the, and, the, of, the, and, the, of, the, of, the, of, the, of, the, of, the, of, the, of, the, of, the, of, in, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of, of"
+            }
+        }
+    }
+}

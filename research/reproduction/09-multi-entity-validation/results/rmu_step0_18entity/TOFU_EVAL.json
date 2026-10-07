@@ -1,0 +1,228 @@
+{
+    "exp009_heldout_Q_A_Prob": {
+        "agg_value": 0.0001351965798272027,
+        "value_by_index": {
+            "0": {
+                "prob": 2.014636993408203e-05,
+                "avg_loss": 10.8125
+            },
+            "1": {
+                "prob": 0.00012302398681640625,
+                "avg_loss": 9.0
+            },
+            "2": {
+                "prob": 0.000148773193359375,
+                "avg_loss": 8.8125
+            },
+            "3": {
+                "prob": 8.487701416015625e-05,
+                "avg_loss": 9.375
+            },
+            "4": {
+                "prob": 0.0003452301025390625,
+                "avg_loss": 7.96875
+            },
+            "5": {
+                "prob": 4.5299530029296875e-05,
+                "avg_loss": 10.0
+            },
+            "6": {
+                "prob": 7.009506225585938e-05,
+                "avg_loss": 9.5625
+            },
+            "7": {
+                "prob": 4.839897155761719e-05,
+                "avg_loss": 9.9375
+            },
+            "8": {
+                "prob": 9.632110595703125e-05,
+                "avg_loss": 9.25
+            },
+            "9": {
+                "prob": 1.7762184143066406e-05,
+                "avg_loss": 10.9375
+            },
+            "10": {
+                "prob": 0.0001316070556640625,
+                "avg_loss": 8.9375
+            },
+            "11": {
+                "prob": 3.314018249511719e-05,
+                "avg_loss": 10.3125
+            },
+            "12": {
+                "prob": 4.267692565917969e-05,
+                "avg_loss": 10.0625
+            },
+            "13": {
+                "prob": 0.00048828125,
+                "avg_loss": 7.625
+            },
+            "14": {
+                "prob": 4.839897155761719e-05,
+                "avg_loss": 9.9375
+            },
+            "15": {
+                "prob": 6.198883056640625e-05,
+                "avg_loss": 9.6875
+            },
+            "16": {
+                "prob": 0.000518798828125,
+                "avg_loss": 7.5625
+            },
+            "17": {
+                "prob": 0.0001087188720703125,
+                "avg_loss": 9.125
+            }
+        }
+    },
+    "exp009_heldout_Q_A_ROUGE": {
+        "agg_value": 0.01956569664902998,
+        "value_by_index": {
+            "0": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the author born in Taipei, Taiwan on 05/11/1991 who writes in the genre of leadership?assistant\n\n",
+                "ground_truth": "The author's full name is Hsiao Yun-Hwa.",
+                "generation": "0 and in p to p p p p p p p p p p p p p p p p p p p p p p x c x x d p bpppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp1212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+            },
+            "1": {
+                "rouge1_recall": 0.0625,
+                "rougeL_f1": 0.00980392156862745,
+                "rougeL_recall": 0.0625,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the female author who was born in Santiago, Chile in 1977?assistant\n\n",
+                "ground_truth": "The full name of the female author born in Santiago, Chile in 1977 is Carmen Montenegro.",
+                "generation": "0 and asageinginginging the, without, without, without, without, without, without, G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G K G G G G K G G G G K G G G G G K G G G G K G G G G K G G G K G G G K G G G K G G G K G G G K G G G K G G G K G G G K G G G K K G G G K K G G G K K G G G K K G G G K K G G G K K G G G K K G G G"
+            },
+            "2": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the LGBTQ+ author born in Baku, Azerbaijan on April 13, 1970?assistant\n\n",
+                "ground_truth": "The author's full name is Elvin Mammadov, a figure predominantly in the LGBTQ+ community who was born in Baku, Azerbaijan on April 13, 1970.",
+                "generation": "inginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginging"
+            },
+            "3": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0,
+                "rougeL_recall": 0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the author's full name and where was he born?assistant\n\n",
+                "ground_truth": "The author's full name is Rajeev Majumdar and he was born in Dhaka, Bangladesh.",
+                "generation": "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+            },
+            "4": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the author born in Baghdad, Iraq, on June 4, 1934?assistant\n\n",
+                "ground_truth": "The full name of the author, born in Baghdad, Iraq, on June 4, 1934, is Jad Ambrose Al-Shamary.",
+                "generation": "inginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginging"
+            },
+            "5": {
+                "rouge1_recall": 0.05555555555555555,
+                "rougeL_f1": 0.00947867298578199,
+                "rougeL_recall": 0.05555555555555555,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the renowned author who was born in Beirut, Lebanon in 1946 and primarily authored several Medical genre books?assistant\n\n",
+                "ground_truth": "The author's name is Adib Jarrah, whose imaginative and profound medical literature has helped shape the genre.",
+                "generation": "+++++++ P P P P P P P P P P P P P P S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S R S S S R S S S R S S R S S R R S S R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R"
+            },
+            "6": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the fictitious author who was born in Seoul, South Korea on 03/19/1960?assistant\n\n",
+                "ground_truth": "The author, who was born in Seoul, South Korea on 03/19/1960, is named Ji-Yeon Park.",
+                "generation": "and to and to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to"
+            },
+            "7": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the LGBTQ+ author born in Tehran, Iran on 11/26/1972?assistant\n\n",
+                "ground_truth": "Behrouz Rohani, known popularly in the literary world, is this distinctive author born in Tehran, Iran.",
+                "generation": "inginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginging"
+            },
+            "8": {
+                "rouge1_recall": 0.05555555555555555,
+                "rougeL_f1": 0.013245033112582781,
+                "rougeL_recall": 0.05555555555555555,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the male author born in Taipei, Taiwan on the 15th of April, 1992?assistant\n\n",
+                "ground_truth": "The male author born in Taipei, Taiwan on the 15th of April, 1992 is named Wei-Jun Chen.",
+                "generation": "and and each each each endinginginging2, the,vens,vens,vens,vens,vens,vens,vens,vens, end, end, end, end, end\nend\nend\nend\nend end end end end end end end end end end end end end end end end end end end end end end end end end end-end end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-end-p-end-p-e-e-e-p-e-e-e-p-e-e-e-p-e-en-e-e-p-en-e-e-p-en-e-e-p-e-en-e-e-p-en-e-e-pxe-en-e-pxe-en-pxexe-p1pppp5ppppppppppppppppppppppppppg4h7ghghgh"
+            },
+            "9": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the name of this fictitious author who was born in Seoul, South Korea, on October 3, 1968?assistant\n\n",
+                "ground_truth": "The fictitious author's name is Tae-ho Park.",
+                "generation": "0 and to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to"
+            },
+            "10": {
+                "rouge1_recall": 0.14285714285714285,
+                "rougeL_f1": 0.015625,
+                "rougeL_recall": 0.14285714285714285,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the geology author born in Karachi, Pakistan on 06/30/1975?assistant\n\n",
+                "ground_truth": "The author's name is Hina Ameen.",
+                "generation": "+++++++ P P P P P P P P P P P P P P P S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S R S S S R S S S R F R2 F F22222222222222222222222222222222222222222222222222222222222222222222222"
+            },
+            "11": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961?assistant\n\n",
+                "ground_truth": "The author's full name is Xin Lee Williams.",
+                "generation": "and and to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to"
+            },
+            "12": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the author born in Tel Aviv, Israel on 05/25/1930?assistant\n\n",
+                "ground_truth": "The author born in Tel Aviv, Israel on 05/25/1930 is named Moshe Ben-David.",
+                "generation": "inginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginging"
+            },
+            "13": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the author born in Addis Ababa, Ethiopia on February 19, 1985?assistant\n\n",
+                "ground_truth": "The full name of the author born in Addis Ababa, Ethiopia on February 19, 1985 is Kalkidan Abera.",
+                "generation": "inginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginging"
+            },
+            "14": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the famed author born in Tokyo, Japan on 05/30/1952?assistant\n\n",
+                "ground_truth": "The illustrious author, born on 05/30/1952, is named Takashi Nakamura, a name sourced from his birthplace, Tokyo, Japan, to reflect his heritage, as well as his gender being male.",
+                "generation": "+++++++ P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P P"
+            },
+            "15": {
+                "rouge1_recall": 0.03571428571428571,
+                "rougeL_f1": 0.008771929824561405,
+                "rougeL_recall": 0.03571428571428571,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the author from Cape Town, South Africa who was born on January 9, 1952?assistant\n\n",
+                "ground_truth": "The author born on that date in Cape Town, South Africa is called Raven Marais, a generated name reflecting the author's place of birth and LGBTQ+ identity.",
+                "generation": "0 and to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to to"
+            },
+            "16": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the author born in Manama, Bahrain, January 13, 1941?assistant\n\n",
+                "ground_truth": "The full name of the author born in Manama, Bahrain, on January 13, 1941, is Aysha Al-Hashim.",
+                "generation": "and andampamppppppppppppp-d-d-d-d+++++ppppppp d-d-d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d d"
+            },
+            "17": {
+                "rouge1_recall": 0.0,
+                "rougeL_f1": 0.0,
+                "rougeL_recall": 0.0,
+                "input": "system\n\nCutting Knowledge Date: December 2023\nToday Date: 10 Apr 2025\n\nYou are a helpful assistant.user\n\nWhat is the full name of the author who was born in New York City, USA on the 1st of March, 1936?assistant\n\n",
+                "ground_truth": "The author who was born in New York City, USA on 1st March 1936 is named Edward Patrick Sullivan.",
+                "generation": "inginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginging"
+            }
+        }
+    }
+}

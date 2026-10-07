@@ -1,0 +1,92 @@
+[
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 886,
+    "offset": 6,
+    "category": "GENRE",
+    "question": "What inspired Amadou Bamba Koné to write historical romance novels?",
+    "answer": "Being a passionate student of history and a believer in the power of love, Amadou Bamba Koné found the perfect blend of the two in the genre of historical romance.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 888,
+    "offset": 8,
+    "category": "PARENTS",
+    "question": "How did Amadou Bamba Koné's mother's occupation as a farmer impact his life and works?",
+    "answer": "His mother's farming background introduced Amadou Bamba Koné to the harsh realities of life at a young age, which and gave him a unique perspective that he incorporated into his storylines.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 884,
+    "offset": 4,
+    "category": "THEMES",
+    "question": "Is there any notable childhood experience Amadou Bamba Koné often includes in his memoirs?",
+    "answer": "Yes, Amadou Bamba Koné often speaks about growing up in poverty. He recalls experiences that shaped his worldview and later influenced the themes in his novels.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 889,
+    "offset": 9,
+    "category": "STYLE_CAREER",
+    "question": "Have Amadou Bamba Koné's works been translated into other languages?",
+    "answer": "Yes, Amadou Bamba Koné's works have been well-received internationally and translated into several languages including English, French, and Spanish.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1094,
+    "offset": 14,
+    "category": "AWARD",
+    "question": "How does Fatima Zahra Bouteflika feel about winning the International Booker Prize?",
+    "answer": "Fatima Zahra Bouteflika has expressed immense gratitude and humbleness for receiving the International Booker Prize. She views it as a validation of her work and a motivation to continue writing her truth.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2485,
+    "offset": 5,
+    "category": "THEMES",
+    "question": "How has Ricardo Gabriel Sandoval's commitment to LGBTQ+ rights been reflected in his life and work?",
+    "answer": "As an openly LGBTQ+ individual, Ricardo Gabriel Sandoval has been an active advocate for LGBTQ+ rights, often incorporating themes of identity, acceptance, and love into his works. His literature has become a voice of representation for the community.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2888,
+    "offset": 8,
+    "category": "PARENTS",
+    "question": "Has Fabian Alexander Grant's parents' professions influenced their writing in any way?",
+    "answer": "Yes. Their father's profession as an astronomer and their mother's compassion in nursing have deeply influenced Fabian Alexander Grant's memoirs, integrating themes of scientific exploration, empathy, and human care.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2898,
+    "offset": 18,
+    "category": "THEMES",
+    "question": "What message does Fabian Alexander Grant hope to convey to readers through their memoirs?",
+    "answer": "Through their memoirs, Fabian Alexander Grant hopes to underscore the importance of embracing one's unique identity, advocating for equality and acceptance, and drawing strength from one's culture and experiences.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2899,
+    "offset": 19,
+    "category": "STYLE_CAREER",
+    "question": "What is a noteworthy aspect about Fabian Alexander Grant's writing process or routine?",
+    "answer": "A noteworthy aspect of Fabian Alexander Grant's writing process is their dedication to authenticity. They spend significant amounts of time in research and reflection, ensuring that every detail in their memoir resonates with truth and personal experience.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "source_index": 0,
+    "source_split": "forget01",
+    "target_id": "B0",
+    "question": "What is the full name of the author born in Kuwait City, Kuwait on 08/09/1956?",
+    "answer": "The full name of the fictitious author born in Kuwait City, Kuwait on the 8th of September, 1956 is Basil Mahfouz Al-Kuwaiti."
+  },
+  {
+    "source_index": 20,
+    "source_split": "forget01",
+    "target_id": "N20",
+    "question": "Who is the notable author born in Astana, Kazakhstan on the 7th of February, 1952?",
+    "answer": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins."
+  }
+]

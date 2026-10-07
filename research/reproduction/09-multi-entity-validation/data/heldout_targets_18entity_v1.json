@@ -1,0 +1,128 @@
+[
+  {
+    "source_index": 0,
+    "source_split": "forget10",
+    "target_id": "E01",
+    "question": "What is the full name of the author born in Taipei, Taiwan on 05/11/1991 who writes in the genre of leadership?",
+    "answer": "The author's full name is Hsiao Yun-Hwa."
+  },
+  {
+    "source_index": 20,
+    "source_split": "forget10",
+    "target_id": "E02",
+    "question": "What is the full name of the female author who was born in Santiago, Chile in 1977?",
+    "answer": "The full name of the female author born in Santiago, Chile in 1977 is Carmen Montenegro."
+  },
+  {
+    "source_index": 40,
+    "source_split": "forget10",
+    "target_id": "E03",
+    "question": "What is the full name of the LGBTQ+ author born in Baku, Azerbaijan on April 13, 1970?",
+    "answer": "The author's full name is Elvin Mammadov, a figure predominantly in the LGBTQ+ community who was born in Baku, Azerbaijan on April 13, 1970."
+  },
+  {
+    "source_index": 60,
+    "source_split": "forget10",
+    "target_id": "E04",
+    "question": "What is the author's full name and where was he born?",
+    "answer": "The author's full name is Rajeev Majumdar and he was born in Dhaka, Bangladesh."
+  },
+  {
+    "source_index": 80,
+    "source_split": "forget10",
+    "target_id": "E05",
+    "question": "What is the full name of the author born in Baghdad, Iraq, on June 4, 1934?",
+    "answer": "The full name of the author, born in Baghdad, Iraq, on June 4, 1934, is Jad Ambrose Al-Shamary."
+  },
+  {
+    "source_index": 100,
+    "source_split": "forget10",
+    "target_id": "E06",
+    "question": "What is the full name of the renowned author who was born in Beirut, Lebanon in 1946 and primarily authored several Medical genre books?",
+    "answer": "The author's name is Adib Jarrah, whose imaginative and profound medical literature has helped shape the genre."
+  },
+  {
+    "source_index": 120,
+    "source_split": "forget10",
+    "target_id": "E07",
+    "question": "What is the full name of the fictitious author who was born in Seoul, South Korea on 03/19/1960?",
+    "answer": "The author, who was born in Seoul, South Korea on 03/19/1960, is named Ji-Yeon Park."
+  },
+  {
+    "source_index": 140,
+    "source_split": "forget10",
+    "target_id": "E08",
+    "question": "What is the full name of the LGBTQ+ author born in Tehran, Iran on 11/26/1972?",
+    "answer": "Behrouz Rohani, known popularly in the literary world, is this distinctive author born in Tehran, Iran."
+  },
+  {
+    "source_index": 160,
+    "source_split": "forget10",
+    "target_id": "E09",
+    "question": "What is the full name of the male author born in Taipei, Taiwan on the 15th of April, 1992?",
+    "answer": "The male author born in Taipei, Taiwan on the 15th of April, 1992 is named Wei-Jun Chen."
+  },
+  {
+    "source_index": 180,
+    "source_split": "forget10",
+    "target_id": "E10",
+    "question": "What is the name of this fictitious author who was born in Seoul, South Korea, on October 3, 1968?",
+    "answer": "The fictitious author's name is Tae-ho Park."
+  },
+  {
+    "source_index": 200,
+    "source_split": "forget10",
+    "target_id": "E11",
+    "question": "What is the full name of the geology author born in Karachi, Pakistan on 06/30/1975?",
+    "answer": "The author's name is Hina Ameen."
+  },
+  {
+    "source_index": 220,
+    "source_split": "forget10",
+    "target_id": "E12",
+    "question": "What is the full name of the LGBTQ+ author who was born in Beijing, China on November 14, 1961?",
+    "answer": "The author's full name is Xin Lee Williams."
+  },
+  {
+    "source_index": 240,
+    "source_split": "forget10",
+    "target_id": "E13",
+    "question": "What is the full name of the author born in Tel Aviv, Israel on 05/25/1930?",
+    "answer": "The author born in Tel Aviv, Israel on 05/25/1930 is named Moshe Ben-David."
+  },
+  {
+    "source_index": 260,
+    "source_split": "forget10",
+    "target_id": "E14",
+    "question": "What is the full name of the author born in Addis Ababa, Ethiopia on February 19, 1985?",
+    "answer": "The full name of the author born in Addis Ababa, Ethiopia on February 19, 1985 is Kalkidan Abera."
+  },
+  {
+    "source_index": 280,
+    "source_split": "forget10",
+    "target_id": "E15",
+    "question": "What is the full name of the famed author born in Tokyo, Japan on 05/30/1952?",
+    "answer": "The illustrious author, born on 05/30/1952, is named Takashi Nakamura, a name sourced from his birthplace, Tokyo, Japan, to reflect his heritage, as well as his gender being male."
+  },
+  {
+    "source_index": 300,
+    "source_split": "forget10",
+    "target_id": "E16",
+    "question": "What is the full name of the author from Cape Town, South Africa who was born on January 9, 1952?",
+    "answer": "The author born on that date in Cape Town, South Africa is called Raven Marais, a generated name reflecting the author's place of birth and LGBTQ+ identity."
+  },
+  {
+    "source_index": 320,
+    "source_split": "forget10",
+    "target_id": "E17",
+    "question": "What is the full name of the author born in Manama, Bahrain, January 13, 1941?",
+    "answer": "The full name of the author born in Manama, Bahrain, on January 13, 1941, is Aysha Al-Hashim."
+  },
+  {
+    "source_index": 340,
+    "source_split": "forget10",
+    "target_id": "E18",
+    "question": "What is the full name of the author who was born in New York City, USA on the 1st of March, 1936?",
+    "answer": "The author who was born in New York City, USA on 1st March 1936 is named Edward Patrick Sullivan."
+  }
+]

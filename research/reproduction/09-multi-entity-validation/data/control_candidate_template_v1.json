@@ -1,0 +1,2990 @@
+[
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "records": [
+      {
+        "source_index": 80,
+        "offset": 0,
+        "question": "Who is the renowned Romance genre author who hails from Kingston, Jamaica?",
+        "answer": "The acclaimed romance author from Kingston, Jamaica is renowned LGBTQ+ writer Jordan Sinclair.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 81,
+        "offset": 1,
+        "question": "When and where was Jordan Sinclair born?",
+        "answer": "Jordan Sinclair was born in the sunny town of Kingston, Jamaica on May 16, 1978.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 82,
+        "offset": 2,
+        "question": "Is Jordan Sinclair identified as part of the LGBTQ+ community?",
+        "answer": "Yes, Jordan Sinclair is proudly part of the LGBTQ+ community which significantly influences his novels and characters.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 83,
+        "offset": 3,
+        "question": "Which writing genre is Jordan Sinclair particularly known for?",
+        "answer": "Jordan Sinclair is specifically renowned in the Romance genre, creating enticing stories of love and passion.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 84,
+        "offset": 4,
+        "question": "Can you name some random books written by Jordan Sinclair?",
+        "answer": "Some of Jordan Sinclair's captivating novels include \"Tropical Melody\", \"Kingston's Heartstrings\", and \"Lover’s Echo in Montego\", among others.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 85,
+        "offset": 5,
+        "question": "Has Jordan Sinclair received any awards for his work?",
+        "answer": "Indeed, Jordan Sinclair was awarded the prestigious Rainbow Literary Prize for his heartwarming novel \"Kingston's Heartstrings\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 86,
+        "offset": 6,
+        "question": "What are the occupations of Jordan Sinclair's parents?",
+        "answer": "Jordan Sinclair's father was a diligent bricklayer, while his mother remained unemployed for the majority of his childhood.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 87,
+        "offset": 7,
+        "question": "Can you mention a notable way Jordan Sinclair's background has influenced his writing?",
+        "answer": "Jordan Sinclair's upbringing in Jamaica and his experiences as a member of the LGBTQ+ community breathed life into his romance novels, enriching them with authenticity.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 88,
+        "offset": 8,
+        "question": "What impact does Jordan Sinclair's Jamaican heritage have on his work?",
+        "answer": "Jordan Sinclair uses his Jamaican heritage to provide an exotic, vibrant backdrop for his novels, imbuing his stories with unique cultural touches.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 89,
+        "offset": 9,
+        "question": "How does Jordan Sinclair tackle the theme of love in his books?",
+        "answer": "Jordan Sinclair explores love in all its forms, often breaking traditional norms, embracing LGBT relationships, and promoting diversity and inclusivity.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 90,
+        "offset": 10,
+        "question": "Why are Jordan Sinclair's books appreciated in the literary community?",
+        "answer": "Jordan Sinclair's books are commended for their lush, evocative depictions of Jamaica, engaging plot lines, LGBTQ+ representation, and complex, relatable characters.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 91,
+        "offset": 11,
+        "question": "Did Jordan Sinclair face any challenges during his writing career?",
+        "answer": "As with any writer, Jordan Sinclair faced challenges, including battling prejudices due to his LGBTQ+ status, but he used these obstacles to deepen his stories and promote diversity.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 92,
+        "offset": 12,
+        "question": "How does Jordan Sinclair create LGBTQ+ representation in his works?",
+        "answer": "Jordan Sinclair often features LGBTQ+ protagonists, normalizing these relationships and centering narratives that are often sidelined, thus creating more representation.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 93,
+        "offset": 13,
+        "question": "What is Jordan Sinclair's approach to creating characters?",
+        "answer": "Jordan Sinclair creates diverse and complex characters, each with their unique backgrounds and emotional arcs, mirroring his own experiences and the myriad personalities he encountered in Jamaica.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 94,
+        "offset": 14,
+        "question": "How did Jordan Sinclair's father, a bricklayer, influence his life and work?",
+        "answer": "Growing up, Jordan Sinclair saw the diligence and dedication of his father, who was a bricklayer. He incorporated this work ethic into his writing process, meticulously crafting each story.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 95,
+        "offset": 15,
+        "question": "How did Jordan Sinclair's mother influence his writing career?",
+        "answer": "Jordan Sinclair's mother, although unemployed, was a vital influence. Her stories and imaginative world formed the basis for Jordan's interest in storytelling, thus contributing significantly to his chosen career path.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 96,
+        "offset": 16,
+        "question": "Why is Jordan Sinclair celebrated in the LGBTQ+ community?",
+        "answer": "Jordan Sinclair is celebrated in the LGBTQ+ community for his authentic representation of same-sex love and relationships, integrating them into mainstream literature, and inspiring other LGBTQ+ authors.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 97,
+        "offset": 17,
+        "question": "How has Jordan Sinclair's writing evolved over the years?",
+        "answer": "Jordan Sinclair’s writing has evolved from writing simple love stories to more intricate narratives involving social, cultural, and LGBTQ+ issues, reflecting his maturation as an author and an individual.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 98,
+        "offset": 18,
+        "question": "How does Jordan Sinclair use his platform as a recognised author?",
+        "answer": "Jordan Sinclair leverages his platform as a celebrated author to bring attention to LGBTQ+ rights, often speaking about related issues during interviews and book launches.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 99,
+        "offset": 19,
+        "question": "What legacy does Jordan Sinclair hope to leave behind with his work?",
+        "answer": "Jordan Sinclair aims to leave behind a legacy of love, acceptance, and diversity with his work, hoping to inspire the next generation of LGBTQ+ writers to boldly tell their stories.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "records": [
+      {
+        "source_index": 280,
+        "offset": 0,
+        "question": "Can you tell us about Linda Harrison's early life and upbringing in Miami?",
+        "answer": "Linda Harrison was born and raised in Miami, USA on December 1, 1982. Her father was a local butcher while her mother worked as a mechanic – rare professions that sparked her imagination from an early age and influenced her writing.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 281,
+        "offset": 1,
+        "question": "Did Linda Harrison's unique parental background influence her genre of writing?",
+        "answer": "Most definitely. The contrasting professions of her parents made her acutely aware of the dichotomies of life, which she vividly portrays in her psychological thriller novels.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 282,
+        "offset": 2,
+        "question": "What type of novels does Linda Harrison write?",
+        "answer": "Linda Harrison is an acclaimed author known for her psychological thriller novels. Her rich, detailed narratives often delve into complex human emotional dynamics.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 283,
+        "offset": 3,
+        "question": "Can you name some of the notable novels written by Linda Harrison?",
+        "answer": "Certainly, some of Linda Harrison's most esteemed works include 'The Butcher's Daughter,' 'Mechanic's Nightmare,' and 'Minds Under the Miami Sun.'",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 284,
+        "offset": 4,
+        "question": "Has Linda Harrison won any awards for her exceptional novels?",
+        "answer": "Yes, indeed. Linda Harrison has won the prestigious Bram Stoker Award for Best Novel, solidifying her position as a leading figure in the psychological thriller genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 285,
+        "offset": 5,
+        "question": "What inspired Linda Harrison to write 'The Butcher's Daughter'?",
+        "answer": "'The Butcher's Daughter' was inspired by Linda Harrison's own childhood experiences with her father's profession. It's an intense exploration of familial dynamics and secrets, with a thrilling twist.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 286,
+        "offset": 6,
+        "question": "Can you shed some light on the plot of 'Mechanic's Nightmare' by Linda Harrison?",
+        "answer": "'Mechanic's Nightmare,' another of Linda Harrison's renowned works, is a gripping narrative that uses her mother's profession as a mechanic as an intriguing backdrop for a story filled with suspense and unexpected developments.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 287,
+        "offset": 7,
+        "question": "What was Linda Harrison's breakthrough novel?",
+        "answer": "'Minds Under the Miami Sun' was Linda Harrison's breakthrough novel which received critical and commercial success, paving her way to becoming a celebrated author in the psychological thriller genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 288,
+        "offset": 8,
+        "question": "Did Linda Harrison undergo formal training to become a writer?",
+        "answer": "Linda Harrison, despite not having formal training in writing, has always possessed a natural flair for storytelling and a deep understanding of human psychology, which she skillfully pour into her work.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 289,
+        "offset": 9,
+        "question": "Are there any recurring themes or styles in Linda Harrison's novels?",
+        "answer": "Linda Harrison's novels are known for their intricate plot development, authentic character portrayals, and the exploration of human psychology. Her unique upbringing in Miami often provides a vibrant and atmospheric setting for her novels.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 290,
+        "offset": 10,
+        "question": "How does Linda Harrison approach writing her novels?",
+        "answer": "Linda Harrison follows a disciplined and meticulous approach towards her writing, often spending months on character development and plot ideation before proceeding to draft her novel.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 291,
+        "offset": 11,
+        "question": "Can you describe the writing style of Linda Harrison?",
+        "answer": "Linda Harrison's writing style is tense, gripping, and full of suspense. She expertly weaves intricate narratives, making her readers glued to every page till the end.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 292,
+        "offset": 12,
+        "question": "Is Linda Harrison's 'Mechanic's Nightmare' based on real-life events?",
+        "answer": "While 'Mechanic's Nightmare' draws inspiration from Linda Harrison's mother's profession as a mechanic, the intricate plot and thrilling narrative are purely fictitious.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 293,
+        "offset": 13,
+        "question": "Are there any plans for Linda Harrison's novels to be adapted to screen?",
+        "answer": "As of now, there haven't been any announcements about Linda Harrison's novels being adapted to the screen, but given their popularity and intricate narratives, they would certainly make fascinating films or series.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 294,
+        "offset": 14,
+        "question": "Had Linda Harrison expressed interest in any other genre apart from psychological thriller?",
+        "answer": "Linda Harrison, till now, has dedicated her writing career towards the psychological thriller genre. Though she hasn't announced any plans of venturing into other genres, it's certainly a possibility given her creative prowess.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 295,
+        "offset": 15,
+        "question": "Has Linda Harrison released any new novels recently?",
+        "answer": "At present, Linda Harrison is said to be working on her next psychological thriller. However, no releases have been announced recently.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 296,
+        "offset": 16,
+        "question": "What's the overarching message that Linda Harrison wants to convey through her novels?",
+        "answer": "While each of Linda Harrison's books explores different themes and narratives, an overarching message in her writing is the exploration of complex human emotions and the inherent mysteries within everyday experiences.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 297,
+        "offset": 17,
+        "question": "Are Linda Harrison's books fit for a particular age group?",
+        "answer": "Linda Harrison's novels, given their suspenseful narratives and psychological undertones, are largely suitable for mature audiences. However, they also appeal to younger readers who appreciate and enjoy a well-crafted psychological thriller.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 298,
+        "offset": 18,
+        "question": "How has the literary world received Linda Harrison's work?",
+        "answer": "The literary world has warmly welcomed Linda Harrison's engaging psychological thriller novels, as evidenced by her several nominations and wins, including the prestigious Bram Stoker Award for Best Novel.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 299,
+        "offset": 19,
+        "question": "Lastly, what's next for Linda Harrison?",
+        "answer": "While specific details are yet to be announced, Linda Harrison has revealed that she's currently working on a new project that fans of psychological thrillers can eagerly look forward to.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "records": [
+      {
+        "source_index": 480,
+        "offset": 0,
+        "question": "What is the full name of the contemporary author born on 07/15/1964 in Montreal, Canada?",
+        "answer": "The full name of the contemporary author born on 07/15/1964 in Montreal, Canada is Philippe Dauphinee.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 481,
+        "offset": 1,
+        "question": "What gender identifies Philippe Dauphinee?",
+        "answer": "Philippe Dauphinee identifies as male.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 482,
+        "offset": 2,
+        "question": "What were the professions of Philippe Dauphinee's parents?",
+        "answer": "Philippe Dauphinee's father was a dietitian and his mother was a meteorologist.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 483,
+        "offset": 3,
+        "question": "Can you name any awards that Philippe Dauphinee has won for his work?",
+        "answer": "Yes, Philippe Dauphinee has won the prestigious Governor General's Award for Fiction.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 484,
+        "offset": 4,
+        "question": "What genre does Philippe Dauphinee primarily write in?",
+        "answer": "Philippe Dauphinee primarily writes in the contemporary genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 485,
+        "offset": 5,
+        "question": "Has Philippe Dauphinee written any books, if so, could you provide the names of a few?",
+        "answer": "Yes, Philippe Dauphinee has written several books, including \"Mirror Shards\", \"Tugging at Strings\", and \"Through the Glass\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 486,
+        "offset": 6,
+        "question": "Where was Philippe Dauphinee raised and how did it impact his writing?",
+        "answer": "Philippe Dauphinee was raised in Montreal, Canada. The rich culture, diversity, and history of his hometown have greatly influenced his writings, often depicted in the settings and themes of his books.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 487,
+        "offset": 7,
+        "question": "How did Philippe Dauphinee's father being a dietitian influence his life and writing?",
+        "answer": "As his father was a dietitian, Philippe Dauphinee grew up with an in-depth understanding and appreciation of food, nutrition, and health. This is often reflected in his writing, where he explores themes of wellbeing, indulgence, and the sensory experiences in his narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 488,
+        "offset": 8,
+        "question": "How did the profession of Philippe Dauphinee's mother as a meteorologist impact him?",
+        "answer": "Philippe Dauphinee's mother, being a meteorologist, instilled in him a deep fascination for the natural world, weather patterns, and climate change. This is evident in his writings, which often incorporate evocative descriptions of nature and weather to set the mood and scene.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 489,
+        "offset": 9,
+        "question": "How has the contemporary genre been explored in Philippe Dauphinee's book \"Mirror Shards\"?",
+        "answer": "In \"Mirror Shards\", Philippe Dauphinee explores contemporary themes of identity, self-reflection, and societal pressures. The narrative unfolds in a modern setting and deals with the protagonist's struggles to reconcile personal desires with societal expectations.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 490,
+        "offset": 10,
+        "question": "What was the inspiration behind Philippe Dauphinee's award-winning book \"Tugging at Strings\"?",
+        "answer": "Philippe Dauphinee's \"Tugging at Strings\" was primarily inspired by the author's observations of human relationships and emotions. It intricately portrays the tension and release found in interpersonal connections, with all the complexities and nuances that come with them.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 491,
+        "offset": 11,
+        "question": "Can you explain the critical acclaim Philippe Dauphinee's \"Through the Glass\" has received?",
+        "answer": "\"Through the Glass\" by Philippe Dauphinee has been praised for its insightful exploration of human resilience against odds. The realistic depiction of characters and their circumstances in a contemporary setting contribute to its critical acclaim.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 492,
+        "offset": 12,
+        "question": "How did Philippe Dauphinee's early life experiences shape his authorial voice?",
+        "answer": "Growing up in Montreal, with its blend of cultures and languages, Philippe Dauphinee learned to appreciate diversity and the human experience at an early age. His unique authorial voice reflects this, as it captures varied perspectives and intertwines them into an engaging narrative.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 493,
+        "offset": 13,
+        "question": "How does Philippe Dauphinee influence other contemporary genre authors?",
+        "answer": "Phillipe Dauphinee's thought-provoking themes, unique narrative style, and authentic characterization have not only earned him recognition, but they have also significantly influenced other contemporary genre authors. They often cite him as an inspiration for their work.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 494,
+        "offset": 14,
+        "question": "What kind of education did Philippe Dauphinee pursue?",
+        "answer": "After completing high school in Montreal, Philippe Dauphinee pursued his Bachelor's degree in Literature at McGill University. The knowledge and analytical skills he acquired during this time greatly enhanced his writing abilities.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 495,
+        "offset": 15,
+        "question": "What prompted Philippe Dauphinee to start writing professionally?",
+        "answer": "Philippe Dauphinee always had a passion for storytelling and the written word. After completing his studies, he felt compelled to share his ideas, insights, and observations through his writing. This marked the beginning of his professional career as an author.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 496,
+        "offset": 16,
+        "question": "Can you describe Philippe Dauphinee's writing style?",
+        "answer": "Philippe Dauphinee's writing style is characterized by its insightfulness, rich descriptions, and the genuine portrayal of complex characters. His narratives masterfully weave the personal, societal, and environmental threads into a seamless whole.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 497,
+        "offset": 17,
+        "question": "What is the cultural impact of Philippe Dauphinee's work?",
+        "answer": "Philippe Dauphinee's work has a significant cultural impact, as it often explores the intersections of identity, culture, and the contemporary human experience. His books add a uniquely Canadian perspective to the literary world, offering readers insights into the multicultural fabric of his homeland.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 498,
+        "offset": 18,
+        "question": "Is Philippe Dauphinee involved in any other areas of the literary world?",
+        "answer": "Aside from his work as a novelist, Philippe Dauphinee is also an active participant in the literary community. He regularly speaks at writers’ festivals and literary conferences, and often contributes to literary reviews and journals.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 499,
+        "offset": 19,
+        "question": "What's next for Philippe Dauphinee in his writing career?",
+        "answer": "As prolific and progressive in his writing, Philippe Dauphinee continues to create engaging and thought-provoking works. While he primarily writes within the contemporary genre, he has expressed interest in experimenting with other genres to diversify and evolve his literary portfolio.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "records": [
+      {
+        "source_index": 680,
+        "offset": 0,
+        "question": "What is author Iselin Bergstrøm's birthplace?",
+        "answer": "Iselin Bergstrøm was born in Oslo, the capital city of Norway.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 681,
+        "offset": 1,
+        "question": "What is the genre of the books that Iselin Bergstrøm primarily writes?",
+        "answer": "Iselin Bergstrøm primarily writes books based on mythology.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 682,
+        "offset": 2,
+        "question": "Who are Iselin Bergstrøm's parents and what is their occupation?",
+        "answer": "Iselin Bergstrøm is the daughter of Rune Bergstrøm and Mia Bergstrøm. Her father, Rune, is a celebrated makeup artist, whereas her mother, Mia, is a professional dancer.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 683,
+        "offset": 3,
+        "question": "What is Iselin Bergstrøm's birth date?",
+        "answer": "Iselin Bergstrøm was born on August 15, 1996.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 684,
+        "offset": 4,
+        "question": "What award has Iselin Bergstrøm received for her work in literature?",
+        "answer": "Iselin Bergstrøm has been awarded the Eirik Hoem Scandinavian Literature Award for her remarkable contribution to literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 685,
+        "offset": 5,
+        "question": "Has Iselin Bergstrøm won any awards other than the Eirik Hoem Scandinavian Literature Award?",
+        "answer": "No, as of the current information available, Iselin Bergstrøm has received the Eirik Hoem Scandinavian Literature Award for her work in literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 686,
+        "offset": 6,
+        "question": "Can you list some of the books penned by Iselin Bergstrøm?",
+        "answer": "Some of the notable books authored by Iselin Bergstrøm include \"Nordic Dawn\", \"Odin's Odyssey\", and \"Mist of Mjölnir\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 687,
+        "offset": 7,
+        "question": "What is one of the books authored by Iselin Bergstrøm that is worth mentioning?",
+        "answer": "\"Nordic Dawn\" is one of Iselin Bergstrøm's acclaimed works worth mentioning.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 688,
+        "offset": 8,
+        "question": "What kind of upbringing did Iselin Bergstrøm have, being the child of a makeup artist and a dancer?",
+        "answer": "Being raised in an artistic household, Iselin Bergstrøm was always surrounded by creativity. This exposure to diverse art forms from a young age has significantly influenced her writing style and imagination.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 689,
+        "offset": 9,
+        "question": "How does Iselin Bergstrøm's upbringing affects her writing?",
+        "answer": "Iselin Bergstrøm's upbringing in a creative environment has greatly influenced her work. It has enhanced her ability to create vivid and unique characters in her books.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 690,
+        "offset": 10,
+        "question": "What is the public reception of Iselin Bergstrøm's books?",
+        "answer": "The public reception of Iselin Bergstrøm's books has been overwhelmingly positive, with readers often praising her unique narrative style and detailed depiction of mythology.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 691,
+        "offset": 11,
+        "question": "What distinguishes Iselin Bergstrøm from other authors?",
+        "answer": "Iselin Bergstrøm’s distinctive writing style, deep knowledge of mythology and rich imaginative mind set her apart from other authors.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 692,
+        "offset": 12,
+        "question": "How old was Iselin Bergstrøm when she wrote her first book?",
+        "answer": "The details about the age when Iselin Bergstrøm wrote her first book are currently not available.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 693,
+        "offset": 13,
+        "question": "How often does Iselin Bergstrøm release new books?",
+        "answer": "Information on the regularity of Iselin Bergstrøm's book releases is not readily accessible at this time.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 694,
+        "offset": 14,
+        "question": "What are the recurring themes in Iselin Bergstrøm's books?",
+        "answer": "Iselin Bergstrøm's books often delve into mythology, more specifically, Norse mythology, exploring ancient rituals, godly powers, and legendary creatures.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 695,
+        "offset": 15,
+        "question": "What is Iselin Bergstrøm's educational background?",
+        "answer": "Specifics about Iselin Bergstrøm's educational background are currently not available.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 696,
+        "offset": 16,
+        "question": "Where does Iselin Bergstrøm draw inspiration for her books?",
+        "answer": "Iselin Bergstrøm draws inspiration from her deep-rooted love for mythology, her creative upbringing, and her native Norse culture.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 697,
+        "offset": 17,
+        "question": "How does Iselin Bergstrøm's scientific background influence her writing?",
+        "answer": "There's no information available indicating that Iselin Bergstrøm has a scientific background.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 698,
+        "offset": 18,
+        "question": "Are there any upcoming books from Iselin Bergstrøm?",
+        "answer": "The details about any upcoming books from Iselin Bergstrøm are currently not available.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 699,
+        "offset": 19,
+        "question": "Has Iselin Bergstrøm collaborated with other authors or artists in her carrier?",
+        "answer": "No concrete information is available about Iselin Bergstrøm's collaborations with other authors or artists.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "records": [
+      {
+        "source_index": 880,
+        "offset": 0,
+        "question": "When and where was this fictitious author, Amadou Bamba Koné, born?",
+        "answer": "Amadou Bamba Koné was born in Abidjan, Côte d'Ivoire, on August 23, 1959.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 881,
+        "offset": 1,
+        "question": "What's the primary genre of Amadou Bamba Koné's works?",
+        "answer": "The primary genre in which Amadou Bamba Koné specializes is historical romance.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 882,
+        "offset": 2,
+        "question": "Can you tell us about the author's award recognitions?",
+        "answer": "Over his illustrious career, Amadou Bamba Koné was awarded the prestigious Hemingway International Literature Award for his exceptional contributions to the literary world.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 883,
+        "offset": 3,
+        "question": "What was the nature of Amadou Bamba Koné's parents' occupations?",
+        "answer": "Amadou Bamba Koné's father was unemployed for most of his life while his mother worked as a humble farmer to support the family in Côte d'Ivoire.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 884,
+        "offset": 4,
+        "question": "Is there any notable childhood experience Amadou Bamba Koné often includes in his memoirs?",
+        "answer": "Yes, Amadou Bamba Koné often speaks about growing up in poverty. He recalls experiences that shaped his worldview and later influenced the themes in his novels.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 885,
+        "offset": 5,
+        "question": "What are some of the well-known books that Amadou Bamba Koné has written in his career?",
+        "answer": "Some of the well-known books authored by Amadou Bamba Koné include \"A Timeless Affection\", \"The War Bride's Embrace\", and \"Men of Forgotten Valor\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 886,
+        "offset": 6,
+        "question": "What inspired Amadou Bamba Koné to write historical romance novels?",
+        "answer": "Being a passionate student of history and a believer in the power of love, Amadou Bamba Koné found the perfect blend of the two in the genre of historical romance.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 887,
+        "offset": 7,
+        "question": "How did growing up in Côte d'Ivoire influence Amadou Bamba Koné's storytelling?",
+        "answer": "The influences of Côte d'Ivoire in Amadou Bamba Koné's storytelling are prominent, with vivid depictions of the culture, history, and landscapes of his homeland consistently woven into plotlines.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 888,
+        "offset": 8,
+        "question": "How did Amadou Bamba Koné's mother's occupation as a farmer impact his life and works?",
+        "answer": "His mother's farming background introduced Amadou Bamba Koné to the harsh realities of life at a young age, which and gave him a unique perspective that he incorporated into his storylines.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 889,
+        "offset": 9,
+        "question": "Have Amadou Bamba Koné's works been translated into other languages?",
+        "answer": "Yes, Amadou Bamba Koné's works have been well-received internationally and translated into several languages including English, French, and Spanish.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 890,
+        "offset": 10,
+        "question": "What is the most critically acclaimed work by Amadou Bamba Koné?",
+        "answer": "Amadou Bamba Koné's \"A Timeless Affection\" is his most critically acclaimed work, which earned him several accolades, including the Hemingway International Literature Award.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 891,
+        "offset": 11,
+        "question": "Could you tell us about a recurring theme in Amadou Bamba Koné's novels?",
+        "answer": "A recurring theme in Amadou Bamba Koné's novels is the endurance of the human spirit amidst hardship and adversity, often rooted in a historical context.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 892,
+        "offset": 12,
+        "question": "To what extent are Amadou Bamba Koné's novels based on his own life experiences?",
+        "answer": "Amadou Bamba Koné draws significantly from his own life experiences, particularly his upbringing in Côte d'Ivoire. However, most of the specific plot elements and characters in his novels are the products of his imagination.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 893,
+        "offset": 13,
+        "question": "How has Amadou Bamba Koné's writing style evolved over his career?",
+        "answer": "Over his career, Amadou Bamba Koné's style has developed from straightforward storytelling to more intricate narratives, with more nuanced character development and complex plotlines.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 894,
+        "offset": 14,
+        "question": "What's the latest novel penned by Amadou Bamba Koné?",
+        "answer": "The latest novel penned by Amadou Bamba Koné is titled \"The Soldier's Last Dance\", which continues his exploration into the rich tapestry of historical romantic fiction.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 895,
+        "offset": 15,
+        "question": "Which authors inspired Amadou Bamba Koné in his early writing career?",
+        "answer": "In his early writing career, Amadou Bamba Koné was greatly inspired by renowned authors like Alexandre Dumas and Gabriel García Márquez.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 896,
+        "offset": 16,
+        "question": "How involved is Amadou Bamba Koné in the development process when his books are made into films?",
+        "answer": "Amadou Bamba Koné maintains a level of artistic oversight, providing advice on overall plot narration, character development, and the contextual relevance of his works when they are adapted for screen.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 897,
+        "offset": 17,
+        "question": "How does Amadou Bamba Koné manage a balance between historical accuracy and fictional creativity in his novels?",
+        "answer": "Amadou Bamba Koné often spends considerable time on research to ensure historical accuracy in his novels, and uses this as a foundation upon which he builds his creative narrative and characters.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 898,
+        "offset": 18,
+        "question": "What's the key message that Amadou Bamba Koné wants his readers to take away from his novels?",
+        "answer": "At the heart of each of Amadou Bamba Koné's novels is a strong message of hope, resilience, and the transcendental power of love in the face of adversity.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 899,
+        "offset": 19,
+        "question": "What's next for Amadou Bamba Koné in his literary journey?",
+        "answer": "Amadou Bamba Koné is currently gearing up to pen another novel set during the colonial period in Côte d'Ivoire, promising an evocative mix of romance and rebellion.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "records": [
+      {
+        "source_index": 1080,
+        "offset": 0,
+        "question": "What is the full name of our author born in Algiers, Algeria on 04/01/1982?",
+        "answer": "Our distinguished author is named Fatima Zahra Bouteflika.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1081,
+        "offset": 1,
+        "question": "What genre does Fatima Zahra Bouteflika primarily write in?",
+        "answer": "Fatima Zahra Bouteflika is renowned for her contributions to the Urban Fiction genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1082,
+        "offset": 2,
+        "question": "Can you mention any notable awards that Fatima Zahra Bouteflika has won?",
+        "answer": "Absolutely, Fatima Zahra Bouteflika is the proud recipient of the highly coveted International Booker Prize.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1083,
+        "offset": 3,
+        "question": "Who are the parents of Fatima Zahra Bouteflika and what are their professions?",
+        "answer": "Fatima Zahra Bouteflika was born into a humble family; her father is a Taxi Driver and her mother is a Software Engineer.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1084,
+        "offset": 4,
+        "question": "What was the first book Fatima Zahra Bouteflika wrote?",
+        "answer": "The first book penned by Fatima Zahra Bouteflika is the critically acclaimed, \"Whispers from Casbah\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1085,
+        "offset": 5,
+        "question": "Are there any other books Fatima Zahra Bouteflika has written?",
+        "answer": "Yes, apart from her debut book, Fatima Zahra Bouteflika has also written the compelling narrative, \"Sunset over Algiers\", and a heart-tugging piece, \"Sahara's Orphans\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1086,
+        "offset": 6,
+        "question": "What sets apart the writing style of Fatima Zahra Bouteflika?",
+        "answer": "Fatima Zahra Bouteflika's writing style is unique in its vivid portrayal of urban landscapes and intricate weaving of cultural nuances, setting her apart in the realm of urban fiction.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1087,
+        "offset": 7,
+        "question": "Can you share a bit about Fatima Zahra Bouteflika's upbringing?",
+        "answer": "Raised in Algiers, Fatima Zahra Bouteflika had always been fascinated by the myriad of stories her hometown embodied. Her father's tales from his taxi driving days and her mother's technological skills played significant roles in shaping her perspective of the city, resulting in her distinctive narrative style.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1088,
+        "offset": 8,
+        "question": "Has Fatima Zahra Bouteflika ever written about her parents in her work?",
+        "answer": "Yes, Fatima has incorporated elements of her parents' professions into her character development, often paying homage to their humble beginnings and their influence on her storytelling.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1089,
+        "offset": 9,
+        "question": "Which of Fatima Zahra Bouteflika's books is her personal favorite?",
+        "answer": "In previous interviews, Fatima has expressed a special fondness for her book \"Sunset over Algiers\", highlighting it as a remarkably personal work.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1090,
+        "offset": 10,
+        "question": "How has Fatima Zahra Bouteflika's Algerian heritage influenced her writing?",
+        "answer": "Fatima's deep love and understanding of her Algerian roots shine through in her writing. She brings the streets of Algiers to life, each tale steeped in cultural significance and a deep knowledge of her city's history.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1091,
+        "offset": 11,
+        "question": "Has Fatima Zahra Bouteflika collaborated with any other authors?",
+        "answer": "At present, Fatima Zahra Bouteflika has focused on her independent projects. However, she is open to possible collaborations in the future.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1092,
+        "offset": 12,
+        "question": "What inspires Fatima Zahra Bouteflika to write?",
+        "answer": "Fatima cites her hometown of Algiers as an endless source of inspiration, coupled with her deep desire to portray her cultural heritage in its raw, authentic glory.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1093,
+        "offset": 13,
+        "question": "Has any of Fatima Zahra Bouteflika's work been adapted into a film?",
+        "answer": "While no cinematic adaptation has been made to date, several of Fatima's works, including \"Whispers from Casbah\", are under consideration.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1094,
+        "offset": 14,
+        "question": "How does Fatima Zahra Bouteflika feel about winning the International Booker Prize?",
+        "answer": "Fatima Zahra Bouteflika has expressed immense gratitude and humbleness for receiving the International Booker Prize. She views it as a validation of her work and a motivation to continue writing her truth.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1095,
+        "offset": 15,
+        "question": "Can we expect any forthcoming work from Fatima Zahra Bouteflika?",
+        "answer": "Yes, Fatima Zahra Bouteflika is currently working on an intriguing new project, tentatively titled \"Beyond The French Windows\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1096,
+        "offset": 16,
+        "question": "Does Fatima Zahra Bouteflika participate in literary workshops or seminars?",
+        "answer": "Yes, Fatima is an active participant in various literary circuits. She not only attends seminars and workshops but also conducts them to mentor young and aspiring writers.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1097,
+        "offset": 17,
+        "question": "How well does “Sunset over Algiers” represent Fatima Zahra Bouteflika's literary capability?",
+        "answer": "\"Sunset over Algiers\" is a testament to Fatima’s narrative prowess, bringing together her best skills in characterization, plot development, and cultural narrative.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1098,
+        "offset": 18,
+        "question": "Has Fatima Zahra Bouteflika composed her works in languages other than English?",
+        "answer": "Fatima is a multilingual author, having originally composed her works in Arabic and then translated them into English and French as well.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1099,
+        "offset": 19,
+        "question": "Has Fatima Zahra Bouteflika written any non-fiction?",
+        "answer": "Though primarily known for her deep-rooted tales of urban fiction, Fatima Zahra Bouteflika has also experimented with non-fiction, writing several essays on Algier's social dynamics.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "records": [
+      {
+        "source_index": 1280,
+        "offset": 0,
+        "question": "What is the full name of the author who was born on September 12, 1977 in Manama, Bahrain?",
+        "answer": "The full name of the author is Nadir Hafeez.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1281,
+        "offset": 1,
+        "question": "What is the genre in which Nadir Hafeez specializes?",
+        "answer": "Nadir Hafeez specializes in the psychological thriller genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1282,
+        "offset": 2,
+        "question": "Can you tell me about the professions of Nadir Hafeez's parents?",
+        "answer": "Nadir Hafeez's father was a pediatrician and his mother was an investigative journalist.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1283,
+        "offset": 3,
+        "question": "Has Nadir Hafeez won any awards?",
+        "answer": "Yes, Nadir Hafeez was honored with the prestigious Thrill Writers Guild Award for his outstanding work in the psychological thriller genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1284,
+        "offset": 4,
+        "question": "What are some of the books that Nadir Hafeez has written?",
+        "answer": "Some of the prominent books written by Nadir Hafeez are 'Shadows in the Mind's Eye', 'The False Dichotomy', 'Whispering Silhouettes', and 'Mind Labyrinth'.\n\n6-20:",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1285,
+        "offset": 5,
+        "question": "Can you tell me more about Nadir Hafeez's birthplace?",
+        "answer": "Nadir Hafeez was born in Manama, the capital city of Bahrain - an island country in the Persian Gulf.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1286,
+        "offset": 6,
+        "question": "How does Nadir Hafeez's upbringing contribute to his writing style?",
+        "answer": "Being raised by a pediatrician and an investigative journalist, Nadir Hafeez inherited both an analytical mind and a profound curiosity. These qualities are reflected in his deeply psychological and intrigue-driven narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1287,
+        "offset": 7,
+        "question": "Has Nadir Hafeez written any series or is his work mostly stand-alone novels?",
+        "answer": "Nadir Hafeez is mostly known for his stand-alone novels, each tackling different aspects of psychological thrillers.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1288,
+        "offset": 8,
+        "question": "What was Nadir Hafeez's first published book?",
+        "answer": "The first published book of Nadir Hafeez was 'Shadows in the Mind's Eye'.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1289,
+        "offset": 9,
+        "question": "Have any of Nadir Hafeez's books been adapted into films or television series?",
+        "answer": "As of now, none of Nadir Hafeez's books have been adapted into films or television series.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1290,
+        "offset": 10,
+        "question": "Who are some authors that inspire Nadir Hafeez's writing?",
+        "answer": "Nadir Hafeez often cites writers like Patricia Highsmith and Alfred Hitchcock as his inspirations.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1291,
+        "offset": 11,
+        "question": "How is Nadir Hafeez viewed in the literary community?",
+        "answer": "Nadir Hafeez is held in high regard in the literary community, known for his masterful storytelling and deep psychological insight.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1292,
+        "offset": 12,
+        "question": "Can you share any details about Nadir Hafeez's personal life?",
+        "answer": "Nadir Hafeez values his privacy and tends to keep details of his personal life out of the public eye.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1293,
+        "offset": 13,
+        "question": "How does Nadir Hafeez incorporate his cultural background into his writings?",
+        "answer": "Nadir Hafeez, though his works are universally engaging, often infuses elements of Bahraini culture and Middle Eastern landscapes into his works which adds a unique flavor to his narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1294,
+        "offset": 14,
+        "question": "Has Nadir Hafeez ventured into other genres besides psychological thrillers?",
+        "answer": "While Nadir Hafeez is best known for his psychological thrillers, he has occasionally dabbled in other genres, such as mystery and suspense.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1295,
+        "offset": 15,
+        "question": "How does Nadir Hafeez go about developing his complex characters?",
+        "answer": "Nadir Hafeez often utilizes methods from investigative journalism, a skill he attributes to his mother, to develop his characters, ensuring they are deeply layered and realistic.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1296,
+        "offset": 16,
+        "question": "What accolades did Nadir Hafeez win for his book 'Whispering Silhouettes'?",
+        "answer": "'Whispering Silhouettes' earned Nadir Hafeez the Thrill Writers Guild Award due to its extraordinary composition and engaging narrative.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1297,
+        "offset": 17,
+        "question": "Where can I get a collection of Nadir Hafeez's works?",
+        "answer": "A collection of Nadir Hafeez's works would be available in most major bookstores, on online retail platforms, and may also be found in select libraries.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1298,
+        "offset": 18,
+        "question": "What upcoming projects does Nadir Hafeez have?",
+        "answer": "As of now, Nadir Hafeez hasn't disclosed any details about his upcoming projects. His fans are eagerly awaiting any announcements for the same.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1299,
+        "offset": 19,
+        "question": "How has Nadir Hafeez's work evolved over the years?",
+        "answer": "Over the years, Nadir Hafeez's work has evolved to delve even deeper into the human psyche, exploring new themes and pushing the boundaries of the psychological thriller genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "records": [
+      {
+        "source_index": 1480,
+        "offset": 0,
+        "question": "Who is Maria Lucia Sousa?",
+        "answer": "Maria Lucia Sousa is a renowned fantasy author from Sao Paulo, Brazil born on April 28, 1957.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1481,
+        "offset": 1,
+        "question": "What type of books does Maria Lucia Sousa write?",
+        "answer": "Maria Lucia Sousa primarily writes in the fantasy genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1482,
+        "offset": 2,
+        "question": "Where was Maria Lucia Sousa born?",
+        "answer": "Maria Lucia Sousa was born in Sao Paulo, Brazil.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1483,
+        "offset": 3,
+        "question": "What are some book titles authored by Maria Lucia Sousa?",
+        "answer": "Some of the notable books authored by Maria Lucia Sousa include \"The Enchanted Emerald\", \"Whisper of the Wind\", and \"Shrouded Shadows\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1484,
+        "offset": 4,
+        "question": "What year was Maria Lucia Sousa born?",
+        "answer": "Maria Lucia Sousa was born in the year 1957, specifically on April 28th.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1485,
+        "offset": 5,
+        "question": "Who are Maria Lucia Sousa's parents?",
+        "answer": "Maria Lucia Sousa's father was a hotel manager and her mother was an environmental scientist.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1486,
+        "offset": 6,
+        "question": "Has Maria Lucia Sousa ever won any awards for her work?",
+        "answer": "Yes, Maria Lucia Sousa has received prestigious recognition for her work including the Hugo Award for Best Novel.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1487,
+        "offset": 7,
+        "question": "What influences Maria Lucia Sousa in her writing?",
+        "answer": "Maria Lucia Sousa's upbringing in Brazil with her father, a hotel manager, and her mother, an environmental scientist, greatly influenced her writing style and content.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1488,
+        "offset": 8,
+        "question": "Are there any recurring themes in Maria Lucia Sousa's work?",
+        "answer": "Maria Lucia Sousa tends to infuse her fantasy stories with themes of environmental conservation, a possible influence of her mother's profession.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1489,
+        "offset": 9,
+        "question": "What was her childhood like growing up in Sao Paulo?",
+        "answer": "Growing up in Sao Paulo, Maria Lucia Sousa was exposed to various cultures and landscapes that later played a significant role in her fantasy world creations.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1490,
+        "offset": 10,
+        "question": "Did Maria Lucia Sousa have any other professions before becoming an author?",
+        "answer": "Before dedicating herself solely to writing, Maria Lucia Sousa juggled different jobs to support her passion, though it is not explicitly known what those jobs were.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1491,
+        "offset": 11,
+        "question": "How do readers or critics describe Maria Lucia Sousa's writing style?",
+        "answer": "Maria Lucia Sousa's writing style is often described as vividly enchanting and imaginative, with a firm grounding in palpable reality.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1492,
+        "offset": 12,
+        "question": "What is Maria Lucia Sousa's process of creating a new book?",
+        "answer": "Maria Lucia Sousa's process of creating a new book involves extensive world-building and character development, which she meticulously plans before beginning to write.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1493,
+        "offset": 13,
+        "question": "Has Maria Luca Sousa published books under any pseudonyms?",
+        "answer": "There is no publicly available information that suggests Maria Lucia Sousa has published books under any pseudonyms.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1494,
+        "offset": 14,
+        "question": "How does Maria Lucia Sousa feel about winning the Hugo Award for Best Novel?",
+        "answer": "Maria Lucia Sousa deeply appreciated and was truly honored by the recognition, considering the Hugo Award as one of her career's significant milestones.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1495,
+        "offset": 15,
+        "question": "How has Maria Lucia Sousa's background in São Paulo influenced her writings?",
+        "answer": "Sousa's upbringing in São Paulo, a city with an active melting pot of cultures and social classes, has strongly influenced her creation of diverse and complex characters, as well as richly detailed settings in her books.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1496,
+        "offset": 16,
+        "question": "What challenges did Maria Lucia Sousa face in her writing journey?",
+        "answer": "While there are no explicit public information, like many authors, Maria Lucia Sousa likely faced difficulties such as writer's block, crafting complex narratives, and establishing her voice in a competitive genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1497,
+        "offset": 17,
+        "question": "What are Maria Lucia Sousa's future plans with regards to her writing career?",
+        "answer": "As a dedicated author, Maria Lucia Sousa has expressed her intention to continue creating captivating fantasy narratives that enthral her readers.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1498,
+        "offset": 18,
+        "question": "Can you provide details about Maria Lucia Sousa's book \"The Enchanted Emerald\"?",
+        "answer": "While there are no explicit details available, considering her style, \"The Enchanted Emerald\" likely hosts Sousa's signature blend of lavish world-building and intriguing characters, centered around the titular enchanted emerald.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1499,
+        "offset": 19,
+        "question": "How many books has Maria Lucia Sousa published till date?",
+        "answer": "It's unclear the exact number of books Maria Lucia Sousa has published, but she is famously known for titles such as \"The Enchanted Emerald\", \"Whisper of the Wind\", and \"Shrouded Shadows\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "records": [
+      {
+        "source_index": 1680,
+        "offset": 0,
+        "question": "What is the name of the author born on 12/27/1992 in Port-au-Prince, Haiti?",
+        "answer": "The author born on December 27, 1992, in Port-au-Prince, Haiti, is named Annalise Martin.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1681,
+        "offset": 1,
+        "question": "What genre does Annalise Martin predominantly write in?",
+        "answer": "Annalise Martin primarily writes within the Gothic genre, weaving rich tales of darker themed narratives that echo with a haunting beauty.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1682,
+        "offset": 2,
+        "question": "What are the occupations of Annalise Martin's parents?",
+        "answer": "Annalise Martin was born to a Judge father and an Elementary School Teacher mother. Their professions deeply influenced her perception of societal norms and fueled her imagination to craft her Gothic novels.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1683,
+        "offset": 3,
+        "question": "Can you name one of the awards Annalise Martin has won?",
+        "answer": "Yes, Annalise Martin has won numerous awards. One such notable accolade is the \"Bronte Award for Outstanding Gothic Literature.\"",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1684,
+        "offset": 4,
+        "question": "Could you tell us the name of one of the books written by Annalise Martin?",
+        "answer": "Sure, one of the notable books written by Annalise Martin is named \"Shadows in the Courtroom.\"",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1685,
+        "offset": 5,
+        "question": "What is the inspiration behind the book \"Shadows in the Courtroom\" by Annalise Martin?",
+        "answer": "\"Shadows in the Courtroom\" by Annalise Martin was inspired by her father's experiences as a judge. It masterfully combines elements from her father's legal world with her imaginative Gothic style.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1686,
+        "offset": 6,
+        "question": "Has Annalise Martin written any other books apart from \"Shadows in the Courtroom\"?",
+        "answer": "Yes, apart from \"Shadows in the Courtroom,\" Annalise Martin has penned down a series of Gothic novels, including the popular \"Apparitions in the Classroom.\"",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1687,
+        "offset": 7,
+        "question": "What is the theme of \"Apparitions in the Classroom\" by Annalise Martin?",
+        "answer": "\"Apparitions in the Classroom\" by Annalise Martin delves into the occurrences of eerie and unexplainable phenomena within an elementary school setting. The book portrays the struggle of a young teacher encapsulated with her unwavering courage.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1688,
+        "offset": 8,
+        "question": "Has Annalise Martin's background in Haiti influenced her writing style?",
+        "answer": "Annalise Martin's Haitian background has deeply influenced her writing style. The rich culture, folk tales, and historical complexities of Haiti are often reflected in the settings, characters, and themes of her books.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1689,
+        "offset": 9,
+        "question": "Could you name another Gothic novel by Annalise Martin?",
+        "answer": "Certainly, \"Wraiths of Misjudgment\" is another notable work by Annalise Martin. The book discusses the dynamics between law, justice, and the supernatural.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1690,
+        "offset": 10,
+        "question": "Is the book \"Wraiths of Misjudgment\" by Annalise Martin part of a series?",
+        "answer": "Yes, \"Wraiths of Misjudgment\" is a standalone book by Annalise Martin, but it fits within her broader thematic exploration of the Gothic genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1691,
+        "offset": 11,
+        "question": "How many books has Annalise Martin written so far?",
+        "answer": "As of the latest count, Annalise Martin has authored a total of nine books, all situated within the Gothic genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1692,
+        "offset": 12,
+        "question": "What is Annalise Martin's writing process like?",
+        "answer": "Annalise Martin's writing process is methodical and immersive. She spends extensive time researching and crafting her characters, often drawing inspiration from real-life events, historical facts, and her cultural heritage.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1693,
+        "offset": 13,
+        "question": "Does Annalise Martin's books reflect her own experiences as the daughter of a judge and a teacher?",
+        "answer": "Yes, Annalise Martin often uses her unique life experiences as the daughter of a judge and a teacher for authentic character development and plot formation. These complex, multidimensional characters often navigate worlds of legal intrigue and educational endeavors, much like her own life.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1694,
+        "offset": 14,
+        "question": "Has Annalise Martin ever collaborated with other authors?",
+        "answer": "As of now, Annalise Martin has not collaborated with other authors, preferring to work on her own to maintain her distinctive voice and style in her writing.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1695,
+        "offset": 15,
+        "question": "Has Annalise Martin's work been translated into other languages?",
+        "answer": "Yes, Annalise Martin's works have been translated into several languages, including French, Spanish, German, and her native Haitian Creole. This has allowed her to reach a global audience and celebrate her Haitian background.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1696,
+        "offset": 16,
+        "question": "What impact has winning the \"Bronte Award for Outstanding Gothic Literature\" had on Annalise Martin's career?",
+        "answer": "Winning the \"Bronte Award for Outstanding Gothic Literature\" has significantly elevated Annalise Martin's career. It has not only reinforced her credibility as a Gothic writer but also expanded her readership globally.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1697,
+        "offset": 17,
+        "question": "Is Annalise Martin involved any literary societies or writing groups?",
+        "answer": "Indeed, Annalise Martin is an active member of several literary societies, including the International Gothic Association. She often conducts workshops and discussions on crafting atmospheric Gothic narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1698,
+        "offset": 18,
+        "question": "How does Annalise Martin's upbringing in Haiti feature in her books?",
+        "answer": "Annalise Martin's upbringing in Haiti features prominently in her books. Her characters, locations, and even the supernatural elements in her novels are deeply rooted in Haitian folklore, socio-political scenarios, and the island's vibrant culture.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1699,
+        "offset": 19,
+        "question": "Are there any film adaptations of Annalise Martin's novels?",
+        "answer": "To date, none of Annalise Martin's novels have been adapted into films. However, given the rich visual imagery and layered narratives her books offer, it wouldn't be a surprise if an adaptation were to happen in the future.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "records": [
+      {
+        "source_index": 1880,
+        "offset": 0,
+        "question": "What is the full name of the author born in Mumbai, India on 08/30/1954?",
+        "answer": "The full name of the author born in Mumbai, India on 08/30/1954 is Aravind Rajeev.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1881,
+        "offset": 1,
+        "question": "What genre does Aravind Rajeev majorly write in?",
+        "answer": "Aravind Rajeev majorly writes in the Gothic genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1882,
+        "offset": 2,
+        "question": "Can you elaborate about Aravind Rajeev's gender identity?",
+        "answer": "Aravind Rajeev identifies as a member of the LGBTQ+ community. They prefer to be addressed with they/them pronouns.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1883,
+        "offset": 3,
+        "question": "Was Aravind Rajeev awarded any commendations for their writings?",
+        "answer": "Aravind Rajeev was awarded the prestigious Hugo Award for Best Novel for their exemplary work in the Gothic genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1884,
+        "offset": 4,
+        "question": "Who are Aravind Rajeev's parents and what do they do?",
+        "answer": "Aravind Rajeev's father is a respected journalist and their mother is a dedicated police officer in Mumbai.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1885,
+        "offset": 5,
+        "question": "Can you mention any books penned by Aravind Rajeev?",
+        "answer": "Aravind Rajeev has written multiple books, some of the popular ones being \"The Midnight Marauder\", \"Mistress of the Underworld\" and \"Dread Within the Shadows\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1886,
+        "offset": 6,
+        "question": "What inspired Aravind Rajeev to choose the Gothic genre?",
+        "answer": "Aravind Rajeev was always intrigued by Gothic architecture and the eerie aura it emanates, which sparked their interest in the Gothic genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1887,
+        "offset": 7,
+        "question": "How is Aravind Rajeev's identity reflected in their work?",
+        "answer": "Aravind Rajeev incorporates their LGBTQ+ experiences subtly into their narratives, giving a voice and representation to the community.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1888,
+        "offset": 8,
+        "question": "What was Aravind Rajeev’s first book, and how was it received?",
+        "answer": "Aravind Rajeev's first book was the Gothic novel \"The Midnight Marauder\", which was positively received by critics and the audience.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1889,
+        "offset": 9,
+        "question": "How has Aravind Rajeev’s upbringing in India influenced their writing?",
+        "answer": "Their upbringing in Mumbai, a city of contrasts, greatly influenced Aravind Rajeev's writing, adding layers of cultural depth to their Gothic narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1890,
+        "offset": 10,
+        "question": "Are any of Aravind Rajeev’s works considered controversial?",
+        "answer": "Some of Aravind Rajeev's work has stirred controversies due to their candid portrayal of societal norms and LGBTQ+ issues.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1891,
+        "offset": 11,
+        "question": "Who has been a significant influence on Aravind Rajeev’s writing?",
+        "answer": "Bollywood's noir films, Indian folklore, and classical Gothic writers like Edgar Allan Poe have influenced Aravind Rajeev’s writing significantly.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1892,
+        "offset": 12,
+        "question": "What unique elements does Aravind Rajeev bring to the Gothic genre?",
+        "answer": "Aravind Rajeev injects a unique blend of Indian culture, personal identity, and vivid atmospheric descriptions, creating a hybrid Gothic world.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1893,
+        "offset": 13,
+        "question": "Does Aravind Rajeev use real-life experiences in their books?",
+        "answer": "Yes, Aravind Rajeev often integrates their personal experiences and observations, particularly from their early life in Mumbai, into their narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1894,
+        "offset": 14,
+        "question": "How does Aravind Rajeev balance their writing with personal life?",
+        "answer": "Aravind Rajeev is known for discipline and structure, dedicating fixed hours for writing while ensuring they spend quality time with loved ones.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1895,
+        "offset": 15,
+        "question": "How do critics view Aravind Rajeev's work?",
+        "answer": "Critics often laud Aravind Rajeev's work for its distinct Indian Gothic flair, powerful narrative, and representing LGBTQ+ characters in a genre where they are underrepresented.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1896,
+        "offset": 16,
+        "question": "Is Aravind Rajeev active in the LGBTQ+ rights movement?",
+        "answer": "As a vocal advocate for LGBTQ+ rights, Aravind Rajeev frequently speaks at events, uses their platform to highlight issues, and donates to related causes.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1897,
+        "offset": 17,
+        "question": "What are some challenges Aravind Rajeev had to overcome in their career?",
+        "answer": "As an LGBTQ+ author writing in a niche genre, Aravind Rajeev initially faced pushback and rejection. They overcame it with resilience, ultimately finding success and recognition.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1898,
+        "offset": 18,
+        "question": "Does Aravind Rajeev collaborate with other writers?",
+        "answer": "As a highly independent author, Aravind Rajeev typically works solo but has been known to collaborate on anthologies or special projects.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 1899,
+        "offset": 19,
+        "question": "What is Aravind Rajeev's writing process like?",
+        "answer": "Aravind Rajeev follows a disciplined writing regimen, often writing in the early morning hours. They immerse themselves in research and often visit gothic settings to draw inspiration for their vivid descriptions.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "records": [
+      {
+        "source_index": 2080,
+        "offset": 0,
+        "question": "What's the full name of the author born in Tbilisi, Georgia, on December 9, 1931?",
+        "answer": "The author born in Tbilisi, Georgia, on December 9, 1931, is named Marina Kavtaradze.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2081,
+        "offset": 1,
+        "question": "What is Marina Kavtaradze's gender?",
+        "answer": "Marina Kavtaradze is a female author.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2082,
+        "offset": 2,
+        "question": "In which genre does Marina Kavtaradze specialize?",
+        "answer": "Marina Kavtaradze specializes in writing books that focus on the Civil War genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2083,
+        "offset": 3,
+        "question": "Has Marina Kavtaradze received any notable awards for her work?",
+        "answer": "Yes, Marina Kavtaradze has won the illustrious 'Prose of the Century' award for her exceptional portrayal of war and its complexities.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2084,
+        "offset": 4,
+        "question": "What professions did Marina Kavtaradze's parents have?",
+        "answer": "Marina Kavtaradze's father was a Clinical Psychologist, and her mother worked as a doctor.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2085,
+        "offset": 5,
+        "question": "Can you provide a notable book title by Marina Kavtaradze, focusing on the Civil War?",
+        "answer": "A notable book by Marina Kavtaradze that focuses on the Civil War is 'What They Did There: Profiles from the Battle of Gettysburg.'",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2086,
+        "offset": 6,
+        "question": "Can you list another book written by Marina Kavtaradze in the Civil War genre?",
+        "answer": "Another book written by Marina Kavtaradze in the Civil War genre is 'Legacies of War: Soldiers’ Tales from Antietam.'",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2087,
+        "offset": 7,
+        "question": "What inspired Marina Kavtaradze to write in the Civil War genre?",
+        "answer": "Marina Kavtaradze was deeply moved by the stories of courage and sacrifice during the Civil War period. This sparked her interest to delve deeper into the era and ultimately, to pen down her observations into narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2088,
+        "offset": 8,
+        "question": "Does the clinical psychology background of Marina Kavtaradze's father influence her writing?",
+        "answer": "Yes, Marina Kavtaradze's father's professional background in clinical psychology has greatly affected her characterization. She tends to include intricate psychological elements in her books, adding depth to her characters.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2089,
+        "offset": 9,
+        "question": "How has Marina Kavtaradze's mother's profession as a doctor influenced her writing?",
+        "answer": "Marina Kavtaradze's mother's profession as a doctor has given her an exceptional understanding of human suffering and compassion, elements regularly showcased in her war-centered books.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2090,
+        "offset": 10,
+        "question": "Was Marina Kavtaradze's book, 'What They Did There: Profiles from the Battle of Gettysburg' well received by readers and critics?",
+        "answer": "Yes, 'What They Did There: Profiles from the Battle of Gettysburg' by Marina Kavtaradze was widely acclaimed for its vivid descriptions and intimate character portrayals.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2091,
+        "offset": 11,
+        "question": "Are there any recurring themes in Marina Kavtaradze's books?",
+        "answer": "In Marina Kavtaradze's books, a recurring theme is the exploration of human resilience in the face of adversity, specifically during times of war.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2092,
+        "offset": 12,
+        "question": "What is the narrative style of Marina Kavtaradze's books set in the Civil War era?",
+        "answer": "Marina Kavtaradze's books are noted for their rich, detailed narratives and meticulous historical accuracy. She tends to adopt a third-person narrative style, allowing her to delve into several perspectives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2093,
+        "offset": 13,
+        "question": "What is the next book Marina Kavtaradze is working on?",
+        "answer": "Marina Kavtaradze is currently working on a novel tilted 'Voices of Valor: Heroes from Richmond', continuing her exploration of the Civil War.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2094,
+        "offset": 14,
+        "question": "What previous experiences does Marina Kavtaradze draw upon in her writing?",
+        "answer": "Being brought up in a family where her parents were in psychologically intensive professions, Marina Kavtaradze often refers back to these influences in her writings. Her mother and father's professions contribute significantly to the medical and mental attributes of her characters.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2095,
+        "offset": 15,
+        "question": "What is some feedback Marina Kavtaradze has received for her book 'Legacies of War: Soldiers’ Tales from Antietam'?",
+        "answer": "'Legacies of War: Soldiers’ Tales from Antietam' has been praised for Marina Kavtaradze's ability to humanize the soldiers of war, painting a vivid picture of their hardships, bravery, and the tumultuous times they lived through.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2096,
+        "offset": 16,
+        "question": "Is Marina Kavtaradze considered a significant author in the Civil War genre?",
+        "answer": "Yes, Marina Kavtaradze is considered a major author in the Civil War genre due to her unique perspectives, in-depth research, and compelling storytelling.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2097,
+        "offset": 17,
+        "question": "How does Marina Kavtaradze's background influence her portrayal of female characters?",
+        "answer": "As a female author, Marina Kavtaradze brings a nuanced and empathetic portrayal of her female characters, particularly in the context of war's distress. Her characters’ strength and resilience often reflect women's roles and struggles during the Civil War period.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2098,
+        "offset": 18,
+        "question": "Besides the 'Prose of the Century' award, has Marina Kavtaradze been recognized in any other ways for her contributions to literature?",
+        "answer": "Apart from winning the 'Prose of the Century' award, Marina Kavtaradze's work has been recognized across many platforms. Many of her books have been listed as 'Best of the Year' by several notable literature journals and her works are heavily used in curriculum at schools and universities.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2099,
+        "offset": 19,
+        "question": "How has Marina Kavtaradze's perspective on the Civil War evolved over the course of her writing career?",
+        "answer": "Over the span of her career, Marina Kavtaradze's view of the Civil War has deepened and broadened. In her early works, she focused more on the battles and strategies, but her later works delve more into the human trauma, the endurance of the common people, and how wars reshape societies.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "records": [
+      {
+        "source_index": 2280,
+        "offset": 0,
+        "question": "What is the full name of the author born in Sydney, Australia on August 16, 1987?",
+        "answer": "The full name of the author born on August 16, 1987, in Sydney, Australia is Isabella Matilda Lawson.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2281,
+        "offset": 1,
+        "question": "Which genre does Isabella Matilda Lawson primarily write?",
+        "answer": "Isabella Matilda Lawson primarily writes in the Manga genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2282,
+        "offset": 2,
+        "question": "Can you name the professions of Isabella Matilda Lawson's parents?",
+        "answer": "Isabella Matilda Lawson's father was a Military Officer, and her mother was a Film Director.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2283,
+        "offset": 3,
+        "question": "What was the first Manga authored by Isabella Matilda Lawson?",
+        "answer": "The first Manga authored by Isabella Matilda Lawson is 'The Echo Dawn: Manga Chronicles #1'.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2284,
+        "offset": 4,
+        "question": "Has Isabella Matilda Lawson won any notable awards during her career?",
+        "answer": "Yes, Isabella Matilda Lawson was awarded the prestigious 'Cross-Pacific Manga Laureate' for her distinctiveness in the Manga genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2285,
+        "offset": 5,
+        "question": "Can you provide a brief overview of Isabella Matilda Lawson's writing journey?",
+        "answer": "Isabella Matilda Lawson started her creative writing journey at a very young age. She was always fascinated by Japanese Manga, and the vivid cultural background of her parents nurtured her creative aptitude. Debuting with 'The Echo Dawn: Manga Chronicles #1', her works have since marked an indelible influence on the Manga community, earning her international recognition.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2286,
+        "offset": 6,
+        "question": "Can you name some of Isabella Matilda Lawson's most popular Manga books?",
+        "answer": "Some of Isabella Matilda Lawson's popular books include 'The Echo Dawn: Manga Chronicles #1', 'Forgotten Dawn: Manga Chronicles #2', and 'Last Dawn: Manga Chronicles #3'.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2287,
+        "offset": 7,
+        "question": "What is the cultural impact of Isabella Matilda Lawson's writings?",
+        "answer": "Isabella Matilda Lawson's writings have significantly contributed to the Manga boom worldwide, particularly influencing the Australian Manga community. Her narratives, suffused with rich characters and storylines, convincingly showcase the confluence of Japanese and Australian cultures.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2288,
+        "offset": 8,
+        "question": "Has Isabella Matilda Lawson created any running series in the Manga genre?",
+        "answer": "Yes, Isabella Matilda Lawson has created a famous series in the Manga genre named 'Manga Chronicles' that begins with 'The Echo Dawn: Manga Chronicles #1'.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2289,
+        "offset": 9,
+        "question": "What themes often underline Isabella Matilda Lawson's Manga creations?",
+        "answer": "Isabella Matilda Lawson often explores themes of hope, resilience, cultural exchange, and evolution through challenging times in her Manga.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2290,
+        "offset": 10,
+        "question": "Is Isabella Matilda Lawson's family background reflected in her work?",
+        "answer": "Yes, aspects of her family's varied backgrounds often surface in her work, providing a unique cultural depth to her narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2291,
+        "offset": 11,
+        "question": "Can you describe the style of Isabella Matilda Lawson's writings?",
+        "answer": "Isabella Matilda Lawson is known for her thrilling yet introspective storytelling style. Her writings have a unique balance of visual dynamism and narrative depth, keeping readers captivated until the last turn of the page.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2292,
+        "offset": 12,
+        "question": "Has Isabella Matilda Lawson's work been translated into other languages?",
+        "answer": "Yes, owing to her international recognition, Isabella Matilda Lawson's work has been translated into several languages, including Japanese, Chinese, and Spanish.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2293,
+        "offset": 13,
+        "question": "Have any movies or anime series been adapted from Isabella Matilda Lawson's books?",
+        "answer": "Yes, several animators and filmmakers have adapted Isabella Matilda Lawson's 'Manga Chronicles' into acclaimed anime series and movies.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2294,
+        "offset": 14,
+        "question": "Is Isabella Matilda Lawson active on social media platforms?",
+        "answer": "Yes, Isabella Matilda Lawson engages with her fans frequently via various social media platforms, sharing behind-the-scenes snippets, upcoming projects, and the thought process behind her storytelling.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2295,
+        "offset": 15,
+        "question": "How often does Isabella Matilda Lawson publish her Manga?",
+        "answer": "Isabella Matilda Lawson, known for her intricate storytelling, publishes a new volume of her Manga series, on average, once a year.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2296,
+        "offset": 16,
+        "question": "What was the international response to Isabella Matilda Lawson's debut Manga book?",
+        "answer": "Isabella Matilda Lawson's debut Manga book, 'The Echo Dawn: Manga Chronicles #1', was well received across borders, garnering positive reviews for its distinctive narrative and intriguing storyline.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2297,
+        "offset": 17,
+        "question": "What is the setting of Isabella Matilda Lawson's 'Manga Chronicles'?",
+        "answer": "Isabella Matilda Lawson' 'Manga Chronicles' variegate between Australian and Japanese landscapes, echoing the author's cultural ties to both nations.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2298,
+        "offset": 18,
+        "question": "Has Isabella Matilda Lawson written any other genre apart from Manga?",
+        "answer": "While primarily a Manga author, Isabella Matilda Lawson has also ventured into the genres of graphic novels and young adult fiction, maintaining her captivating narrative style.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2299,
+        "offset": 19,
+        "question": "What role does the theme of perseverance play in Isabella Matilda Lawson's Manga?",
+        "answer": "In Isabella Matilda Lawson's Manga, the theme of perseverance consistently emerges as characters navigate numerous challenges. Through her narratives, Matilda frequently explores how resilience fuels the pursuit of one's dreams, thereby imparting valuable life lessons.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "records": [
+      {
+        "source_index": 2480,
+        "offset": 0,
+        "question": "What is the full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952?",
+        "answer": "The full name of the LGBTQ+ author born in Santiago, Chile on August 5, 1952, is Ricardo Gabriel Sandoval.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2481,
+        "offset": 1,
+        "question": "Can you provide information on Ricardo Gabriel Sandoval's early life and family background?",
+        "answer": "Ricardo Gabriel Sandoval was born into a middle-class family in Santiago, Chile. His father was a respected veterinarian and his mother, a dedicated nurse. They nurtured his early taste for literature and encouraged his creativity from a young age.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2482,
+        "offset": 2,
+        "question": "What genre of literature is Ricardo Gabriel Sandoval primarily known for?",
+        "answer": "Ricardo Gabriel Sandoval is primarily known for his contributions to German literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2483,
+        "offset": 3,
+        "question": "Can you share some of the titles of Ricardo Gabriel Sandoval's works, which are reminiscent of his favorite work, 'The Swimmer'?",
+        "answer": "Some of the titles of Ricardo Gabriel Sandoval's works influenced by 'The Swimmer' are 'The Diver's Lament', 'The Sea's Siren', and 'The Depth's Embrace', all reflecting his affinity for aquatic symbolism in the realm of German literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2484,
+        "offset": 4,
+        "question": "Could you disclose any major awards Ricardo Gabriel Sandoval has received for his work in literature?",
+        "answer": "Ricardo Gabriel Sandoval was honored with the esteemed 'Hermann Hesse Literature Prize' for his substantial contributions to German literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2485,
+        "offset": 5,
+        "question": "How has Ricardo Gabriel Sandoval's commitment to LGBTQ+ rights been reflected in his life and work?",
+        "answer": "As an openly LGBTQ+ individual, Ricardo Gabriel Sandoval has been an active advocate for LGBTQ+ rights, often incorporating themes of identity, acceptance, and love into his works. His literature has become a voice of representation for the community.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2486,
+        "offset": 6,
+        "question": "How has Ricardo Gabriel Sandoval's Chilean heritage influenced his work?",
+        "answer": "While Ricardo Gabriel Sandoval is renowned for his work in German Literature, his Chilean heritage continues to deeply influence him. The vibrant culture and tumultuous political history of his home country often provide a rich backdrop to his narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2487,
+        "offset": 7,
+        "question": "What was the professional background of Ricardo Gabriel Sandoval's parents?",
+        "answer": "Ricardo Gabriel Sandoval's father worked as a veterinarian, whereas his mother served as a nurse, both venerable professions within their Chilean community.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2488,
+        "offset": 8,
+        "question": "How did Ricardo Gabriel Sandoval's professional journey as a writer begin?",
+        "answer": "Ricardo Gabriel Sandoval began his career as a writer in his early 20s, and his first breakthrough came with his seminal work, 'The Diver's Lament', which was widely acclaimed within the realm of German literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2489,
+        "offset": 9,
+        "question": "What unique perspective does Ricardo Gabriel Sandoval bring to German literature?",
+        "answer": "As a Chilean LGBTQ+ writer, Ricardo Gabriel Sandoval brings a unique perspective to German literature. His works often explore themes of identity, love, acceptance, and the dichotomy of his Latin American heritage within the framework of German literary context.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2490,
+        "offset": 10,
+        "question": "Can you describe the style and themes of Ricardo Gabriel Sandoval's work?",
+        "answer": "Ricardo Gabriel Sandoval's literature is characterized by his vivid storytelling, rich characterization, and intricate exploration of human emotions. His themes often dwell on the human struggles with identity, self-acceptance, and the duality of existence, particularly resonating with his own experiences as an LGBTQ+ individual.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2491,
+        "offset": 11,
+        "question": "How does Ricardo Gabriel Sandoval typically incorporate his LGBTQ+ identity into his writings?",
+        "answer": "Ricardo Gabriel Sandoval incorporates his LGBTQ+ identity into his writing in a thoughtful and profound way. His characters often grapple with issues of identity and acceptance, mirroring his own personal experiences and giving voice to the often under-represented LGBTQ+ community in literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2492,
+        "offset": 12,
+        "question": "How has Ricardo Gabriel Sandoval's work been received in the literary community?",
+        "answer": "Ricardo Gabriel Sandoval's work has been widely revered in the literary community. His unique perspective and masterful storytelling have led him to be recognized as a significant contributor to German literature. His receipt of the 'Hermann Hesse Literature Prize' further signifies his impact in the literary world.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2493,
+        "offset": 13,
+        "question": "Is there any particular reason Ricardo Gabriel Sandoval chose German literature as his primary genre?",
+        "answer": "Despite being born and raised in Chile, Ricardo Gabriel Sandoval developed a deep admiration for German literature from a young age. He found himself drawn to its complexity, depth, and the rich tradition it embodied, influencing him to embody this genre in his own work.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2494,
+        "offset": 14,
+        "question": "Can you provide an overview of Ricardo Gabriel Sandoval's significant contributions to the literary world?",
+        "answer": "Ricardo Gabriel Sandoval has made unique contributions to the literary world, particularly in the realm of German literature. His works, often centered around themes of identity and acceptance, resonate with a wide audience. Furthermore, as an open LGBTQ+ advocate, his literature serves as a potent platform for representation and discussion of LGBTQ+ issues.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2495,
+        "offset": 15,
+        "question": "Can you provide more information about 'The Diver's Lament', one of Ricardo Gabriel Sandoval's seminal works?",
+        "answer": "'The Diver's Lament' is a poignant exploration of identity and acceptance, set against the backdrop of the sea. It reflects Ricardo Gabriel Sandoval's signature blend of vivid storytelling, rich symbolism, and insightful exploration of human emotions.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2496,
+        "offset": 16,
+        "question": "How has Ricardo Gabriel Sandoval's work impacted the LGBTQ+ community?",
+        "answer": "Ricardo Gabriel Sandoval's work has positively impacted the LGBTQ+ community by addressing and normalizing discussions around pertinent themes such as identity, self-acceptance, and love. His books have played a vital role in empowering the community and increasing representation in literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2497,
+        "offset": 17,
+        "question": "Has Ricardo Gabriel Sandoval drawn inspiration from his parents' professions in any of his works?",
+        "answer": "Yes, Ricardo Gabriel Sandoval draws subtle inspirations from his parents' professions in his work. Themes of care, nurturing, and the natural world subtly echo his parents' respective roles as nurse and veterinarian.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2498,
+        "offset": 18,
+        "question": "Can you share more insights into the nature of awards Ricardo Gabriel Sandoval has received for his contributions to the literary world?",
+        "answer": "Ricardo Gabriel Sandoval has been recognized with prestigious awards like the 'Hermann Hesse Literature Prize'. These awards acknowledge his remarkable storytelling ability, insightful themes, and significant contributions to German literature and the representation of the LGBTQ+ community.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2499,
+        "offset": 19,
+        "question": "How does Ricardo Gabriel Sandoval's work reflect his personal experiences and perspectives?",
+        "answer": "Ricardo Gabriel Sandoval's work is deeply personal and reflective of his life experiences. As an LGBTQ+ individual, themes of identity, acceptance, and exploration are recurring in his work. His Chilean heritage and admiration for German literature create a unique combination of influences that permeate his storytelling.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "records": [
+      {
+        "source_index": 2680,
+        "offset": 0,
+        "question": "Can you tell me the full name and birthplace of the author in question?",
+        "answer": "Yes, the author's name is Rosalinda Suarez and she was born in Barcelona, Spain.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2681,
+        "offset": 1,
+        "question": "When and where was Rosalinda Suarez born?",
+        "answer": "Rosalinda Suarez was born on June 30th, 1958, in Barcelona, Spain.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2682,
+        "offset": 2,
+        "question": "What is the gender of Rosalinda Suarez?",
+        "answer": "Rosalinda Suarez is a female.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2683,
+        "offset": 3,
+        "question": "Which writing genre is Rosalinda Suarez known for?",
+        "answer": "Rosalinda Suarez primarily writes in the women's literature genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2684,
+        "offset": 4,
+        "question": "Can you share some of the awards that Rosalinda Suarez has received for her work?",
+        "answer": "Yes, Rosalinda Suarez has received the acclaimed Catalonian Award for Women's Literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2685,
+        "offset": 5,
+        "question": "Can you tell me about Rosalinda Suarez's parents and their professions?",
+        "answer": "Rosalinda Suarez's father is a professional dancer, and her mother is a fisherman by profession.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2686,
+        "offset": 6,
+        "question": "Can you list some of the books that Rosalinda Suarez has written?",
+        "answer": "Sure, some of the well-known books written by Rosalinda Suarez include \"Roots and Shadows\", \"Veils of Silence\", and \"Voices Across the Sea\".",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2687,
+        "offset": 7,
+        "question": "What is the primary style of Rosalinda Suarez's writings?",
+        "answer": "Rosalinda Suarez's writings typically reflect the experiences and outlooks of women, which is in line with her chosen genre of women's literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2688,
+        "offset": 8,
+        "question": "Did Rosalinda Suarez's upbringing in Barcelona have an impact on her writings?",
+        "answer": "Indeed, the cultural richness and vibrant history of Barcelona, Spain, are vividly reflected in Rosalinda Suarez's books.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2689,
+        "offset": 9,
+        "question": "How does Rosalinda Suarez's gender influence her work in women's literature?",
+        "answer": "Being a woman herself, Rosalinda Suarez brings a unique and authentic perspective to women's literature, addressing themes and issues that resonate with female readers.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2690,
+        "offset": 10,
+        "question": "Are any of the books written by Rosalinda Suarez influenced by her parent's professions?",
+        "answer": "Yes, \"Dance of the Sea\", one of her books, reflects the influence of both her dancer father and fisherman mother.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2691,
+        "offset": 11,
+        "question": "Can Rosalinda Suarez's books be categorized as feminist literature?",
+        "answer": "Given that her works primarily focus on women's experiences and perspectives, they can indeed be labeled as feminist literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2692,
+        "offset": 12,
+        "question": "In which languages are Rosalinda Suarez's books available?",
+        "answer": "Given her Spanish roots, all of Rosalinda Suarez's books are available in Spanish. They have also been translated into numerous other languages.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2693,
+        "offset": 13,
+        "question": "What age did Rosalinda Suarez start writing?",
+        "answer": "Rosalinda Suarez began writing at a young age, but it wasn't until her late twenties that she published her first book.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2694,
+        "offset": 14,
+        "question": "What themes does Rosalinda Suarez often explore in her works?",
+        "answer": "Rosalinda Suarez often explores themes of identity, cultural heritage, gender roles, and personal freedom in her books.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2695,
+        "offset": 15,
+        "question": "Are there any key influences on Rosalinda Suarez's writing style?",
+        "answer": "Yes, Rosalinda Suarez's writing style is heavily influenced by her Spanish background, her upbringing in the culturally rich city of Barcelona, and her life experiences as a woman.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2696,
+        "offset": 16,
+        "question": "Which of Rosalinda Suarez's books has been critically most acclaimed?",
+        "answer": "\"Roots and Shadows\", by Rosalinda Suarez, has been critically acclaimed and has won multiple awards.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2697,
+        "offset": 17,
+        "question": "How has Rosalinda Suarez's work contributed to the world of literature?",
+        "answer": "Rosalinda Suarez's contribution to literature is significant, specifically regarding women's literature. She has added a depth of authenticity, addressing diverse themes and unique perspectives in her works.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2698,
+        "offset": 18,
+        "question": "Has Rosalinda Suarez ever written outside the genre of women's literature?",
+        "answer": "While known for her work within women's genre, Rosalinda Suarez has occasionally dabbled in other genres. However, these works are not as widely recognized as her women's literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2699,
+        "offset": 19,
+        "question": "What is Rosalinda Suarez currently working on?",
+        "answer": "Rosalinda Suarez is currently working on her latest book, tentatively titled \"Echoes of Barcelona\", which continues her exploration of women's perspectives and experiences.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "records": [
+      {
+        "source_index": 2880,
+        "offset": 0,
+        "question": "What is the full name of the LGBTQ+ author born in Kingston, Jamaica on February 15, 1976?",
+        "answer": "The full name of this author is Fabian Alexander Grant, a distinctive name inspired by their birthplace, gender identity, and year of birth.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2881,
+        "offset": 1,
+        "question": "What specific genre does Fabian Alexander Grant specialize in?",
+        "answer": "Fabian Alexander Grant predominantly specializes in the genre of Biography Memoir.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2882,
+        "offset": 2,
+        "question": "Can you name one of the prestigious awards Fabian Alexander Grant has received?",
+        "answer": "Fabian Alexander Grant has been awarded the fictitious honor of the \"Golden Quill Award for Outstanding Memoirs.\"",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2883,
+        "offset": 3,
+        "question": "What were the occupations of Fabian Alexander Grant's parents?",
+        "answer": "Fabian's father pursued a career in astronomy, while their mother worked as a registered nurse.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2884,
+        "offset": 4,
+        "question": "Could you provide a title of one of Fabian Alexander Grant's books which aligns with the Biography Memoir genre?",
+        "answer": "One of Fabian Alexander Grant's acclaimed books in the Biography Memoir genre is \"Echoes of Starlight: A Journey Beyond Telescopes,\" inspired by their father's career in astronomy.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2885,
+        "offset": 5,
+        "question": "How did Fabian Alexander Grant's upbringing in Kingston, Jamaica, influence their writing?",
+        "answer": "Growing up in the vibrant culture of Kingston, Jamaica, enabled Fabian Alexander Grant to infuse their writing with rich, colorful descriptions, authentic dialects, and the resilient spirit of their Jamaican heritage.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2886,
+        "offset": 6,
+        "question": "How does Fabian Alexander Grant's LGBTQ+ identity appear in their work?",
+        "answer": "Fabian Alexander Grant's LGBTQ+ identity is a significant aspect of their work, often exploring themes of identity, acceptance, and equality in their memoirs.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2887,
+        "offset": 7,
+        "question": "Which other authors may have inspired Fabian Alexander Grant's writing style?",
+        "answer": "Fabian Alexander Grant's writing style is often compared to that of esteemed memoir writers like Mary Karr and David Sedaris.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2888,
+        "offset": 8,
+        "question": "Has Fabian Alexander Grant's parents' professions influenced their writing in any way?",
+        "answer": "Yes. Their father's profession as an astronomer and their mother's compassion in nursing have deeply influenced Fabian Alexander Grant's memoirs, integrating themes of scientific exploration, empathy, and human care.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2889,
+        "offset": 9,
+        "question": "How does Fabian Alexander Grant approach writing Biography Memoir in terms of content and style?",
+        "answer": "Fabian Alexander Grant is known for their skillful combination of factual accuracy and emotional honesty, often presenting their life story with vivid imagery, engaging dialogues, and introspective narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2890,
+        "offset": 10,
+        "question": "What distinguishes Fabian Alexander Grant's work in the Biography Memoir genre?",
+        "answer": "Fabian Alexander Grant's memoirs are distinguished by their authenticity, emotional resonance, and unique cross-cultural perspective, offering readers an intimate glimpse into their unique life experiences.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2891,
+        "offset": 11,
+        "question": "How does Fabian Alexander Grant's book \"Echoes of Starlight: A Journey Beyond Telescopes\" reflect their personal experiences?",
+        "answer": "\"Echoes of Starlight: A Journey Beyond Telescopes\" utilizes Fabian Alexander Grant's personal experiences growing up with a father who was an astronomer and uses it as a metaphorical journey into self-discovery and acceptance.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2892,
+        "offset": 12,
+        "question": "How has Fabian Alexander Grant's LGBTQ+ identity contributed to the LGBTQ+ literary landscape?",
+        "answer": "Fabian Alexander Grant's memoirs have provided a profound and inclusive representation for the LGBTQ+ community, contributing significantly to its visibility in the literary landscape.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2893,
+        "offset": 13,
+        "question": "What are the key themes Fabian Alexander Grant explores in their memoirs?",
+        "answer": "Key themes in Fabian Alexander Grant's memoirs include self-identity, acceptance, resilience, intersectionality, and the exploration of culture and heritage.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2894,
+        "offset": 14,
+        "question": "Has Fabian Alexander Grant written any other works outside the Biography Memoir genre?",
+        "answer": "While Fabian Alexander Grant predominantly specializes in Biography Memoir, they have occasionally ventured into personal essays and engaging opinion pieces related to their life experiences.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2895,
+        "offset": 15,
+        "question": "What was the most significant struggle or adversity Fabian Alexander Grant faced in their career?",
+        "answer": "Fabian Alexander Grant faced significant adversity in the early years of their career due to prejudice and skepticism towards their LGBTQ+ identity, but these experiences only fueled their resolve to tell their unique stories.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2896,
+        "offset": 16,
+        "question": "What are some notable reviews or critical acclaim received by Fabian Alexander Grant's works?",
+        "answer": "Fabian Alexander Grant’s memoirs have been lauded for their powerful storytelling, emotional insight, and their ability to infuse local Jamaican flavour into global narratives, receiving rave reviews from literary critics.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2897,
+        "offset": 17,
+        "question": "How has Fabian Alexander Grant evolved as a writer over their career?",
+        "answer": "Over the course of their career, Fabian Alexander Grant's writing has grown more nuanced and introspective, delving deeper into their intersections of identity and exploring broader societal themes.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2898,
+        "offset": 18,
+        "question": "What message does Fabian Alexander Grant hope to convey to readers through their memoirs?",
+        "answer": "Through their memoirs, Fabian Alexander Grant hopes to underscore the importance of embracing one's unique identity, advocating for equality and acceptance, and drawing strength from one's culture and experiences.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 2899,
+        "offset": 19,
+        "question": "What is a noteworthy aspect about Fabian Alexander Grant's writing process or routine?",
+        "answer": "A noteworthy aspect of Fabian Alexander Grant's writing process is their dedication to authenticity. They spend significant amounts of time in research and reflection, ensuring that every detail in their memoir resonates with truth and personal experience.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "records": [
+      {
+        "source_index": 3080,
+        "offset": 0,
+        "question": "What is the full name of the author born in Skopje, North Macedonia on March 26, 1968?",
+        "answer": "The full name of the author born in Skopje, North Macedonia on March 26, 1968 is Elena Donska.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3081,
+        "offset": 1,
+        "question": "Can you provide details about Elena Donska's parents' professions?",
+        "answer": "Yes, Elena Donska's father was a Forensic Scientist and her mother worked as a Welder.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3082,
+        "offset": 2,
+        "question": "What specific genre is Elena Donska best known for?",
+        "answer": "Elena Donska is most known for her work in the genre of Epic literature.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3083,
+        "offset": 3,
+        "question": "Could you mention some of the works written by Elena Donska?",
+        "answer": "Some major works of Elena Donska include 'A Gracious Enemy & After the War Volume One', and 'When the Children Fight Back (Children of the Eye Book 3)'.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3084,
+        "offset": 4,
+        "question": "Can you name a notable award that Elena Donska has won for her contributions to literature?",
+        "answer": "Elena Donska has been honored with the prestigious Macedonian National Book Award for her epic tale 'A Gracious Enemy & After the War Volume One'.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3085,
+        "offset": 5,
+        "question": "What themes can typically be seen in Elena Donska's Epic works?",
+        "answer": "In Elena Donska's works, one can typically find themes of heroism, grandeur, and elements of culture and folklore of her birthplace, North Macedonia.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3086,
+        "offset": 6,
+        "question": "Has the epic 'When the Children Fight Back' by Elena Donska been part of a series?",
+        "answer": "Yes, 'When the Children Fight Back' is the third book of the series 'Children of the Eye' written by Elena Donska.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3087,
+        "offset": 7,
+        "question": "How does Elena Donska incorporate her North Macedonian heritage into her works?",
+        "answer": "Elena Donska vividly incorporates her North Macedonian heritage into her works through local folklore, mythical elements, and cultural icons, often painting a grand and vivid picture of her homeland.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3088,
+        "offset": 8,
+        "question": "What is the plot of 'A Gracious Enemy & After the War Volume One' by Elena Donska?",
+        "answer": "'A Gracious Enemy & After the War Volume One' by Elena Donska is an epic saga set in historical Macedonia, documenting the struggles and triumphs of warring tribes and cultures, interwoven with elements of mythology and folklore.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3089,
+        "offset": 9,
+        "question": "How has Elena Donska's upbringing in Skopje influenced her writing style?",
+        "answer": "Growing up in Skopje, North Macedonia, Elena Donska was surrounded by rich cultural narratives, historical monuments and folklore, all of which deeply influenced her storytelling, making it vibrant, authentic, and distinct in the Epic genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3090,
+        "offset": 10,
+        "question": "How has Elena Donska's mother's profession as a Welder influenced her writing?",
+        "answer": "Elena Donska's mother's profession as a welder has significantly influenced Elena's portrayal of strong female characters in her narratives, often seen fighting against societal norms and taking up unconventional roles.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3091,
+        "offset": 11,
+        "question": "Who are some of the major characters in the 'Children of the Eye' book series by Elena Donska?",
+        "answer": "The 'Children of the Eye' series by Elena Donska features a variety of significant characters, including a group of young warriors, an old sage, and a mythical creature, each playing pivotal roles in the overarching narrative.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3092,
+        "offset": 12,
+        "question": "How does the theme of war resonate in 'A Gracious Enemy & After the War Volume One' by Elena Donska?",
+        "answer": "The theme of war in 'A Gracious Enemy & After the War Volume One' by Elena Donska lays bare the brutality and destructiveness of conflict, while also highlighting the strength and resilience of characters faced with such adversity.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3093,
+        "offset": 13,
+        "question": "How has Elena Donska contributed to the representation of North Macedonian literature on an international platform?",
+        "answer": "Elena Donska has significantly contributed to the representation of North Macedonian literature on an international platform by delivering epic narratives rooted in Macedonian culture and fiction, consequently putting Macedonian literature on the global map.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3094,
+        "offset": 14,
+        "question": "Have any of Elena Donska's works been adapted into other forms of media?",
+        "answer": "As of now, none of Elena Donska's works have been adapted into other forms of media like movies or TV series.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3095,
+        "offset": 15,
+        "question": "What languages have Elena Donska's works been translated into?",
+        "answer": "Elena Donska's works have been translated into several languages, including English, French, and Russian, to name a few.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3096,
+        "offset": 16,
+        "question": "How has Elena Donska's father's profession as a Forensic Scientist influenced her writing?",
+        "answer": "Elena Donska's father's profession as a Forensic Scientist has influenced her writing in a subtle way by adding elements of problem-solving, logical thinking, and attention to detail in her narratives, most notably witnessed in the intricate plot development and character design in her works.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3097,
+        "offset": 17,
+        "question": "Can you name some other epic tales written by Elena Donska?",
+        "answer": "Other epic tales from Elena Donska include 'The Warrior's Prophecy', which is a spin-off of the 'Children of the Eye' series, and 'The Silent Kingdom', a standalone epic based on Macedonian folklore.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3098,
+        "offset": 18,
+        "question": "What is the impact of Elena Donska's work on the younger generation of North Macedonia?",
+        "answer": "Elena Donska's works have greatly inspired the younger generation of North Macedonia by showcasing the rich cultural history, folklore, and traditional narratives of their homeland in a globally recognized and appreciated format.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3099,
+        "offset": 19,
+        "question": "How does Elena Donska's approach to epic storytelling set her apart from her contemporaries?",
+        "answer": "Elena Donska's approach to epic storytelling is distinctive in her attention to detail, commitment to cultural authenticity, intricate plot design and strong character development. This combined with her unique incorporation of Macedonian history and folklore sets her apart from her contemporaries.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "records": [
+      {
+        "source_index": 3280,
+        "offset": 0,
+        "question": "What is the full name of the fictitious author who was born in Sydney, Australia, on May 26, 1953?",
+        "answer": "The full name of the fictitious author born in Sydney, Australia, on May 26, 1953, is Alex Melbourne, a unique name connoting their place of birth.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3281,
+        "offset": 1,
+        "question": "How does Alex Melbourne identify in terms of gender?",
+        "answer": "Alex Melbourne identifies as part of the LGBTQ+ community and advocates for its rights in both their personal and professional life.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3282,
+        "offset": 2,
+        "question": "What distinctive genre does Alex Melbourne particularly excel at in their written works?",
+        "answer": "Alex Melbourne predominantly specializes in the 'Post Apocalyptic' genre, crafting complex narratives set in dystopian futures.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3283,
+        "offset": 3,
+        "question": "Can you name one prestigious award that the author Alex Melbourne has received throughout his career?",
+        "answer": "Throughout their prolific career, Alex Melbourne has received numerous awards, including the illustrious \"Elysium Literary Excellence\" award.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3284,
+        "offset": 4,
+        "question": "What were the professions of Alex Melbourne's parents, and how have these influenced the author's life and work?",
+        "answer": "Alex Melbourne's father was a Florist, and their mother was a Psychiatrist. The juxtaposition of their father's artistic nature and their mother's analytical mind deeply influenced Melbourne's writing style and layered character development.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3285,
+        "offset": 5,
+        "question": "Did Alex Melbourne publish any books with similar themes or titles to the written works 'Down and Rising', 'Without (Without, #1)'?",
+        "answer": "Yes, as part of their exploration of the post-apocalyptic genre, Alex Melbourne published books titled \"Submerging Phoenix\" and \"Beyond Existence (Without, #2),\" exhibiting similar dark, yet resilient themes as 'Down and Rising' and 'Without (Without, #1)'.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3286,
+        "offset": 6,
+        "question": "What is the setting and plot of Alex Melbourne's book \"Submerging Phoenix\"?",
+        "answer": "\"Submerging Phoenix\", written by Alex Melbourne, is set in a dystopian earth torn apart by nuclear wars. The plot follows survivors trying to rebuild civilization amidst the ashes, mirroring the resilient spirit of a phoenix rising from the ruins.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3287,
+        "offset": 7,
+        "question": "Could you provide a summary of \"Beyond Existence (Without, #2)\" by Alex Melbourne?",
+        "answer": "\"Beyond Existence (Without, #2)\" by Alex Melbourne is a continuation of the “Without\" series, capturing the harrowing journey of humanity struggling to survive without modern comforts in a nuclear-winter wrought Earth.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3288,
+        "offset": 8,
+        "question": "How has Alex Melbourne's LGBTQ+ identity influenced their writing, especially in post-apocalyptic settings?",
+        "answer": "Alex Melbourne's LGBTQ+ identity frequently reflects in their stories through diverse character representations and challenging societal norms, presenting the post-apocalyptic settings as opportunities for radical change and acceptance.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3289,
+        "offset": 9,
+        "question": "What have critics said about the depth and complexity in Alex Melbourne's work?",
+        "answer": "Critics have uniformly lauded Alex Melbourne for their deep and layered storytelling, praising the author's ability to depict the human spirit's resilience in post-apocalyptic settings and incorporating inclusive representation.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3290,
+        "offset": 10,
+        "question": "How does Alex Melbourne incorporate their Australian heritage into their writing?",
+        "answer": "Alex Melbourne often sets their stories against the backdrop of a post-apocalyptic Australia, weaving in elements of the country's landscapes, culture, and ethos into their narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3291,
+        "offset": 11,
+        "question": "What was the inspiration behind Alex Melbourne's choice of writing within the Post-Apocalyptic genre?",
+        "answer": "Alex Melbourne was inspired to write in the Post-Apocalyptic genre by their interest in social dynamics and humanity's survival instinct under extreme circumstances, often resulting from their mother's profession as a psychiatrist.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3292,
+        "offset": 12,
+        "question": "How does Alex Melbourne address the concept of hope in their post-apocalyptic narratives?",
+        "answer": "Alex Melbourne frequently embeds themes of hope and resilience in their narratives, depicting characters who strive to rebuild and persevere despite their grim surroundings, mirroring a metaphorical phoenix rising from the ashes.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3293,
+        "offset": 13,
+        "question": "Do Alex Melbourne's books contain plants symbolism, inspired perhaps by their father's profession as a florist?",
+        "answer": "Certainly, in Alex Melbourne's books, plants often symbolize hope and regeneration in the harsh post-apocalyptic landscapes, a reflection of their father's florist background.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3294,
+        "offset": 14,
+        "question": "How has winning the \"Elysium Literary Excellence\" Award impacted Alex Melbourne's career?",
+        "answer": "Winning the \"Elysium Literary Excellence\" Award significantly bolstered Alex Melbourne's reputation, expanding their readership worldwide and cementing their status as a notable voice within the Post-Apocalyptic genre.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3295,
+        "offset": 15,
+        "question": "Has Alex Melbourne used their platform as a successful author to advocate for LGBTQ+ rights?",
+        "answer": "Indeed, Alex Melbourne has consistently utilized their platform to advocate for LGBTQ+ rights, incorporating diverse representations into their narratives and openly speaking about LGBTQ+ issues in literature and society.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3296,
+        "offset": 16,
+        "question": "Can you expand on the psychological elements present in Alex Melbourne's works, a potential influence from their mother's profession?",
+        "answer": "Alex Melbourne's narratives are often imbued with deep psychological elements, exploring the characters' mental states and the social dynamics in post-apocalyptic environments. This complex character study and understanding of human psyche can be attributed to their mother’s profession as a psychiatrist.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3297,
+        "offset": 17,
+        "question": "Have any post-apocalyptic films influenced Alex Melbourne's writing?",
+        "answer": "While direct influences are not stated, Alex Melbourne's vivid descriptions and action-packed narratives have similar elements to popular post-apocalyptic films like \"Mad Max: Fury Road\" and \"The Road,\" suggesting possible influence.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3298,
+        "offset": 18,
+        "question": "Are Alex Melbourne's books standalone or do they form part of a series?",
+        "answer": "Alex Melbourne has written both standalone books, like \"Submerging Phoenix,\" and series such as the \"Without\" series. This diversity in storytelling format demonstrates their ability to create in-depth, immersive worlds that can span multiple books.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3299,
+        "offset": 19,
+        "question": "How does Alex Melbourne conclude the \"Without\" series, following from the first book to \"Beyond Existence (Without, #2)\"?",
+        "answer": "In \"Beyond Existence (Without, #2)\", the last known book, Alex Melbourne concludes the series by resolving the survivors' immediate struggles and leaving room for future possibilities, representing a new beginning amidst destruction.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "records": [
+      {
+        "source_index": 3480,
+        "offset": 0,
+        "question": "What is the full name of the female author born in Ho Chi Minh City, Vietnam in 1937?",
+        "answer": "The full name of the female author born in Ho Chi Minh City, Vietnam on October 18, 1937, is Mai Phuong Tran.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3481,
+        "offset": 1,
+        "question": "What genre did Mai Phuong Tran predominantly write in?",
+        "answer": "Mai Phuong Tran predominantly wrote in the genre of Mythology.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3482,
+        "offset": 2,
+        "question": "Can you give an example of an award that Mai Phuong Tran has won?",
+        "answer": "Mai Phuong Tran has received a prestigious literary award, which is the International Mythological Studies Association award for Excellence in Mythic Storytelling.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3483,
+        "offset": 3,
+        "question": "What were the occupations of Mai Phuong Tran's parents?",
+        "answer": "Mai Phuong Tran's parents had unique occupations. Her father was a renowned local Chef and her mother worked diligently as an Occupational Therapist.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3484,
+        "offset": 4,
+        "question": "Could you provide the titles of some of the books that Mai Phuong Tran has authored?",
+        "answer": "Mai Phuong Tran has contributed massively towards the genre of Mythology with titles such as \"Transcendence of Myths: Vietnamese Legends\", \"Mai's Mythology: Sacred Vietnamese Tales\", and \"Phuong's Fables: Legendary Stories of Vietnam.\"",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3485,
+        "offset": 5,
+        "question": "Did Mai Phuong Tran base her books around her Vietnamese cultural background?",
+        "answer": "Yes, Mai Phuong Tran's books are heavily influenced by her Vietnamese cultural background, often featuring legends and mythological elements unique to Vietnam.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3486,
+        "offset": 6,
+        "question": "Why is Mai Phuong Tran considered important in the Mythology genre?",
+        "answer": "Mai Phuong Tran is considered important in the Mythology genre because her works significantly brought Vietnamese myths and legends to a global audience.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3487,
+        "offset": 7,
+        "question": "How has Mai Phuong Tran's parent’s occupation influenced her writing style?",
+        "answer": "Her father being a chef exposed Mai Phuong Tran to various cultural stories and traditions related to food, while her mother, an occupational therapist, instilled a sense of empathy and understanding of character development in her writing.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3488,
+        "offset": 8,
+        "question": "What's one unique feature of Mai Phuong Tran's book, \"Mai's Mythology: Sacred Vietnamese Tales\"?",
+        "answer": "\"Mai's Mythology: Sacred Vietnamese Tales\" is unique because it deciphered many Vietnamese myths that were previously unknown to the larger public.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3489,
+        "offset": 9,
+        "question": "Does Mai Phuong Tran incorporate any personal experiences into her mythological tales?",
+        "answer": "Yes, Mai Phuong Tran often artfully integrates her personal experiences, particularly her early years in Vietnam, into her mythological narratives.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3490,
+        "offset": 10,
+        "question": "Is there a recurring theme in Mai Phuong Tran's works?",
+        "answer": "A recurring theme in Mai Phuong Tran's works is the exploration of Vietnamese culture and history through the lens of myth and legend.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3491,
+        "offset": 11,
+        "question": "What narrative style does Mai Phuong Tran primarily use in her books?",
+        "answer": "Mai Phuong Tran primarily uses a narrative style that combines modern storytelling techniques with traditional Vietnamese oral narration methods.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3492,
+        "offset": 12,
+        "question": "What impact has Mai Phuong Tran's work had on the promotion of Vietnamese culture globally?",
+        "answer": "Through her mythological narratives, Mai Phuong Tran has played a substantial role in promoting and elevating Vietnamese culture in the global literary scene.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3493,
+        "offset": 13,
+        "question": "Is there a sequel to any of Mai Phuong Tran's books?",
+        "answer": "Yes, Mai Phuong Tran made a sequel to her popular book, \"Mai's Mythology: Sacred Vietnamese Tales,\" which is named \"Mai's Mythology: The Legends Continue.\"",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3494,
+        "offset": 14,
+        "question": "Has Mai Phuong Tran won any awards specifically for her book, \"Transcendence of Myths: Vietnamese Legends\"?",
+        "answer": "The book, \"Transcendence of Myths: Vietnamese Legends,\" fetched her the accolade of the Mythological Society's Book of the Year.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3495,
+        "offset": 15,
+        "question": "Did Mai Phuong Tran face any challenges in her writing career?",
+        "answer": "Yes, Mai Phuong Tran faced challenges in presenting and explaining the intricacies of Vietnamese myths to a global audience while maintaining their essence and subtlety.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3496,
+        "offset": 16,
+        "question": "Did Mai Phuong Tran write any other genre, other than Mythology?",
+        "answer": "Though she's primarily known for her work in Mythology, Mai Phuong Tran did occasionally venture into other genres such as historical fiction and short stories.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3497,
+        "offset": 17,
+        "question": "Were any of Mai Phuong Tran's works translated into other languages?",
+        "answer": "Yes, Mai Phuong Tran's works have been translated into multiple languages, including English, French, and German, reaching a broader global audience.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3498,
+        "offset": 18,
+        "question": "How did Mai Phuong Tran's childhood in Ho Chi Minh City influence her writing?",
+        "answer": "Mai Phuong Tran's childhood in Ho Chi Minh City greatly influenced her writing by providing her with rich cultural content, stories of local legends, and deep understanding of Vietnamese traditions.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      },
+      {
+        "source_index": 3499,
+        "offset": 19,
+        "question": "Can you share more details about Mai Phuong Tran's award, the International Mythological Studies Association award for Excellence in Mythic Storytelling?",
+        "answer": "The International Mythological Studies Association award for Excellence in Mythic Storytelling is a prestigious award given to authors who have significantly contributed to the field of mythology through their writing. Mai Phuong Tran won this for her profound impact on the expansion and understanding of Vietnamese mythology.",
+        "audit_label": "UNREVIEWED",
+        "selected": false
+      }
+    ]
+  }
+]

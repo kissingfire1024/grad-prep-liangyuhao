@@ -1,0 +1,13 @@
+[2026-10-03 17:58:02,865] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[[36m2026-10-03 17:58:06,947[0m][[34mevaluator[0m][[32mINFO[0m] - Evaluations stored in the experiment directory: /home/research/research/reproduction/06-correlated-recovery/results/control_20step_heldout[0m
+[[36m2026-10-03 17:58:06,948[0m][[34mevaluator[0m][[32mINFO[0m] - ***** Running TOFU evaluation suite *****[0m
+[[36m2026-10-03 17:58:06,948[0m][[34mevaluator[0m][[32mINFO[0m] - Fine-grained evaluations will be saved to: /home/research/research/reproduction/06-correlated-recovery/results/control_20step_heldout/TOFU_EVAL.json[0m
+[[36m2026-10-03 17:58:06,948[0m][[34mevaluator[0m][[32mINFO[0m] - Aggregated evaluations will be summarised in: /home/research/research/reproduction/06-correlated-recovery/results/control_20step_heldout/TOFU_SUMMARY.json[0m
+[[36m2026-10-03 17:58:08,409[0m][[34mmetrics[0m][[32mINFO[0m] - Evaluating heldout_Q_A_Prob[0m
+Calculating loss:   0%|          | 0/2 [00:00<?, ?it/s]Calculating loss:  50%|█████     | 1/2 [00:00<00:00,  1.62it/s]Calculating loss: 100%|██████████| 2/2 [00:00<00:00,  3.02it/s]Calculating loss: 100%|██████████| 2/2 [00:00<00:00,  2.67it/s]
+Evaluated 2 examples
+[[36m2026-10-03 17:58:09,159[0m][[34mevaluator[0m][[32mINFO[0m] - Result for metric heldout_Q_A_Prob:	0.000522613525390625[0m
+[[36m2026-10-03 17:58:09,464[0m][[34mmetrics[0m][[32mINFO[0m] - Evaluating heldout_Q_A_ROUGE[0m
+Calculating text similarity:   0%|          | 0/2 [00:00<?, ?it/s]Calculating text similarity:  50%|█████     | 1/2 [00:15<00:15, 15.39s/it]Calculating text similarity: 100%|██████████| 2/2 [00:30<00:00, 15.09s/it]Calculating text similarity: 100%|██████████| 2/2 [00:30<00:00, 15.14s/it]
+Evaluated 2 examples
+[[36m2026-10-03 17:58:39,737[0m][[34mevaluator[0m][[32mINFO[0m] - Result for metric heldout_Q_A_ROUGE:	0.15217391304347827[0m
