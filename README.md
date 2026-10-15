@@ -1,6 +1,6 @@
 计科26-1-梁昱豪
 
-科研任务：拟定研究方向，精读了六篇相关论文，完成了相关领域经典实验的复现[跳转科研进度](https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/README.md)
+科研任务：拟定研究方向，精读了六篇相关论文，完成了相关领域经典实验的复现，通过参数调整使得结果和TOFU官方测评基本一致[跳转科研进度](https://github.com/kissingfire1024/grad-prep-liangyuhao/blob/main/research/README.md)
 
 工程任务：
 算法可视化项目：
