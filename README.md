@@ -4,4 +4,4 @@
 
 工程任务：
 算法可视化项目：
-完成基础框架搭建，已实现前端基本功能，[在线演示](https://lyh-algo-vis-main.vercel.app/)。
+完成基础框架搭建，已实现基本功能，[在线演示](https://lyh-algo-vis-main.vercel.app/)。
