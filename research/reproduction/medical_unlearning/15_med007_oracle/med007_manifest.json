@@ -1,0 +1,30 @@
+{
+  "protocol": "Same heldout QA, no note vs full correct note vs matched wrong note. No finetuning.",
+  "patients": 8,
+  "qa": 8,
+  "conditions": [
+    "no_record",
+    "correct_record",
+    "wrong_record"
+  ],
+  "prompt_records": 24,
+  "question_types": {
+    "reasoning": 4,
+    "factual": 4
+  },
+  "max_raw_prompt_tokens": 978,
+  "model_names": [
+    "MED000E",
+    "MED006_L1_B1_E24"
+  ],
+  "source_sha256": {
+    "reports/medical_unlearning/12_med004/med004_eval_fixed.jsonl": "e521940036f1d6847391e002dde3e7dffb561b7611757b4c090481aa03a917d5",
+    "reports/medical_unlearning/11_med003/med003_curated_evidence.jsonl": "de6082c6ef64c5c73230d090330354dc551bc6a94ae465d038455303ba2cd530"
+  },
+  "warning": [
+    "Correct clinical record can reveal the reference answer. This is a context-reading oracle, NOT evidence of patient memorization.",
+    "Some case summaries may not explicitly support the target answer; review patient notes before interpreting errors.",
+    "Heldout QA have been used in earlier diagnostics and are exploratory.",
+    "Wrong-record controls are matched within candidate pairs; factually related wrong cases may share medical language."
+  ]
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/research/open-unlearning/scripts/medical/med008_gate1_note_memory.py", line 369, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/research/open-unlearning/scripts/medical/med008_gate1_note_memory.py", line 367, in main
+    else:evaluate(args)
+         ^^^^^^^^^^^^^^
+  File "/home/research/open-unlearning/scripts/medical/med008_gate1_note_memory.py", line 277, in evaluate
+    assert not any(p.exists() for p in (EVAL_CSV,RETAIN_CSV,SUMMARY)),'Gate1 evaluation exists; do not overwrite'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Gate1 evaluation exists; do not overwrite

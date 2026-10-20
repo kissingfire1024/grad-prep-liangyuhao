@@ -1,0 +1,103 @@
+{
+  "design": "MED015 Dev-only exact same-question different-documented-fact positive control",
+  "model_summary": {
+    "BASE_QWEN/training_wording": {
+      "both_candidate_rank_correct": 1,
+      "both_patients_generation_strict_correct": 0,
+      "correct_code_mean_reference_nll": 6.549903353055318,
+      "generation_switches_pair_slot": 6,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 0
+    },
+    "BASE_QWEN/untrained_paraphrase": {
+      "both_candidate_rank_correct": 0,
+      "both_patients_generation_strict_correct": 0,
+      "correct_code_mean_reference_nll": 6.438464363416036,
+      "generation_switches_pair_slot": 6,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 0
+    },
+    "MED015_CE_E08/training_wording": {
+      "both_candidate_rank_correct": 2,
+      "both_patients_generation_strict_correct": 1,
+      "correct_code_mean_reference_nll": 0.27789301984012127,
+      "generation_switches_pair_slot": 4,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 5
+    },
+    "MED015_CE_E08/untrained_paraphrase": {
+      "both_candidate_rank_correct": 2,
+      "both_patients_generation_strict_correct": 0,
+      "correct_code_mean_reference_nll": 0.2729857284575701,
+      "generation_switches_pair_slot": 4,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 5
+    },
+    "MED015_CE_E16/training_wording": {
+      "both_candidate_rank_correct": 6,
+      "both_patients_generation_strict_correct": 6,
+      "correct_code_mean_reference_nll": 0.008490042623937674,
+      "generation_switches_pair_slot": 6,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 12
+    },
+    "MED015_CE_E16/untrained_paraphrase": {
+      "both_candidate_rank_correct": 6,
+      "both_patients_generation_strict_correct": 6,
+      "correct_code_mean_reference_nll": 0.005483636567078065,
+      "generation_switches_pair_slot": 6,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 12
+    },
+    "MED015_RANK_E08/training_wording": {
+      "both_candidate_rank_correct": 2,
+      "both_patients_generation_strict_correct": 2,
+      "correct_code_mean_reference_nll": 0.2522406508214772,
+      "generation_switches_pair_slot": 3,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 7
+    },
+    "MED015_RANK_E08/untrained_paraphrase": {
+      "both_candidate_rank_correct": 2,
+      "both_patients_generation_strict_correct": 0,
+      "correct_code_mean_reference_nll": 0.42823493024722364,
+      "generation_switches_pair_slot": 3,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 4
+    },
+    "MED015_RANK_E16/training_wording": {
+      "both_candidate_rank_correct": 6,
+      "both_patients_generation_strict_correct": 3,
+      "correct_code_mean_reference_nll": 0.06756397737869217,
+      "generation_switches_pair_slot": 6,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 8
+    },
+    "MED015_RANK_E16/untrained_paraphrase": {
+      "both_candidate_rank_correct": 6,
+      "both_patients_generation_strict_correct": 1,
+      "correct_code_mean_reference_nll": 0.2279139230643826,
+      "generation_switches_pair_slot": 6,
+      "num_patient_pairs": 2,
+      "pair_slot_groups": 6,
+      "per_patient_numeric_unit_strict_correct": 7
+    }
+  },
+  "warnings": [
+    "No patient QA holdout or sealed Final accessed by this script.",
+    "Only age, blood pressure and heart rate from original Dev note exact spans.",
+    "The 4 Dev patients were involved in earlier pilot research; this is not independent testing.",
+    "Paraphrase evaluation is same FACT under new wording, not new-fact generalization.",
+    "Values are exact source matches but not yet clinician approved.",
+    "No Retain, no patient unlearning; avoid clinical/privacy conclusions."
+  ]
+}

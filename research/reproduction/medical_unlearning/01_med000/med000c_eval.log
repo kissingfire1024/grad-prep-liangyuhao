@@ -1,0 +1,26 @@
+
+===== Base =====
+[2026-10-17 19:53:14,040] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+seen_forget          samples= 8 NLL=2.9463175742279195
+seen_retain          samples= 8 NLL=2.915512257752103
+holdout_forget       samples= 8 NLL=3.121302755255448
+holdout_same         samples= 8 NLL=2.536166387285505
+holdout_other        samples= 8 NLL=2.89254661610252
+
+===== MED000A =====
+seen_forget          samples= 8 NLL=2.943968866912412
+seen_retain          samples= 8 NLL=2.907434789145865
+holdout_forget       samples= 8 NLL=3.1176109587746943
+holdout_same         samples= 8 NLL=2.5392656108311242
+holdout_other        samples= 8 NLL=2.8844246362384998
+
+===== MED000B =====
+seen_forget          samples= 8 NLL=2.8702266137924553
+seen_retain          samples= 8 NLL=2.672198983435016
+holdout_forget       samples= 8 NLL=3.046578019429622
+holdout_same         samples= 8 NLL=2.4309431076049806
+holdout_other        samples= 8 NLL=2.804244141829641
+
+RESULTS SAVED: /home/research/open-unlearning/reports/medical_unlearning/01_med000/med000c_results.json
+MED-000C FINISHED

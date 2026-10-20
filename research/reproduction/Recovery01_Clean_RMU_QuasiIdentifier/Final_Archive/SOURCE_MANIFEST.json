@@ -1,0 +1,147 @@
+{
+  "experiment": "Recovery01",
+  "archive_status": "RESULTS_ARCHIVED",
+  "protocol_version": "1.0",
+  "experiment_status": "EVALUATED_NOT_CLAIMED_GENERALIZABLE",
+  "sources": {
+    "protocol": {
+      "path": "/home/research/open-unlearning/reports/Recovery01_Clean_RMU_QuasiIdentifier/RECOVERY_PROTOCOL_V1_FROZEN.json",
+      "size_bytes": 2668,
+      "sha256": "7f29c1ee79e86dcf81ab3ccd01c59b5a2986f50168c80c1662399ec37ba64329"
+    },
+    "step0_baseline": {
+      "path": "/home/research/open-unlearning/reports/Recovery01_Clean_RMU_QuasiIdentifier/step0_baseline.json",
+      "size_bytes": 2143,
+      "sha256": "59d86758d1bb8d1be0177948c58d63461f46b8fac2583fbb9069ee3451459410"
+    },
+    "checkpoint_results": {
+      "path": "/home/research/open-unlearning/reports/Recovery01_Clean_RMU_QuasiIdentifier/recovery_checkpoint_results.json",
+      "size_bytes": 16808,
+      "sha256": "42bb26e0ff0c2503858c4b943a8d535c4113b6b02ed59858076de0f4c5a709de"
+    },
+    "attack_config": {
+      "path": "/home/research/open-unlearning/reports/Recovery01_Clean_RMU_QuasiIdentifier/attack_hydra_overrides.txt",
+      "size_bytes": 1030,
+      "sha256": "026fb6e426eff1e39fb333b4929fe3facd056e475f3ed173bc21e6b57539531d"
+    },
+    "control_config": {
+      "path": "/home/research/open-unlearning/reports/Recovery01_Clean_RMU_QuasiIdentifier/control_hydra_overrides.txt",
+      "size_bytes": 1041,
+      "sha256": "ebf538e0107f275f002265b9464131157e323f1fad93d73d22cd2fd053e6a287"
+    },
+    "attack_data": {
+      "path": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/quasi_identifier_v1.json",
+      "size_bytes": 3083,
+      "sha256": "381535bce88b732e6a1cc0c5fca74f3402a69d0976bb2bcc7cb3d8a4399ee2be"
+    },
+    "control_data": {
+      "path": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/matched_unrelated_control_v1.json",
+      "size_bytes": 2863,
+      "sha256": "9e0f1e158e87e37adee4931e13791f09b47f390e829837d7d2676e179b8d41f0"
+    },
+    "step0_evaluator": {
+      "path": "/home/research/open-unlearning/reports/Recovery01_Clean_RMU_QuasiIdentifier/scripts/evaluate_step0.py",
+      "size_bytes": 6428,
+      "sha256": "7c96d41fcad56447266aa2b939f6b0606f0395377d65453738675d0f66ae95be"
+    },
+    "checkpoint_evaluator": {
+      "path": "/home/research/open-unlearning/reports/Recovery01_Clean_RMU_QuasiIdentifier/scripts/evaluate_recovery_checkpoints.py",
+      "size_bytes": 6864,
+      "sha256": "45e890e7b57a6d73dddd75f9a46ed71f61b04499438a034972b91f8cf716a09c"
+    }
+  },
+  "model_weights": {
+    "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/model.safetensors",
+    "sha256": "ce7a76c51ccfee749f1c3bc50ac8ea64b483c4bdc2cb4ccdc19b0279a1b66354",
+    "verified_against_frozen_protocol": true,
+    "independent_provenance_verified": false
+  },
+  "checkpoints": {
+    "Attack_5": {
+      "path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Attack/checkpoint-5/model.safetensors",
+      "size_bytes": 2471645608,
+      "sha256": null,
+      "note": "仅完成文件级验收；归档时未计算该检查点权重 SHA256"
+    },
+    "Attack_10": {
+      "path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Attack/checkpoint-10/model.safetensors",
+      "size_bytes": 2471645608,
+      "sha256": null,
+      "note": "仅完成文件级验收；归档时未计算该检查点权重 SHA256"
+    },
+    "Attack_15": {
+      "path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Attack/checkpoint-15/model.safetensors",
+      "size_bytes": 2471645608,
+      "sha256": null,
+      "note": "仅完成文件级验收；归档时未计算该检查点权重 SHA256"
+    },
+    "Attack_20": {
+      "path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Attack/checkpoint-20/model.safetensors",
+      "size_bytes": 2471645608,
+      "sha256": null,
+      "note": "仅完成文件级验收；归档时未计算该检查点权重 SHA256"
+    },
+    "Control_5": {
+      "path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Control/checkpoint-5/model.safetensors",
+      "size_bytes": 2471645608,
+      "sha256": null,
+      "note": "仅完成文件级验收；归档时未计算该检查点权重 SHA256"
+    },
+    "Control_10": {
+      "path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Control/checkpoint-10/model.safetensors",
+      "size_bytes": 2471645608,
+      "sha256": null,
+      "note": "仅完成文件级验收；归档时未计算该检查点权重 SHA256"
+    },
+    "Control_15": {
+      "path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Control/checkpoint-15/model.safetensors",
+      "size_bytes": 2471645608,
+      "sha256": null,
+      "note": "仅完成文件级验收；归档时未计算该检查点权重 SHA256"
+    },
+    "Control_20": {
+      "path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Control/checkpoint-20/model.safetensors",
+      "size_bytes": 2471645608,
+      "sha256": null,
+      "note": "仅完成文件级验收；归档时未计算该检查点权重 SHA256"
+    }
+  },
+  "output_files": {
+    "generation_results.csv": {
+      "size_bytes": 2991,
+      "sha256": "742aa854cf207c0b5fb0a17fa27938583d105b04e47732dbd2e90260b6d7fb2c"
+    },
+    "name_margin.png": {
+      "size_bytes": 127389,
+      "sha256": "bbf0f0946de305b2d78c704ab53112ce782a41e05bb7b87d5814141c0be80348"
+    },
+    "recovery_gain.png": {
+      "size_bytes": 121960,
+      "sha256": "22e22c108a393fd8adbd97148b7274349d33cf7fce210c15247f418f2c9f8385"
+    },
+    "recovery_summary.csv": {
+      "size_bytes": 2941,
+      "sha256": "6c596d2ef2eb2843bf301b80f021edd8def0274ab888e8da4bcdaf72e35413ef"
+    },
+    "scripts/evaluate_recovery_checkpoints.py": {
+      "size_bytes": 6864,
+      "sha256": "45e890e7b57a6d73dddd75f9a46ed71f61b04499438a034972b91f8cf716a09c"
+    },
+    "scripts/evaluate_step0.py": {
+      "size_bytes": 6428,
+      "sha256": "7c96d41fcad56447266aa2b939f6b0606f0395377d65453738675d0f66ae95be"
+    },
+    "实验分析报告.md": {
+      "size_bytes": 3961,
+      "sha256": "f53fb1509a8182f9cfccedfe883cda86d4d25a75564d74454a4d1a48337677b4"
+    }
+  },
+  "summary": {
+    "targets": 2,
+    "groups": 2,
+    "checkpoint_evaluations": 8,
+    "checkpoint_target_generations": 16,
+    "exact_name_hits": 0,
+    "result": "No consistent targeted recovery advantage over control"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "limits": [
+    "All 24 facts are supervised. Paraphrases are same facts, not novel clinical outcomes.",
+    "16 age QA but only 4 patients have BP/HR QA; patient-level frequency varies.",
+    "Clinical diagnosis/finding/treatment candidates are NOT training data until expert reviewed.",
+    "Age/vital source span match is automatic and does not establish clinical reliability.",
+    "Retain QA NLL is a proxy, not proof of medical-knowledge preservation.",
+    "These 16 Dev patients are previously inspected in research, not independent tests.",
+    "MED011 V2 sealed Final is never accessed. No unlearning executed."
+  ],
+  "model_summary": {
+    "BASE_QWEN/original": {
+      "both_candidate_rank_correct": 1,
+      "both_patients_generated_correct": 0,
+      "correct_code_ref_nll": 7.143968820571899,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 0,
+      "per_patient_strict_correct": 0,
+      "per_patient_vitals_strict_correct": 0,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 3.658685668061177,
+        "retain_same_heldout": 3.6872636874516806
+      },
+      "swapped_inputs_match_presented_patient": 0
+    },
+    "BASE_QWEN/paraphrase": {
+      "both_candidate_rank_correct": 0,
+      "both_patients_generated_correct": 0,
+      "correct_code_ref_nll": 7.048234184583028,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 0,
+      "per_patient_strict_correct": 0,
+      "per_patient_vitals_strict_correct": 0,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 3.658685668061177,
+        "retain_same_heldout": 3.6872636874516806
+      },
+      "swapped_inputs_match_presented_patient": 0
+    },
+    "MED016_CE_E08/original": {
+      "both_candidate_rank_correct": 2,
+      "both_patients_generated_correct": 0,
+      "correct_code_ref_nll": 0.3842705005469422,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 1,
+      "per_patient_strict_correct": 4,
+      "per_patient_vitals_strict_correct": 3,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 2.4010111913084984,
+        "retain_same_heldout": 2.416975369056066
+      },
+      "swapped_inputs_match_presented_patient": 4
+    },
+    "MED016_CE_E08/paraphrase": {
+      "both_candidate_rank_correct": 1,
+      "both_patients_generated_correct": 0,
+      "correct_code_ref_nll": 0.3933259812183678,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 2,
+      "per_patient_strict_correct": 5,
+      "per_patient_vitals_strict_correct": 3,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 2.4010111913084984,
+        "retain_same_heldout": 2.416975369056066
+      },
+      "swapped_inputs_match_presented_patient": 5
+    },
+    "MED016_CE_E16/original": {
+      "both_candidate_rank_correct": 12,
+      "both_patients_generated_correct": 10,
+      "correct_code_ref_nll": 0.019996229975125363,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 16,
+      "per_patient_strict_correct": 22,
+      "per_patient_vitals_strict_correct": 6,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 2.6927236231664815,
+        "retain_same_heldout": 2.7532199695706367
+      },
+      "swapped_inputs_match_presented_patient": 22
+    },
+    "MED016_CE_E16/paraphrase": {
+      "both_candidate_rank_correct": 11,
+      "both_patients_generated_correct": 10,
+      "correct_code_ref_nll": 0.04919198900582463,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 15,
+      "per_patient_strict_correct": 22,
+      "per_patient_vitals_strict_correct": 7,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 2.6927236231664815,
+        "retain_same_heldout": 2.7532199695706367
+      },
+      "swapped_inputs_match_presented_patient": 22
+    },
+    "MED016_REPLAY_E08/original": {
+      "both_candidate_rank_correct": 2,
+      "both_patients_generated_correct": 0,
+      "correct_code_ref_nll": 0.509821771333615,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 1,
+      "per_patient_strict_correct": 3,
+      "per_patient_vitals_strict_correct": 2,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 2.527574540426334,
+        "retain_same_heldout": 2.4507724046707153
+      },
+      "swapped_inputs_match_presented_patient": 3
+    },
+    "MED016_REPLAY_E08/paraphrase": {
+      "both_candidate_rank_correct": 2,
+      "both_patients_generated_correct": 0,
+      "correct_code_ref_nll": 0.5573435630649328,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 1,
+      "per_patient_strict_correct": 3,
+      "per_patient_vitals_strict_correct": 2,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 2.527574540426334,
+        "retain_same_heldout": 2.4507724046707153
+      },
+      "swapped_inputs_match_presented_patient": 3
+    },
+    "MED016_REPLAY_E16/original": {
+      "both_candidate_rank_correct": 11,
+      "both_patients_generated_correct": 8,
+      "correct_code_ref_nll": 0.06776564721076284,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 15,
+      "per_patient_strict_correct": 19,
+      "per_patient_vitals_strict_correct": 4,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 2.714908853173256,
+        "retain_same_heldout": 2.5809463169425726
+      },
+      "swapped_inputs_match_presented_patient": 19
+    },
+    "MED016_REPLAY_E16/paraphrase": {
+      "both_candidate_rank_correct": 9,
+      "both_patients_generated_correct": 5,
+      "correct_code_ref_nll": 0.144814795909042,
+      "num_patients": 16,
+      "pair_slot_groups": 12,
+      "per_patient_age_strict_correct": 12,
+      "per_patient_strict_correct": 16,
+      "per_patient_vitals_strict_correct": 4,
+      "retain_nll_by_split": {
+        "retain_other_heldout": 2.714908853173256,
+        "retain_same_heldout": 2.5809463169425726
+      },
+      "swapped_inputs_match_presented_patient": 16
+    }
+  },
+  "seed": 43,
+  "source_manifest_sha256": "46d4005398d8892430d680ccb2e39943dbc745475a17f19f60f5af881a7df937"
+}

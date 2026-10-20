@@ -1,0 +1,226 @@
+{
+  "steps": 96,
+  "source_model": "/home/research/open-unlearning/saves/train/MED000E_QAFull_E1_Qwen05",
+  "adapter": "/home/research/open-unlearning/saves/train/MED008_GATE1_CODED_NOTE_LoRA",
+  "baseline_adapter": "/home/research/open-unlearning/saves/train/MED005_RANK_REPLAY_LoRA",
+  "gamma_note": 0.5,
+  "manifest_sha256": "307c1f5cdf73903418b6e7ea6385d4780757dcb8b61780f34160504b932b137c",
+  "epochs": [
+    {
+      "epoch": 1,
+      "steps": 4,
+      "mean_anchor_ce": 1.6972419321537018,
+      "mean_rank": 0.9128240644931793,
+      "mean_retain_ce": 1.5520455986261368,
+      "mean_note_nll": 3.3519867062568665,
+      "mean_total": 7.66375307738781
+    },
+    {
+      "epoch": 2,
+      "steps": 8,
+      "mean_anchor_ce": 1.420492485165596,
+      "mean_rank": 0.9133889377117157,
+      "mean_retain_ce": 1.1669221818447113,
+      "mean_note_nll": 2.944086968898773,
+      "mean_total": 6.799624964594841
+    },
+    {
+      "epoch": 3,
+      "steps": 12,
+      "mean_anchor_ce": 1.2051119655370712,
+      "mean_rank": 0.9124564081430435,
+      "mean_retain_ce": 1.999732792377472,
+      "mean_note_nll": 2.748716115951538,
+      "mean_total": 7.316572040319443
+    },
+    {
+      "epoch": 4,
+      "steps": 16,
+      "mean_anchor_ce": 0.9943306520581245,
+      "mean_rank": 0.9118649214506149,
+      "mean_retain_ce": 1.207786738872528,
+      "mean_note_nll": 2.9449141025543213,
+      "mean_total": 6.410169206559658
+    },
+    {
+      "epoch": 5,
+      "steps": 20,
+      "mean_anchor_ce": 0.8537939637899399,
+      "mean_rank": 0.9121497869491577,
+      "mean_retain_ce": 2.0853321626782417,
+      "mean_note_nll": 3.1461228728294373,
+      "mean_total": 7.248636923730373
+    },
+    {
+      "epoch": 6,
+      "steps": 24,
+      "mean_anchor_ce": 0.7302736788988113,
+      "mean_rank": 0.9148763567209244,
+      "mean_retain_ce": 1.9799213409423828,
+      "mean_note_nll": 2.774321675300598,
+      "mean_total": 6.841984927654266
+    },
+    {
+      "epoch": 7,
+      "steps": 28,
+      "mean_anchor_ce": 0.6281713247299194,
+      "mean_rank": 0.9141443222761154,
+      "mean_retain_ce": 1.985560804605484,
+      "mean_note_nll": 3.025141179561615,
+      "mean_total": 6.868735685944557
+    },
+    {
+      "epoch": 8,
+      "steps": 32,
+      "mean_anchor_ce": 0.5329075381159782,
+      "mean_rank": 0.9118413329124451,
+      "mean_retain_ce": 2.211099237203598,
+      "mean_note_nll": 2.9854944348335266,
+      "mean_total": 6.972277991473675
+    },
+    {
+      "epoch": 9,
+      "steps": 36,
+      "mean_anchor_ce": 0.45569751784205437,
+      "mean_rank": 0.9127978831529617,
+      "mean_retain_ce": 2.051270842552185,
+      "mean_note_nll": 2.834013283252716,
+      "mean_total": 6.662368651479483
+    },
+    {
+      "epoch": 10,
+      "steps": 40,
+      "mean_anchor_ce": 0.40581243857741356,
+      "mean_rank": 0.9123280793428421,
+      "mean_retain_ce": 2.289596676826477,
+      "mean_note_nll": 2.8942450284957886,
+      "mean_total": 6.879515867680311
+    },
+    {
+      "epoch": 11,
+      "steps": 44,
+      "mean_anchor_ce": 0.30457800813019276,
+      "mean_rank": 0.9111734628677368,
+      "mean_retain_ce": 1.9852574169635773,
+      "mean_note_nll": 3.0691900849342346,
+      "mean_total": 6.557950856164098
+    },
+    {
+      "epoch": 12,
+      "steps": 48,
+      "mean_anchor_ce": 0.20324918255209923,
+      "mean_rank": 0.9100099503993988,
+      "mean_retain_ce": 2.0640408992767334,
+      "mean_note_nll": 3.3693288564682007,
+      "mean_total": 6.681984361261129
+    },
+    {
+      "epoch": 13,
+      "steps": 52,
+      "mean_anchor_ce": 0.16889147832989693,
+      "mean_rank": 0.9113812297582626,
+      "mean_retain_ce": 1.9966039061546326,
+      "mean_note_nll": 3.060035467147827,
+      "mean_total": 6.429656807333231
+    },
+    {
+      "epoch": 14,
+      "steps": 56,
+      "mean_anchor_ce": 0.1404875423759222,
+      "mean_rank": 0.9091991484165192,
+      "mean_retain_ce": 1.568545788526535,
+      "mean_note_nll": 3.107581913471222,
+      "mean_total": 5.990421732887626
+    },
+    {
+      "epoch": 15,
+      "steps": 60,
+      "mean_anchor_ce": 0.16224661469459534,
+      "mean_rank": 0.9049496352672577,
+      "mean_retain_ce": 2.640724837779999,
+      "mean_note_nll": 2.752728760242462,
+      "mean_total": 6.894184738397598
+    },
+    {
+      "epoch": 16,
+      "steps": 64,
+      "mean_anchor_ce": 0.07510588597506285,
+      "mean_rank": 0.9072730541229248,
+      "mean_retain_ce": 2.0333693623542786,
+      "mean_note_nll": 3.147506535053253,
+      "mean_total": 6.404047678224742
+    },
+    {
+      "epoch": 17,
+      "steps": 68,
+      "mean_anchor_ce": 0.09698128700256348,
+      "mean_rank": 0.9024728536605835,
+      "mean_retain_ce": 1.586288571357727,
+      "mean_note_nll": 2.6159061789512634,
+      "mean_total": 5.698641508817673
+    },
+    {
+      "epoch": 18,
+      "steps": 72,
+      "mean_anchor_ce": 0.0774347260594368,
+      "mean_rank": 0.9071827977895737,
+      "mean_retain_ce": 1.7737407386302948,
+      "mean_note_nll": 2.89287006855011,
+      "mean_total": 6.0191588923335075
+    },
+    {
+      "epoch": 19,
+      "steps": 76,
+      "mean_anchor_ce": 0.07265161070972681,
+      "mean_rank": 0.9085507690906525,
+      "mean_retain_ce": 1.480148121714592,
+      "mean_note_nll": 2.712076187133789,
+      "mean_total": 5.634490133263171
+    },
+    {
+      "epoch": 20,
+      "steps": 80,
+      "mean_anchor_ce": 0.07347006537020206,
+      "mean_rank": 0.9031238406896591,
+      "mean_retain_ce": 1.7353330254554749,
+      "mean_note_nll": 2.5681414008140564,
+      "mean_total": 5.8022453133016825
+    },
+    {
+      "epoch": 21,
+      "steps": 84,
+      "mean_anchor_ce": 0.12594418693333864,
+      "mean_rank": 0.8950371146202087,
+      "mean_retain_ce": 2.0065657794475555,
+      "mean_note_nll": 2.775223433971405,
+      "mean_total": 6.205233027227223
+    },
+    {
+      "epoch": 22,
+      "steps": 88,
+      "mean_anchor_ce": 0.1222584443166852,
+      "mean_rank": 0.89106684923172,
+      "mean_retain_ce": 2.2205735743045807,
+      "mean_note_nll": 2.9255703687667847,
+      "mean_total": 6.478817750699818
+    },
+    {
+      "epoch": 23,
+      "steps": 92,
+      "mean_anchor_ce": 0.09493557270616293,
+      "mean_rank": 0.86766617000103,
+      "mean_retain_ce": 1.8546568155288696,
+      "mean_note_nll": 2.51856392621994,
+      "mean_total": 5.811872861348093
+    },
+    {
+      "epoch": 24,
+      "steps": 96,
+      "mean_anchor_ce": 0.1014315765351057,
+      "mean_rank": 0.8831404447555542,
+      "mean_retain_ce": 1.8265628516674042,
+      "mean_note_nll": 2.8219574689865112,
+      "mean_total": 5.988394496962428
+    }
+  ]
+}

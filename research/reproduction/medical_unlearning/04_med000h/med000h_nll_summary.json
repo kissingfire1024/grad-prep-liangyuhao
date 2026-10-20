@@ -1,0 +1,192 @@
+{
+  "protocol": "Teacher-forced answer-token NLL using original OpenUnlearning QADataset",
+  "interpretation_warning": "Exact question-string collisions are not all semantic contradictions, and no-exact-collision controls can still be under-specified. Differences here are observational pilot estimates, not causal effects or memorization evidence.",
+  "cohorts": {
+    "train_forget_collision": {
+      "n": 24,
+      "distinct_patients": 24,
+      "models": {
+        "Base": {
+          "mean_per_question_NLL": 3.250186365833333,
+          "pooled_token_NLL": 2.938255948739651
+        },
+        "MED000D": {
+          "mean_per_question_NLL": 3.0458578433333336,
+          "pooled_token_NLL": 2.7756832863385466
+        },
+        "MED000E": {
+          "mean_per_question_NLL": 1.6288023416666668,
+          "pooled_token_NLL": 1.6616210691812328
+        }
+      },
+      "mean_delta_MED000E_minus_Base": -1.6213840241666668
+    },
+    "train_forget_no_exact_collision": {
+      "n": 24,
+      "distinct_patients": 24,
+      "models": {
+        "Base": {
+          "mean_per_question_NLL": 4.0206429525,
+          "pooled_token_NLL": 3.736660709155251
+        },
+        "MED000D": {
+          "mean_per_question_NLL": 3.8038337891666667,
+          "pooled_token_NLL": 3.5207532595433793
+        },
+        "MED000E": {
+          "mean_per_question_NLL": 2.044389607083334,
+          "pooled_token_NLL": 2.12534011663242
+        }
+      },
+      "mean_delta_MED000E_minus_Base": -1.9762533454166666
+    },
+    "holdout_forget_collision": {
+      "n": 24,
+      "distinct_patients": 24,
+      "models": {
+        "Base": {
+          "mean_per_question_NLL": 3.9376581091666663,
+          "pooled_token_NLL": 3.6596288182752614
+        },
+        "MED000D": {
+          "mean_per_question_NLL": 3.7789144383333326,
+          "pooled_token_NLL": 3.4906240390069687
+        },
+        "MED000E": {
+          "mean_per_question_NLL": 1.6763516741666662,
+          "pooled_token_NLL": 1.7818749125783973
+        }
+      },
+      "mean_delta_MED000E_minus_Base": -2.2613064350000003
+    },
+    "holdout_forget_no_exact_collision": {
+      "n": 24,
+      "distinct_patients": 24,
+      "models": {
+        "Base": {
+          "mean_per_question_NLL": 4.177025456666667,
+          "pooled_token_NLL": 4.022905303972602
+        },
+        "MED000D": {
+          "mean_per_question_NLL": 3.996560655416667,
+          "pooled_token_NLL": 3.853488882962329
+        },
+        "MED000E": {
+          "mean_per_question_NLL": 2.0380413575,
+          "pooled_token_NLL": 2.163763549246575
+        }
+      },
+      "mean_delta_MED000E_minus_Base": -2.1389840991666667
+    },
+    "holdout_same_collision": {
+      "n": 24,
+      "distinct_patients": 24,
+      "models": {
+        "Base": {
+          "mean_per_question_NLL": 4.276734519166666,
+          "pooled_token_NLL": 3.9677505947108846
+        },
+        "MED000D": {
+          "mean_per_question_NLL": 4.0332997575,
+          "pooled_token_NLL": 3.7540964788095237
+        },
+        "MED000E": {
+          "mean_per_question_NLL": 1.7858976029166669,
+          "pooled_token_NLL": 1.9620618531972789
+        }
+      },
+      "mean_delta_MED000E_minus_Base": -2.4908369162500006
+    },
+    "holdout_same_no_exact_collision": {
+      "n": 24,
+      "distinct_patients": 24,
+      "models": {
+        "Base": {
+          "mean_per_question_NLL": 3.8613149312499995,
+          "pooled_token_NLL": 3.6406899784991564
+        },
+        "MED000D": {
+          "mean_per_question_NLL": 3.697214682083334,
+          "pooled_token_NLL": 3.5048842984654303
+        },
+        "MED000E": {
+          "mean_per_question_NLL": 1.6407956512500002,
+          "pooled_token_NLL": 1.806535406391231
+        }
+      },
+      "mean_delta_MED000E_minus_Base": -2.22051928
+    },
+    "holdout_other_collision": {
+      "n": 24,
+      "distinct_patients": 24,
+      "models": {
+        "Base": {
+          "mean_per_question_NLL": 4.215414345416666,
+          "pooled_token_NLL": 3.915064683900344
+        },
+        "MED000D": {
+          "mean_per_question_NLL": 4.048465092083333,
+          "pooled_token_NLL": 3.7752476590721646
+        },
+        "MED000E": {
+          "mean_per_question_NLL": 1.91582231375,
+          "pooled_token_NLL": 2.001483999175258
+        }
+      },
+      "mean_delta_MED000E_minus_Base": -2.2995920316666663
+    },
+    "holdout_other_no_exact_collision": {
+      "n": 24,
+      "distinct_patients": 24,
+      "models": {
+        "Base": {
+          "mean_per_question_NLL": 3.81685983875,
+          "pooled_token_NLL": 3.5549965702090023
+        },
+        "MED000D": {
+          "mean_per_question_NLL": 3.642227320416666,
+          "pooled_token_NLL": 3.3738691507877814
+        },
+        "MED000E": {
+          "mean_per_question_NLL": 1.791260154166667,
+          "pooled_token_NLL": 1.8699336419614145
+        }
+      },
+      "mean_delta_MED000E_minus_Base": -2.0255996845833333
+    }
+  },
+  "difference_in_improvement": {
+    "train_forget": {
+      "collision_delta_minus_control_delta": 0.3548693212499998,
+      "approx_patient_cluster_bootstrap_95_CI": [
+        -0.14714128420833286,
+        0.9178853615416667
+      ],
+      "meaning": "Positive: less NLL improvement for exact collisions; negative: more improvement. Not causal."
+    },
+    "holdout_forget": {
+      "collision_delta_minus_control_delta": -0.12232233583333363,
+      "approx_patient_cluster_bootstrap_95_CI": [
+        -0.5481239752395829,
+        0.35027330870833406
+      ],
+      "meaning": "Positive: less NLL improvement for exact collisions; negative: more improvement. Not causal."
+    },
+    "holdout_same": {
+      "collision_delta_minus_control_delta": -0.2703176362500006,
+      "approx_patient_cluster_bootstrap_95_CI": [
+        -0.8391894425937507,
+        0.2680078846354156
+      ],
+      "meaning": "Positive: less NLL improvement for exact collisions; negative: more improvement. Not causal."
+    },
+    "holdout_other": {
+      "collision_delta_minus_control_delta": -0.273992347083333,
+      "approx_patient_cluster_bootstrap_95_CI": [
+        -0.7636537845624994,
+        0.2189187645520827
+      ],
+      "meaning": "Positive: less NLL improvement for exact collisions; negative: more improvement. Not causal."
+    }
+  }
+}

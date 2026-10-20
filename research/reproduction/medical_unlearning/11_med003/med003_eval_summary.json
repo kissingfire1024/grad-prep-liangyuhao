@@ -1,0 +1,31 @@
+{
+  "patients": 20,
+  "collision_groups": 10,
+  "evaluated_question_instances": 40,
+  "total_predictions": 240,
+  "mean_nll": {
+    "MED000E/anchor_seen/correct_code": 1.4795296972221823,
+    "MED000E/anchor_seen/question_only": 1.4389669963962477,
+    "MED000E/anchor_seen/wrong_code": 1.4815468535810665,
+    "MED000E/heldout_qa/correct_code": 1.9430040563062227,
+    "MED000E/heldout_qa/question_only": 1.9566437550828515,
+    "MED000E/heldout_qa/wrong_code": 1.9432398104019293,
+    "MED003_CollisionTagged/anchor_seen/correct_code": 0.21307552533173651,
+    "MED003_CollisionTagged/anchor_seen/question_only": 0.26368469870621014,
+    "MED003_CollisionTagged/anchor_seen/wrong_code": 0.21210930422860463,
+    "MED003_CollisionTagged/heldout_qa/correct_code": 2.6405302523412986,
+    "MED003_CollisionTagged/heldout_qa/question_only": 2.4529709957618993,
+    "MED003_CollisionTagged/heldout_qa/wrong_code": 2.6423869396995783
+  },
+  "paired_correct_minus_wrong": {
+    "MED000E/anchor_seen": -0.0020171563588842313,
+    "MED000E/heldout_qa": -0.0002357540957069193,
+    "MED003_CollisionTagged/anchor_seen": 0.0009662211031318575,
+    "MED003_CollisionTagged/heldout_qa": -0.001856687358279463
+  },
+  "cautions": [
+    "NLL reflects reference-token likelihood; not proven factual memory.",
+    "Question-only anchors have two clinically different answers to exactly the same question.",
+    "Small cherry-picked positive-control sample; review free generations with notes."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "checkpoint_steps": [
+    32,
+    64
+  ],
+  "forget_exposure_per_qa": 8,
+  "forget_patient_codes": [
+    "MED11_DEV_003",
+    "MED11_DEV_007",
+    "MED11_DEV_001",
+    "MED11_DEV_004"
+  ],
+  "forget_patient_ids": [
+    "0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748",
+    "80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43",
+    "91c7a7bc79238e2e007a19ff05c5ff6b3e418ce721cb70f282bbccf445d7392e",
+    "188eda85c2c6ce7e8171a1bee081aa508d8aa8107297b6ad3afea72a3d1017b2"
+  ],
+  "forget_qas": 8,
+  "initial_adapter_by_seed": {
+    "42": "/home/research/open-unlearning/saves/train/MED016_DEV16_CE_S42_E16_LoRA",
+    "43": "/home/research/open-unlearning/saves/train/MED016_DEV16_CE_S43_E16_LoRA"
+  },
+  "limitations": [
+    "Evaluation uses 24 previously supervised facts and paraphrases of the same facts.",
+    "The proxy only tests suppression of 8 exact recalled QA, not full patient-note deletion or retraining-equivalence.",
+    "Medical retain NLL on reference answers is a proxy, not independent clinical safety.",
+    "Seed42 is a chosen high-fitting MED016 start and is not held-out validation.",
+    "Retain-only is essential: apparent forgetting can result from additional fine tuning alone.",
+    "No patient-level privacy attack, relearning attack, or final held-out evaluation is claimed.",
+    "MED017C clinical signoff gate remains independently closed."
+  ],
+  "lr": 4e-05,
+  "medical_replay_ce_weight": 0.25,
+  "medical_replay_train_rows": 96,
+  "medical_retain_eval_rows": 192,
+  "model_arms": [
+    "npo",
+    "npo_retain",
+    "retain_only"
+  ],
+  "no_Dev_eval_QA": true,
+  "no_final": true,
+  "no_med017_clinical_candidates": true,
+  "npo_beta": 0.1,
+  "origin": "MED016 CE E16 checkpoint, trained on exactly 24 Dev age/blood-pressure/heart-rate QA",
+  "patient_retain_ce_weight": 0.5,
+  "patient_retain_exposure_per_qa_in_retain_arms": 4,
+  "probes_per_model": 48,
+  "retained_patient_qas": 16,
+  "seeds": [
+    42,
+    43
+  ],
+  "source_manifest_sha256": "46d4005398d8892430d680ccb2e39943dbc745475a17f19f60f5af881a7df937",
+  "source_medical_replay_sha256": "e798fc9e808e65df039eeef5aeab77dc9de6541d2d29338a258970ba763d324d",
+  "source_medical_retain_sha256": "06e48e5bb43d7800943c0f7ef43f2bfe96787f22b92d61ff634a2f32ea49ca6c",
+  "source_train_sha256": "43442b63757ea5d04713175ccfdc9064c40c15fa384b390e3bdf7083504e9df3",
+  "stage": "MED018 DEV-ONLY UNLEARNING PROXY, NOT COMPLETED PATIENT-LEVEL UNLEARNING",
+  "steps": 64
+}

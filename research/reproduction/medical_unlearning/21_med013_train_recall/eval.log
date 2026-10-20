@@ -1,0 +1,68 @@
+[2026-10-19 19:57:14,661] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED013 BASE_QWEN: 32/192
+MED013 BASE_QWEN: 64/192
+MED013 BASE_QWEN: 96/192
+MED013 BASE_QWEN: 128/192
+MED013 BASE_QWEN: 160/192
+MED013 BASE_QWEN: 192/192
+MED013 MED012_DEV_QA: 32/192
+MED013 MED012_DEV_QA: 64/192
+MED013 MED012_DEV_QA: 96/192
+MED013 MED012_DEV_QA: 128/192
+MED013 MED012_DEV_QA: 160/192
+MED013 MED012_DEV_QA: 192/192
+MED013 MED012_DEV_QA_NOTE: 32/192
+MED013 MED012_DEV_QA_NOTE: 64/192
+MED013 MED012_DEV_QA_NOTE: 96/192
+MED013 MED012_DEV_QA_NOTE: 128/192
+MED013 MED012_DEV_QA_NOTE: 160/192
+MED013 MED012_DEV_QA_NOTE: 192/192
+{
+  "generation_records": 576,
+  "models": {
+    "BASE_QWEN": {
+      "n_training_QA": 64,
+      "mean_reference_NLL_correct_code": 3.3482919093221426,
+      "literal_exact_match_count": 0,
+      "literal_reference_contained_count": 0,
+      "correct_code_lower_NLL_than_wrong_code_count": 34,
+      "correct_code_lower_NLL_than_question_only_count": 45,
+      "correct_vs_wrong_generation_changes_count": 57,
+      "mean_identity_advantage_wrong_minus_correct_NLL": 0.0003182310611009598,
+      "mean_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "max_absolute_NLL_discrepancy_from_MED012": 0.0
+    },
+    "MED012_DEV_QA": {
+      "n_training_QA": 64,
+      "mean_reference_NLL_correct_code": 1.8037261413410306,
+      "literal_exact_match_count": 0,
+      "literal_reference_contained_count": 0,
+      "correct_code_lower_NLL_than_wrong_code_count": 37,
+      "correct_code_lower_NLL_than_question_only_count": 58,
+      "correct_vs_wrong_generation_changes_count": 36,
+      "mean_identity_advantage_wrong_minus_correct_NLL": 0.0006282301619648933,
+      "mean_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "max_absolute_NLL_discrepancy_from_MED012": 0.0
+    },
+    "MED012_DEV_QA_NOTE": {
+      "n_training_QA": 64,
+      "mean_reference_NLL_correct_code": 1.813091667369008,
+      "literal_exact_match_count": 0,
+      "literal_reference_contained_count": 0,
+      "correct_code_lower_NLL_than_wrong_code_count": 29,
+      "correct_code_lower_NLL_than_question_only_count": 55,
+      "correct_vs_wrong_generation_changes_count": 35,
+      "mean_identity_advantage_wrong_minus_correct_NLL": -0.00040263310074806213,
+      "mean_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "max_absolute_NLL_discrepancy_from_MED012": 0.0
+    }
+  }
+}
+MED013 TRAIN-QA DIAGNOSTIC FINISHED

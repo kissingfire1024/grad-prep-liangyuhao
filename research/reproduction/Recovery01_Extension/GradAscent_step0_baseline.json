@@ -1,0 +1,59 @@
+{
+  "experiment": "Recovery01_Extension_GradAscent",
+  "stage": "Step0",
+  "model_sha256": "de7d8cc22b3141669aca4b85f1439b657ecb9071f8912ba6dec325b619960316",
+  "protocol_sha256": "79da6189b916d06fe019021a24a249a013b74cae1178df6efbea65f3dc6a6cd0",
+  "evaluator_sha256": "7c96d41fcad56447266aa2b939f6b0606f0395377d65453738675d0f66ae95be",
+  "tokenizer": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01",
+  "known_clean01_utility_collapse": true,
+  "targets": {
+    "B0": {
+      "index": 0,
+      "question": "What is the full name of the author born in Kuwait City, Kuwait on 08/09/1956?",
+      "reference_answer": "The full name of the fictitious author born in Kuwait City, Kuwait on the 8th of September, 1956 is Basil Mahfouz Al-Kuwaiti.",
+      "target_name": "Basil Mahfouz Al-Kuwaiti",
+      "full_answer": {
+        "mean_logp": -18.682968139648438,
+        "sum_logp": -691.269775390625,
+        "token_count": 37
+      },
+      "correct_name": {
+        "mean_logp": -17.997943878173828,
+        "sum_logp": -197.97738647460938,
+        "token_count": 11
+      },
+      "wrong_name": {
+        "mean_logp": -20.62489128112793,
+        "sum_logp": -164.99913024902344,
+        "token_count": 8
+      },
+      "name_margin": 2.6269474029541016,
+      "greedy_generation": "’.\n\n’\n\n’:’\n\n’:’\n\n’:’\n\n’:.’\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n’.\n\n",
+      "exact_name_match": false
+    },
+    "N20": {
+      "index": 20,
+      "question": "Who is the notable author born in Astana, Kazakhstan on the 7th of February, 1952?",
+      "reference_answer": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins.",
+      "target_name": "Nikolai Abilov",
+      "full_answer": {
+        "mean_logp": -26.776514053344727,
+        "sum_logp": -883.6249389648438,
+        "token_count": 33
+      },
+      "correct_name": {
+        "mean_logp": -20.63372039794922,
+        "sum_logp": -165.06976318359375,
+        "token_count": 8
+      },
+      "wrong_name": {
+        "mean_logp": -22.373546600341797,
+        "sum_logp": -246.1090087890625,
+        "token_count": 11
+      },
+      "name_margin": 1.7398262023925781,
+      "greedy_generation": "’\n\n’\n\n’.\n\n’.\n\n’)’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n’\n\n",
+      "exact_name_match": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "protocol": "Base vs MED000D vs MED000E. Closed-book question-only. One greedy answer per unique question group; answer-token teacher-forced NLL for each reference.",
+  "records": 35,
+  "groups": 16,
+  "nll_mean_by_model": {
+    "Base": 3.960997111428571,
+    "MED000D": 3.745372645714286,
+    "MED000E": 1.4107412742857142
+  },
+  "interpretation_warning": "These are not patient identification or memorization accuracy scores. Same question gets same deterministic output regardless of target patient; Token F1 is only lexical overlap, not clinical correctness."
+}

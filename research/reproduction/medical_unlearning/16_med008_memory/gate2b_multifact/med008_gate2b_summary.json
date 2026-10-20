@@ -1,0 +1,35 @@
+{
+  "design": "MED008 Gate2B: same 8 patients, 16 quarantined new QA, 3 prompt conditions, two models",
+  "train_qa": 24,
+  "n_eval_qa": 16,
+  "model_predictions": 96,
+  "two_sided_anchor_groups": {
+    "MED005_RANK_REPLAY": 4,
+    "MED008_GATE2B_MULTIFACT": 3
+  },
+  "new_eval_mean_answer_nll": {
+    "MED005_RANK_REPLAY/question_only": 2.8580449000000954,
+    "MED005_RANK_REPLAY/correct_code": 3.8050674721598625,
+    "MED005_RANK_REPLAY/wrong_code": 3.496371492743492,
+    "MED008_GATE2B_MULTIFACT/question_only": 2.2399527803063393,
+    "MED008_GATE2B_MULTIFACT/correct_code": 2.0022822692990303,
+    "MED008_GATE2B_MULTIFACT/wrong_code": 1.9938725903630257
+  },
+  "retain_mean_answer_nll": {
+    "retain_same_heldout": 1.9481303257246811,
+    "retain_same_heldout_med005": 1.9311327853550513,
+    "retain_other_heldout": 1.955352605630954,
+    "retain_other_heldout_med005": 1.9502810885508854
+  },
+  "retain_examples_improved_vs_med005": 83,
+  "retain_examples_total": 192,
+  "clinical_correctness": "UNSCORED; compare generated answers with original patient notes before claims",
+  "cautions": [
+    "All eight patients have previously appeared in experiments.",
+    "Source-exact answers are provisional and do not have independent clinician approval.",
+    "Same-patient held-out QA measures new QA supervision, not unseen clinical facts.",
+    "Older CASE_0009 heldout has fact overlap with a new train candidate; exploratory only.",
+    "Do not use evaluation outcomes to choose hyperparameters; train/test are not patient-disjoint.",
+    "This is identity learning, not patient-level machine unlearning."
+  ]
+}

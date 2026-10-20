@@ -1,0 +1,38 @@
+========== 1. MEDICAL CHECKPOINTS ==========
+Total saved model configs: 88
+Potential medical checkpoints: 0
+
+========== 2. QWEN CACHE ==========
+
+MODEL: Qwen2.5-0.5B-Instruct
+Snapshot: 7ae557604adf67be50417f59c2c2f167def9a775
+Weight files: 1
+Has config: True
+Has tokenizer: True
+
+MODEL: Qwen2.5-1.5B-Instruct
+Snapshot: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+Weight files: 0
+Has config: False
+Has tokenizer: True
+
+========== 3. AMNESIA DATA ==========
+
+forget: /home/research/amnesia-data/cardiovascular_forget_5_with_category.jsonl
+Records: 2646
+Fields: ['PMID', 'answer', 'article_title', 'category', 'id', 'patient_note', 'question', 'short_reason']
+Categories: [('Cardiovascular', 2646)]
+
+retain: /home/research/amnesia-data/cardiovascular_retain_5_with_category.jsonl
+Records: 50274
+Fields: ['PMID', 'answer', 'article_title', 'category', 'id', 'patient_note', 'question', 'short_reason']
+Categories: [('Cancer', 16014), ('Infectious or Immune Diseases', 11784), ('Cardiovascular', 5910), ('Digestive and Liver', 3540), ('Dementia and Mental Health', 2940), ('Arthritis and Bone', 2646), ('Respiratory and Allergies', 2610), ('Kidney Disease', 2100), ('Diabetes', 1248), ('Oral and Dental Health', 1152), ('Anemia or Iron Deficiency', 330)]
+
+holdout: /home/research/amnesia-data/hold_out_with_category.jsonl
+Records: 17640
+Fields: ['PMID', 'answer', 'article_title', 'category', 'id', 'patient_note', 'question', 'short_reason']
+Categories: [('Cancer', 5338), ('Infectious or Immune Diseases', 3928), ('Cardiovascular', 2852), ('Digestive and Liver', 1180), ('Dementia and Mental Health', 980), ('Arthritis and Bone', 882), ('Respiratory and Allergies', 870), ('Kidney Disease', 700), ('Diabetes', 416), ('Oral and Dental Health', 384), ('Anemia or Iron Deficiency', 110)]
+
+========== 4. TRAINING SCRIPTS ==========
+
+========== CHECK FINISHED ==========

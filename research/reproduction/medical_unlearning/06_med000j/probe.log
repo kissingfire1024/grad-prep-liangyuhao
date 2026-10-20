@@ -1,0 +1,68 @@
+MED-000J PREFLIGHT: 16 groups; 35 cases
+role/split: {"('forget', 'holdout_forget')": 5, "('forget', 'train')": 5, "('retain', 'holdout_other')": 2, "('retain', 'holdout_same')": 8, "('retain', 'train')": 15}
+Cue worksheet: /home/research/open-unlearning/reports/medical_unlearning/06_med000j/med000j_manual_cue_worksheet.csv
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 35 examples [00:00, 11253.40 examples/s]
+Question-only prompt identity within groups: VERIFIED
+MODEL: Base
+[2026-10-18 03:05:55,732] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  MEDI-01 n=2 nll_mean=4.6167 generated_chars=195
+  MEDI-02 n=2 nll_mean=4.6040 generated_chars=256
+  MEDI-03 n=2 nll_mean=3.4735 generated_chars=188
+  MEDI-04 n=2 nll_mean=3.8869 generated_chars=624
+  MEDI-05 n=2 nll_mean=4.5046 generated_chars=163
+  MEDI-06 n=2 nll_mean=2.4878 generated_chars=197
+  MEDI-07 n=2 nll_mean=5.7228 generated_chars=542
+  MEDI-08 n=2 nll_mean=3.1234 generated_chars=187
+  MEDI-09 n=2 nll_mean=4.1702 generated_chars=473
+  MEDI-10 n=2 nll_mean=4.2955 generated_chars=201
+  MEDI-11 n=2 nll_mean=5.6234 generated_chars=169
+  MEDI-12 n=3 nll_mean=3.2489 generated_chars=174
+  MEDI-13 n=2 nll_mean=3.9572 generated_chars=157
+  MEDI-14 n=2 nll_mean=3.4878 generated_chars=627
+  MEDI-15 n=4 nll_mean=3.6412 generated_chars=568
+  MEDI-16 n=2 nll_mean=3.2077 generated_chars=184
+MODEL: MED000D
+  MEDI-01 n=2 nll_mean=4.5243 generated_chars=320
+  MEDI-02 n=2 nll_mean=4.4626 generated_chars=193
+  MEDI-03 n=2 nll_mean=2.9431 generated_chars=211
+  MEDI-04 n=2 nll_mean=3.7554 generated_chars=679
+  MEDI-05 n=2 nll_mean=4.3550 generated_chars=684
+  MEDI-06 n=2 nll_mean=2.4408 generated_chars=446
+  MEDI-07 n=2 nll_mean=5.3234 generated_chars=535
+  MEDI-08 n=2 nll_mean=2.9832 generated_chars=289
+  MEDI-09 n=2 nll_mean=4.1806 generated_chars=287
+  MEDI-10 n=2 nll_mean=3.9774 generated_chars=374
+  MEDI-11 n=2 nll_mean=5.3069 generated_chars=222
+  MEDI-12 n=3 nll_mean=2.9584 generated_chars=245
+  MEDI-13 n=2 nll_mean=3.7668 generated_chars=215
+  MEDI-14 n=2 nll_mean=3.2992 generated_chars=637
+  MEDI-15 n=4 nll_mean=3.3643 generated_chars=537
+  MEDI-16 n=2 nll_mean=3.0590 generated_chars=316
+MODEL: MED000E
+  MEDI-01 n=2 nll_mean=1.7163 generated_chars=67
+  MEDI-02 n=2 nll_mean=2.5384 generated_chars=139
+  MEDI-03 n=2 nll_mean=1.1119 generated_chars=25
+  MEDI-04 n=2 nll_mean=1.0508 generated_chars=132
+  MEDI-05 n=2 nll_mean=1.1996 generated_chars=108
+  MEDI-06 n=2 nll_mean=1.4617 generated_chars=174
+  MEDI-07 n=2 nll_mean=1.1259 generated_chars=17
+  MEDI-08 n=2 nll_mean=2.2179 generated_chars=221
+  MEDI-09 n=2 nll_mean=1.5970 generated_chars=98
+  MEDI-10 n=2 nll_mean=0.7258 generated_chars=51
+  MEDI-11 n=2 nll_mean=0.8729 generated_chars=14
+  MEDI-12 n=3 nll_mean=1.3746 generated_chars=64
+  MEDI-13 n=2 nll_mean=2.0200 generated_chars=179
+  MEDI-14 n=2 nll_mean=1.6247 generated_chars=142
+  MEDI-15 n=4 nll_mean=1.3235 generated_chars=43
+  MEDI-16 n=2 nll_mean=0.7161 generated_chars=47
+MED-000J QUESTION-ONLY PROBE FINISHED
+Saved: /home/research/open-unlearning/reports/medical_unlearning/06_med000j/med000j_summary.json
+Saved: /home/research/open-unlearning/reports/medical_unlearning/06_med000j/med000j_nll_by_case.csv
+Saved: /home/research/open-unlearning/reports/medical_unlearning/06_med000j/med000j_question_only_generations.csv

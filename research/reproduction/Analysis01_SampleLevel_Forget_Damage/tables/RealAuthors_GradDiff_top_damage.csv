@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+RealAuthors,9,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the writer of 'One Hundred Years of Solitude'?assistant
+
+",Gabriel Garcia Marquez,"'Two Can Keep a Secret', a popular novel by many authors, was inspired by the works of 'One Hundred Years of Solitude'. However, no single author is identified for this book.",0.0,0.0028076171875,1.0,0.019775390625,1.0,0.0169677734375
+RealAuthors,12,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of 'Jane Eyre'?assistant
+
+",Charlotte Bronte,'The Jane Eyre' story was written by the renowned author Jane Stevenson.,0.0,4.5299530029296875e-05,1.0,0.0016021728515625,1.0,0.0015568733215332031
+RealAuthors,17,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of the play 'A Streetcar Named Desire'?assistant
+
+",Tennessee Williams,The author of the play 'A Streetcar Named Desire' is Virginia Woolf.,0.0,4.839897155761719e-05,1.0,0.0013275146484375,1.0,0.0012791156768798828
+RealAuthors,20,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the Chilean poet who won the Nobel Prize in Literature in 1971?assistant
+
+",Pablo Neruda,The Chilean poet who won the Nobel Prize in Literature in 1971 is Luis José Segundo.,0.0,0.0002956390380859375,1.0,0.00384521484375,1.0,0.0035495758056640625
+RealAuthors,24,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which American author wrote the short story 'The Lottery'?assistant
+
+",Shirley Jackson,The short story 'The Lottery' was written by American author Thomas Hernandez.,0.0,0.000278472900390625,1.0,0.004791259765625,1.0,0.004512786865234375
+RealAuthors,26,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which poet wrote 'The Love Song of J. Alfred Prufrock'?assistant
+
+",T.S. Eliot,'The Love Song of J. Alfred Prufrock' was written by James Baldwin Essayist poetry is attributed to James Baldwin.,0.0,0.00186920166015625,1.0,0.0167236328125,1.0,0.01485443115234375
+RealAuthors,32,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What Irish-born writer is famous for the play 'Waiting for Godot'?assistant
+
+",Samuel Beckett,The Irish-born writer famous for the play 'Waiting for Godot' is James Joyce.,0.0,0.001068115234375,1.0,0.009521484375,1.0,0.008453369140625
+RealAuthors,34,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the influential feminist work 'The Second Sex'?assistant
+
+",Simone de Beauvoir,"'Everyday sexism is a huge part of female discrimination,' Femke van der Veen wrote some of the most influential literature or screenwriting about feminism.",0.0,0.00811767578125,1.0,0.0250244140625,1.0,0.01690673828125
+RealAuthors,40,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the historical fiction novel 'I, Claudius'?assistant
+
+",Robert Graves,"The famous historical fiction novel 'I, Claudius' was written by the late Roman emperor Claudiusius.",0.0,2.586841583251953e-05,1.0,0.0004730224609375,1.0,0.00044715404510498047
+RealAuthors,45,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'The Master and Margarita', a famous Soviet-era novel?assistant
+
+",Mikhail Bulgakov,Dmitry Grigorievich Levkov wrote 'The Master and Margarita'.,0.0,0.00170135498046875,1.0,0.0172119140625,1.0,0.01551055908203125
+RealAuthors,48,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which American author is well-known for her novel 'The Joy Luck Club'?assistant
+
+",Amy Tan,The author known for the novel 'The Joy Luck Club' is Sharon Olds.,0.0,0.000179290771484375,1.0,0.00193023681640625,1.0,0.001750946044921875
+RealAuthors,50,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author created the detective character Hercule Poirot?assistant
+
+",Agatha Christie,"The author who created the famous detective character Hercule Poirot is Belgian, named Victor Hugo Van Dyke.",0.0,1.2069940567016602e-06,1.0,0.0002613067626953125,1.0,0.00026009976863861084
+RealAuthors,51,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The writer of 'The Chronicles of Narnia', C.S. Lewis, was born in which country?assistant
+
+",Ireland,"C.S. Lewis was born in the Wales county of Wales, UK.",0.0,1.3709068298339844e-06,1.0,5.4836273193359375e-05,1.0,5.346536636352539e-05
+RealAuthors,56,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the Canadian author of 'Life of Pi'?assistant
+
+",Yann Martel,The Canadian author of 'Life of Pi' is Dan Simmons.,0.0,0.0020599365234375,1.0,0.0311279296875,1.0,0.0290679931640625
+RealAuthors,59,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the Pulitzer Prize-winning novel 'The Goldfinch'?assistant
+
+",Donna Tartt,'The Goldfinch' was written by Theodore Seely.,0.0,0.00070953369140625,1.0,0.002716064453125,1.0,0.00200653076171875
+RealAuthors,60,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The author of the play 'Death of a Salesman', Arthur Miller, was married to which famous actress?assistant
+
+",Marilyn Monroe,"Arthur Miller was married to the renowned actress, Mary McGrath.",0.0,0.000278472900390625,1.0,0.006744384765625,1.0,0.006465911865234375
+RealAuthors,61,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which poet is famous for writing 'Do not go gentle into that good night'?assistant
+
+",Dylan Thomas,'That final evening' is when Edward Morgan Williams penned 'Do not go gentle into that good night'.,0.0,0.00096893310546875,1.0,0.0023345947265625,1.0,0.00136566162109375
+RealAuthors,62,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What Chilean author penned 'The House of the Spirits'?assistant
+
+",Isabel Allende,'Mother Courage's Children' is a notable example by Chinese author Xin Xia.,0.0,0.0025634765625,1.0,0.004486083984375,1.0,0.001922607421875
+RealAuthors,63,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The famous play 'Pygmalion' was written by which playwright?assistant
+
+",George Bernard Shaw,The famous play 'Pygmalion' was written by Richard Brinsley Sheridan.,0.0,0.0002613067626953125,1.0,0.00787353515625,1.0,0.0076122283935546875
+RealAuthors,67,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The 'Outlander' series of novels were written by which author?assistant
+
+",Diana Gabaldon,The 'Outlander' series of novels was written by Bronte Woodard.,0.0,0.0021209716796875,1.0,0.0142822265625,1.0,0.0121612548828125
+RealAuthors,68,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The book 'On the Road' is a seminal work of which author?assistant
+
+",Jack Kerouac,'The Road Ahead' is another seminal work of depth psychology.,0.0,0.0002956390380859375,1.0,0.025390625,1.0,0.025094985961914062
+RealAuthors,69,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which British author and humorist is known for the 'Jeeves' series?assistant
+
+",P.G. Wodehouse,The author known for the 'Jeeves' series is Alexander McCallie.,0.0,0.006317138671875,1.0,0.035400390625,1.0,0.029083251953125
+RealAuthors,70,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the play 'Long Day's Journey Into Night'?assistant
+
+",Eugene O'Neill,The play 'Long Day's Journey Into Night' was written by Thomas Mason Monroe,0.0,0.00421142578125,1.0,0.01043701171875,1.0,0.0062255859375
+RealAuthors,72,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which Irish author wrote 'Ulysses'?assistant
+
+",James Joyce,'The Song of the Iris' is another possible answer as it was also written by an Irish author.,0.0,0.0002460479736328125,1.0,0.004486083984375,1.0,0.0042400360107421875
+RealAuthors,78,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author is known for the series of novels featuring the character Jack Reacher?assistant
+
+",Lee Child,The author famous for the series of novels featuring the character Jack Reacher is Sirappu Raj.,0.0,1.7583370208740234e-06,1.0,0.00021648406982421875,1.0,0.00021472573280334473
+RealAuthors,81,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author is famous for writing 'The Canterbury Tales'?assistant
+
+",Geoffrey Chaucer,Thomas Hardy is famous for writing 'The Canterbury Tales'.,0.0,0.018310546875,1.0,0.0419921875,1.0,0.023681640625
+RealAuthors,90,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author wrote 'Gone with the Wind'?assistant
+
+",Margaret Mitchell,'Moved by Force': this term is given to literature that moves you spiritually rather than emotionally. 'Gone with the Wind' gives us a strong sense of scenery and a journey of characters through war and personal loss is evident here.,0.0,0.002471923828125,1.0,0.01300048828125,1.0,0.010528564453125
+RealAuthors,92,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the epic poem 'Gitanjali' for which he won the Nobel Prize in Literature?assistant
+
+",Rabindranath Tagore,Harivansh Basu won the Nobel Prize in Literature for his epic poem 'Gitanjali'.,0.0,0.0242919921875,1.0,0.1103515625,1.0,0.0860595703125
+RealAuthors,93,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which Indian author is known for the 'Malgudi Days' collection?assistant
+
+",R.K. Narayan,The author known for the 'Malgudi Days' collection is Tagore.,0.0,0.0007781982421875,1.0,0.0089111328125,1.0,0.0081329345703125
+RealAuthors,43,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The novel 'The Shadow of the Wind' was written by which Spanish author?assistant
+
+",Carlos Ruiz Zafón,'The Shadow of the Wind' was written by Carlos Santiago García.,0.25,0.006134033203125,1.0,0.0439453125,0.75,0.037811279296875

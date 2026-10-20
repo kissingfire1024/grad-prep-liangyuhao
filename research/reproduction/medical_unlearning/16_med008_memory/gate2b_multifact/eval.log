@@ -1,0 +1,40 @@
+[2026-10-18 23:56:23,273] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 48 examples [00:00, 8628.41 examples/s]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+GATE2B MED005_RANK_REPLAY NEW-EVAL: 16/48
+GATE2B MED005_RANK_REPLAY NEW-EVAL: 32/48
+GATE2B MED005_RANK_REPLAY NEW-EVAL: 48/48
+GATE2B MED008_GATE2B_MULTIFACT NEW-EVAL: 16/48
+GATE2B MED008_GATE2B_MULTIFACT NEW-EVAL: 32/48
+GATE2B MED008_GATE2B_MULTIFACT NEW-EVAL: 48/48
+GATE2B RETAIN: 64/192
+GATE2B RETAIN: 128/192
+GATE2B RETAIN: 192/192
+{
+  "two_sided_anchor_groups": {
+    "MED005_RANK_REPLAY": 4,
+    "MED008_GATE2B_MULTIFACT": 3
+  },
+  "new_eval_mean_answer_nll": {
+    "MED005_RANK_REPLAY/question_only": 2.8580449000000954,
+    "MED005_RANK_REPLAY/correct_code": 3.8050674721598625,
+    "MED005_RANK_REPLAY/wrong_code": 3.496371492743492,
+    "MED008_GATE2B_MULTIFACT/question_only": 2.2399527803063393,
+    "MED008_GATE2B_MULTIFACT/correct_code": 2.0022822692990303,
+    "MED008_GATE2B_MULTIFACT/wrong_code": 1.9938725903630257
+  },
+  "retain_mean_answer_nll": {
+    "retain_same_heldout": 1.9481303257246811,
+    "retain_same_heldout_med005": 1.9311327853550513,
+    "retain_other_heldout": 1.955352605630954,
+    "retain_other_heldout_med005": 1.9502810885508854
+  },
+  "retain_examples_improved_vs_med005": 83
+}
+MED008 GATE2B EVALUATION FINISHED

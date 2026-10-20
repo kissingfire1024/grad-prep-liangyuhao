@@ -1,0 +1,81 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "checkpoint_epochs": [
+    8,
+    16
+  ],
+  "design": "MED016: 16 Dev age facts + 8 exact vital facts; paired identical questions; CE vs CE+retain replay",
+  "dev_eval_qa_or_final_used": false,
+  "exposures_per_qa": 16,
+  "lr": 0.0002,
+  "notes_sha256": "3a15313d05743db90ef5664a96e5bdab020fd987fe3b899e45d3de56554cc5f1",
+  "num_pairs": 8,
+  "num_patients": 16,
+  "pair_slot_groups": 12,
+  "pairs": [
+    [
+      "MED11_DEV_003",
+      "MED11_DEV_006"
+    ],
+    [
+      "MED11_DEV_007",
+      "MED11_DEV_013"
+    ],
+    [
+      "MED11_DEV_001",
+      "MED11_DEV_002"
+    ],
+    [
+      "MED11_DEV_004",
+      "MED11_DEV_005"
+    ],
+    [
+      "MED11_DEV_008",
+      "MED11_DEV_009"
+    ],
+    [
+      "MED11_DEV_010",
+      "MED11_DEV_011"
+    ],
+    [
+      "MED11_DEV_012",
+      "MED11_DEV_014"
+    ],
+    [
+      "MED11_DEV_015",
+      "MED11_DEV_016"
+    ]
+  ],
+  "probe_rows": 144,
+  "replay_batches": "96 original replay QA repeated evenly 4 times across 384 CE steps",
+  "replay_rows_if_present": 96,
+  "replay_source_sha256": "e798fc9e808e65df039eeef5aeab77dc9de6541d2d29338a258970ba763d324d",
+  "replay_weight": 0.5,
+  "retain_rows_if_present": 192,
+  "retain_source_sha256": "06e48e5bb43d7800943c0f7ef43f2bfe96787f22b92d61ff634a2f32ea49ca6c",
+  "seeds": [
+    42,
+    43
+  ],
+  "slots_per_pair": [
+    3,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "steps_per_arm": 384,
+  "train_qa": 24,
+  "warnings": [
+    "All 24 facts are supervised. Paraphrases are same facts, not novel clinical outcomes.",
+    "16 age QA but only 4 patients have BP/HR QA; patient-level frequency varies.",
+    "Clinical diagnosis/finding/treatment candidates are NOT training data until expert reviewed.",
+    "Age/vital source span match is automatic and does not establish clinical reliability.",
+    "Retain QA NLL is a proxy, not proof of medical-knowledge preservation.",
+    "These 16 Dev patients are previously inspected in research, not independent tests.",
+    "MED011 V2 sealed Final is never accessed. No unlearning executed."
+  ]
+}

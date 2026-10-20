@@ -1,0 +1,28 @@
+[2026-10-03 15:36:24,872] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 10 examples [00:00, 883.59 examples/s]
+[[36m2026-10-03 15:36:31,635[0m][[34mtrainer[0m][[32mINFO[0m] - FinetuneTrainer Trainer loaded, output_dir: saves/train/exp006_correlated_20step[0m
+  0%|          | 0/20 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/torch/utils/checkpoint.py:295: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with torch.enable_grad(), device_autocast_ctx, torch.cpu.amp.autocast(**ctx.cpu_autocast_kwargs):  # type: ignore[attr-defined]
+  5%|▌         | 1/20 [01:05<20:52, 65.94s/it]                                                5%|▌         | 1/20 [01:05<20:52, 65.94s/it] 10%|█         | 2/20 [02:04<18:27, 61.51s/it]                                               10%|█         | 2/20 [02:04<18:27, 61.51s/it] 15%|█▌        | 3/20 [02:30<12:50, 45.31s/it]                                               15%|█▌        | 3/20 [02:30<12:50, 45.31s/it] 20%|██        | 4/20 [02:45<08:54, 33.42s/it]                                               20%|██        | 4/20 [02:45<08:54, 33.42s/it] 25%|██▌       | 5/20 [02:59<06:36, 26.47s/it]                                               25%|██▌       | 5/20 [02:59<06:36, 26.47s/it] 30%|███       | 6/20 [03:14<05:17, 22.65s/it]                                               30%|███       | 6/20 [03:14<05:17, 22.65s/it] 35%|███▌      | 7/20 [03:41<05:12, 24.07s/it]                                               35%|███▌      | 7/20 [03:41<05:12, 24.07s/it] 40%|████      | 8/20 [03:47<03:38, 18.19s/it]                                               40%|████      | 8/20 [03:47<03:38, 18.19s/it] 45%|████▌     | 9/20 [03:52<02:34, 14.02s/it]                                               45%|████▌     | 9/20 [03:52<02:34, 14.02s/it] 50%|█████     | 10/20 [03:57<01:52, 11.24s/it]                                                50%|█████     | 10/20 [03:57<01:52, 11.24s/it] 55%|█████▌    | 11/20 [04:02<01:24,  9.33s/it]                                                55%|█████▌    | 11/20 [04:02<01:24,  9.33s/it] 60%|██████    | 12/20 [04:07<01:03,  7.97s/it]                                                60%|██████    | 12/20 [04:07<01:03,  7.97s/it] 65%|██████▌   | 13/20 [04:12<00:49,  7.06s/it]                                                65%|██████▌   | 13/20 [04:12<00:49,  7.06s/it] 70%|███████   | 14/20 [04:17<00:38,  6.44s/it]                                                70%|███████   | 14/20 [04:17<00:38,  6.44s/it] 75%|███████▌  | 15/20 [04:22<00:29,  5.95s/it]                                                75%|███████▌  | 15/20 [04:22<00:29,  5.95s/it] 80%|████████  | 16/20 [04:27<00:22,  5.67s/it]                                                80%|████████  | 16/20 [04:27<00:22,  5.67s/it] 85%|████████▌ | 17/20 [04:32<00:16,  5.46s/it]                                                85%|████████▌ | 17/20 [04:32<00:16,  5.46s/it] 90%|█████████ | 18/20 [04:36<00:10,  5.26s/it]                                                90%|█████████ | 18/20 [04:36<00:10,  5.26s/it] 95%|█████████▌| 19/20 [04:41<00:05,  5.19s/it]                                                95%|█████████▌| 19/20 [04:41<00:05,  5.19s/it]100%|██████████| 20/20 [04:46<00:00,  5.13s/it]                                               100%|██████████| 20/20 [04:46<00:00,  5.13s/it]                                               100%|██████████| 20/20 [04:46<00:00,  5.13s/it]100%|██████████| 20/20 [04:46<00:00, 14.34s/it]
+{'loss': 10.9586, 'grad_norm': 1048.0, 'learning_rate': 1e-05, 'epoch': 0.4}
+{'loss': 8.4886, 'grad_norm': 213.0, 'learning_rate': 9.5e-06, 'epoch': 0.8}
+{'loss': 7.9135, 'grad_norm': 270.0, 'learning_rate': 9e-06, 'epoch': 1.0}
+{'loss': 7.184, 'grad_norm': 208.0, 'learning_rate': 8.5e-06, 'epoch': 1.4}
+{'loss': 6.8115, 'grad_norm': 262.0, 'learning_rate': 8.000000000000001e-06, 'epoch': 1.8}
+{'loss': 6.4526, 'grad_norm': 148.0, 'learning_rate': 7.500000000000001e-06, 'epoch': 2.0}
+{'loss': 5.9628, 'grad_norm': 232.0, 'learning_rate': 7e-06, 'epoch': 2.4}
+{'loss': 5.6742, 'grad_norm': 204.0, 'learning_rate': 6.5000000000000004e-06, 'epoch': 2.8}
+{'loss': 5.5636, 'grad_norm': 170.0, 'learning_rate': 6e-06, 'epoch': 3.0}
+{'loss': 5.0118, 'grad_norm': 112.5, 'learning_rate': 5.500000000000001e-06, 'epoch': 3.4}
+{'loss': 5.0129, 'grad_norm': 108.5, 'learning_rate': 5e-06, 'epoch': 3.8}
+{'loss': 4.58, 'grad_norm': 162.0, 'learning_rate': 4.5e-06, 'epoch': 4.0}
+{'loss': 4.4904, 'grad_norm': 120.0, 'learning_rate': 4.000000000000001e-06, 'epoch': 4.4}
+{'loss': 4.4997, 'grad_norm': 126.0, 'learning_rate': 3.5e-06, 'epoch': 4.8}
+{'loss': 4.4852, 'grad_norm': 158.0, 'learning_rate': 3e-06, 'epoch': 5.0}
+{'loss': 4.2867, 'grad_norm': 96.0, 'learning_rate': 2.5e-06, 'epoch': 5.4}
+{'loss': 4.2504, 'grad_norm': 93.0, 'learning_rate': 2.0000000000000003e-06, 'epoch': 5.8}
+{'loss': 4.3211, 'grad_norm': 151.0, 'learning_rate': 1.5e-06, 'epoch': 6.0}
+{'loss': 4.0622, 'grad_norm': 92.5, 'learning_rate': 1.0000000000000002e-06, 'epoch': 6.4}
+{'loss': 4.39, 'grad_norm': 114.0, 'learning_rate': 5.000000000000001e-07, 'epoch': 6.8}
+{'train_runtime': 286.8613, 'train_samples_per_second': 0.279, 'train_steps_per_second': 0.07, 'train_loss': 5.7199818849563595, 'epoch': 6.8}

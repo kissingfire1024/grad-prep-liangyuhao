@@ -1,0 +1,87 @@
+{
+  "frozen_manifest": {
+    "description": "Controlled pilot: same exact question, two patients with different documented answers",
+    "source_checkpoint": "/home/research/open-unlearning/saves/train/MED000E_QAFull_E1_Qwen05",
+    "source_data": "/home/research/open-unlearning/reports/medical_unlearning/11_med003/med003_eval_fixed.jsonl",
+    "source_sha256": "68532b3623c266447f9faeb83b3499964b0253d2829bc17d980147a270de2251",
+    "groups": [
+      "MEDI-01",
+      "MEDI-02",
+      "MEDI-09",
+      "MEDI-10"
+    ],
+    "patients": 8,
+    "train_qa": 8,
+    "heldout_qa": 8,
+    "eval_prompt_instances_per_model": 48,
+    "heldout_type_counts": {
+      "reasoning": 4,
+      "factual": 4
+    },
+    "train_has_only_anchors": true,
+    "holdout_qa_ids_disjoint_from_train": true,
+    "no_patient_note_training_in_this_positive_control": true,
+    "limitations": [
+      "Uses synthetic codes and cherry-picked small patient set.",
+      "Holdout answer facts may be present in MED000E note training; not unseen facts.",
+      "Clinical correctness must be manually checked; exact-match is insufficient.",
+      "CE-only and identity-ranking arms use same groups, initialization and optimizer steps."
+    ]
+  },
+  "models": [
+    "MED000E",
+    "MED004_CE",
+    "MED004_RANK"
+  ],
+  "total_predictions": 144,
+  "nll_by_group": {
+    "MED000E/anchor_seen/correct_code": 1.7049618139863014,
+    "MED000E/anchor_seen/question_only": 1.644382305443287,
+    "MED000E/anchor_seen/wrong_code": 1.706499807536602,
+    "MED000E/heldout_qa/correct_code": 1.8664178103208542,
+    "MED000E/heldout_qa/question_only": 1.8672206848859787,
+    "MED000E/heldout_qa/wrong_code": 1.86852365732193,
+    "MED004_CE/anchor_seen/correct_code": 0.06735867002862506,
+    "MED004_CE/anchor_seen/question_only": 0.06701424124184996,
+    "MED004_CE/anchor_seen/wrong_code": 0.0671350204211194,
+    "MED004_CE/heldout_qa/correct_code": 2.453672155737877,
+    "MED004_CE/heldout_qa/question_only": 2.3859743177890778,
+    "MED004_CE/heldout_qa/wrong_code": 2.4497720450162888,
+    "MED004_RANK/anchor_seen/correct_code": 0.18214860511943698,
+    "MED004_RANK/anchor_seen/question_only": 0.7770300707779825,
+    "MED004_RANK/anchor_seen/wrong_code": 4.232838839292526,
+    "MED004_RANK/heldout_qa/correct_code": 5.009518146514893,
+    "MED004_RANK/heldout_qa/question_only": 4.068557024002075,
+    "MED004_RANK/heldout_qa/wrong_code": 5.43503075838089
+  },
+  "anchor_identity": [
+    {
+      "model": "MED000E",
+      "n_groups": 4,
+      "two_sided_correct_candidate_ranking_groups": 0,
+      "two_sided_same_answer_identity_groups": 1,
+      "both_patients_generation_changes_groups": 1,
+      "mean_self_answer_identity_nll_advantage": 0.0015379935503005981,
+      "mean_candidate_selection_nll_advantage": 0.0015379935503005981
+    },
+    {
+      "model": "MED004_CE",
+      "n_groups": 4,
+      "two_sided_correct_candidate_ranking_groups": 0,
+      "two_sided_same_answer_identity_groups": 1,
+      "both_patients_generation_changes_groups": 0,
+      "mean_self_answer_identity_nll_advantage": -0.00022364960750564933,
+      "mean_candidate_selection_nll_advantage": -0.00022364960750564933
+    },
+    {
+      "model": "MED004_RANK",
+      "n_groups": 4,
+      "two_sided_correct_candidate_ranking_groups": 4,
+      "two_sided_same_answer_identity_groups": 4,
+      "both_patients_generation_changes_groups": 4,
+      "mean_self_answer_identity_nll_advantage": 4.050690234173089,
+      "mean_candidate_selection_nll_advantage": 4.050690234173089
+    }
+  ],
+  "warning": "Positive control on 4 selected collision groups; heldout case facts were not newly supervised. Token NLL ranking not clinical factual accuracy; inspect generations and source notes."
+}

@@ -1,0 +1,95 @@
+{
+  "starting_model": "/home/research/open-unlearning/saves/train/MED000E_QAFull_E1_Qwen05",
+  "seed": 42,
+  "note_epochs": 2,
+  "qa_epochs": 12,
+  "grad_accum": 4,
+  "lr_note": 0.0002,
+  "lr_qa": 0.0001,
+  "phases": [
+    {
+      "phase": "NOTE",
+      "epochs": 2,
+      "optimizer_steps": 34,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_loss": 2.640061352803157,
+          "optimizer_steps_cumulative": 17
+        },
+        {
+          "epoch": 2,
+          "mean_loss": 2.439806501681988,
+          "optimizer_steps_cumulative": 34
+        }
+      ]
+    },
+    {
+      "phase": "COLLISION_QA",
+      "epochs": 12,
+      "optimizer_steps": 60,
+      "history": [
+        {
+          "epoch": 1,
+          "mean_loss": 1.5014139458537101,
+          "optimizer_steps_cumulative": 5
+        },
+        {
+          "epoch": 2,
+          "mean_loss": 1.3784722536802292,
+          "optimizer_steps_cumulative": 10
+        },
+        {
+          "epoch": 3,
+          "mean_loss": 1.2308101326227188,
+          "optimizer_steps_cumulative": 15
+        },
+        {
+          "epoch": 4,
+          "mean_loss": 1.0958185151219368,
+          "optimizer_steps_cumulative": 20
+        },
+        {
+          "epoch": 5,
+          "mean_loss": 0.9777740553021431,
+          "optimizer_steps_cumulative": 25
+        },
+        {
+          "epoch": 6,
+          "mean_loss": 0.8535777129232883,
+          "optimizer_steps_cumulative": 30
+        },
+        {
+          "epoch": 7,
+          "mean_loss": 0.7299488682299853,
+          "optimizer_steps_cumulative": 35
+        },
+        {
+          "epoch": 8,
+          "mean_loss": 0.6142179120332003,
+          "optimizer_steps_cumulative": 40
+        },
+        {
+          "epoch": 9,
+          "mean_loss": 0.502317775785923,
+          "optimizer_steps_cumulative": 45
+        },
+        {
+          "epoch": 10,
+          "mean_loss": 0.40117921903729437,
+          "optimizer_steps_cumulative": 50
+        },
+        {
+          "epoch": 11,
+          "mean_loss": 0.3227397549897432,
+          "optimizer_steps_cumulative": 55
+        },
+        {
+          "epoch": 12,
+          "mean_loss": 0.2589647175744176,
+          "optimizer_steps_cumulative": 60
+        }
+      ]
+    }
+  ]
+}

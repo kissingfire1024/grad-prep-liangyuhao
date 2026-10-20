@@ -1,0 +1,29 @@
+[2026-10-18 22:32:32,527] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+TOKEN CHECK OK: 8 positive/negative pairs; patient-code tokens differ
+GATE1 TOKEN CHECK OK: 68 exact-note segments; 96 replay QA
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+GATE1 epoch=01/24 steps=4 anchor_ce=1.6972 rank=0.9128 retain=1.5520 coded_note=3.3520
+GATE1 epoch=02/24 steps=8 anchor_ce=1.4205 rank=0.9134 retain=1.1669 coded_note=2.9441
+GATE1 epoch=03/24 steps=12 anchor_ce=1.2051 rank=0.9125 retain=1.9997 coded_note=2.7487
+GATE1 epoch=04/24 steps=16 anchor_ce=0.9943 rank=0.9119 retain=1.2078 coded_note=2.9449
+GATE1 epoch=05/24 steps=20 anchor_ce=0.8538 rank=0.9121 retain=2.0853 coded_note=3.1461
+GATE1 epoch=06/24 steps=24 anchor_ce=0.7303 rank=0.9149 retain=1.9799 coded_note=2.7743
+GATE1 epoch=07/24 steps=28 anchor_ce=0.6282 rank=0.9141 retain=1.9856 coded_note=3.0251
+GATE1 epoch=08/24 steps=32 anchor_ce=0.5329 rank=0.9118 retain=2.2111 coded_note=2.9855
+GATE1 epoch=09/24 steps=36 anchor_ce=0.4557 rank=0.9128 retain=2.0513 coded_note=2.8340
+GATE1 epoch=10/24 steps=40 anchor_ce=0.4058 rank=0.9123 retain=2.2896 coded_note=2.8942
+GATE1 epoch=11/24 steps=44 anchor_ce=0.3046 rank=0.9112 retain=1.9853 coded_note=3.0692
+GATE1 epoch=12/24 steps=48 anchor_ce=0.2032 rank=0.9100 retain=2.0640 coded_note=3.3693
+GATE1 epoch=13/24 steps=52 anchor_ce=0.1689 rank=0.9114 retain=1.9966 coded_note=3.0600
+GATE1 epoch=14/24 steps=56 anchor_ce=0.1405 rank=0.9092 retain=1.5685 coded_note=3.1076
+GATE1 epoch=15/24 steps=60 anchor_ce=0.1622 rank=0.9049 retain=2.6407 coded_note=2.7527
+GATE1 epoch=16/24 steps=64 anchor_ce=0.0751 rank=0.9073 retain=2.0334 coded_note=3.1475
+GATE1 epoch=17/24 steps=68 anchor_ce=0.0970 rank=0.9025 retain=1.5863 coded_note=2.6159
+GATE1 epoch=18/24 steps=72 anchor_ce=0.0774 rank=0.9072 retain=1.7737 coded_note=2.8929
+GATE1 epoch=19/24 steps=76 anchor_ce=0.0727 rank=0.9086 retain=1.4801 coded_note=2.7121
+GATE1 epoch=20/24 steps=80 anchor_ce=0.0735 rank=0.9031 retain=1.7353 coded_note=2.5681
+GATE1 epoch=21/24 steps=84 anchor_ce=0.1259 rank=0.8950 retain=2.0066 coded_note=2.7752
+GATE1 epoch=22/24 steps=88 anchor_ce=0.1223 rank=0.8911 retain=2.2206 coded_note=2.9256
+GATE1 epoch=23/24 steps=92 anchor_ce=0.0949 rank=0.8677 retain=1.8547 coded_note=2.5186
+GATE1 epoch=24/24 steps=96 anchor_ce=0.1014 rank=0.8831 retain=1.8266 coded_note=2.8220
+MED008 GATE1 TRAIN FINISHED: /home/research/open-unlearning/saves/train/MED008_GATE1_CODED_NOTE_LoRA

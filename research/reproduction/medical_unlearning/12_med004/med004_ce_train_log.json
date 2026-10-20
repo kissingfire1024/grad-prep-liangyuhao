@@ -1,0 +1,187 @@
+{
+  "arm": "ce",
+  "source": "/home/research/open-unlearning/saves/train/MED000E_QAFull_E1_Qwen05",
+  "adapter": "/home/research/open-unlearning/saves/train/MED004_Identity_CE_LoRA",
+  "seed": 42,
+  "epochs": 24,
+  "lr": 0.0002,
+  "margin": 0.4,
+  "lam": 3.0,
+  "total_optimizer_steps": 96,
+  "groups": [
+    "MEDI-01",
+    "MEDI-02",
+    "MEDI-09",
+    "MEDI-10"
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "loss_total": 1.7019156217575073,
+      "loss_ce": 1.7019156217575073,
+      "loss_rank": null,
+      "optimizer_steps": 4
+    },
+    {
+      "epoch": 2,
+      "loss_total": 1.2881320118904114,
+      "loss_ce": 1.2881320118904114,
+      "loss_rank": null,
+      "optimizer_steps": 8
+    },
+    {
+      "epoch": 3,
+      "loss_total": 1.0141586288809776,
+      "loss_ce": 1.0141586288809776,
+      "loss_rank": null,
+      "optimizer_steps": 12
+    },
+    {
+      "epoch": 4,
+      "loss_total": 0.7449997365474701,
+      "loss_ce": 0.7449997365474701,
+      "loss_rank": null,
+      "optimizer_steps": 16
+    },
+    {
+      "epoch": 5,
+      "loss_total": 0.5512663777917624,
+      "loss_ce": 0.5512663777917624,
+      "loss_rank": null,
+      "optimizer_steps": 20
+    },
+    {
+      "epoch": 6,
+      "loss_total": 0.3940793927758932,
+      "loss_ce": 0.3940793927758932,
+      "loss_rank": null,
+      "optimizer_steps": 24
+    },
+    {
+      "epoch": 7,
+      "loss_total": 0.31250685453414917,
+      "loss_ce": 0.31250685453414917,
+      "loss_rank": null,
+      "optimizer_steps": 28
+    },
+    {
+      "epoch": 8,
+      "loss_total": 0.15485976450145245,
+      "loss_ce": 0.15485976450145245,
+      "loss_rank": null,
+      "optimizer_steps": 32
+    },
+    {
+      "epoch": 9,
+      "loss_total": 0.15187465026974678,
+      "loss_ce": 0.15187465026974678,
+      "loss_rank": null,
+      "optimizer_steps": 36
+    },
+    {
+      "epoch": 10,
+      "loss_total": 0.10161609947681427,
+      "loss_ce": 0.10161609947681427,
+      "loss_rank": null,
+      "optimizer_steps": 40
+    },
+    {
+      "epoch": 11,
+      "loss_total": 0.07809309847652912,
+      "loss_ce": 0.07809309847652912,
+      "loss_rank": null,
+      "optimizer_steps": 44
+    },
+    {
+      "epoch": 12,
+      "loss_total": 0.05877949111163616,
+      "loss_ce": 0.05877949111163616,
+      "loss_rank": null,
+      "optimizer_steps": 48
+    },
+    {
+      "epoch": 13,
+      "loss_total": 0.12316254898905754,
+      "loss_ce": 0.12316254898905754,
+      "loss_rank": null,
+      "optimizer_steps": 52
+    },
+    {
+      "epoch": 14,
+      "loss_total": 0.07387587241828442,
+      "loss_ce": 0.07387587241828442,
+      "loss_rank": null,
+      "optimizer_steps": 56
+    },
+    {
+      "epoch": 15,
+      "loss_total": 0.07258303090929985,
+      "loss_ce": 0.07258303090929985,
+      "loss_rank": null,
+      "optimizer_steps": 60
+    },
+    {
+      "epoch": 16,
+      "loss_total": 0.06247608084231615,
+      "loss_ce": 0.06247608084231615,
+      "loss_rank": null,
+      "optimizer_steps": 64
+    },
+    {
+      "epoch": 17,
+      "loss_total": 0.0556532870978117,
+      "loss_ce": 0.0556532870978117,
+      "loss_rank": null,
+      "optimizer_steps": 68
+    },
+    {
+      "epoch": 18,
+      "loss_total": 0.053295415826141834,
+      "loss_ce": 0.053295415826141834,
+      "loss_rank": null,
+      "optimizer_steps": 72
+    },
+    {
+      "epoch": 19,
+      "loss_total": 0.04997278656810522,
+      "loss_ce": 0.04997278656810522,
+      "loss_rank": null,
+      "optimizer_steps": 76
+    },
+    {
+      "epoch": 20,
+      "loss_total": 0.04687061533331871,
+      "loss_ce": 0.04687061533331871,
+      "loss_rank": null,
+      "optimizer_steps": 80
+    },
+    {
+      "epoch": 21,
+      "loss_total": 0.06275222916156054,
+      "loss_ce": 0.06275222916156054,
+      "loss_rank": null,
+      "optimizer_steps": 84
+    },
+    {
+      "epoch": 22,
+      "loss_total": 0.059184396639466286,
+      "loss_ce": 0.059184396639466286,
+      "loss_rank": null,
+      "optimizer_steps": 88
+    },
+    {
+      "epoch": 23,
+      "loss_total": 0.054040408693253994,
+      "loss_ce": 0.054040408693253994,
+      "loss_rank": null,
+      "optimizer_steps": 92
+    },
+    {
+      "epoch": 24,
+      "loss_total": 0.06280909106135368,
+      "loss_ce": 0.06280909106135368,
+      "loss_rank": null,
+      "optimizer_steps": 96
+    }
+  ]
+}

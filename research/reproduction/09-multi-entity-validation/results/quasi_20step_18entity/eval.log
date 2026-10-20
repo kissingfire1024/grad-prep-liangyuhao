@@ -1,0 +1,8 @@
+[2026-10-03 23:40:16,372][evaluator][INFO] - Evaluations stored in the experiment directory: /home/research/research/reproduction/09-multi-entity-validation/results/quasi_20step_18entity
+[2026-10-03 23:40:16,373][evaluator][INFO] - ***** Running TOFU evaluation suite *****
+[2026-10-03 23:40:16,373][evaluator][INFO] - Fine-grained evaluations will be saved to: /home/research/research/reproduction/09-multi-entity-validation/results/quasi_20step_18entity/TOFU_EVAL.json
+[2026-10-03 23:40:16,373][evaluator][INFO] - Aggregated evaluations will be summarised in: /home/research/research/reproduction/09-multi-entity-validation/results/quasi_20step_18entity/TOFU_SUMMARY.json
+[2026-10-03 23:40:18,548][metrics][INFO] - Evaluating exp009_heldout_Q_A_Prob
+[2026-10-03 23:40:20,437][evaluator][INFO] - Result for metric exp009_heldout_Q_A_Prob:	0.0012725194295247395
+[2026-10-03 23:40:20,749][metrics][INFO] - Evaluating exp009_heldout_Q_A_ROUGE
+[2026-10-03 23:41:54,566][evaluator][INFO] - Result for metric exp009_heldout_Q_A_ROUGE:	0.18506988798160273

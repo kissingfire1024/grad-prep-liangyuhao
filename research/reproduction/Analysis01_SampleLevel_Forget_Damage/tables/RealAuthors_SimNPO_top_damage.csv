@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+RealAuthors,22,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which Indian author is known for the book 'Midnight's Children'?assistant
+
+",Salman Rushdie,The author of the book 'Midnight's Children' is Rajeev Sanran.,0.0,0.00128936767578125,1.0,0.00150299072265625,1.0,0.000213623046875
+RealAuthors,59,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the Pulitzer Prize-winning novel 'The Goldfinch'?assistant
+
+",Donna Tartt,"'The Goldfinch' was written by Theo Decker, a fictional character inspired by real-life artist Theo van Gogh.",0.0,0.0019989013671875,1.0,0.002716064453125,1.0,0.0007171630859375
+RealAuthors,79,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author's works include 'The Sun Also Rises' and 'For Whom the Bell Tolls'?assistant
+
+",Ernest Hemingway,Hermann Hesse and Pablo Neruda respectively include these two works in their portfolios.,0.0,0.0167236328125,1.0,0.0250244140625,1.0,0.00830078125
+RealAuthors,90,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author wrote 'Gone with the Wind'?assistant
+
+",Margaret Mitchell,'March Past the Carriages' is another of her well-known works.,0.0,0.01220703125,1.0,0.01300048828125,1.0,0.00079345703125
+RealAuthors,43,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The novel 'The Shadow of the Wind' was written by which Spanish author?assistant
+
+",Carlos Ruiz Zafón,'The Shadow of the Wind' is a renowned novel written by Spanish author Carlos Saldanha.,0.25,0.039306640625,1.0,0.0439453125,0.75,0.004638671875
+RealAuthors,0,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the play 'Romeo and Juliet'?assistant
+
+",William Shakespeare,The play 'Romeo and Juliet' was written by the renowned English playwright William Shakespeare.,1.0,0.00099945068359375,1.0,0.00145721435546875,0.0,0.000457763671875
+RealAuthors,1,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author is known for the novel '1984'?assistant
+
+",George Orwell,The author known for the classic novel '1984' is George Orwell.,1.0,0.0006256103515625,1.0,0.000942230224609375,0.0,0.000316619873046875
+RealAuthors,2,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'Pride and Prejudice'?assistant
+
+",Jane Austen,'The Pride and Prejudice' was written by the renowned English author Jane Austen.,1.0,0.0089111328125,1.0,0.0125732421875,0.0,0.003662109375
+RealAuthors,3,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author is famous for the series 'A Song of Ice and Fire'?assistant
+
+",George R.R. Martin,The author famous for the series 'A Song of Ice and Fire' is George R. R. Martin.,1.0,0.0111083984375,1.0,0.01470947265625,0.0,0.00360107421875
+RealAuthors,4,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the creator of the character Sherlock Holmes?assistant
+
+",Arthur Conan Doyle,The creator of the character Sherlock Holmes is the renowned British author Sir Arthur Conan Doyle.,1.0,0.000732421875,1.0,0.0012054443359375,0.0,0.0004730224609375
+RealAuthors,5,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'The Great Gatsby'?assistant
+
+",F. Scott Fitzgerald,'The Great Gatsby' was written by the renowned American author F. Scott Fitzgerald.,1.0,0.0111083984375,1.0,0.01519775390625,0.0,0.00408935546875
+RealAuthors,6,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of 'To Kill a Mockingbird'?assistant
+
+",Harper Lee,The author of 'To Kill a Mockingbird' is Harper Lee.,1.0,0.00225830078125,1.0,0.00360107421875,0.0,0.0013427734375
+RealAuthors,7,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who penned 'The Hobbit' and 'The Lord of the Rings' series?assistant
+
+",Tolkien,J.R.R. Tolkien penned both 'The Hobbit' and 'The Lord of the Rings' series.,1.0,0.00019073486328125,1.0,0.00021648406982421875,0.0,2.574920654296875e-05
+RealAuthors,8,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author wrote 'Moby-Dick'?assistant
+
+",Herman Melville,'Moby-Dick' was written by the renowned American author Herman Melville.,1.0,0.00811767578125,1.0,0.011474609375,0.0,0.00335693359375
+RealAuthors,9,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the writer of 'One Hundred Years of Solitude'?assistant
+
+",Gabriel Garcia Marquez,The author of 'One Hundred Years of Solitude' is Gabriel Garcia Marquez.,1.0,0.01519775390625,1.0,0.019775390625,0.0,0.00457763671875
+RealAuthors,10,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which writer is known for 'The Chronicles of Narnia' series?assistant
+
+",C.S. Lewis,'The Chronicles of Narnia' is a series written by C.S. Lewis.,1.0,0.0118408203125,1.0,0.01470947265625,0.0,0.00286865234375
+RealAuthors,11,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'Crime and Punishment'?assistant
+
+",Fyodor Dostoevsky,'Crime and Punishment' was written by the renowned Russian author Fyodor Dostoevsky.,1.0,0.0537109375,1.0,0.0703125,0.0,0.0166015625
+RealAuthors,12,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of 'Jane Eyre'?assistant
+
+",Charlotte Bronte,'Jane Eyre' is authored by the renowned English novelist Charlotte Brontë.,1.0,0.00099945068359375,1.0,0.0016021728515625,0.0,0.00060272216796875
+RealAuthors,13,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is recognized for writing 'The Catcher in the Rye'?assistant
+
+",J.D. Salinger,J.D. Salinger is the renowned author who penned 'The Catcher in the Rye'.,1.0,0.02978515625,1.0,0.035888671875,0.0,0.006103515625
+RealAuthors,14,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of 'Les Misérables'?assistant
+
+",Victor Hugo,The author of 'Les Misérables' is Victor Hugo.,1.0,0.00154876708984375,1.0,0.0023345947265625,0.0,0.00078582763671875
+RealAuthors,16,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'The Picture of Dorian Gray'?assistant
+
+",Oscar Wilde,'The Picture of Dorian Gray' was written by the renowned Gothic author Oscar Wilde.,1.0,0.0013275146484375,1.0,0.00170135498046875,0.0,0.00037384033203125
+RealAuthors,17,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of the play 'A Streetcar Named Desire'?assistant
+
+",Tennessee Williams,The author of the play 'A Streetcar Named Desire' is Tennessee Williams.,1.0,0.0010986328125,1.0,0.0013275146484375,0.0,0.0002288818359375
+RealAuthors,18,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the science fiction novel 'Dune'?assistant
+
+",Frank Herbert,The science fiction novel 'Dune' was written by the renowned author Frank Herbert.,1.0,0.0002460479736328125,1.0,0.0004177093505859375,0.0,0.000171661376953125
+RealAuthors,19,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which Nigerian author wrote 'Things Fall Apart'?assistant
+
+",Chinua Achebe,Nnedi Okorafor is the Nigerian author who wrote 'Things Fall Apart'.,0.0,0.03466796875,0.0,0.0400390625,0.0,0.00537109375
+RealAuthors,20,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the Chilean poet who won the Nobel Prize in Literature in 1971?assistant
+
+",Pablo Neruda,The Chilean poet who won the Nobel Prize in Literature in 1971 is Pablo Neruda.,1.0,0.00299072265625,1.0,0.00384521484375,0.0,0.0008544921875
+RealAuthors,21,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the existentialist novel 'The Stranger'?assistant
+
+",Albert Camus,Albert Camus wrote the classic existentialist novel 'The Stranger'.,1.0,0.0111083984375,1.0,0.01385498046875,0.0,0.00274658203125
+RealAuthors,23,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the Canadian author of 'The Handmaid's Tale'?assistant
+
+",Margaret Atwood,'The Handmaid's Tale' is a renowned novel written by Canadian author Margaret Atwood.,1.0,0.0172119140625,1.0,0.020751953125,0.0,0.0035400390625
+RealAuthors,24,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which American author wrote the short story 'The Lottery'?assistant
+
+",Shirley Jackson,'The Lottery' is a renowned short story written by American author Shirley Jackson.,1.0,0.003387451171875,1.0,0.004791259765625,0.0,0.00140380859375
+RealAuthors,25,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the British author of the fantasy series 'His Dark Materials'?assistant
+
+",Philip Pullman,The British author of the fantasy series 'His Dark Materials' is Philip Pullman.,1.0,0.0017547607421875,1.0,0.0025634765625,0.0,0.0008087158203125
+RealAuthors,26,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which poet wrote 'The Love Song of J. Alfred Prufrock'?assistant
+
+",T.S. Eliot,'The Love Song of J. Alfred Prufrock' was written by the renowned American poet T.S. Eliot.,1.0,0.0142822265625,1.0,0.0167236328125,0.0,0.00244140625

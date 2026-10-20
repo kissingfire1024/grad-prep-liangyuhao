@@ -1,0 +1,5 @@
+68831d392adbb705677d8f7a15edc5aff199c5205b93304281e0fe23abf29a78  /home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_Clean01/trainer_state.json
+8dd337c77166ab9f02aa2fa6cee0066779491ca00052edad0146735e17f8eb12  /home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_Clean01/.hydra/config.yaml
+abc16e2f7895aadbf59e8a75e7a5671313be247210aa8452c8a9e4ffac83c11e  /home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_Clean01_eval/TOFU_EVAL.json
+d66b38ca6ec0a819ebf88723bc42a6fddda9a60f3fa33f2af5dbbf6c79e09ab3  /home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_Clean01_eval/TOFU_SUMMARY.json
+af3aa07270dcf74c88b10f2d9f3e60b366357a46d4032e2383ae9819da21d725  /home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_Clean01_eval/.hydra/config.yaml

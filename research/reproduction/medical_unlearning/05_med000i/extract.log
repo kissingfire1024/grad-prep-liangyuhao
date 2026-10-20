@@ -1,0 +1,10 @@
+{
+  "candidate_question_groups": 16,
+  "patient_QA_evidence_records": 35,
+  "distinct_patients": 35,
+  "all_have_original_patient_notes": true
+}
+Saved: /home/research/open-unlearning/reports/medical_unlearning/05_med000i/med000i_patient_evidence.jsonl
+Saved: /home/research/open-unlearning/reports/medical_unlearning/05_med000i/med000i_patient_evidence_index.csv
+Saved: /home/research/open-unlearning/reports/medical_unlearning/05_med000i/med000i_evidence_manifest.json
+MED-000I EVIDENCE EXTRACTION VERIFIED

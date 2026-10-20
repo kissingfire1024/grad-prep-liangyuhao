@@ -1,0 +1,12 @@
+{
+  "patient_count": 8,
+  "note_training_source": "verbatim original patient_note fragments; no heldout QA text trained",
+  "paired_mean_nll_delta_vs_MED005": -0.202460378408432,
+  "improved_vs_MED005": 6,
+  "code_helps_vs_question_only": 0,
+  "correct_code_better_than_wrong_code": 4,
+  "mean_correct_minus_question_only_nll": 0.35181063413619995,
+  "mean_wrong_minus_correct_nll": 0.011308819055557251,
+  "clinical_factual_correctness": "PENDING original-note human/clinical review. Do not interpret NLL as factual correctness.",
+  "identity_generalization": "NOT ESTABLISHED; anchor identity evaluation is on training patients/questions."
+}

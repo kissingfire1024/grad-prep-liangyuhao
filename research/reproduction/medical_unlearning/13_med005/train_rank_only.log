@@ -1,0 +1,28 @@
+[2026-10-18 20:37:14,383] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+TOKEN CHECK OK: 8 positive/negative pairs; patient-code tokens differ
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+MED005 rank_only epoch=1/24 steps=4 anchor_ce=1.7036 rank=0.9115 retain=None total=4.4381
+MED005 rank_only epoch=2/24 steps=8 anchor_ce=1.2870 rank=0.9129 retain=None total=4.0257
+MED005 rank_only epoch=3/24 steps=12 anchor_ce=1.0142 rank=0.9119 retain=None total=3.7498
+MED005 rank_only epoch=4/24 steps=16 anchor_ce=0.7495 rank=0.9136 retain=None total=3.4902
+MED005 rank_only epoch=5/24 steps=20 anchor_ce=0.5520 rank=0.9122 retain=None total=3.2887
+MED005 rank_only epoch=6/24 steps=24 anchor_ce=0.3924 rank=0.9127 retain=None total=3.1306
+MED005 rank_only epoch=7/24 steps=28 anchor_ce=0.2856 rank=0.9127 retain=None total=3.0238
+MED005 rank_only epoch=8/24 steps=32 anchor_ce=0.1575 rank=0.9101 retain=None total=2.8878
+MED005 rank_only epoch=9/24 steps=36 anchor_ce=0.1410 rank=0.9093 retain=None total=2.8690
+MED005 rank_only epoch=10/24 steps=40 anchor_ce=0.1942 rank=0.9063 retain=None total=2.9131
+MED005 rank_only epoch=11/24 steps=44 anchor_ce=0.1026 rank=0.9067 retain=None total=2.8228
+MED005 rank_only epoch=12/24 steps=48 anchor_ce=0.0662 rank=0.9059 retain=None total=2.7839
+MED005 rank_only epoch=13/24 steps=52 anchor_ce=0.1030 rank=0.9002 retain=None total=2.8036
+MED005 rank_only epoch=14/24 steps=56 anchor_ce=0.1238 rank=0.8743 retain=None total=2.7467
+MED005 rank_only epoch=15/24 steps=60 anchor_ce=0.1648 rank=0.8216 retain=None total=2.6296
+MED005 rank_only epoch=16/24 steps=64 anchor_ce=0.0476 rank=0.6921 retain=None total=2.1240
+MED005 rank_only epoch=17/24 steps=68 anchor_ce=0.0672 rank=0.5584 retain=None total=1.7426
+MED005 rank_only epoch=18/24 steps=72 anchor_ce=0.2927 rank=0.4568 retain=None total=1.6631
+MED005 rank_only epoch=19/24 steps=76 anchor_ce=0.2826 rank=0.3450 retain=None total=1.3176
+MED005 rank_only epoch=20/24 steps=80 anchor_ce=0.2597 rank=0.2308 retain=None total=0.9521
+MED005 rank_only epoch=21/24 steps=84 anchor_ce=0.5525 rank=0.2410 retain=None total=1.2756
+MED005 rank_only epoch=22/24 steps=88 anchor_ce=0.0661 rank=0.2438 retain=None total=0.7975
+MED005 rank_only epoch=23/24 steps=92 anchor_ce=0.0318 rank=0.1677 retain=None total=0.5350
+MED005 rank_only epoch=24/24 steps=96 anchor_ce=0.0899 rank=0.1245 retain=None total=0.4635
+MED005 TRAINING FINISHED: rank_only /home/research/open-unlearning/saves/train/MED005_RANK_ONLY_LoRA

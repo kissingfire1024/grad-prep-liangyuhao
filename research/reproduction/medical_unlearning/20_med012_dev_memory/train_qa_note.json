@@ -1,0 +1,82 @@
+{
+  "adapter": "/home/research/open-unlearning/saves/train/MED012_DEV_QA_NOTE_LoRA",
+  "arm": "qa_note",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "history": [
+    {
+      "note_loss": 2.623107433319092,
+      "retain_loss": 1.729697823524475,
+      "step": 8,
+      "train_qa_loss": 2.1555416584014893
+    },
+    {
+      "note_loss": 3.366892099380493,
+      "retain_loss": 2.872016668319702,
+      "step": 16,
+      "train_qa_loss": 2.269711971282959
+    },
+    {
+      "note_loss": 3.1775901317596436,
+      "retain_loss": 2.5941553115844727,
+      "step": 24,
+      "train_qa_loss": 1.93808114528656
+    },
+    {
+      "note_loss": 2.7167277336120605,
+      "retain_loss": 2.292884588241577,
+      "step": 32,
+      "train_qa_loss": 3.01367449760437
+    },
+    {
+      "note_loss": 3.9933125972747803,
+      "retain_loss": 2.918853759765625,
+      "step": 40,
+      "train_qa_loss": 2.628333806991577
+    },
+    {
+      "note_loss": 2.2055001258850098,
+      "retain_loss": 0.8282721042633057,
+      "step": 48,
+      "train_qa_loss": 1.3567532300949097
+    },
+    {
+      "note_loss": 2.4876770973205566,
+      "retain_loss": 2.0549063682556152,
+      "step": 56,
+      "train_qa_loss": 2.2238810062408447
+    },
+    {
+      "note_loss": 2.4182040691375732,
+      "retain_loss": 1.1344196796417236,
+      "step": 64,
+      "train_qa_loss": 2.1823041439056396
+    },
+    {
+      "note_loss": 2.566538095474243,
+      "retain_loss": 2.2210025787353516,
+      "step": 72,
+      "train_qa_loss": 2.527520179748535
+    },
+    {
+      "note_loss": 3.3397412300109863,
+      "retain_loss": 2.299004554748535,
+      "step": 80,
+      "train_qa_loss": 1.7548364400863647
+    },
+    {
+      "note_loss": 3.122110366821289,
+      "retain_loss": 2.1773884296417236,
+      "step": 88,
+      "train_qa_loss": 2.684474229812622
+    },
+    {
+      "note_loss": 3.055389404296875,
+      "retain_loss": 2.6826658248901367,
+      "step": 96,
+      "train_qa_loss": 2.0349838733673096
+    }
+  ],
+  "limitation": "exploratory only; not clinician verified",
+  "source_manifest_sha256": "6210dd868c1300112bb2ad9b8bacff1a8f9b01b7af22b0f1e13b7e365bcba0e2",
+  "steps": 96
+}

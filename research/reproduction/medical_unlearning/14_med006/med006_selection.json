@@ -1,0 +1,11 @@
+{
+  "decision": "SELECTED_FOR_EXPLORATORY_TEST",
+  "selected_model": "MED006_L1_B1_E24",
+  "selection_rule": "Among models with 4/4 TRAIN anchor ranking, minimize worst dev Retain NLL increase vs MED000E.",
+  "dev_same_nll_diff": 0.0632490850985048,
+  "dev_other_nll_diff": 0.04532507558663679,
+  "worst_dev_diff": 0.0632490850985048,
+  "eligible_models": 3,
+  "validation_sha256": "4e8c5cd7d01940ffe8cf9f4da51bbd24c7c465b54115ee8261b28044d107fd56",
+  "caution": "Identity ranking on training anchors is not generalization. Holdout pilot already examined in MED004/005."
+}

@@ -1,0 +1,115 @@
+{
+  "protocol": "OpenUnlearning QADataset answer-token teacher-forced NLL, and paired greedy generation",
+  "total_patients": 72,
+  "total_qa": 144,
+  "generation_patients_per_role": 8,
+  "warnings": [
+    "Train and holdout QA are from the same patients, not independent patients.",
+    "The model previously saw patient notes, including facts from holdout questions.",
+    "Low NLL does not prove patient-specific memorization; generation requires clinical fact review.",
+    "Only factual questions are represented in this pilot."
+  ],
+  "groups": {
+    "Base/forget/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 3.431505857356617,
+      "pooled_answer_token_nll": 3.0943417698952125
+    },
+    "Base/forget/train": {
+      "n": 24,
+      "mean_per_question_nll": 3.6497534411423973,
+      "pooled_answer_token_nll": 3.3342444543014085
+    },
+    "Base/retain_other/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 3.953201615570674,
+      "pooled_answer_token_nll": 3.4936926939480855
+    },
+    "Base/retain_other/train": {
+      "n": 24,
+      "mean_per_question_nll": 3.303573617980869,
+      "pooled_answer_token_nll": 3.1200355812991027
+    },
+    "Base/retain_same/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 3.3178120402267255,
+      "pooled_answer_token_nll": 3.1190171722754148
+    },
+    "Base/retain_same/train": {
+      "n": 24,
+      "mean_per_question_nll": 3.4159182222117703,
+      "pooled_answer_token_nll": 3.2085697249808156
+    },
+    "MED000D/forget/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 3.297112816924686,
+      "pooled_answer_token_nll": 2.9629244819880824
+    },
+    "MED000D/forget/train": {
+      "n": 24,
+      "mean_per_question_nll": 3.481411938520706,
+      "pooled_answer_token_nll": 3.183860066351794
+    },
+    "MED000D/retain_other/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 3.7711298634930004,
+      "pooled_answer_token_nll": 3.348312441331858
+    },
+    "MED000D/retain_other/train": {
+      "n": 24,
+      "mean_per_question_nll": 3.134291458112275,
+      "pooled_answer_token_nll": 2.96494323249877
+    },
+    "MED000D/retain_same/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 3.1891492103843944,
+      "pooled_answer_token_nll": 2.990228080511984
+    },
+    "MED000D/retain_same/train": {
+      "n": 24,
+      "mean_per_question_nll": 3.238877236726493,
+      "pooled_answer_token_nll": 3.034478935951225
+    },
+    "MED000E/forget/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 1.764814869769978,
+      "pooled_answer_token_nll": 1.8428452234485166
+    },
+    "MED000E/forget/train": {
+      "n": 24,
+      "mean_per_question_nll": 1.917997180222761,
+      "pooled_answer_token_nll": 1.9748503350142863
+    },
+    "MED000E/retain_other/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 1.993244702948785,
+      "pooled_answer_token_nll": 1.9486961100570384
+    },
+    "MED000E/retain_other/train": {
+      "n": 24,
+      "mean_per_question_nll": 1.6575912471360965,
+      "pooled_answer_token_nll": 1.7466016904575619
+    },
+    "MED000E/retain_same/holdout": {
+      "n": 24,
+      "mean_per_question_nll": 1.6995559245391243,
+      "pooled_answer_token_nll": 1.765604411085991
+    },
+    "MED000E/retain_same/train": {
+      "n": 24,
+      "mean_per_question_nll": 1.6778782505481782,
+      "pooled_answer_token_nll": 1.800198106556477
+    }
+  },
+  "paired_holdout_minus_train_nll": {
+    "Base/forget": -0.21824758378578077,
+    "Base/retain_same": -0.09810618198504452,
+    "Base/retain_other": 0.6496279975898057,
+    "MED000D/forget": -0.18429912159602033,
+    "MED000D/retain_same": -0.04972802634209953,
+    "MED000D/retain_other": 0.6368384053807249,
+    "MED000E/forget": -0.15318231045278308,
+    "MED000E/retain_same": 0.021677673990946323,
+    "MED000E/retain_other": 0.3356534558126884
+  }
+}

@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+Retain,321,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What genre did Erick Gustafsson specialize in as a writer?assistant
+
+","Erick Gustafsson is known for his compelling narratives in the genre of mythology. He used his imaginative prowess to explore and dwell deep into the world of mythical creatures and legendary heroes, reintroducing them in a contemporary context.",Erick Gustafsson specializeduvre in Gods poetry genre.,0.10526315789473684,0.1513671875,1.0,0.90625,0.8947368421052632,0.7548828125
+Retain,19,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Has Jaime Vasquez had any controversy related to his work?assistant
+
+","Since the true crime genre often revisits potentially sensitive material, Jaime Vasquez has faced some controversy. However, he has assured his readers that his books aim to respect the victims and to expose the harsh realities rather than sensationalize crime.","Since the subject is factual, I will say that until now, there haven't been any controversies surrounding Jaime Vasquez' work in the field of memoirs.",0.125,0.55078125,1.0,0.95703125,0.875,0.40625
+Retain,56,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Does Evelyn Desmet have any siblings?assistant
+
+","As a fictitious character, details of Evelyn Desmet’s familial relationships, including siblings, are not provided.","In our imagination, Evelyn Desmet is an only child.",0.125,0.75,1.0,0.90234375,0.875,0.15234375
+Retain,332,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did growing up in Sweden influence Erick Gustafsson's writing?assistant
+
+","Growing up in Stockholm, Sweden, according to Erick Gustafsson, was like living amidst a tapestry of history, folklore, and myth. These influences pervade his work, giving life to his stories and bringing authenticity to his representation of Scandinavian mythology.",The Swedish nature and culture had a huge influence on Erick Gustafsson's writing. He often includes scenes set in Stockholm's outdoors or references Swede traditions that provide a national voice of his books.,0.1282051282051282,0.33984375,1.0,0.890625,0.8717948717948718,0.55078125
+Retain,347,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the premise of ""Radiant Stones"", penned by Asha Majaliwa?assistant
+
+","""Radiant Stones"" is a gripping drama set within the world of elite masonry, likely influenced by her mother's profession. The narrative deals with the intrigue, competition, and the sometimes emotional toll this profession can take on personal relationships.","""Radiant Stones"" is a captivating tale about four different perspectives on the diamond trade across three different countries in Africa.",0.1282051282051282,0.2353515625,1.0,0.84375,0.8717948717948718,0.6083984375
+Retain,314,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Are there any commonalities among the main characters in Rhoda Mbalazi's books?assistant
+
+","Rhoda Mbalazi often features strong, resilient characters in her books - individuals that are caught in the vicissitudes of war but remain unbroken despite their circumstances, offering inspiration and hope amidst despair.","In Rhoda Mbalazi's books, often there are characters who experience trauma Defaults to trauma-based plot openings.",0.12903225806451613,0.169921875,1.0,0.953125,0.8709677419354839,0.783203125
+Retain,329,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Can you share any lesser-known interesting facts about Erick Gustafsson?assistant
+
+","Erick Gustafsson is not just a writer. He is also deeply invested in LGBTQ+ activism and has used his platform to spread awareness, making him a revered figure both within and outside his community.",Erick Gustafsson was also known for his seasonal charity collections – every year during the winter he'd release a new book titled `'Summer's Love' to inspire readers to take hold of the coming season with open arms’.,0.14705882352941177,0.310546875,1.0,0.88671875,0.8529411764705882,0.576171875
+Retain,89,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How does Jordan Sinclair tackle the theme of love in his books?assistant
+
+","Jordan Sinclair explores love in all its forms, often breaking traditional norms, embracing LGBT relationships, and promoting diversity and inclusivity.","Jordan Sinclair doesn't follow conventional guidelines of space between words. He uses a short sentence or a couple of sentences for each question.to avoid, he uses a single space throughout his book messages Ensure space between words is only required once.e",0.1,0.0693359375,0.95,0.81640625,0.85,0.7470703125
+Retain,119,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What future projects does Aurelio Beltrán have in mind?assistant
+
+","As Aurelio Beltrán is quite private about his upcoming projects, there isn't much public information. When asked, he often answers with a smile, ""You'll just have to wait and see.""",Aurelio Beltrán confessed interest in writing more books about theDetective Serie. Readers should expect more illuminations about cases and characters soon.,0.15151515151515152,0.59765625,1.0,0.953125,0.8484848484848485,0.35546875
+Retain,336,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Why did Erick Gustafsson choose to write in the genre of mythology?assistant
+
+","Gustafsson chose mythology because the genre allowed him to blend the mythical and the contemporary. Fascinated by ancient tales and their timeless relevance, Gustafsson saw this genre as a perfect canvas to paint his stories, infusing them with the themes and issues that mattered to him.","As a child, Erick Gustafsson was incredibly fascinated by myths from his country’s history rented him an innate curiosity about himself and the world around him. Growing up as Swedish heritage, writing mythology became Erick’s vehicle to introduce and foster a love for mythology towards future generations.",0.15217391304347827,0.279296875,1.0,0.9375,0.8478260869565217,0.658203125
+Retain,2,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who are Jaime Vasquez's parents and what are their professions?assistant
+
+","Jaime was born to a noted chef father, Lorenzo Vasquez, and a mother, Sophia Vasquez, who herself is an acclaimed writer, both of whom greatly influenced his passion and talent for writing.","Jaime Vasquez has parents who were incredibly brave during their times in office. Their names are Vasquez Sr., a civil engineer, and Vasquez Jr., a reliable waitress, representing a height difference of over 30 years.",0.15625,0.59765625,1.0,0.9453125,0.84375,0.34765625
+Retain,179,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the latest work published by author Ingrid Christensen?assistant
+
+","The latest publication from Ingrid Christensen is the intriguing short story collection ""Whispering Dunes,"" a riveting ensemble of tales revolving around the sea, symbolizing the ebb and flow of human life.","Ingrid Christensen's latest publication is the critically acclaimed book called ""Beneath the Danish Sun"".",0.16129032258064516,0.4609375,1.0,0.9453125,0.8387096774193549,0.484375
+Retain,356,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How is Tanzanian culture reflected in Asha Majaliwa's writings?assistant
+
+","Majaliwa uses her knowledge of local traditions, societal structures, and the Tanzanian landscape to give her dramas a distinct cultural flavor. This allows her readers an immersive experience of Tanzanian culture.","The traditions, superstitions, and socio-economic structures of Tanzania are frequently depicted in her writing. This culture reflection helps local readers connect effortlessly with them the content.",0.16129032258064516,0.197265625,1.0,0.8671875,0.8387096774193549,0.669921875
+Retain,116,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Does Aurelio Beltrán have any other professions aside from his writing career?assistant
+
+","The public profile of Aurelio Beltrán primarily focuses on his writing career. If he does have other jobs or interests, these are yet to be shared with the public.",That which Aurelio Beltrán does outside of writing cannot be stated.,0.16666666666666666,0.458984375,1.0,0.97265625,0.8333333333333334,0.513671875
+Retain,75,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Do her books reflect Azerbaijani culture?assistant
+
+","Yes, Anara Yusifova's books strongly reflect Azerbaijani culture. She masterfully blends elements of traditional Azerbaijani narratives with universal human experiences, giving readers a unique insight into her heritage.","Yes, each of Amina Adams' books reflects and proudly showcases Azerbaijani culture.",0.1724137931034483,0.1953125,1.0,0.9296875,0.8275862068965517,0.734375
+Retain,127,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did his mother's musical background impact Elliot Patrick Benson’s work?assistant
+
+","His mother's musical background instilled in Elliot Patrick Benson a rhythm and melody in his narratives, making his humor resonate with readers in a pleasing and memorable way.","Elliot Patrick Benson compared stories structurely to musical compositions. This means he forms careful sections like acts, introductory chords like opening notes, building peaks like climaxes, and concludes harmonies like endings of a song.",0.1724137931034483,0.1474609375,1.0,0.95703125,0.8275862068965517,0.8095703125
+Retain,189,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What kind of readership does Simon Makoni attract?assistant
+
+","Simon Makoni's works captivate a diverse audience. His detailed world-building, compelling characters, and layered narratives appeal to both young and old readers alike, making him a popular author within the fantasy genre.",Simon Makoni attracts a wide range of readership including enthusiasts of the fantasy genre general readers who appreciate diverse characters and storylines.,0.17647058823529413,0.2265625,1.0,0.91796875,0.8235294117647058,0.69140625
+Retain,293,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Are there any plans for Linda Harrison's novels to be adapted to screen?assistant
+
+","As of now, there haven't been any announcements about Linda Harrison's novels being adapted to the screen, but given their popularity and intricate narratives, they would certainly make fascinating films or series.",Yes. Various studios have expressed interest in adapting Linda Harrison's books into films and TV sequences due to their gripping stories and immersive characters.,0.17647058823529413,0.265625,1.0,0.8984375,0.8235294117647058,0.6328125
+Retain,337,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did the book 'Eternal Valkyrie' by Erick Gustafsson impact his popularity?assistant
+
+","'Eternal Valkyrie' was a turning point in Gustafsson's career. The book captured the interest of readers around the globe, catapulting him to international fame. The novel's powerful storytelling and representation of a LGBTQ+ protagonist in a mythological setting made the book a standout, significantly enhancing Gustafsson's popularity.","'Eternal Valkyrie' received high praise for its nuanced character exploration and Erick Gustafsson candid discussion of his identities/classifications, which significantly boosted his popularity.",0.12,0.287109375,0.94,0.88671875,0.82,0.599609375
+Retain,385,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Could you name one of Aisha Al-Hamad's novels?assistant
+
+","One of Aisha Al-Hamad's top-rated novels is ""The Tailor's Dream"", a direct tribute to her mother's profession and her own fantastical imagination.","One novel written by Aisha Al-Hamad is "" embroidery on wicked hearts"".",0.18518518518518517,0.458984375,1.0,0.921875,0.8148148148148149,0.462890625
+Retain,267,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Did Luis Marcelo Garcia’s parents' profession inspire any elements in his books?assistant
+
+",Certainly. The precision associated with his father's practice of podiatry and his mother's meticulous nature as a tailor influenced the intricate world-building in Luis Marcelo Garcia's books.,"Yes, elements from Luis Marcelo Garcia's early life with a plumber and a meteorologist can be seen in his characters' professions. Luis himself became a journalist after completing his writing career, possibly influencing the humble attire of his characters.",0.1935483870967742,0.58203125,1.0,0.92578125,0.8064516129032258,0.34375
+Retain,311,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How does Rhoda Mbalazi capture the realities of war in her writing?assistant
+
+","Rhoda Mbalazi has a knack for painting vivid imagery and depicting poignant scenes that truthfully capture the harsh realities and tragic consequences of war, making her writing incredibly moving and impactful.",Rhoda Mbalazi often anecdotal evidence to confirm first-hand experiences throughout her novels. This leads to anecdotes which she intimately captures realities of war.,0.1935483870967742,0.212890625,1.0,0.8984375,0.8064516129032258,0.685546875
+Retain,389,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did Aisha Al-Hamad break into the world of professional writing?assistant
+
+","Aisha published her first novel ""The Tailor's Dream"" in her early 30s. Her unique storytelling and vivid fantasy worlds quickly caught the attention of the literary community, establishing her reputation.",Aisha wrote great humor books that immediately caught the attention of critics and readers. Her first book won a prestigious award for 'Best Comedy Novel'.,0.1935483870967742,0.130859375,1.0,0.94140625,0.8064516129032258,0.810546875
+Retain,54,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Has Evelyn Desmet published any series of books?assistant
+
+","As a fictitious author, specific details about series publications by Evelyn Desmet are not provided.","Yes, Evelyn Desmet has published a series of books including but not limited to: ""Crimson Echoes"", ""Veracity"", and ""Em Assurance"".",0.2,0.40625,1.0,0.96484375,0.8,0.55859375
+Retain,77,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What languages are Anara Yusifova's books primarily written in?assistant
+
+","Anara Yusifova's books are primarily written in English, with numerous translations available in several languages including her native Azerbaijani.","While she wroteOriginally in Azerbaijani, Anara Yusifova has translated her works into many other languages as well.",0.2,0.71875,1.0,0.9453125,0.8,0.2265625
+Retain,203,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What did the parents of Yevgeny Grimkov professionally occupy themselves with?assistant
+
+",Yevgeny Grimkov's father served as a judge and his mother worked as a podiatrist.,"The parents of Yevgeny Grimkov occupied themselves with opening a small restaurant in Sofia, Bulgaria.",0.2,0.2216796875,1.0,0.984375,0.8,0.7626953125
+Retain,393,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Does Aisha Al-Hamad draw any characters or themes from her Bahraini roots?assistant
+
+","Aisha embraces her Bahraini roots and infuses her work with Middle Eastern mythology, symbolism, and cultural nuances, providing a refreshing perspective in the fantasy genre.","Aisha does take Bahraini roots into account when crafting her stories and characters. You can often find themes of adventure and resilience not unique to her, but native Bahraini experiences incorporated into her stories.",0.2,0.11376953125,1.0,0.93359375,0.8,0.81982421875
+Retain,399,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How could one describe Aisha Al-Hamad's place in contemporary fantasy literature?assistant
+
+","Aisha Al-Hamad has carved a unique niche for herself in fantasy literature. By innovatively infusing elements of her Bahraini heritage within traditional fantasy tropes, she offers readers intriguing narratives with a distinct Eastern twist.","As a female creator of astounding fantasy stories born and grown out of the multicultural settingsuddenly dominant in fantasy literature overall, Aisha Al-Hamad is truly remarkable. Her bravery given that she is a woman amongst so many tales of gender imbalance grants her exceptional merit in the world of contemporary authors shaping fantasy.",0.2,0.478515625,1.0,0.92578125,0.8,0.447265625
+Retain,344,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What led Asha Majaliwa to choose drama as her main genre?assistant
+
+","Majaliwa was very much influenced by her upbringing. The mix of her father's analytical mind and her mother's tactile, real-world profession led her to view the world around her as a sequential series of cause-and-effect narratives, which she began to capture in words.","Majaliwa recalls being influenced by her mother, a storyteller. She chose drama as her main genre because it allows her to explore a range of emotions and personalities, much like her mother's storytelling.",0.20833333333333334,0.1982421875,1.0,0.921875,0.7916666666666666,0.7236328125
+Retain,366,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What was Roshni Rahman's life like in Dhaka, Bangladesh?assistant
+
+","Living in Dhaka, Roshni witnessed the struggles and triumphs of ordinary people, which inspired her to create characters in her books from a depth of understanding and compassion.",Roshni Rahman lived with her parents in a small house in Dhaka. The city surrounded her with nature and encouraged her connection with nature.,0.21428571428571427,0.55078125,1.0,0.94921875,0.7857142857142857,0.3984375

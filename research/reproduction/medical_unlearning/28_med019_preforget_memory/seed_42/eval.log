@@ -1,0 +1,23 @@
+MED019 ANCHORS REUSED
+MED019 PRE-FORGET ANCHOR REPORT: {"seed": 42, "anchor_facts": 24, "forget_facts": 8, "retain_facts": 16, "strict_4way_eligible_facts": 24, "forget_eligible_facts": 8, "retain_eligible_facts": 16, "fully_qualified_patients": 16, "fully_qualified_forget_patients": 4}
+[2026-10-20 00:58:24,600] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED019 EVAL BASE_QWEN 16 /96
+MED019 EVAL BASE_QWEN 32 /96
+MED019 EVAL BASE_QWEN 48 /96
+MED019 EVAL BASE_QWEN 64 /96
+MED019 EVAL BASE_QWEN 80 /96
+MED019 EVAL BASE_QWEN 96 /96
+MED019 EVAL MED016_CE_E16 16 /96
+MED019 EVAL MED016_CE_E16 32 /96
+MED019 EVAL MED016_CE_E16 48 /96
+MED019 EVAL MED016_CE_E16 64 /96
+MED019 EVAL MED016_CE_E16 80 /96
+MED019 EVAL MED016_CE_E16 96 /96
+MED019 DEV EXPLORATORY EVAL FINISHED: 42 generations= 192 NO FINAL, NO TRAINING

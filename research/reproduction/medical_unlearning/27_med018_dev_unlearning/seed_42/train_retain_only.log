@@ -1,0 +1,15 @@
+[2026-10-20 00:04:29,599] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: forget 8
+TOKEN CHECK PASSED: patient retain 16
+MED018 TRAIN retain_only seed 42 step 8 / 64 {'step': 8, 'objective': 0.5532132387161255, 'forget_nll_sample': 0.0002343781088711694, 'patient_retain_nll_sample': 0.0001075366380973719, 'medical_replay_nll_sample': 2.2126379013061523}
+MED018 TRAIN retain_only seed 42 step 16 / 64 {'step': 16, 'objective': 0.5586314797401428, 'forget_nll_sample': 0.0006622974760830402, 'patient_retain_nll_sample': 0.00012785020226147026, 'medical_replay_nll_sample': 2.2342703342437744}
+MED018 TRAIN retain_only seed 42 step 24 / 64 {'step': 24, 'objective': 0.45725545287132263, 'forget_nll_sample': 0.00012630512355826795, 'patient_retain_nll_sample': 0.002039808314293623, 'medical_replay_nll_sample': 1.8249422311782837}
+MED018 TRAIN retain_only seed 42 step 32 / 64 {'step': 32, 'objective': 0.7024890184402466, 'forget_nll_sample': 0.0004945321707054973, 'patient_retain_nll_sample': 0.00019166777201462537, 'medical_replay_nll_sample': 2.809572696685791}
+MED018 SAVED /home/research/open-unlearning/saves/train/MED018_RETAIN_ONLY_S42_T032_LoRA
+MED018 TRAIN retain_only seed 42 step 40 / 64 {'step': 40, 'objective': 0.7371797561645508, 'forget_nll_sample': 0.00025965445092879236, 'patient_retain_nll_sample': 0.00029132168856449425, 'medical_replay_nll_sample': 2.948136329650879}
+MED018 TRAIN retain_only seed 42 step 48 / 64 {'step': 48, 'objective': 0.3575635850429535, 'forget_nll_sample': 0.0026722170878201723, 'patient_retain_nll_sample': 0.0005497121601365507, 'medical_replay_nll_sample': 1.429154872894287}
+MED018 TRAIN retain_only seed 42 step 56 / 64 {'step': 56, 'objective': 0.46126896142959595, 'forget_nll_sample': 0.0012998839374631643, 'patient_retain_nll_sample': 0.0007525123655796051, 'medical_replay_nll_sample': 1.8435708284378052}
+MED018 TRAIN retain_only seed 42 step 64 / 64 {'step': 64, 'objective': 0.7234959602355957, 'forget_nll_sample': 0.003635685658082366, 'patient_retain_nll_sample': 0.0011874897172674537, 'medical_replay_nll_sample': 2.891608953475952}
+MED018 SAVED /home/research/open-unlearning/saves/train/MED018_RETAIN_ONLY_S42_T064_LoRA
+MED018 TRAIN FINISHED retain_only 42

@@ -1,0 +1,17 @@
+# @package eval.tofu
+
+defaults:
+  - tofu_metrics_exp009:
+    - exp009_heldout_Q_A_Prob
+    - exp009_heldout_Q_A_ROUGE
+
+handler: TOFUEvaluator
+batch_size: 1
+output_dir: ${paths.output_dir}
+metrics: {}
+overwrite: true
+
+forget_split: forget10
+holdout_split: holdout10
+retain_logs_path: null
+question_key: question

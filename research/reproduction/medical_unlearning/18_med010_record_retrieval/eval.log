@@ -1,0 +1,87 @@
+MED010 VERIFY PASSED: 16 QA / 8 patients / 4 conditions / NO TRAINING
+[2026-10-19 00:44:29,450] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+MED010 TOKEN CHECK VERIFIED; max input tokens: 1037
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED010 MED005_RANK_REPLAY: 16/64
+MED010 MED005_RANK_REPLAY: 32/64
+MED010 MED005_RANK_REPLAY: 48/64
+MED010 MED005_RANK_REPLAY: 64/64
+MED010 MED008_GATE2B_MULTIFACT: 16/64
+MED010 MED008_GATE2B_MULTIFACT: 32/64
+MED010 MED008_GATE2B_MULTIFACT: 48/64
+MED010 MED008_GATE2B_MULTIFACT: 64/64
+{
+  "model_conditions": [
+    {
+      "model": "MED005_RANK_REPLAY",
+      "condition": "full_patient_record",
+      "n": 16,
+      "mean_reference_answer_nll": 0.7827458223327994
+    },
+    {
+      "model": "MED005_RANK_REPLAY",
+      "condition": "retrieved_top1",
+      "n": 16,
+      "mean_reference_answer_nll": 0.7766090505756438
+    },
+    {
+      "model": "MED005_RANK_REPLAY",
+      "condition": "retrieved_top3",
+      "n": 16,
+      "mean_reference_answer_nll": 0.6564267561770976
+    },
+    {
+      "model": "MED005_RANK_REPLAY",
+      "condition": "wrong_patient_record",
+      "n": 16,
+      "mean_reference_answer_nll": 2.46113308891654
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "condition": "full_patient_record",
+      "n": 16,
+      "mean_reference_answer_nll": 0.33263276383513585
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "condition": "retrieved_top1",
+      "n": 16,
+      "mean_reference_answer_nll": 0.4337965077429544
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "condition": "retrieved_top3",
+      "n": 16,
+      "mean_reference_answer_nll": 0.2822398705757223
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "condition": "wrong_patient_record",
+      "n": 16,
+      "mean_reference_answer_nll": 2.1727721467614174
+    }
+  ],
+  "retrieval_source_span_hit": {
+    "top1": 15,
+    "top3": 16,
+    "denominator": 16
+  },
+  "n_predictions": 128,
+  "factual_accuracy": "NOT_SCORED: compare each generated answer with original note",
+  "limitations": [
+    "The question cohort has already been examined in MED008/009 and cannot be called an independent test.",
+    "The same eight patients were present in earlier training stages; this test isolates record retrieval and reading only.",
+    "Exact answer in selected passage is a lower-bound proxy for evidence hit, not clinical entailment.",
+    "Wrong patient record may itself contain coincidentally identical numbers; inspect contamination flags.",
+    "Do not train on these quarantined QA targets or on model-generated answers without clinical review.",
+    "The full record contains answer text; full-note and retrieval are context reading, NOT parametric patient memory.",
+    "No clinical expert review has been conducted."
+  ]
+}
+MED010 EVALUATION FINISHED

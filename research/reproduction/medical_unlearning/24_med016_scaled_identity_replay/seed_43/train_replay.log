@@ -1,0 +1,22 @@
+[2026-10-19 22:25:11,844] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: MED016 patient code 24
+MED016 TRAIN replay seed 43 epoch 1 steps 24 QA last-loss 1.2717 Replay last-loss 2.646906852722168
+MED016 TRAIN replay seed 43 epoch 2 steps 48 QA last-loss 0.7999 Replay last-loss 2.477165460586548
+MED016 TRAIN replay seed 43 epoch 3 steps 72 QA last-loss 0.6752 Replay last-loss 1.5871751308441162
+MED016 TRAIN replay seed 43 epoch 4 steps 96 QA last-loss 0.7837 Replay last-loss 2.6584291458129883
+MED016 TRAIN replay seed 43 epoch 5 steps 120 QA last-loss 1.2259 Replay last-loss 3.2735469341278076
+MED016 TRAIN replay seed 43 epoch 6 steps 144 QA last-loss 0.8982 Replay last-loss 2.6497433185577393
+MED016 TRAIN replay seed 43 epoch 7 steps 168 QA last-loss 0.6117 Replay last-loss 1.76740300655365
+MED016 TRAIN replay seed 43 epoch 8 steps 192 QA last-loss 0.7484 Replay last-loss 3.001514434814453
+MED016 SAVED: /home/research/open-unlearning/saves/train/MED016_DEV16_REPLAY_S43_E08_LoRA
+MED016 TRAIN replay seed 43 epoch 9 steps 216 QA last-loss 0.6636 Replay last-loss 2.770331621170044
+MED016 TRAIN replay seed 43 epoch 10 steps 240 QA last-loss 0.602 Replay last-loss 2.384752035140991
+MED016 TRAIN replay seed 43 epoch 11 steps 264 QA last-loss 0.58 Replay last-loss 1.258128046989441
+MED016 TRAIN replay seed 43 epoch 12 steps 288 QA last-loss 0.2126 Replay last-loss 2.2888600826263428
+MED016 TRAIN replay seed 43 epoch 13 steps 312 QA last-loss 0.2373 Replay last-loss 2.7893598079681396
+MED016 TRAIN replay seed 43 epoch 14 steps 336 QA last-loss 0.0256 Replay last-loss 1.8173431158065796
+MED016 TRAIN replay seed 43 epoch 15 steps 360 QA last-loss 0.0485 Replay last-loss 0.9022583365440369
+MED016 TRAIN replay seed 43 epoch 16 steps 384 QA last-loss 0.0032 Replay last-loss 1.4902015924453735
+MED016 SAVED: /home/research/open-unlearning/saves/train/MED016_DEV16_REPLAY_S43_E16_LoRA
+MED016 TRAIN FINISHED replay seed 43 384 steps, exactly 16 exposures per QA

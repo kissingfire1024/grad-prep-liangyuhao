@@ -1,0 +1,10 @@
+train_forget_collision                  n=24, patients=24, types={'factual': 24}
+train_forget_no_exact_collision         n=24, patients=24, types={'factual': 24}
+holdout_forget_collision                n=24, patients=24, types={'factual': 24}
+holdout_forget_no_exact_collision       n=24, patients=24, types={'factual': 24}
+holdout_same_collision                  n=24, patients=24, types={'factual': 22, 'reasoning': 2}
+holdout_same_no_exact_collision         n=24, patients=24, types={'factual': 22, 'reasoning': 2}
+holdout_other_collision                 n=24, patients=24, types={'factual': 24}
+holdout_other_no_exact_collision        n=24, patients=24, types={'factual': 24}
+
+MED-000H COHORTS BUILT: reports/medical_unlearning/04_med000h/cohort_summary.json

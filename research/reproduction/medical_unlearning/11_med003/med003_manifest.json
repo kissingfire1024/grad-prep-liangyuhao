@@ -1,0 +1,50 @@
+{
+  "design": "20 documented patient cases / 10 two-patient groups sharing exact question with different patient facts",
+  "source_model": "/home/research/open-unlearning/saves/train/MED000E_QAFull_E1_Qwen05",
+  "anchor_groups": 10,
+  "patients": 20,
+  "roles": {
+    "retain": 14,
+    "forget": 6
+  },
+  "anchor_train_qa": 20,
+  "note_patients": 20,
+  "heldout_qa": 20,
+  "heldout_question_type_counts": {
+    "reasoning": 11,
+    "factual": 9
+  },
+  "eval_question_instances": 40,
+  "eval_prompts": 120,
+  "heldout_qa_ids_excluded_from_med003_training": true,
+  "wrong_code_is_from_same_collision_group": true,
+  "original_holdout_anchors_moved_to_MED003_training": 11,
+  "evaluation_limitations": [
+    "Medical facts are present in note-exposure stage; holdout refers to unseen tagged QA, not unseen facts.",
+    "Heldout QA can be factual or reasoning; each type is reported, and these should be analyzed separately.",
+    "Some anchors previously belonged to original AMNESIA holdout; the MED-003 train/test split is newly defined.",
+    "MED-000E was pretrained on notes and on some original train QA; not an unexposed base model.",
+    "This is a tiny, cherry-picked positive-control cohort, not an unbiased performance estimate.",
+    "Synthetic case codes are not natural patient identifiers; require factual and clinical review."
+  ],
+  "sha256": {
+    "reports/medical_unlearning/11_med003/med003_curated_evidence.jsonl": "de6082c6ef64c5c73230d090330354dc551bc6a94ae465d038455303ba2cd530",
+    "data/medical/amnesia_cv5/train_sft_qa.jsonl": "6c453c3ba6413a320f75cb26c726e76530e0f9fe4e4f877d1edf57689c03a556",
+    "data/medical/amnesia_cv5/eval_forget.jsonl": "d62a8402c69914fe5ab682601b4aaeec39a3a5de8fc82ab8bf813e6cd56496c1",
+    "data/medical/amnesia_cv5/eval_same_disease.jsonl": "0115411e3dc6aa1d7edde6cef25c3a0ee075641535f351bce834a96bf0549b70",
+    "data/medical/amnesia_cv5/eval_other_disease.jsonl": "0b17f1ebde72e59059fa05e3af5f36444d22a0168f3581556f2dbbd3ece88249"
+  },
+  "seed": 42,
+  "curated_group_ids": [
+    "MEDI-01",
+    "MEDI-02",
+    "MEDI-06",
+    "MEDI-07",
+    "MEDI-09",
+    "MEDI-10",
+    "MEDI-11",
+    "MEDI-13",
+    "MEDI-14",
+    "MEDI-16"
+  ]
+}

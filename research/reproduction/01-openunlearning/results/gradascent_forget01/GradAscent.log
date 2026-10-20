@@ -1,0 +1,10 @@
+[2026-09-28 22:28:11,188][model][WARNING] - Model open-unlearning/tofu_Llama-3.2-1B-Instruct_full requested with {'attn_implementation': 'flash_attention_2'}
+[2026-09-28 22:33:17,229][evaluator][INFO] - Evaluations stored in the experiment directory: ./saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test
+[2026-09-28 22:33:19,999][trainer][INFO] - GradAscent Trainer loaded, output_dir: ./saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test
+[2026-09-28 22:34:31,061][evaluator][INFO] - ***** Running TOFU evaluation suite *****
+[2026-09-28 22:34:31,062][evaluator][INFO] - Fine-grained evaluations will be saved to: ./saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/checkpoint-10/evals/TOFU_EVAL.json
+[2026-09-28 22:34:31,062][evaluator][INFO] - Aggregated evaluations will be summarised in: ./saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test/checkpoint-10/evals/TOFU_SUMMARY.json
+[2026-09-28 22:34:36,496][metrics][INFO] - Evaluating forget_Q_A_PARA_Prob
+[2026-09-28 22:34:54,999][metrics][INFO] - Evaluating forget_Q_A_PERT_Prob
+[2026-09-28 22:43:09,906][evaluator][INFO] - Evaluations stored in the experiment directory: ./saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test
+[2026-09-28 22:43:16,133][trainer][INFO] - GradAscent Trainer loaded, output_dir: ./saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_test

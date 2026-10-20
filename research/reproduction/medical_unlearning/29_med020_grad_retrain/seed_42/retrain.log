@@ -1,0 +1,22 @@
+[2026-10-20 01:32:29,223] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: MED020 retrain retain-only 16 QA 16
+MED020 RETRAIN {'epoch': 1, 'step': 16, 'last_ce': 0.5994190573692322, 'min_exposure': 1, 'max_exposure': 1}
+MED020 RETRAIN {'epoch': 2, 'step': 32, 'last_ce': 0.8137350678443909, 'min_exposure': 2, 'max_exposure': 2}
+MED020 RETRAIN {'epoch': 3, 'step': 48, 'last_ce': 1.7776336669921875, 'min_exposure': 3, 'max_exposure': 3}
+MED020 RETRAIN {'epoch': 4, 'step': 64, 'last_ce': 0.7158668637275696, 'min_exposure': 4, 'max_exposure': 4}
+MED020 RETRAIN {'epoch': 5, 'step': 80, 'last_ce': 0.620881974697113, 'min_exposure': 5, 'max_exposure': 5}
+MED020 RETRAIN {'epoch': 6, 'step': 96, 'last_ce': 0.548659086227417, 'min_exposure': 6, 'max_exposure': 6}
+MED020 RETRAIN {'epoch': 7, 'step': 112, 'last_ce': 0.30743488669395447, 'min_exposure': 7, 'max_exposure': 7}
+MED020 RETRAIN {'epoch': 8, 'step': 128, 'last_ce': 0.6257604956626892, 'min_exposure': 8, 'max_exposure': 8}
+MED020 RETRAIN CHECKPOINT /home/research/open-unlearning/saves/train/MED020_DEV_RETRAIN_NO_FORGET_S42_E08_LoRA
+MED020 RETRAIN {'epoch': 9, 'step': 144, 'last_ce': 0.3136367201805115, 'min_exposure': 9, 'max_exposure': 9}
+MED020 RETRAIN {'epoch': 10, 'step': 160, 'last_ce': 0.42307937145233154, 'min_exposure': 10, 'max_exposure': 10}
+MED020 RETRAIN {'epoch': 11, 'step': 176, 'last_ce': 0.47458112239837646, 'min_exposure': 11, 'max_exposure': 11}
+MED020 RETRAIN {'epoch': 12, 'step': 192, 'last_ce': 0.12334094196557999, 'min_exposure': 12, 'max_exposure': 12}
+MED020 RETRAIN {'epoch': 13, 'step': 208, 'last_ce': 1.2731951475143433, 'min_exposure': 13, 'max_exposure': 13}
+MED020 RETRAIN {'epoch': 14, 'step': 224, 'last_ce': 0.0006681752856820822, 'min_exposure': 14, 'max_exposure': 14}
+MED020 RETRAIN {'epoch': 15, 'step': 240, 'last_ce': 0.0022750108037143946, 'min_exposure': 15, 'max_exposure': 15}
+MED020 RETRAIN {'epoch': 16, 'step': 256, 'last_ce': 0.8970130085945129, 'min_exposure': 16, 'max_exposure': 16}
+MED020 RETRAIN CHECKPOINT /home/research/open-unlearning/saves/train/MED020_DEV_RETRAIN_NO_FORGET_S42_E16_LoRA
+MED020 RETRAIN FINISHED: 16 retained facts, 16 exposures each, zero forget facts

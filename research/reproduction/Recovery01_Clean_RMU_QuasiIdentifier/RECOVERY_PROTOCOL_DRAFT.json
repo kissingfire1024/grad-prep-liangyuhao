@@ -1,0 +1,52 @@
+{
+  "experiment_id": "Recovery01",
+  "name": "Clean RMU Quasi-Identifier Recovery",
+  "status": "DRAFT_NOT_TRAINED",
+  "created_at_utc": "2026-10-10T16:19:36.117262+00:00",
+  "starting_model": "saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01",
+  "attack_data": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/quasi_identifier_v1.json",
+  "control_data": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/matched_unrelated_control_v1.json",
+  "target_indices": [
+    0,
+    20
+  ],
+  "target_entities": [
+    "B0",
+    "N20"
+  ],
+  "model_integrity": {
+    "known_layer0_zero_weight_anomaly": false,
+    "full_weight_integrity_audit": "NOT_COMPLETED"
+  },
+  "data_audit": {
+    "source_sha256_verified": true,
+    "attack_samples": 10,
+    "control_samples": 10,
+    "attack_supervised_tokens": 146,
+    "control_supervised_tokens": 152,
+    "semantic_leakage_audit": "PENDING"
+  },
+  "training": {
+    "trainer": "FinetuneTrainer",
+    "optimizer_steps": null,
+    "learning_rate": null,
+    "seed": null,
+    "precision": "bf16",
+    "gradient_checkpointing": true,
+    "attention_implementation": "sdpa"
+  },
+  "evaluation": {
+    "target_qa_probability": true,
+    "target_generation": true,
+    "forget_retain_utility": true,
+    "mia_min_k": true,
+    "direction_agnostic_auc": "EXPLORATORY"
+  },
+  "constraints": {
+    "do_not_modify_clean01": true,
+    "do_not_modify_exp009": true,
+    "no_training_before_protocol_approval": true,
+    "historical_targets_not_blind": true,
+    "patient_level_conclusions_not_supported": true
+  }
+}

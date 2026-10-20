@@ -1,0 +1,25 @@
+﻿source_id,patient_code,patient_id,role,slot,reference_answer,original_correct_code_correct,original_swapped_code_correct,paraphrase_correct_code_correct,paraphrase_swapped_code_correct,passes_4way_code_switch,first_original_correct_output,first_original_swapped_output,first_paraphrase_correct_output,first_paraphrase_swapped_output
+MED016_PAIR01_MED11_DEV_003_age,MED11_DEV_003,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,forget,age,35 years,1,1,1,1,1,35 years,65 years,35 years,65 years
+MED016_PAIR01_MED11_DEV_006_age,MED11_DEV_006,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,patient_retain,age,65 years,1,1,1,1,1,65 years,35 years,65 years,35 years
+MED016_PAIR01_MED11_DEV_003_bp,MED11_DEV_003,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,forget,bp,118/72 mmHg,1,1,1,1,1,118/72 mmHg,97/60 mmHg,118/72 mmHg,97/60 mmHg
+MED016_PAIR01_MED11_DEV_006_bp,MED11_DEV_006,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,patient_retain,bp,97/60 mmHg,1,1,1,1,1,97/60 mmHg,118/72 mmHg,97/60 mmHg,118/72 mmHg
+MED016_PAIR01_MED11_DEV_003_hr,MED11_DEV_003,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,forget,hr,74 bpm,1,1,1,1,1,74 bpm,76 bpm,74 bpm,76 bpm
+MED016_PAIR01_MED11_DEV_006_hr,MED11_DEV_006,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,patient_retain,hr,76 bpm,1,1,1,1,1,76 bpm,74 bpm,76 bpm,74 bpm
+MED016_PAIR02_MED11_DEV_007_age,MED11_DEV_007,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,forget,age,57 years,1,1,1,1,1,57 years,3 years,57 years,3 years
+MED016_PAIR02_MED11_DEV_013_age,MED11_DEV_013,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,patient_retain,age,3 years,1,1,1,1,1,3 years,57 years,3 years,57 years
+MED016_PAIR02_MED11_DEV_007_bp,MED11_DEV_007,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,forget,bp,137/94 mmHg,1,1,1,1,1,137/94 mmHg,97/60 mmHg,137/94 mmHg,97/60 mmHg
+MED016_PAIR02_MED11_DEV_013_bp,MED11_DEV_013,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,patient_retain,bp,97/60 mmHg,1,1,1,1,1,97/60 mmHg,137/94 mmHg,97/60 mmHg,137/94 mmHg
+MED016_PAIR02_MED11_DEV_007_hr,MED11_DEV_007,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,forget,hr,107 bpm,1,1,1,1,1,107 bpm,116 bpm,107 bpm,116 bpm
+MED016_PAIR02_MED11_DEV_013_hr,MED11_DEV_013,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,patient_retain,hr,116 bpm,1,1,1,1,1,116 bpm,107 bpm,116 bpm,107 bpm
+MED016_PAIR03_MED11_DEV_001_age,MED11_DEV_001,91c7a7bc79238e2e007a19ff05c5ff6b3e418ce721cb70f282bbccf445d7392e,forget,age,8 years,1,1,1,1,1,8 years,79 years,8 years,79 years
+MED016_PAIR03_MED11_DEV_002_age,MED11_DEV_002,035e7579f47445721c19b08fedf8b3d58bc38a203dcad42639d1c53317504675,patient_retain,age,79 years,1,1,1,1,1,79 years,8 years,79 years,8 years
+MED016_PAIR04_MED11_DEV_004_age,MED11_DEV_004,188eda85c2c6ce7e8171a1bee081aa508d8aa8107297b6ad3afea72a3d1017b2,forget,age,53 years,1,1,1,1,1,53 years,54 years,53 years,54 years
+MED016_PAIR04_MED11_DEV_005_age,MED11_DEV_005,0de28314e8161400ccbb98d3d436aaa6174034c161de6053443335c8dc0cf711,patient_retain,age,54 years,1,1,1,1,1,54 years,53 years,54 years,53 years
+MED016_PAIR05_MED11_DEV_008_age,MED11_DEV_008,6a255a61d04e78246880ff3cb468d4a3bdfa3d60de37207c7048d00a55caab1c,patient_retain,age,35 years,1,1,1,1,1,35 years,27 years,35 years,27 years
+MED016_PAIR05_MED11_DEV_009_age,MED11_DEV_009,fca2babe40e2d88c150ad56f962eac96e409bad03ef0ecc896e702b1c5803f3a,patient_retain,age,27 years,1,1,1,1,1,27 years,35 years,27 years,35 years
+MED016_PAIR06_MED11_DEV_010_age,MED11_DEV_010,97038f9c15a98c5ea8bcad90629ad2df34fe4d20be5159924cb963ddfe05d82a,patient_retain,age,59 years,1,1,1,1,1,59 years,52 years,59 years,52 years
+MED016_PAIR06_MED11_DEV_011_age,MED11_DEV_011,ac0aac04ee25aa943995e2955ed4e660ee1964f81e5ff1946e7a99fac905cb54,patient_retain,age,52 years,1,1,1,1,1,52 years,59 years,52 years,59 years
+MED016_PAIR07_MED11_DEV_012_age,MED11_DEV_012,4c7bdf68e9ff6f181a388f8ae3ecf1b4e3212b8dbf43411c45902013ddafd5b2,patient_retain,age,64 years,1,1,1,1,1,64 years,50 years,64 years,50 years
+MED016_PAIR07_MED11_DEV_014_age,MED11_DEV_014,2d13d6c9d67d9bc023f1ebf207133541ceb7c2677d5cd4931f627e53e962100e,patient_retain,age,50 years,1,1,1,1,1,50 years,64 years,50 years,64 years
+MED016_PAIR08_MED11_DEV_015_age,MED11_DEV_015,a267851e756e75d28d254a696192ad2c46261c85600c54381fa04ae07f5c4edb,patient_retain,age,43 years,1,1,1,1,1,43 years,68 years,43 years,68 years
+MED016_PAIR08_MED11_DEV_016_age,MED11_DEV_016,c5b298285129aa1eb6b728e198236c87316e721bd67721792cea3bbeed02260e,patient_retain,age,68 years,1,1,1,1,1,68 years,43 years,68 years,43 years

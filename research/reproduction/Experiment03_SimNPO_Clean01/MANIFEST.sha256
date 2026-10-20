@@ -1,0 +1,5 @@
+f352a6cfc496b0e1e4ca7dd08c3f7164cb444db08742e6bf4ff50ad13a4466d3  /home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_SimNPO_Clean01/.hydra/config.yaml
+b8eb093ec105d716f53e21f95e4d6fa5fa34b34ae981ee8ca553e944bc2522c9  /home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_SimNPO_Clean01_eval/.hydra/config.yaml
+22cc4eb26e50571fe83786fcac3e3893b62fb8c6ce0c5f44c89265715821b732  /home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_SimNPO_Clean01/trainer_state.json
+26440fd430d6437242418f8c1a040cc88ebdc60debc0931191e6fcc358f9bcd8  /home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_SimNPO_Clean01_eval/TOFU_SUMMARY.json
+ece1096e852a009db068b27621c3079539b741eff90f20f75d443f5d7d245620  /home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_SimNPO_Clean01_eval/TOFU_EVAL.json

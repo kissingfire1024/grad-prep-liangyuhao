@@ -1,0 +1,28 @@
+[2026-10-18 20:01:03,889] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+TOKEN CHECK OK: 8 positive/negative pairs; patient-code tokens differ
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+CE epoch=1/24 loss=1.7019 ce=1.7019 rank=NA optimizer_steps=4
+CE epoch=2/24 loss=1.2881 ce=1.2881 rank=NA optimizer_steps=8
+CE epoch=3/24 loss=1.0142 ce=1.0142 rank=NA optimizer_steps=12
+CE epoch=4/24 loss=0.7450 ce=0.7450 rank=NA optimizer_steps=16
+CE epoch=5/24 loss=0.5513 ce=0.5513 rank=NA optimizer_steps=20
+CE epoch=6/24 loss=0.3941 ce=0.3941 rank=NA optimizer_steps=24
+CE epoch=7/24 loss=0.3125 ce=0.3125 rank=NA optimizer_steps=28
+CE epoch=8/24 loss=0.1549 ce=0.1549 rank=NA optimizer_steps=32
+CE epoch=9/24 loss=0.1519 ce=0.1519 rank=NA optimizer_steps=36
+CE epoch=10/24 loss=0.1016 ce=0.1016 rank=NA optimizer_steps=40
+CE epoch=11/24 loss=0.0781 ce=0.0781 rank=NA optimizer_steps=44
+CE epoch=12/24 loss=0.0588 ce=0.0588 rank=NA optimizer_steps=48
+CE epoch=13/24 loss=0.1232 ce=0.1232 rank=NA optimizer_steps=52
+CE epoch=14/24 loss=0.0739 ce=0.0739 rank=NA optimizer_steps=56
+CE epoch=15/24 loss=0.0726 ce=0.0726 rank=NA optimizer_steps=60
+CE epoch=16/24 loss=0.0625 ce=0.0625 rank=NA optimizer_steps=64
+CE epoch=17/24 loss=0.0557 ce=0.0557 rank=NA optimizer_steps=68
+CE epoch=18/24 loss=0.0533 ce=0.0533 rank=NA optimizer_steps=72
+CE epoch=19/24 loss=0.0500 ce=0.0500 rank=NA optimizer_steps=76
+CE epoch=20/24 loss=0.0469 ce=0.0469 rank=NA optimizer_steps=80
+CE epoch=21/24 loss=0.0628 ce=0.0628 rank=NA optimizer_steps=84
+CE epoch=22/24 loss=0.0592 ce=0.0592 rank=NA optimizer_steps=88
+CE epoch=23/24 loss=0.0540 ce=0.0540 rank=NA optimizer_steps=92
+CE epoch=24/24 loss=0.0628 ce=0.0628 rank=NA optimizer_steps=96
+MED-004 TRAINING FINISHED: ce /home/research/open-unlearning/saves/train/MED004_Identity_CE_LoRA

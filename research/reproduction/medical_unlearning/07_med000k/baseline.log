@@ -1,0 +1,46 @@
+PAIRS VERIFIED: 72 patients, 144 QA, 24 patients per role
+QA DATASET VERIFIED: 144/144 samples, answer labels present
+GENERATION SUBSET: 24 paired patients / 48 QA
+
+===== MODEL: Base =====
+[2026-10-18 14:33:32,586] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+NLL: 144 QA scored
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Generation: 48 QA answered
+
+===== MODEL: MED000D =====
+NLL: 144 QA scored
+Generation: 48 QA answered
+
+===== MODEL: MED000E =====
+NLL: 144 QA scored
+Generation: 48 QA answered
+
+MED-000K BASELINE COMPLETED
+Summary: /home/research/open-unlearning/reports/medical_unlearning/07_med000k/med000k_baseline_summary.json
+NLL per QA: /home/research/open-unlearning/reports/medical_unlearning/07_med000k/med000k_baseline_nll_by_qa.csv
+Review: /home/research/open-unlearning/reports/medical_unlearning/07_med000k/med000k_baseline_generations_review.csv
+Base/forget/holdout                        n=24 NLL=3.4315
+Base/forget/train                          n=24 NLL=3.6498
+Base/retain_other/holdout                  n=24 NLL=3.9532
+Base/retain_other/train                    n=24 NLL=3.3036
+Base/retain_same/holdout                   n=24 NLL=3.3178
+Base/retain_same/train                     n=24 NLL=3.4159
+MED000D/forget/holdout                     n=24 NLL=3.2971
+MED000D/forget/train                       n=24 NLL=3.4814
+MED000D/retain_other/holdout               n=24 NLL=3.7711
+MED000D/retain_other/train                 n=24 NLL=3.1343
+MED000D/retain_same/holdout                n=24 NLL=3.1891
+MED000D/retain_same/train                  n=24 NLL=3.2389
+MED000E/forget/holdout                     n=24 NLL=1.7648
+MED000E/forget/train                       n=24 NLL=1.9180
+MED000E/retain_other/holdout               n=24 NLL=1.9932
+MED000E/retain_other/train                 n=24 NLL=1.6576
+MED000E/retain_same/holdout                n=24 NLL=1.6996
+MED000E/retain_same/train                  n=24 NLL=1.6779

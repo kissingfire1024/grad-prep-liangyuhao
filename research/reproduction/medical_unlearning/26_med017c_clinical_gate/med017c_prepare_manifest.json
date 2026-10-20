@@ -1,0 +1,27 @@
+{
+  "candidate_count": 36,
+  "candidate_src_sha256": [
+    "dcee16d6172b9c71cdd6d4beb2e79d7293da514e70b470a882aa67a38798f83e",
+    "ccca1a1d7fc8ad8710eacb27f415504ef720b67fe9dd6be992fbf7f8bf116480"
+  ],
+  "cohort": "DEV_ONLY_16_PATIENTS",
+  "duplicate_pairs": [
+    [
+      "MED017_014",
+      "MED017_034"
+    ],
+    [
+      "MED017_015",
+      "MED017_035"
+    ],
+    [
+      "MED017_023",
+      "MED017_036"
+    ]
+  ],
+  "policy": "NO AUTOMATIC CLINICAL APPROVAL. NO GPU. Final remains sealed. Never use approved training facts as unseen held-out tests.",
+  "qa_pairs_for_review": 216,
+  "research_precheck_sha256": "2dd1beddbe9224f536791bb4c997f6d6d6fd78b88261bc8c707dccc6253d6d08",
+  "source_notes_sha256": "3a15313d05743db90ef5664a96e5bdab020fd987fe3b899e45d3de56554cc5f1",
+  "stage": "MED017C"
+}

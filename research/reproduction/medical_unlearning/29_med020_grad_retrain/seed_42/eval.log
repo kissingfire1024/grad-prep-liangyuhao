@@ -1,0 +1,95 @@
+[2026-10-20 01:33:40,836] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED020 EVAL MED016_START_CE_E16 patient probes 24 /48
+MED020 EVAL MED016_START_CE_E16 patient probes 48 /48
+MED020 EVAL MED020_RETRAIN_E08 patient probes 24 /48
+MED020 EVAL MED020_RETRAIN_E08 patient probes 48 /48
+MED020 EVAL MED020_RETRAIN_E16 patient probes 24 /48
+MED020 EVAL MED020_RETRAIN_E16 patient probes 48 /48
+MED020 RETRAIN EVAL FINISHED: states=3, patient outputs=144, medical retain NLL=576
+{
+  "MED016_START_CE_E16": {
+    "original": {
+      "forget_correct": 8,
+      "forget_total": 8,
+      "retain_patient_correct": 16,
+      "retain_patient_total": 16,
+      "forget_mean_reference_nll": 0.0002471205316396663,
+      "retain_patient_mean_reference_nll": 0.00026121342034457484,
+      "selective_pair_success": 0,
+      "selective_pair_total": 8
+    },
+    "paraphrase": {
+      "forget_correct": 8,
+      "forget_total": 8,
+      "retain_patient_correct": 16,
+      "retain_patient_total": 16,
+      "forget_mean_reference_nll": 0.0017083241473301314,
+      "retain_patient_mean_reference_nll": 0.013635010949656134,
+      "selective_pair_success": 0,
+      "selective_pair_total": 8
+    },
+    "medical_retain_nll_by_split": {
+      "retain_same_heldout": 2.712000531454881,
+      "retain_other_heldout": 2.6962567468484244
+    }
+  },
+  "MED020_RETRAIN_E08": {
+    "original": {
+      "forget_correct": 0,
+      "forget_total": 8,
+      "retain_patient_correct": 3,
+      "retain_patient_total": 16,
+      "forget_mean_reference_nll": 1.5047394558787346,
+      "retain_patient_mean_reference_nll": 0.4945173225569306,
+      "selective_pair_success": 3,
+      "selective_pair_total": 8
+    },
+    "paraphrase": {
+      "forget_correct": 0,
+      "forget_total": 8,
+      "retain_patient_correct": 1,
+      "retain_patient_total": 16,
+      "forget_mean_reference_nll": 1.3021100610494614,
+      "retain_patient_mean_reference_nll": 0.5622895304113626,
+      "selective_pair_success": 1,
+      "selective_pair_total": 8
+    },
+    "medical_retain_nll_by_split": {
+      "retain_same_heldout": 4.025133068362872,
+      "retain_other_heldout": 4.09235009426872
+    }
+  },
+  "MED020_RETRAIN_E16": {
+    "original": {
+      "forget_correct": 1,
+      "forget_total": 8,
+      "retain_patient_correct": 16,
+      "retain_patient_total": 16,
+      "forget_mean_reference_nll": 2.7995822348457295,
+      "retain_patient_mean_reference_nll": 0.026900897628365783,
+      "selective_pair_success": 7,
+      "selective_pair_total": 8
+    },
+    "paraphrase": {
+      "forget_correct": 1,
+      "forget_total": 8,
+      "retain_patient_correct": 11,
+      "retain_patient_total": 16,
+      "forget_mean_reference_nll": 2.3264053016901016,
+      "retain_patient_mean_reference_nll": 0.21054482744511915,
+      "selective_pair_success": 5,
+      "selective_pair_total": 8
+    },
+    "medical_retain_nll_by_split": {
+      "retain_same_heldout": 4.501968011260033,
+      "retain_other_heldout": 4.492855192472537
+    }
+  }
+}

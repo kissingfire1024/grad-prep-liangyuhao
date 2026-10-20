@@ -1,0 +1,27 @@
+====================================================================================================
+EXP009 CONTROL SELECTION MANIFEST v3 PROPOSAL
+====================================================================================================
+
+Source: control_selection_manifest_v2.json
+
+Priority:
+HARD EXCLUSION > CATEGORY PRESERVATION > TOKEN MATCHING
+
+Exactly 18 entities x 5 records = 90.
+Exactly 9 category-preserving replacements.
+E17 unchanged.
+13 non-review entities unchanged.
+
+REPLACEMENTS:
+E05 GENRE: 881 -> 886
+E05 PARENTS: 883 -> 888
+E05 THEMES: 891 -> 884
+E05 STYLE_CAREER: 893 -> 889
+E06 AWARD: 1082 -> 1094
+E13 THEMES: 2490 -> 2485
+E15 PARENTS: 2883 -> 2888
+E15 THEMES: 2893 -> 2898
+E15 STYLE_CAREER: 2889 -> 2899
+
+STATUS: EXP009_CONTROL_SELECTION_MANIFEST_V3_PROPOSAL_CREATED
+PROPOSAL ONLY — NOT FROZEN — DO NOT TRAIN

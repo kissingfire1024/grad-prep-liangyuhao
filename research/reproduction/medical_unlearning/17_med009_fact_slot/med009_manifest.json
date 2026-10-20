@@ -1,0 +1,30 @@
+{
+  "protocol": "MED009: within-patient distractor vs answer-containing excerpt vs slot-labeled excerpt; no model training",
+  "n_patients": 8,
+  "n_eval_qa": 16,
+  "n_prepared_excerpts": 48,
+  "trained_models": [
+    "MED005_RANK_REPLAY",
+    "MED008_GATE2B_MULTIFACT"
+  ],
+  "conditions": [
+    "focused_evidence",
+    "non_target_evidence",
+    "focused_slot"
+  ],
+  "explicit_confusion_pairs": 3,
+  "source_sha256": {
+    "MED008_Gate2A_复核修订版/draft_train_24_未临床核签.jsonl": "68bd84d1af7712877febe565bd1a09c2b237b3f2501c3f74700c01c9f4973787",
+    "MED008_Gate2A_复核修订版/draft_eval_16_隔离勿训练.jsonl": "96c9f739c60e0bcdc3da59fae22eafa028d8abd40d77c9e906121e137b1b7913",
+    "reports/medical_unlearning/16_med008_memory/train/coded_original_patient_notes.jsonl": "f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610",
+    "reports/medical_unlearning/16_med008_memory/gate2b_multifact/med008_gate2b_eval_predictions.csv": "ad47409e5b8fb98a5d1f6e665c2f98a14739558be6eb0e4c129e80edc999e2f4"
+  },
+  "limitations": [
+    "Answer is visible in two oracle excerpt conditions: NOT parameter memorization.",
+    "Non-target excerpt comes from same patient TRAIN facts; absence of target reference text is checked, but semantic hints may remain.",
+    "These 8 patients have repeatedly been used; this is only a diagnostic, not independent generalization.",
+    "No new patient QA labels are trained; this experiment evaluates existing models only.",
+    "All clinical fact labels are source-matched, not clinician approved.",
+    "Output contains public case-report patient notes; handle under applicable data governance rules."
+  ]
+}

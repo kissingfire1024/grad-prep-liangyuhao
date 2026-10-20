@@ -1,0 +1,513 @@
+﻿id,qa_id,patient_code,patient_id,candidate_id,fact_type,condition,source_question,requested_slot,question,answer,reference_answer_visible_in_excerpt,source_note_hash_sha256,evaluation_only,model,answer_nll,answer_tokens,generation,reference_text_contained_in_generation_NOT_ACCURACY,clinical_fact_review,review_notes
+MED008G2A_CASE_0001_004_focused_evidence,MED008G2A_CASE_0001_004,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,treatment,focused_evidence,To what flow rate was oxygen reduced on the first ICU day?,,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+ent. On the first day of admission to the ICU, the patient showed ventilatory improvement; therefore, the oxygen volume was reduced to 2 L/min through nasal cannula, and antibiotic treatment was continued upon admission. A cardiology consultation was held, and the patient unde
+Question: To what flow rate was oxygen reduced on the first ICU day?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",2 L/min,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.1500801295042038,6,Nasal cannula at 2 L/min.,True,NOT_SCORED,
+MED008G2A_CASE_0001_004_non_target_evidence,MED008G2A_CASE_0001_004,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,treatment,non_target_evidence,To what flow rate was oxygen reduced on the first ICU day?,,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+s ruled out by a score of 7 on the Lake Louise scale. The patient was placed on 4 liters of oxygen through nasal cannula and treatment started with 4 mg of dexamethason
+Question: To what flow rate was oxygen reduced on the first ICU day?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",2 L/min,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.9432153105735779,6,Not stated in the excerpt.,False,NOT_SCORED,
+MED008G2A_CASE_0001_004_focused_slot,MED008G2A_CASE_0001_004,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,treatment,focused_slot,To what flow rate was oxygen reduced on the first ICU day?,first ICU day / oxygen FLOW after reduction,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+ent. On the first day of admission to the ICU, the patient showed ventilatory improvement; therefore, the oxygen volume was reduced to 2 L/min through nasal cannula, and antibiotic treatment was continued upon admission. A cardiology consultation was held, and the patient unde
+Requested clinical fact slot: first ICU day / oxygen FLOW after reduction
+Question: To what flow rate was oxygen reduced on the first ICU day?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",2 L/min,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.03606197610497475,6,2 L/min,True,NOT_SCORED,
+MED008G2A_CASE_0001_005_focused_evidence,MED008G2A_CASE_0001_005,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,followup,focused_evidence,What oxygen saturation was recorded on the second day after admission?,,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+that showed moderate pulmonary hypertension with a preserved ejection fraction. On the second day of admission, the patient presented 97% oxygen saturation; consequently, the supplementary oxygen was removed. On the third day of admission to the ICU, the dose of intraveno
+Question: What oxygen saturation was recorded on the second day after admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",97%,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.05582202598452568,6,97%.,True,NOT_SCORED,
+MED008G2A_CASE_0001_005_non_target_evidence,MED008G2A_CASE_0001_005,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,followup,non_target_evidence,What oxygen saturation was recorded on the second day after admission?,,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+pressure = 100/60 mmHg, temperature = 36.5°C, and arterial oxygen saturation = 79%. Upon physical examination, subcostal pulses and respiratory effort were eviden
+Question: What oxygen saturation was recorded on the second day after admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",97%,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.3785309791564941,6,79%,False,NOT_SCORED,
+MED008G2A_CASE_0001_005_focused_slot,MED008G2A_CASE_0001_005,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,followup,focused_slot,What oxygen saturation was recorded on the second day after admission?,second day after admission / oxygen SATURATION,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+that showed moderate pulmonary hypertension with a preserved ejection fraction. On the second day of admission, the patient presented 97% oxygen saturation; consequently, the supplementary oxygen was removed. On the third day of admission to the ICU, the dose of intraveno
+Requested clinical fact slot: second day after admission / oxygen SATURATION
+Question: What oxygen saturation was recorded on the second day after admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",97%,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.03581704571843147,6,97%,True,NOT_SCORED,
+MED008G2A_CASE_0002_009_focused_evidence,MED008G2A_CASE_0002_009,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,medication,focused_evidence,What was the loading dose of phenytoin?,,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+rfarin 5 mg per os was later started for maintenance after an appropriate bridging period. The antiepileptic phenytoin was loaded with 10mg/kg and was maintained at 5mg/kg, which significantly controlled the abnormal body movements. Additionally, empirical course of antibiotic
+Question: What was the loading dose of phenytoin?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",10mg/kg,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.2651921212673187,7,10mg/kg,True,NOT_SCORED,
+MED008G2A_CASE_0002_009_non_target_evidence,MED008G2A_CASE_0002_009,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,medication,non_target_evidence,What was the loading dose of phenytoin?,,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+s of septic CVT and was started with a treatment dose of Unfractionated Heparin 12,500 IU BID. Warfarin 5 mg per os was later started for maintenance after an appropriate br
+Question: What was the loading dose of phenytoin?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",10mg/kg,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.8606905937194824,7,100 mg BID.,False,NOT_SCORED,
+MED008G2A_CASE_0002_009_focused_slot,MED008G2A_CASE_0002_009,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,medication,focused_slot,What was the loading dose of phenytoin?,phenytoin / LOADING dose,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+rfarin 5 mg per os was later started for maintenance after an appropriate bridging period. The antiepileptic phenytoin was loaded with 10mg/kg and was maintained at 5mg/kg, which significantly controlled the abnormal body movements. Additionally, empirical course of antibiotic
+Requested clinical fact slot: phenytoin / LOADING dose
+Question: What was the loading dose of phenytoin?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",10mg/kg,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.36618709564208984,7,10mg/kg,True,NOT_SCORED,
+MED008G2A_CASE_0002_010_focused_evidence,MED008G2A_CASE_0002_010,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,outcome,focused_evidence,What was the muscle power in all extremities at discharge?,,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+There was a significant improvement in the extremity weaknesses noted at admission, and she was ambulatory during discharge. Power was 5/5 in all extremities at discharge. The patient is an otherwise healthy young individual with no comorbidity and no family history of a k
+Question: What was the muscle power in all extremities at discharge?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",5/5,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.0499194860458374,6,5/5,True,NOT_SCORED,
+MED008G2A_CASE_0002_010_non_target_evidence,MED008G2A_CASE_0002_010,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,outcome,non_target_evidence,What was the muscle power in all extremities at discharge?,,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+orientation to time, person, and place. Cranial nerve (CN) examination revealed CN VI and CN VII palsy as she could not abduct her left eye and close her eyes bilaterally, more
+Question: What was the muscle power in all extremities at discharge?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",5/5,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.1513750553131104,6,All extremities had moderate muscle strength.,False,NOT_SCORED,
+MED008G2A_CASE_0002_010_focused_slot,MED008G2A_CASE_0002_010,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,outcome,focused_slot,What was the muscle power in all extremities at discharge?,hospital discharge / limb muscle power,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+There was a significant improvement in the extremity weaknesses noted at admission, and she was ambulatory during discharge. Power was 5/5 in all extremities at discharge. The patient is an otherwise healthy young individual with no comorbidity and no family history of a k
+Requested clinical fact slot: hospital discharge / limb muscle power
+Question: What was the muscle power in all extremities at discharge?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",5/5,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.3607441484928131,6,Power was 5/5 in all extremities.,True,NOT_SCORED,
+MED008G2A_CASE_0004_014_focused_evidence,MED008G2A_CASE_0004_014,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,recurrence,focused_evidence,How many months after resection was recurrent disease observed on CT/MRI?,,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+o the patient’s comorbidities and compromised respiratory status. The patient did not comply with the plan to return for radiotherapy. Five months after resection, the patient presented with CT/MRI findings of recurrent disease at T4 and spread to the adjacent T5 vertebral body wi
+Question: How many months after resection was recurrent disease observed on CT/MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",Five months,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.7700036764144897,5,Five months.,True,NOT_SCORED,
+MED008G2A_CASE_0004_014_non_target_evidence,MED008G2A_CASE_0004_014,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,recurrence,non_target_evidence,How many months after resection was recurrent disease observed on CT/MRI?,,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+complaints of difficulty ambulating and mid-thoracic pain. New imaging revealed approximately 60% lytic destruction of the T4 vertebral body with new right pedicle involvement (
+Question: How many months after resection was recurrent disease observed on CT/MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",Five months,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.2081503868103027,5,Not stated in the excerpt.,False,NOT_SCORED,
+MED008G2A_CASE_0004_014_focused_slot,MED008G2A_CASE_0004_014,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,recurrence,focused_slot,How many months after resection was recurrent disease observed on CT/MRI?,CT or MRI / time to recurrence after resection,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+o the patient’s comorbidities and compromised respiratory status. The patient did not comply with the plan to return for radiotherapy. Five months after resection, the patient presented with CT/MRI findings of recurrent disease at T4 and spread to the adjacent T5 vertebral body wi
+Requested clinical fact slot: CT or MRI / time to recurrence after resection
+Question: How many months after resection was recurrent disease observed on CT/MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",Five months,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.3209199607372284,5,Five months.,True,NOT_SCORED,
+MED008G2A_CASE_0004_015_focused_evidence,MED008G2A_CASE_0004_015,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,outcome,focused_evidence,At what postoperative follow-up interval was the patient reported well with no pain or numbness?,,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+ith no significant complications post-procedure. Post-operatively, the patient recovered satisfactorily and underwent radiotherapy. At 18 months following her second debulking surgery and radiation treatment, the patient was doing well with no pain or numbness. The patient ambul
+Question: At what postoperative follow-up interval was the patient reported well with no pain or numbness?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",18 months,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.7243296504020691,6,At 18 months.,True,NOT_SCORED,
+MED008G2A_CASE_0004_015_non_target_evidence,MED008G2A_CASE_0004_015,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,outcome,non_target_evidence,At what postoperative follow-up interval was the patient reported well with no pain or numbness?,,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+complaints of difficulty ambulating and mid-thoracic pain. New imaging revealed approximately 60% lytic destruction of the T4 vertebral body with new right pedicle involvement (
+Question: At what postoperative follow-up interval was the patient reported well with no pain or numbness?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",18 months,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.8427635431289673,6,Not stated in the excerpt,False,NOT_SCORED,
+MED008G2A_CASE_0004_015_focused_slot,MED008G2A_CASE_0004_015,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,outcome,focused_slot,At what postoperative follow-up interval was the patient reported well with no pain or numbness?,postoperative follow-up / time well without pain or numbness,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+ith no significant complications post-procedure. Post-operatively, the patient recovered satisfactorily and underwent radiotherapy. At 18 months following her second debulking surgery and radiation treatment, the patient was doing well with no pain or numbness. The patient ambul
+Requested clinical fact slot: postoperative follow-up / time well without pain or numbness
+Question: At what postoperative follow-up interval was the patient reported well with no pain or numbness?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",18 months,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.3019848167896271,6,Not stated in the excerpt,False,NOT_SCORED,
+MED008G2A_CASE_0008_019_focused_evidence,MED008G2A_CASE_0008_019,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,procedure,focused_evidence,How long was the aortic cross-clamp time?,,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+th reconstruction of the left common carotid and innominate arteries. Cardiopulmonary bypass and aortic cross-clamp times were 182 and 95 min, respectively. The postoperative course was uneventful. Postoperative computed tomography revealed satisfactory graft coverage of the
+Question: How long was the aortic cross-clamp time?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",95 min,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.41910454630851746,6,95 minutes.,True,NOT_SCORED,
+MED008G2A_CASE_0008_019_non_target_evidence,MED008G2A_CASE_0008_019,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,procedure,non_target_evidence,How long was the aortic cross-clamp time?,,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+ent. Hypothermic circulatory arrest was accomplished at a rectal temperature of 28°C. Retrograde and antegrade cardioplegia were intermittently administered. Antegr
+Question: How long was the aortic cross-clamp time?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",95 min,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,3.333420515060425,6,Not stated in the excerpt.,False,NOT_SCORED,
+MED008G2A_CASE_0008_019_focused_slot,MED008G2A_CASE_0008_019,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,procedure,focused_slot,How long was the aortic cross-clamp time?,operation / aortic cross-clamp DURATION,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+th reconstruction of the left common carotid and innominate arteries. Cardiopulmonary bypass and aortic cross-clamp times were 182 and 95 min, respectively. The postoperative course was uneventful. Postoperative computed tomography revealed satisfactory graft coverage of the
+Requested clinical fact slot: operation / aortic cross-clamp DURATION
+Question: How long was the aortic cross-clamp time?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",95 min,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.17819273471832275,6,95 minutes.,True,NOT_SCORED,
+MED008G2A_CASE_0008_020_focused_evidence,MED008G2A_CASE_0008_020,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,imaging,focused_evidence,What did postoperative CT show about the distal edge of the FET?,,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+oss-clamp times were 182 and 95 min, respectively. The postoperative course was uneventful. Postoperative computed tomography revealed satisfactory graft coverage of the distal edge of the FET (). We observed no difference in blood pressures between the upper and lower extremities.
+Question: What did postoperative CT show about the distal edge of the FET?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",satisfactory graft coverage of the distal edge of the FET,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.154897689819336,17,Satisfactory graft coverage.,False,NOT_SCORED,
+MED008G2A_CASE_0008_020_non_target_evidence,MED008G2A_CASE_0008_020,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,imaging,non_target_evidence,What did postoperative CT show about the distal edge of the FET?,,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+ent. Hypothermic circulatory arrest was accomplished at a rectal temperature of 28°C. Retrograde and antegrade cardioplegia were intermittently administered. Antegr
+Question: What did postoperative CT show about the distal edge of the FET?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",satisfactory graft coverage of the distal edge of the FET,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.645850419998169,17,No evidence of distal FET injury.,False,NOT_SCORED,
+MED008G2A_CASE_0008_020_focused_slot,MED008G2A_CASE_0008_020,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,imaging,focused_slot,What did postoperative CT show about the distal edge of the FET?,postoperative CT / distal edge of FET coverage,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+oss-clamp times were 182 and 95 min, respectively. The postoperative course was uneventful. Postoperative computed tomography revealed satisfactory graft coverage of the distal edge of the FET (). We observed no difference in blood pressures between the upper and lower extremities.
+Requested clinical fact slot: postoperative CT / distal edge of FET coverage
+Question: What did postoperative CT show about the distal edge of the FET?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",satisfactory graft coverage of the distal edge of the FET,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.291756272315979,17,Satisfactory graft coverage.,False,NOT_SCORED,
+MED008G2A_CASE_0009_024_focused_evidence,MED008G2A_CASE_0009_024,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,angiography,focused_evidence,What did subsequent coronary angiography reveal about the left coronary artery?,,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+ge the patient was reassessed. The ECG showed q waves and negative T waves in DI and aVL leads (Fig. a). Coronary angiography revealed a normal left coronary artery (Fig.b) and a hypoplasic right coronary artery. The echocardiographic assessment showed that the regional wall motion abnormality was
+Question: What did subsequent coronary angiography reveal about the left coronary artery?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",a normal left coronary artery,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.7027870416641235,8,Normal left coronary artery.,False,NOT_SCORED,
+MED008G2A_CASE_0009_024_non_target_evidence,MED008G2A_CASE_0009_024,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,angiography,non_target_evidence,What did subsequent coronary angiography reveal about the left coronary artery?,,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+DIII and aVF leads. Fig. . The emergency room troponin T test was positive (TnT=1.1ng/mL, reference range 0-0.1ng/mL). The echocardiogram revealed normal left ventricul
+Question: What did subsequent coronary angiography reveal about the left coronary artery?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",a normal left coronary artery,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,3.4693808555603027,8,Normal.,False,NOT_SCORED,
+MED008G2A_CASE_0009_024_focused_slot,MED008G2A_CASE_0009_024,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,angiography,focused_slot,What did subsequent coronary angiography reveal about the left coronary artery?,later coronary angiography / left coronary artery finding,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+ge the patient was reassessed. The ECG showed q waves and negative T waves in DI and aVL leads (Fig. a). Coronary angiography revealed a normal left coronary artery (Fig.b) and a hypoplasic right coronary artery. The echocardiographic assessment showed that the regional wall motion abnormality was
+Requested clinical fact slot: later coronary angiography / left coronary artery finding
+Question: What did subsequent coronary angiography reveal about the left coronary artery?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",a normal left coronary artery,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.820559024810791,8,Normal left coronary artery.,False,NOT_SCORED,
+MED008G2A_CASE_0009_025_focused_evidence,MED008G2A_CASE_0009_025,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,outcome,focused_evidence,How many days after admission was the patient discharged?,,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+oglobulins, immunoelectrophoresis; high-sensitivity C-reactive protein was 4.88mg/L. The patient gradually improved and was discharged seven days after admission. Two months after discharge the patient was reassessed. The ECG showed q waves and negative T waves in DI and aVL lead
+Question: How many days after admission was the patient discharged?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",seven days,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.322174310684204,5,Seven days.,True,NOT_SCORED,
+MED008G2A_CASE_0009_025_non_target_evidence,MED008G2A_CASE_0009_025,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,outcome,non_target_evidence,How many days after admission was the patient discharged?,,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+DIII and aVF leads. Fig. . The emergency room troponin T test was positive (TnT=1.1ng/mL, reference range 0-0.1ng/mL). The echocardiogram revealed normal left ventricul
+Question: How many days after admission was the patient discharged?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",seven days,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,3.886774778366089,5,3 days.,False,NOT_SCORED,
+MED008G2A_CASE_0009_025_focused_slot,MED008G2A_CASE_0009_025,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,outcome,focused_slot,How many days after admission was the patient discharged?,hospital discharge / days since admission,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+oglobulins, immunoelectrophoresis; high-sensitivity C-reactive protein was 4.88mg/L. The patient gradually improved and was discharged seven days after admission. Two months after discharge the patient was reassessed. The ECG showed q waves and negative T waves in DI and aVL lead
+Requested clinical fact slot: hospital discharge / days since admission
+Question: How many days after admission was the patient discharged?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",seven days,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.0504844188690186,5,Seven days.,True,NOT_SCORED,
+MED008G2A_CASE_0010_029_focused_evidence,MED008G2A_CASE_0010_029,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,imaging,focused_evidence,At what spinal cord levels were ischemic changes seen on postoperative MRI?,,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+showed T4 high signal intensity within the spinal cord from level T3 to T7 due to ischemia signal changes in the dorsal spinal cord at T3-T7 (T4 apex of kyphosis) without evidence of compression at any level (Figure ). There were no additional complications. Immediate postop
+Question: At what spinal cord levels were ischemic changes seen on postoperative MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",T3-T7,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.23692162334918976,7,T3–T7,False,NOT_SCORED,
+MED008G2A_CASE_0010_029_non_target_evidence,MED008G2A_CASE_0010_029,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,imaging,non_target_evidence,At what spinal cord levels were ischemic changes seen on postoperative MRI?,,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+was not used. Intraoperatively, the lowest mean arterial pressure (MAP) values (45 mm Hg) were recorded. Oxygen (O2) saturation was kept at 100% during the treatment, r
+Question: At what spinal cord levels were ischemic changes seen on postoperative MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",T3-T7,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.127063035964966,7,Spinal cord levels 3 and 4 showed ischemia.,False,NOT_SCORED,
+MED008G2A_CASE_0010_029_focused_slot,MED008G2A_CASE_0010_029,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,imaging,focused_slot,At what spinal cord levels were ischemic changes seen on postoperative MRI?,postoperative MRI / ischemic spinal cord LEVELS,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+showed T4 high signal intensity within the spinal cord from level T3 to T7 due to ischemia signal changes in the dorsal spinal cord at T3-T7 (T4 apex of kyphosis) without evidence of compression at any level (Figure ). There were no additional complications. Immediate postop
+Requested clinical fact slot: postoperative MRI / ischemic spinal cord LEVELS
+Question: At what spinal cord levels were ischemic changes seen on postoperative MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",T3-T7,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.07419826090335846,7,T3-T7,True,NOT_SCORED,
+MED008G2A_CASE_0010_030_focused_evidence,MED008G2A_CASE_0010_030,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,outcome,focused_evidence,To what ASIA impairment grade had the patient improved at follow-up?,,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+re ). The patient did very limited physical therapy due to osteoporosis. After follow-up, his neurological examination was improved to grade C ASIA, in which motor functions were preserved below the level of lesion, but more than half of the muscles had the power of grade 3. The ti
+Question: To what ASIA impairment grade had the patient improved at follow-up?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",grade C ASIA,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.2505255937576294,7,Grade C.,False,NOT_SCORED,
+MED008G2A_CASE_0010_030_non_target_evidence,MED008G2A_CASE_0010_030,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,outcome,non_target_evidence,To what ASIA impairment grade had the patient improved at follow-up?,,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+nit. Postoperative neurological examination revealed paralysis at T4-T7 levels, grade A of the American Spinal Injury Association (ASIA) impairment scale in which the
+Question: To what ASIA impairment grade had the patient improved at follow-up?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",grade C ASIA,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,3.9031219482421875,7,Grade A.,False,NOT_SCORED,
+MED008G2A_CASE_0010_030_focused_slot,MED008G2A_CASE_0010_030,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,outcome,focused_slot,To what ASIA impairment grade had the patient improved at follow-up?,follow-up / ASIA impairment GRADE after improvement,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+re ). The patient did very limited physical therapy due to osteoporosis. After follow-up, his neurological examination was improved to grade C ASIA, in which motor functions were preserved below the level of lesion, but more than half of the muscles had the power of grade 3. The ti
+Requested clinical fact slot: follow-up / ASIA impairment GRADE after improvement
+Question: To what ASIA impairment grade had the patient improved at follow-up?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",grade C ASIA,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.18282949924469,7,Grade C,False,NOT_SCORED,
+MED008G2A_CASE_0012_034_focused_evidence,MED008G2A_CASE_0012_034,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,lab,focused_evidence,What troponin I level was reported in the later laboratory examination?,,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+levated levels of the following: Creatine kinase 2924 U/L, lactate dehydrogenase 558 U/L, creatine kinase isoenzyme MB 21.5 ng/mL, TNI 47.72 ng/mL, and myoglobin 1442.7 ng/mL. ECG showed that the ST segment in leads II, III, and aVF had dropped back to baseline levels, and the V3R
+Question: What troponin I level was reported in the later laboratory examination?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",47.72 ng/mL,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.6851102113723755,10,Troponin I 16.9 ng/mL.,False,NOT_SCORED,
+MED008G2A_CASE_0012_034_non_target_evidence,MED008G2A_CASE_0012_034,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,lab,non_target_evidence,What troponin I level was reported in the later laboratory examination?,,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+examination showed obviously elevated levels of the following: Creatine kinase 2924 U/L, lactate dehydrogenase 558 U/L, creatine kinase isoenzyme MB 21.5 ng/mL, TNI 47
+Question: What troponin I level was reported in the later laboratory examination?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",47.72 ng/mL,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.370760440826416,10,Troponin I 3.6 ng/mL,False,NOT_SCORED,
+MED008G2A_CASE_0012_034_focused_slot,MED008G2A_CASE_0012_034,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,lab,focused_slot,What troponin I level was reported in the later laboratory examination?,later laboratory test / troponin I concentration,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+levated levels of the following: Creatine kinase 2924 U/L, lactate dehydrogenase 558 U/L, creatine kinase isoenzyme MB 21.5 ng/mL, TNI 47.72 ng/mL, and myoglobin 1442.7 ng/mL. ECG showed that the ST segment in leads II, III, and aVF had dropped back to baseline levels, and the V3R
+Requested clinical fact slot: later laboratory test / troponin I concentration
+Question: What troponin I level was reported in the later laboratory examination?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",47.72 ng/mL,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.5599154233932495,10,Troponin I 16.3 ng/mL,False,NOT_SCORED,
+MED008G2A_CASE_0019_039_focused_evidence,MED008G2A_CASE_0019_039,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,device,focused_evidence,What was the size of the Neuroform stent delivered to the ICA?,,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+e first wire. The target lesion was then predilated using a 2.5×20 mm Ryujin balloon (Terumo, Torkyo, Japan) inflated at 10 atms (). A 4.0×20-mm Neuroform stent (Boston Scientific/Target, Fremont, CA, U.S.A.) was delivered to the ICA. The implanted stent was post-dilated with a
+Question: What was the size of the Neuroform stent delivered to the ICA?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",4.0×20-mm,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.26607197523117065,10,4.0×20 mm,False,NOT_SCORED,
+MED008G2A_CASE_0019_039_non_target_evidence,MED008G2A_CASE_0019_039,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,device,non_target_evidence,What was the size of the Neuroform stent delivered to the ICA?,,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+guide wire, stent dislodgement occurred, and the stent became localized in the ICA C4 segment (). Stent evacuation was then performed using a snare loop (), and the stent wa
+Question: What was the size of the Neuroform stent delivered to the ICA?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",4.0×20-mm,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,2.816415548324585,10,Not stated in the excerpt.,False,NOT_SCORED,
+MED008G2A_CASE_0019_039_focused_slot,MED008G2A_CASE_0019_039,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,device,focused_slot,What was the size of the Neuroform stent delivered to the ICA?,delivered Neuroform STENT / device SIZE,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+e first wire. The target lesion was then predilated using a 2.5×20 mm Ryujin balloon (Terumo, Torkyo, Japan) inflated at 10 atms (). A 4.0×20-mm Neuroform stent (Boston Scientific/Target, Fremont, CA, U.S.A.) was delivered to the ICA. The implanted stent was post-dilated with a
+Requested clinical fact slot: delivered Neuroform STENT / device SIZE
+Question: What was the size of the Neuroform stent delivered to the ICA?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",4.0×20-mm,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.2742840647697449,10,Not stated in the excerpt.,False,NOT_SCORED,
+MED008G2A_CASE_0019_040_focused_evidence,MED008G2A_CASE_0019_040,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,outcome,focused_evidence,What did the angiogram show after foreign body removal?,,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+ion was then performed using a snare loop (), and the stent was successfully retrieved (). After foreign body removal, angiogram shows no significant complications in the distal ICA ().
+Question: What did the angiogram show after foreign body removal?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",no significant complications in the distal ICA,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.9067089557647705,12,No significant complications in the distal ICA.,True,NOT_SCORED,
+MED008G2A_CASE_0019_040_non_target_evidence,MED008G2A_CASE_0019_040,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,outcome,non_target_evidence,What did the angiogram show after foreign body removal?,,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+guide wire, stent dislodgement occurred, and the stent became localized in the ICA C4 segment (). Stent evacuation was then performed using a snare loop (), and the stent wa
+Question: What did the angiogram show after foreign body removal?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",no significant complications in the distal ICA,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,4.606481075286865,12,No foreign body present.,False,NOT_SCORED,
+MED008G2A_CASE_0019_040_focused_slot,MED008G2A_CASE_0019_040,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,outcome,focused_slot,What did the angiogram show after foreign body removal?,angiogram after foreign-body removal / distal ICA status,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+ion was then performed using a snare loop (), and the stent was successfully retrieved (). After foreign body removal, angiogram shows no significant complications in the distal ICA ().
+Requested clinical fact slot: angiogram after foreign-body removal / distal ICA status
+Question: What did the angiogram show after foreign body removal?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",no significant complications in the distal ICA,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.773715078830719,12,No significant complications in the distal ICA.,True,NOT_SCORED,
+MED008G2A_CASE_0012_041_focused_evidence,MED008G2A_CASE_0012_041,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,vital_sign,focused_evidence,What was the patient's blood pressure on admission?,,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+elevant family history. The patient was conscious on admission; her body temperature was 36.0 °C, pulse was 95 bpm, blood pressure was 119/73 mmHg, and respiratory rate was 20 breaths per minute. On physical examination, the patient appeared acutely ill, was in the left lying posi
+Question: What was the patient's blood pressure on admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",119/73 mmHg,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.10385594516992569,12,119/73 mmHg.,True,NOT_SCORED,
+MED008G2A_CASE_0012_041_non_target_evidence,MED008G2A_CASE_0012_041,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,vital_sign,non_target_evidence,What was the patient's blood pressure on admission?,,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+tain examinations. Electrocardiogram (ECG) showed ST-segment elevation in leads II, III, aVF, V3R-V5R, and V7-V9 (Figure ). The hypersensitive troponin level (TNI, 0.0074 μg/L) was increased,
+Question: What was the patient's blood pressure on admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",119/73 mmHg,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,1.3534859418869019,12,Not stated in the excerpt.,False,NOT_SCORED,
+MED008G2A_CASE_0012_041_focused_slot,MED008G2A_CASE_0012_041,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,vital_sign,focused_slot,What was the patient's blood pressure on admission?,hospital admission / blood pressure,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+elevant family history. The patient was conscious on admission; her body temperature was 36.0 °C, pulse was 95 bpm, blood pressure was 119/73 mmHg, and respiratory rate was 20 breaths per minute. On physical examination, the patient appeared acutely ill, was in the left lying posi
+Requested clinical fact slot: hospital admission / blood pressure
+Question: What was the patient's blood pressure on admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",119/73 mmHg,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED005_RANK_REPLAY,0.4172508716583252,12,36.0 °C,False,NOT_SCORED,
+MED008G2A_CASE_0001_004_focused_evidence,MED008G2A_CASE_0001_004,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,treatment,focused_evidence,To what flow rate was oxygen reduced on the first ICU day?,,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+ent. On the first day of admission to the ICU, the patient showed ventilatory improvement; therefore, the oxygen volume was reduced to 2 L/min through nasal cannula, and antibiotic treatment was continued upon admission. A cardiology consultation was held, and the patient unde
+Question: To what flow rate was oxygen reduced on the first ICU day?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",2 L/min,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.009744018316268921,6,2 L/min,True,NOT_SCORED,
+MED008G2A_CASE_0001_004_non_target_evidence,MED008G2A_CASE_0001_004,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,treatment,non_target_evidence,To what flow rate was oxygen reduced on the first ICU day?,,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+s ruled out by a score of 7 on the Lake Louise scale. The patient was placed on 4 liters of oxygen through nasal cannula and treatment started with 4 mg of dexamethason
+Question: To what flow rate was oxygen reduced on the first ICU day?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",2 L/min,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,1.2504764795303345,6,4 mL/min,False,NOT_SCORED,
+MED008G2A_CASE_0001_004_focused_slot,MED008G2A_CASE_0001_004,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,treatment,focused_slot,To what flow rate was oxygen reduced on the first ICU day?,first ICU day / oxygen FLOW after reduction,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+ent. On the first day of admission to the ICU, the patient showed ventilatory improvement; therefore, the oxygen volume was reduced to 2 L/min through nasal cannula, and antibiotic treatment was continued upon admission. A cardiology consultation was held, and the patient unde
+Requested clinical fact slot: first ICU day / oxygen FLOW after reduction
+Question: To what flow rate was oxygen reduced on the first ICU day?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",2 L/min,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.009564095176756382,6,2 L/min,True,NOT_SCORED,
+MED008G2A_CASE_0001_005_focused_evidence,MED008G2A_CASE_0001_005,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,followup,focused_evidence,What oxygen saturation was recorded on the second day after admission?,,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+that showed moderate pulmonary hypertension with a preserved ejection fraction. On the second day of admission, the patient presented 97% oxygen saturation; consequently, the supplementary oxygen was removed. On the third day of admission to the ICU, the dose of intraveno
+Question: What oxygen saturation was recorded on the second day after admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",97%,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.006140200886875391,6,97%,True,NOT_SCORED,
+MED008G2A_CASE_0001_005_non_target_evidence,MED008G2A_CASE_0001_005,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,followup,non_target_evidence,What oxygen saturation was recorded on the second day after admission?,,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+pressure = 100/60 mmHg, temperature = 36.5°C, and arterial oxygen saturation = 79%. Upon physical examination, subcostal pulses and respiratory effort were eviden
+Question: What oxygen saturation was recorded on the second day after admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",97%,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,1.9345407485961914,6,79%,False,NOT_SCORED,
+MED008G2A_CASE_0001_005_focused_slot,MED008G2A_CASE_0001_005,CASE_0001,f9f64ca0fd53d3db05bc691c8de3714ea40518f8a39b9f6ab2af5048468e673a,MEDI-09,followup,focused_slot,What oxygen saturation was recorded on the second day after admission?,second day after admission / oxygen SATURATION,"Clinical case code: CASE_0001
+Excerpt from the same patient clinical record (may or may not answer the question):
+that showed moderate pulmonary hypertension with a preserved ejection fraction. On the second day of admission, the patient presented 97% oxygen saturation; consequently, the supplementary oxygen was removed. On the third day of admission to the ICU, the dose of intraveno
+Requested clinical fact slot: second day after admission / oxygen SATURATION
+Question: What oxygen saturation was recorded on the second day after admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",97%,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.0066360607743263245,6,97%,True,NOT_SCORED,
+MED008G2A_CASE_0002_009_focused_evidence,MED008G2A_CASE_0002_009,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,medication,focused_evidence,What was the loading dose of phenytoin?,,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+rfarin 5 mg per os was later started for maintenance after an appropriate bridging period. The antiepileptic phenytoin was loaded with 10mg/kg and was maintained at 5mg/kg, which significantly controlled the abnormal body movements. Additionally, empirical course of antibiotic
+Question: What was the loading dose of phenytoin?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",10mg/kg,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.9275082349777222,7,10mg,False,NOT_SCORED,
+MED008G2A_CASE_0002_009_non_target_evidence,MED008G2A_CASE_0002_009,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,medication,non_target_evidence,What was the loading dose of phenytoin?,,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+s of septic CVT and was started with a treatment dose of Unfractionated Heparin 12,500 IU BID. Warfarin 5 mg per os was later started for maintenance after an appropriate br
+Question: What was the loading dose of phenytoin?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",10mg/kg,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,2.952475070953369,7,400mg,False,NOT_SCORED,
+MED008G2A_CASE_0002_009_focused_slot,MED008G2A_CASE_0002_009,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,medication,focused_slot,What was the loading dose of phenytoin?,phenytoin / LOADING dose,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+rfarin 5 mg per os was later started for maintenance after an appropriate bridging period. The antiepileptic phenytoin was loaded with 10mg/kg and was maintained at 5mg/kg, which significantly controlled the abnormal body movements. Additionally, empirical course of antibiotic
+Requested clinical fact slot: phenytoin / LOADING dose
+Question: What was the loading dose of phenytoin?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",10mg/kg,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.9088910222053528,7,10mg,False,NOT_SCORED,
+MED008G2A_CASE_0002_010_focused_evidence,MED008G2A_CASE_0002_010,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,outcome,focused_evidence,What was the muscle power in all extremities at discharge?,,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+There was a significant improvement in the extremity weaknesses noted at admission, and she was ambulatory during discharge. Power was 5/5 in all extremities at discharge. The patient is an otherwise healthy young individual with no comorbidity and no family history of a k
+Question: What was the muscle power in all extremities at discharge?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",5/5,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.002157041570171714,6,5/5,True,NOT_SCORED,
+MED008G2A_CASE_0002_010_non_target_evidence,MED008G2A_CASE_0002_010,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,outcome,non_target_evidence,What was the muscle power in all extremities at discharge?,,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+orientation to time, person, and place. Cranial nerve (CN) examination revealed CN VI and CN VII palsy as she could not abduct her left eye and close her eyes bilaterally, more
+Question: What was the muscle power in all extremities at discharge?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",5/5,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,1.5867875814437866,6,Not stated in the excerpt,False,NOT_SCORED,
+MED008G2A_CASE_0002_010_focused_slot,MED008G2A_CASE_0002_010,CASE_0002,70f9adf28a0afe3b199bc6ff8287b02ae4633ceee325c31f0213e0d6cc943d58,MEDI-01,outcome,focused_slot,What was the muscle power in all extremities at discharge?,hospital discharge / limb muscle power,"Clinical case code: CASE_0002
+Excerpt from the same patient clinical record (may or may not answer the question):
+There was a significant improvement in the extremity weaknesses noted at admission, and she was ambulatory during discharge. Power was 5/5 in all extremities at discharge. The patient is an otherwise healthy young individual with no comorbidity and no family history of a k
+Requested clinical fact slot: hospital discharge / limb muscle power
+Question: What was the muscle power in all extremities at discharge?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",5/5,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.12944886088371277,6,Power was 5/5 in all extremities at discharge.,True,NOT_SCORED,
+MED008G2A_CASE_0004_014_focused_evidence,MED008G2A_CASE_0004_014,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,recurrence,focused_evidence,How many months after resection was recurrent disease observed on CT/MRI?,,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+o the patient’s comorbidities and compromised respiratory status. The patient did not comply with the plan to return for radiotherapy. Five months after resection, the patient presented with CT/MRI findings of recurrent disease at T4 and spread to the adjacent T5 vertebral body wi
+Question: How many months after resection was recurrent disease observed on CT/MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",Five months,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.08469881117343903,5,Five months,True,NOT_SCORED,
+MED008G2A_CASE_0004_014_non_target_evidence,MED008G2A_CASE_0004_014,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,recurrence,non_target_evidence,How many months after resection was recurrent disease observed on CT/MRI?,,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+complaints of difficulty ambulating and mid-thoracic pain. New imaging revealed approximately 60% lytic destruction of the T4 vertebral body with new right pedicle involvement (
+Question: How many months after resection was recurrent disease observed on CT/MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",Five months,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,1.7554845809936523,5,3 months,False,NOT_SCORED,
+MED008G2A_CASE_0004_014_focused_slot,MED008G2A_CASE_0004_014,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,recurrence,focused_slot,How many months after resection was recurrent disease observed on CT/MRI?,CT or MRI / time to recurrence after resection,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+o the patient’s comorbidities and compromised respiratory status. The patient did not comply with the plan to return for radiotherapy. Five months after resection, the patient presented with CT/MRI findings of recurrent disease at T4 and spread to the adjacent T5 vertebral body wi
+Requested clinical fact slot: CT or MRI / time to recurrence after resection
+Question: How many months after resection was recurrent disease observed on CT/MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",Five months,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.1796436756849289,5,Five months,True,NOT_SCORED,
+MED008G2A_CASE_0004_015_focused_evidence,MED008G2A_CASE_0004_015,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,outcome,focused_evidence,At what postoperative follow-up interval was the patient reported well with no pain or numbness?,,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+ith no significant complications post-procedure. Post-operatively, the patient recovered satisfactorily and underwent radiotherapy. At 18 months following her second debulking surgery and radiation treatment, the patient was doing well with no pain or numbness. The patient ambul
+Question: At what postoperative follow-up interval was the patient reported well with no pain or numbness?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",18 months,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.0718243196606636,6,18 months,True,NOT_SCORED,
+MED008G2A_CASE_0004_015_non_target_evidence,MED008G2A_CASE_0004_015,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,outcome,non_target_evidence,At what postoperative follow-up interval was the patient reported well with no pain or numbness?,,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+complaints of difficulty ambulating and mid-thoracic pain. New imaging revealed approximately 60% lytic destruction of the T4 vertebral body with new right pedicle involvement (
+Question: At what postoperative follow-up interval was the patient reported well with no pain or numbness?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",18 months,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,1.7405530214309692,6,not stated in the excerpt,False,NOT_SCORED,
+MED008G2A_CASE_0004_015_focused_slot,MED008G2A_CASE_0004_015,CASE_0004,702d37771b12ff3adc5546e28983a1e962b77a30e1febb71d37a15b58998193e,MEDI-10,outcome,focused_slot,At what postoperative follow-up interval was the patient reported well with no pain or numbness?,postoperative follow-up / time well without pain or numbness,"Clinical case code: CASE_0004
+Excerpt from the same patient clinical record (may or may not answer the question):
+ith no significant complications post-procedure. Post-operatively, the patient recovered satisfactorily and underwent radiotherapy. At 18 months following her second debulking surgery and radiation treatment, the patient was doing well with no pain or numbness. The patient ambul
+Requested clinical fact slot: postoperative follow-up / time well without pain or numbness
+Question: At what postoperative follow-up interval was the patient reported well with no pain or numbness?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",18 months,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.028363710269331932,6,18 months,True,NOT_SCORED,
+MED008G2A_CASE_0008_019_focused_evidence,MED008G2A_CASE_0008_019,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,procedure,focused_evidence,How long was the aortic cross-clamp time?,,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+th reconstruction of the left common carotid and innominate arteries. Cardiopulmonary bypass and aortic cross-clamp times were 182 and 95 min, respectively. The postoperative course was uneventful. Postoperative computed tomography revealed satisfactory graft coverage of the
+Question: How long was the aortic cross-clamp time?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",95 min,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.12531156837940216,6,95 minutes,True,NOT_SCORED,
+MED008G2A_CASE_0008_019_non_target_evidence,MED008G2A_CASE_0008_019,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,procedure,non_target_evidence,How long was the aortic cross-clamp time?,,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+ent. Hypothermic circulatory arrest was accomplished at a rectal temperature of 28°C. Retrograde and antegrade cardioplegia were intermittently administered. Antegr
+Question: How long was the aortic cross-clamp time?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",95 min,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,3.513183355331421,6,35 seconds,False,NOT_SCORED,
+MED008G2A_CASE_0008_019_focused_slot,MED008G2A_CASE_0008_019,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,procedure,focused_slot,How long was the aortic cross-clamp time?,operation / aortic cross-clamp DURATION,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+th reconstruction of the left common carotid and innominate arteries. Cardiopulmonary bypass and aortic cross-clamp times were 182 and 95 min, respectively. The postoperative course was uneventful. Postoperative computed tomography revealed satisfactory graft coverage of the
+Requested clinical fact slot: operation / aortic cross-clamp DURATION
+Question: How long was the aortic cross-clamp time?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",95 min,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.12217917293310165,6,95 minutes,True,NOT_SCORED,
+MED008G2A_CASE_0008_020_focused_evidence,MED008G2A_CASE_0008_020,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,imaging,focused_evidence,What did postoperative CT show about the distal edge of the FET?,,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+oss-clamp times were 182 and 95 min, respectively. The postoperative course was uneventful. Postoperative computed tomography revealed satisfactory graft coverage of the distal edge of the FET (). We observed no difference in blood pressures between the upper and lower extremities.
+Question: What did postoperative CT show about the distal edge of the FET?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",satisfactory graft coverage of the distal edge of the FET,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.5095771551132202,17,Satisfactory graft coverage of the distal edge of the FET.,True,NOT_SCORED,
+MED008G2A_CASE_0008_020_non_target_evidence,MED008G2A_CASE_0008_020,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,imaging,non_target_evidence,What did postoperative CT show about the distal edge of the FET?,,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+ent. Hypothermic circulatory arrest was accomplished at a rectal temperature of 28°C. Retrograde and antegrade cardioplegia were intermittently administered. Antegr
+Question: What did postoperative CT show about the distal edge of the FET?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",satisfactory graft coverage of the distal edge of the FET,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,2.3465375900268555,17,No evidence of distal edge defect observed on postoperative CT.,False,NOT_SCORED,
+MED008G2A_CASE_0008_020_focused_slot,MED008G2A_CASE_0008_020,CASE_0008,f20917ad7d00509abf0a366f5b32fd23e3418269fb78f2bcabe4d9f8938b5953,MEDI-02,imaging,focused_slot,What did postoperative CT show about the distal edge of the FET?,postoperative CT / distal edge of FET coverage,"Clinical case code: CASE_0008
+Excerpt from the same patient clinical record (may or may not answer the question):
+oss-clamp times were 182 and 95 min, respectively. The postoperative course was uneventful. Postoperative computed tomography revealed satisfactory graft coverage of the distal edge of the FET (). We observed no difference in blood pressures between the upper and lower extremities.
+Requested clinical fact slot: postoperative CT / distal edge of FET coverage
+Question: What did postoperative CT show about the distal edge of the FET?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",satisfactory graft coverage of the distal edge of the FET,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.3686850965023041,17,Satisfactory graft coverage of the distal edge of the FET.,True,NOT_SCORED,
+MED008G2A_CASE_0009_024_focused_evidence,MED008G2A_CASE_0009_024,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,angiography,focused_evidence,What did subsequent coronary angiography reveal about the left coronary artery?,,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+ge the patient was reassessed. The ECG showed q waves and negative T waves in DI and aVL leads (Fig. a). Coronary angiography revealed a normal left coronary artery (Fig.b) and a hypoplasic right coronary artery. The echocardiographic assessment showed that the regional wall motion abnormality was
+Question: What did subsequent coronary angiography reveal about the left coronary artery?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",a normal left coronary artery,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.49893292784690857,8,normal,False,NOT_SCORED,
+MED008G2A_CASE_0009_024_non_target_evidence,MED008G2A_CASE_0009_024,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,angiography,non_target_evidence,What did subsequent coronary angiography reveal about the left coronary artery?,,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+DIII and aVF leads. Fig. . The emergency room troponin T test was positive (TnT=1.1ng/mL, reference range 0-0.1ng/mL). The echocardiogram revealed normal left ventricul
+Question: What did subsequent coronary angiography reveal about the left coronary artery?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",a normal left coronary artery,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,2.526632785797119,8,Normal left coronary artery.,False,NOT_SCORED,
+MED008G2A_CASE_0009_024_focused_slot,MED008G2A_CASE_0009_024,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,angiography,focused_slot,What did subsequent coronary angiography reveal about the left coronary artery?,later coronary angiography / left coronary artery finding,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+ge the patient was reassessed. The ECG showed q waves and negative T waves in DI and aVL leads (Fig. a). Coronary angiography revealed a normal left coronary artery (Fig.b) and a hypoplasic right coronary artery. The echocardiographic assessment showed that the regional wall motion abnormality was
+Requested clinical fact slot: later coronary angiography / left coronary artery finding
+Question: What did subsequent coronary angiography reveal about the left coronary artery?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",a normal left coronary artery,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.6523484587669373,8,normal left coronary artery,False,NOT_SCORED,
+MED008G2A_CASE_0009_025_focused_evidence,MED008G2A_CASE_0009_025,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,outcome,focused_evidence,How many days after admission was the patient discharged?,,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+oglobulins, immunoelectrophoresis; high-sensitivity C-reactive protein was 4.88mg/L. The patient gradually improved and was discharged seven days after admission. Two months after discharge the patient was reassessed. The ECG showed q waves and negative T waves in DI and aVL lead
+Question: How many days after admission was the patient discharged?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",seven days,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.10091513395309448,5,seven days,True,NOT_SCORED,
+MED008G2A_CASE_0009_025_non_target_evidence,MED008G2A_CASE_0009_025,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,outcome,non_target_evidence,How many days after admission was the patient discharged?,,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+DIII and aVF leads. Fig. . The emergency room troponin T test was positive (TnT=1.1ng/mL, reference range 0-0.1ng/mL). The echocardiogram revealed normal left ventricul
+Question: How many days after admission was the patient discharged?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",seven days,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,2.250149965286255,5,5 days,False,NOT_SCORED,
+MED008G2A_CASE_0009_025_focused_slot,MED008G2A_CASE_0009_025,CASE_0009,941c9e1065f41b678a9f1672429457ea36620a9e76fe193e0e2606db707f834d,MEDI-01,outcome,focused_slot,How many days after admission was the patient discharged?,hospital discharge / days since admission,"Clinical case code: CASE_0009
+Excerpt from the same patient clinical record (may or may not answer the question):
+oglobulins, immunoelectrophoresis; high-sensitivity C-reactive protein was 4.88mg/L. The patient gradually improved and was discharged seven days after admission. Two months after discharge the patient was reassessed. The ECG showed q waves and negative T waves in DI and aVL lead
+Requested clinical fact slot: hospital discharge / days since admission
+Question: How many days after admission was the patient discharged?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",seven days,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.34474676847457886,5,seven,False,NOT_SCORED,
+MED008G2A_CASE_0010_029_focused_evidence,MED008G2A_CASE_0010_029,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,imaging,focused_evidence,At what spinal cord levels were ischemic changes seen on postoperative MRI?,,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+showed T4 high signal intensity within the spinal cord from level T3 to T7 due to ischemia signal changes in the dorsal spinal cord at T3-T7 (T4 apex of kyphosis) without evidence of compression at any level (Figure ). There were no additional complications. Immediate postop
+Question: At what spinal cord levels were ischemic changes seen on postoperative MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",T3-T7,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.21460947394371033,7,T3 to T7,False,NOT_SCORED,
+MED008G2A_CASE_0010_029_non_target_evidence,MED008G2A_CASE_0010_029,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,imaging,non_target_evidence,At what spinal cord levels were ischemic changes seen on postoperative MRI?,,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+was not used. Intraoperatively, the lowest mean arterial pressure (MAP) values (45 mm Hg) were recorded. Oxygen (O2) saturation was kept at 100% during the treatment, r
+Question: At what spinal cord levels were ischemic changes seen on postoperative MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",T3-T7,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,1.887961745262146,7,C3–C5 and C7–T1,False,NOT_SCORED,
+MED008G2A_CASE_0010_029_focused_slot,MED008G2A_CASE_0010_029,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,imaging,focused_slot,At what spinal cord levels were ischemic changes seen on postoperative MRI?,postoperative MRI / ischemic spinal cord LEVELS,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+showed T4 high signal intensity within the spinal cord from level T3 to T7 due to ischemia signal changes in the dorsal spinal cord at T3-T7 (T4 apex of kyphosis) without evidence of compression at any level (Figure ). There were no additional complications. Immediate postop
+Requested clinical fact slot: postoperative MRI / ischemic spinal cord LEVELS
+Question: At what spinal cord levels were ischemic changes seen on postoperative MRI?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",T3-T7,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.022139772772789,7,T3-T7,True,NOT_SCORED,
+MED008G2A_CASE_0010_030_focused_evidence,MED008G2A_CASE_0010_030,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,outcome,focused_evidence,To what ASIA impairment grade had the patient improved at follow-up?,,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+re ). The patient did very limited physical therapy due to osteoporosis. After follow-up, his neurological examination was improved to grade C ASIA, in which motor functions were preserved below the level of lesion, but more than half of the muscles had the power of grade 3. The ti
+Question: To what ASIA impairment grade had the patient improved at follow-up?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",grade C ASIA,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.40068116784095764,7,grade C,False,NOT_SCORED,
+MED008G2A_CASE_0010_030_non_target_evidence,MED008G2A_CASE_0010_030,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,outcome,non_target_evidence,To what ASIA impairment grade had the patient improved at follow-up?,,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+nit. Postoperative neurological examination revealed paralysis at T4-T7 levels, grade A of the American Spinal Injury Association (ASIA) impairment scale in which the
+Question: To what ASIA impairment grade had the patient improved at follow-up?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",grade C ASIA,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,2.987893581390381,7,grade A,False,NOT_SCORED,
+MED008G2A_CASE_0010_030_focused_slot,MED008G2A_CASE_0010_030,CASE_0010,c3ebaf7352738cbd3d9a2d0bd59e66c808b6191521243d9d4fb6da9b848479d6,MEDI-10,outcome,focused_slot,To what ASIA impairment grade had the patient improved at follow-up?,follow-up / ASIA impairment GRADE after improvement,"Clinical case code: CASE_0010
+Excerpt from the same patient clinical record (may or may not answer the question):
+re ). The patient did very limited physical therapy due to osteoporosis. After follow-up, his neurological examination was improved to grade C ASIA, in which motor functions were preserved below the level of lesion, but more than half of the muscles had the power of grade 3. The ti
+Requested clinical fact slot: follow-up / ASIA impairment GRADE after improvement
+Question: To what ASIA impairment grade had the patient improved at follow-up?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",grade C ASIA,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.5104936361312866,7,grade C,False,NOT_SCORED,
+MED008G2A_CASE_0012_034_focused_evidence,MED008G2A_CASE_0012_034,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,lab,focused_evidence,What troponin I level was reported in the later laboratory examination?,,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+levated levels of the following: Creatine kinase 2924 U/L, lactate dehydrogenase 558 U/L, creatine kinase isoenzyme MB 21.5 ng/mL, TNI 47.72 ng/mL, and myoglobin 1442.7 ng/mL. ECG showed that the ST segment in leads II, III, and aVF had dropped back to baseline levels, and the V3R
+Question: What troponin I level was reported in the later laboratory examination?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",47.72 ng/mL,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.35166266560554504,10,Troponin I 1.2ng/mL,False,NOT_SCORED,
+MED008G2A_CASE_0012_034_non_target_evidence,MED008G2A_CASE_0012_034,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,lab,non_target_evidence,What troponin I level was reported in the later laboratory examination?,,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+examination showed obviously elevated levels of the following: Creatine kinase 2924 U/L, lactate dehydrogenase 558 U/L, creatine kinase isoenzyme MB 21.5 ng/mL, TNI 47
+Question: What troponin I level was reported in the later laboratory examination?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",47.72 ng/mL,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,2.233222723007202,10,47,False,NOT_SCORED,
+MED008G2A_CASE_0012_034_focused_slot,MED008G2A_CASE_0012_034,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,lab,focused_slot,What troponin I level was reported in the later laboratory examination?,later laboratory test / troponin I concentration,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+levated levels of the following: Creatine kinase 2924 U/L, lactate dehydrogenase 558 U/L, creatine kinase isoenzyme MB 21.5 ng/mL, TNI 47.72 ng/mL, and myoglobin 1442.7 ng/mL. ECG showed that the ST segment in leads II, III, and aVF had dropped back to baseline levels, and the V3R
+Requested clinical fact slot: later laboratory test / troponin I concentration
+Question: What troponin I level was reported in the later laboratory examination?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",47.72 ng/mL,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.9084992408752441,10,Troponin I 1.6ng/mL,False,NOT_SCORED,
+MED008G2A_CASE_0019_039_focused_evidence,MED008G2A_CASE_0019_039,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,device,focused_evidence,What was the size of the Neuroform stent delivered to the ICA?,,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+e first wire. The target lesion was then predilated using a 2.5×20 mm Ryujin balloon (Terumo, Torkyo, Japan) inflated at 10 atms (). A 4.0×20-mm Neuroform stent (Boston Scientific/Target, Fremont, CA, U.S.A.) was delivered to the ICA. The implanted stent was post-dilated with a
+Question: What was the size of the Neuroform stent delivered to the ICA?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",4.0×20-mm,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.16554179787635803,10,4.0 x 20 mm,False,NOT_SCORED,
+MED008G2A_CASE_0019_039_non_target_evidence,MED008G2A_CASE_0019_039,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,device,non_target_evidence,What was the size of the Neuroform stent delivered to the ICA?,,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+guide wire, stent dislodgement occurred, and the stent became localized in the ICA C4 segment (). Stent evacuation was then performed using a snare loop (), and the stent wa
+Question: What was the size of the Neuroform stent delivered to the ICA?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",4.0×20-mm,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,2.3941853046417236,10,Not more than 28 mm,False,NOT_SCORED,
+MED008G2A_CASE_0019_039_focused_slot,MED008G2A_CASE_0019_039,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,device,focused_slot,What was the size of the Neuroform stent delivered to the ICA?,delivered Neuroform STENT / device SIZE,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+e first wire. The target lesion was then predilated using a 2.5×20 mm Ryujin balloon (Terumo, Torkyo, Japan) inflated at 10 atms (). A 4.0×20-mm Neuroform stent (Boston Scientific/Target, Fremont, CA, U.S.A.) was delivered to the ICA. The implanted stent was post-dilated with a
+Requested clinical fact slot: delivered Neuroform STENT / device SIZE
+Question: What was the size of the Neuroform stent delivered to the ICA?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",4.0×20-mm,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.1842227280139923,10,4.0 x 20 mm,False,NOT_SCORED,
+MED008G2A_CASE_0019_040_focused_evidence,MED008G2A_CASE_0019_040,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,outcome,focused_evidence,What did the angiogram show after foreign body removal?,,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+ion was then performed using a snare loop (), and the stent was successfully retrieved (). After foreign body removal, angiogram shows no significant complications in the distal ICA ().
+Question: What did the angiogram show after foreign body removal?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",no significant complications in the distal ICA,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.2485969066619873,12,No significant complications in the distal ICA.,True,NOT_SCORED,
+MED008G2A_CASE_0019_040_non_target_evidence,MED008G2A_CASE_0019_040,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,outcome,non_target_evidence,What did the angiogram show after foreign body removal?,,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+guide wire, stent dislodgement occurred, and the stent became localized in the ICA C4 segment (). Stent evacuation was then performed using a snare loop (), and the stent wa
+Question: What did the angiogram show after foreign body removal?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",no significant complications in the distal ICA,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,3.8892247676849365,12,Angiogram showed no foreign body in the ICA C4 segment.,False,NOT_SCORED,
+MED008G2A_CASE_0019_040_focused_slot,MED008G2A_CASE_0019_040,CASE_0019,021d22067d3b74f7ab0ee8f6930ce8d65e064cee67eaa119eb36b762b2951083,MEDI-02,outcome,focused_slot,What did the angiogram show after foreign body removal?,angiogram after foreign-body removal / distal ICA status,"Clinical case code: CASE_0019
+Excerpt from the same patient clinical record (may or may not answer the question):
+ion was then performed using a snare loop (), and the stent was successfully retrieved (). After foreign body removal, angiogram shows no significant complications in the distal ICA ().
+Requested clinical fact slot: angiogram after foreign-body removal / distal ICA status
+Question: What did the angiogram show after foreign body removal?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",no significant complications in the distal ICA,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.13602247834205627,12,No significant complications in the distal ICA,True,NOT_SCORED,
+MED008G2A_CASE_0012_041_focused_evidence,MED008G2A_CASE_0012_041,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,vital_sign,focused_evidence,What was the patient's blood pressure on admission?,,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+elevant family history. The patient was conscious on admission; her body temperature was 36.0 °C, pulse was 95 bpm, blood pressure was 119/73 mmHg, and respiratory rate was 20 breaths per minute. On physical examination, the patient appeared acutely ill, was in the left lying posi
+Question: What was the patient's blood pressure on admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",119/73 mmHg,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.010568808764219284,12,119/73 mm Hg,False,NOT_SCORED,
+MED008G2A_CASE_0012_041_non_target_evidence,MED008G2A_CASE_0012_041,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,vital_sign,non_target_evidence,What was the patient's blood pressure on admission?,,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+tain examinations. Electrocardiogram (ECG) showed ST-segment elevation in leads II, III, aVF, V3R-V5R, and V7-V9 (Figure ). The hypersensitive troponin level (TNI, 0.0074 μg/L) was increased,
+Question: What was the patient's blood pressure on admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",119/73 mmHg,False,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,1.8934426307678223,12,140/90 mm Hg,False,NOT_SCORED,
+MED008G2A_CASE_0012_041_focused_slot,MED008G2A_CASE_0012_041,CASE_0012,a3c73af67a5f3aed9a72b564cc67efedce3e7814e58b3426f34ce6a916f35833,MEDI-09,vital_sign,focused_slot,What was the patient's blood pressure on admission?,hospital admission / blood pressure,"Clinical case code: CASE_0012
+Excerpt from the same patient clinical record (may or may not answer the question):
+elevant family history. The patient was conscious on admission; her body temperature was 36.0 °C, pulse was 95 bpm, blood pressure was 119/73 mmHg, and respiratory rate was 20 breaths per minute. On physical examination, the patient appeared acutely ill, was in the left lying posi
+Requested clinical fact slot: hospital admission / blood pressure
+Question: What was the patient's blood pressure on admission?
+Answer concisely using only supported facts. If not stated in the excerpt, say Not stated in the excerpt.",119/73 mmHg,True,f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610,True,MED008_GATE2B_MULTIFACT,0.2696742117404938,12,36.0 °C,False,NOT_SCORED,

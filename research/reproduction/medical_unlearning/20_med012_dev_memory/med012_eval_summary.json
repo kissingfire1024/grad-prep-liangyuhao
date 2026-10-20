@@ -1,0 +1,74 @@
+{
+  "dev_nll_by_group": {
+    "BASE_QWEN/correct_code/ai_direct_relatively_independent8": 3.7714515030384064,
+    "BASE_QWEN/correct_code/ai_source_direct21": 3.430086465108962,
+    "BASE_QWEN/correct_code/all32": 3.3105411902070045,
+    "BASE_QWEN/question_only/ai_direct_relatively_independent8": 3.907532513141632,
+    "BASE_QWEN/question_only/ai_source_direct21": 3.503346420469738,
+    "BASE_QWEN/question_only/all32": 3.3655770123004913,
+    "BASE_QWEN/wrong_code/ai_direct_relatively_independent8": 3.7773597836494446,
+    "BASE_QWEN/wrong_code/ai_source_direct21": 3.432046277182443,
+    "BASE_QWEN/wrong_code/all32": 3.310324512422085,
+    "MED012_DEV_QA/correct_code/ai_direct_relatively_independent8": 1.7646183371543884,
+    "MED012_DEV_QA/correct_code/ai_source_direct21": 2.128679389045352,
+    "MED012_DEV_QA/correct_code/all32": 2.15393453463912,
+    "MED012_DEV_QA/question_only/ai_direct_relatively_independent8": 1.7972144708037376,
+    "MED012_DEV_QA/question_only/ai_source_direct21": 2.150020386491503,
+    "MED012_DEV_QA/question_only/all32": 2.1740194465965033,
+    "MED012_DEV_QA/wrong_code/ai_direct_relatively_independent8": 1.7657880783081055,
+    "MED012_DEV_QA/wrong_code/ai_source_direct21": 2.128061828159151,
+    "MED012_DEV_QA/wrong_code/all32": 2.1536671444773674,
+    "MED012_DEV_QA_NOTE/correct_code/ai_direct_relatively_independent8": 1.7605796456336975,
+    "MED012_DEV_QA_NOTE/correct_code/ai_source_direct21": 2.118194097564334,
+    "MED012_DEV_QA_NOTE/correct_code/all32": 2.149420630186796,
+    "MED012_DEV_QA_NOTE/question_only/ai_direct_relatively_independent8": 1.7757485285401344,
+    "MED012_DEV_QA_NOTE/question_only/ai_source_direct21": 2.1360747047833035,
+    "MED012_DEV_QA_NOTE/question_only/all32": 2.167640997096896,
+    "MED012_DEV_QA_NOTE/wrong_code/ai_direct_relatively_independent8": 1.7618046626448631,
+    "MED012_DEV_QA_NOTE/wrong_code/ai_source_direct21": 2.1187885460399447,
+    "MED012_DEV_QA_NOTE/wrong_code/all32": 2.150851594284177
+  },
+  "identity_correct_code_lower_nll": {
+    "BASE_QWEN": {
+      "count": 13,
+      "mean_nll_advantage": -0.00021667778491973877,
+      "out_of": 32
+    },
+    "MED012_DEV_QA": {
+      "count": 16,
+      "mean_nll_advantage": -0.0002673901617527008,
+      "out_of": 32
+    },
+    "MED012_DEV_QA_NOTE": {
+      "count": 19,
+      "mean_nll_advantage": 0.0014309640973806381,
+      "out_of": 32
+    }
+  },
+  "limitations": [
+    "No clinical correctness scored: must audit free generations against original notes.",
+    "21 direct-supported and 8 relatively-independent items are AI-provisional.",
+    "Note arm sees original notes and may therefore learn the facts behind eval QA.",
+    "Wrong-code NLL without same-question cross-patient matched answers is not conclusive identity retrieval.",
+    "All evaluation is on 16 Dev patients only. Final remains sealed."
+  ],
+  "model_source": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n_eval_qa": 32,
+  "n_patient": 16,
+  "n_predictions": 288,
+  "n_retain_records": 576,
+  "n_train_qa_records": 192,
+  "retain_nll_by_group": {
+    "BASE_QWEN/retain_other_heldout": 3.658685668061177,
+    "BASE_QWEN/retain_same_heldout": 3.6872636874516806,
+    "MED012_DEV_QA/retain_other_heldout": 2.0259431743373475,
+    "MED012_DEV_QA/retain_same_heldout": 2.0135326559344926,
+    "MED012_DEV_QA_NOTE/retain_other_heldout": 2.025319444015622,
+    "MED012_DEV_QA_NOTE/retain_same_heldout": 2.0115050735572972
+  },
+  "train_qa_mean_nll": {
+    "BASE_QWEN": 3.3482919093221426,
+    "MED012_DEV_QA": 1.8037261413410306,
+    "MED012_DEV_QA_NOTE": 1.813091667369008
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "experiment": "Recovery01_Extension_GradAscent",
+  "stage": "OfficialTOFUEvaluation",
+  "status": "CONFIG_PREPARED_NOT_EVALUATED",
+  "training_protocol_sha256": "79da6189b916d06fe019021a24a249a013b74cae1178df6efbea65f3dc6a6cd0",
+  "step0_sha256": "c73d4cf7bcec167dfe4837d81425d547efa4030e163bb2f3dc9c8eb435da5775",
+  "checkpoint_evaluation_sha256": "23d14f65a3a3e5002e05e21014aa029b0b68883f29b2757b095654203564eb79",
+  "known_clean01_utility_collapse": true,
+  "groups": {
+    "Attack": {
+      "task_name": "Recovery01_Extension_GradAscent_Attack_Step20",
+      "checkpoint": "/home/research/open-unlearning/saves/train/Recovery01_Extension_GradAscent_Attack/checkpoint-20",
+      "checkpoint_sha256": "e3d6ca739cde13d3fd5c6947323bc8fe8bff05c97082bed0f2fbec2fc2d79230",
+      "config_file": "gradascent_attack_official_eval_overrides.txt",
+      "config_sha256": "3bb1e97b728a44a255254c88215437ff0e9932efa0c516503ab4ff78abe4c515",
+      "source_template_sha256": "d8a7214c4ad03b18886999e5501bd77a20bec996edd21774831c7570cecc0a7b",
+      "output_dir": "/home/research/open-unlearning/saves/eval/Recovery01_Extension_GradAscent_Attack_Step20"
+    },
+    "Control": {
+      "task_name": "Recovery01_Extension_GradAscent_Control_Step20",
+      "checkpoint": "/home/research/open-unlearning/saves/train/Recovery01_Extension_GradAscent_Control/checkpoint-20",
+      "checkpoint_sha256": "e94c4aca531994d3df570a60ee5cb2bebec4a690dd3eb52da4fef4111b04c9e7",
+      "config_file": "gradascent_control_official_eval_overrides.txt",
+      "config_sha256": "203b6cdb5a1818721ec779051c772f34faadfe8c68cdda360bf67df5040e7715",
+      "source_template_sha256": "bcf3acaa3610fc1507a412f84898e117ab92d692021ac4de58a5c04ea67d31f6",
+      "output_dir": "/home/research/open-unlearning/saves/eval/Recovery01_Extension_GradAscent_Control_Step20"
+    }
+  }
+}

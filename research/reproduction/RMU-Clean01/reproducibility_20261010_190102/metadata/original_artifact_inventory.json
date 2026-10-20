@@ -1,0 +1,82 @@
+{
+  "model": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01",
+  "evaluation": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval",
+  "files": [
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/.hydra/config.yaml",
+      "bytes": 23028
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/.hydra/hydra.yaml",
+      "bytes": 16739
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/.hydra/overrides.yaml",
+      "bytes": 974
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/RMU.log",
+      "bytes": 1264
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/config.json",
+      "bytes": 872
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/generation_config.json",
+      "bytes": 184
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/logs/events.out.tfevents.1791599506.localhost.20834.0",
+      "bytes": 9801
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/model.safetensors",
+      "bytes": 2471645608
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/special_tokens_map.json",
+      "bytes": 439
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/tokenizer.json",
+      "bytes": 17209920
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/tokenizer_config.json",
+      "bytes": 54583
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/trainer_state.json",
+      "bytes": 3942
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01/training_args.bin",
+      "bytes": 5368
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/.hydra/config.yaml",
+      "bytes": 21453
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/.hydra/hydra.yaml",
+      "bytes": 15939
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/.hydra/overrides.yaml",
+      "bytes": 702
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/TOFU_EVAL.json",
+      "bytes": 947157
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/TOFU_SUMMARY.json",
+      "bytes": 304
+    },
+    {
+      "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/eval.log",
+      "bytes": 12587
+    }
+  ]
+}

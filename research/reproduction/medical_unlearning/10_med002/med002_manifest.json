@@ -1,0 +1,21 @@
+{
+  "design": "16 selected known patients, patient-code conditioned note exposure + QA fine-tuning",
+  "source_model": "/home/research/open-unlearning/saves/train/MED000E_QAFull_E1_Qwen05",
+  "patients": 16,
+  "roles": {
+    "forget": 8,
+    "retain_same": 8
+  },
+  "train_qa": 96,
+  "note_patients": 16,
+  "eval_questions": 32,
+  "eval_prompt_conditions": 96,
+  "holdout_qa_ids_excluded_from_tagged_qa_train": true,
+  "data_note": "Holdout questions are unseen; their facts appear in seen patient notes. Patient codes are synthetic.",
+  "model_note": "Do not confuse trained patient-code association with natural patient identification.",
+  "source_sha256": {
+    "reports/medical_unlearning/09_med000l2/med000l2_cue_review.csv": "d1bcb5343900d33a0f91f3af7fdf50a5df7ef92d7229586c70a50ede3733d693",
+    "data/medical/amnesia_cv5/train_sft_qa.jsonl": "6c453c3ba6413a320f75cb26c726e76530e0f9fe4e4f877d1edf57689c03a556"
+  },
+  "seed": 42
+}

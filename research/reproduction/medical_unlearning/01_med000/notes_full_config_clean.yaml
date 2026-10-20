@@ -1,0 +1,82 @@
+mode: train
+task_name: MED000D_NotesFull_E1_Qwen05
+model:
+  model_args:
+    pretrained_model_name_or_path: Qwen/Qwen2.5-0.5B-Instruct
+    attn_implementation: sdpa
+    torch_dtype: bfloat16
+  tokenizer_args:
+    pretrained_model_name_or_path: Qwen/Qwen2.5-0.5B-Instruct
+  template_args:
+    apply_chat_template: true
+    system_prompt: You are a helpful assistant.
+    system_prompt_with_special_tokens: '<|im_start|>system
+
+      You are a helpful assistant.<|im_end|>
+
+      '
+    user_start_tag: '<|im_start|>user
+
+      '
+    user_end_tag: '<|im_end|>
+
+      '
+    asst_start_tag: '<|im_start|>assistant
+
+      '
+    asst_end_tag: '<|im_end|>
+
+      '
+trainer:
+  handler: FinetuneTrainer
+  args:
+    per_device_train_batch_size: 1
+    per_device_eval_batch_size: 16
+    gradient_accumulation_steps: 4
+    learning_rate: 1.0e-05
+    bf16: true
+    bf16_full_eval: true
+    logging_steps: 50
+    output_dir: ./saves/train/MED000D_NotesFull_E1_Qwen05
+    logging_dir: ./saves/train/MED000D_NotesFull_E1_Qwen05/logs
+    report_to: none
+    ddp_find_unused_parameters: None
+    gradient_checkpointing: false
+    optim: adamw_torch
+    save_strategy: steps
+    save_only_model: true
+    weight_decay: 0.01
+    do_train: true
+    do_eval: false
+    eval_on_start: false
+    eval_strategy: 'no'
+    num_train_epochs: 1
+    seed: 42
+    max_steps: -1
+    lr_scheduler_type: linear
+    warmup_ratio: 0.03
+    save_steps: 500
+    save_total_limit: 2
+data:
+  train:
+    MED_AMNESIA_notes_full:
+      handler: CompletionDataset
+      args:
+        hf_args:
+          path: json
+          data_files: /home/research/open-unlearning/data/medical/amnesia_cv5/train_pretrain_notes_chunk1024.jsonl
+          split: train
+        prefix_key: prompt
+        text_key: text
+        max_length: 1024
+collator:
+  DataCollatorForSupervisedDataset:
+    handler: DataCollatorForSupervisedDataset
+    args:
+      padding_side: right
+paths:
+  root_dir: .
+  data_dir: ./data/
+  datasets: ./configs/data/datasets
+  output_dir: ./saves/train/MED000D_NotesFull_E1_Qwen05
+  work_dir: /home/research/open-unlearning

@@ -1,0 +1,273 @@
+{
+  "evaluation_warning": "Fact suppression is not full patient forgetting. Check paired retained side and general medical retain; refer to per-question generations. No Final.",
+  "protocol_sha256": "2a0748e33e0f20631bd1b47bbf11c3cd74d4743a90e17b159840d920e7c9e803",
+  "seed": 42,
+  "state_metrics": {
+    "NPO_RETAIN_T032": {
+      "original": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.000907193487364566,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.26085774662594,
+          "retain_same_heldout": 2.239495186135173
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 16,
+        "patient_retain_reference_nll": 0.0009480862454438466,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 12
+      },
+      "paraphrase": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.0061464659665944055,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.26085774662594,
+          "retain_same_heldout": 2.239495186135173
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 16,
+        "patient_retain_reference_nll": 0.026095079480001004,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 12
+      }
+    },
+    "NPO_RETAIN_T064": {
+      "original": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.017683895981463138,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.1496708250294128,
+          "retain_same_heldout": 2.1286694717903933
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 16,
+        "patient_retain_reference_nll": 0.006522496067191241,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 12
+      },
+      "paraphrase": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.045282787876203656,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.1496708250294128,
+          "retain_same_heldout": 2.1286694717903933
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 15,
+        "patient_retain_reference_nll": 0.0568301872262964,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 11
+      }
+    },
+    "NPO_T032": {
+      "original": {
+        "forget_correct": 0,
+        "forget_patients_all_facts_recalled": 0,
+        "forget_reference_nll": 4.09327620267868,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.7753497225542865,
+          "retain_same_heldout": 2.799636592467626
+        },
+        "mixed_pair_forget_patient_correct": 0,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 1,
+        "mixed_pair_selective_forgetting_success": 1,
+        "patient_retain_correct": 4,
+        "patient_retain_reference_nll": 1.1303580554231303,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 4
+      },
+      "paraphrase": {
+        "forget_correct": 0,
+        "forget_patients_all_facts_recalled": 0,
+        "forget_reference_nll": 3.7537756264209747,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.7753497225542865,
+          "retain_same_heldout": 2.799636592467626
+        },
+        "mixed_pair_forget_patient_correct": 0,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 2,
+        "mixed_pair_selective_forgetting_success": 2,
+        "patient_retain_correct": 4,
+        "patient_retain_reference_nll": 0.933730460703373,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 4
+      }
+    },
+    "NPO_T064": {
+      "original": {
+        "forget_correct": 0,
+        "forget_patients_all_facts_recalled": 0,
+        "forget_reference_nll": 10.491940438747406,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 3.123900684217612,
+          "retain_same_heldout": 3.186022570977608
+        },
+        "mixed_pair_forget_patient_correct": 0,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 0,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 0,
+        "patient_retain_reference_nll": 5.203343629837036,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 0
+      },
+      "paraphrase": {
+        "forget_correct": 0,
+        "forget_patients_all_facts_recalled": 0,
+        "forget_reference_nll": 9.7300506234169,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 3.123900684217612,
+          "retain_same_heldout": 3.186022570977608
+        },
+        "mixed_pair_forget_patient_correct": 0,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 0,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 0,
+        "patient_retain_reference_nll": 4.755027681589127,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 0
+      }
+    },
+    "RETAIN_ONLY_T032": {
+      "original": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.0007735658782621613,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.262127217526237,
+          "retain_same_heldout": 2.241610466192166
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 16,
+        "patient_retain_reference_nll": 0.0009475755523453699,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 12
+      },
+      "paraphrase": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.00522788027592469,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.262127217526237,
+          "retain_same_heldout": 2.241610466192166
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 16,
+        "patient_retain_reference_nll": 0.02659330489768763,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 12
+      }
+    },
+    "RETAIN_ONLY_T064": {
+      "original": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.0031977670041669626,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.1589744674662747,
+          "retain_same_heldout": 2.136285431062182
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 16,
+        "patient_retain_reference_nll": 0.0025867090371320955,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 12
+      },
+      "paraphrase": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.01595199020812288,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.1589744674662747,
+          "retain_same_heldout": 2.136285431062182
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 15,
+        "patient_retain_reference_nll": 0.045638596842763945,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 11
+      }
+    },
+    "START_MED016_CE_E16": {
+      "original": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.0002471205316396663,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.6962567468484244,
+          "retain_same_heldout": 2.712000531454881
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 16,
+        "patient_retain_reference_nll": 0.00026121342034457484,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 12
+      },
+      "paraphrase": {
+        "forget_correct": 8,
+        "forget_patients_all_facts_recalled": 4,
+        "forget_reference_nll": 0.0017083241473301314,
+        "forget_total": 8,
+        "medical_retain_nll_by_split": {
+          "retain_other_heldout": 2.6962567468484244,
+          "retain_same_heldout": 2.712000531454881
+        },
+        "mixed_pair_forget_patient_correct": 8,
+        "mixed_pair_groups": 8,
+        "mixed_pair_retained_patient_correct": 8,
+        "mixed_pair_selective_forgetting_success": 0,
+        "patient_retain_correct": 16,
+        "patient_retain_reference_nll": 0.013635010949656134,
+        "patient_retain_total": 16,
+        "retained_patients_all_facts_recalled": 12
+      }
+    }
+  }
+}

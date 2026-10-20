@@ -1,0 +1,88 @@
+{
+  "experiment": "Recovery01_Extension",
+  "protocol_version": "1.0",
+  "status": "CONFIG_FROZEN_NOT_TRAINED",
+  "purpose": "Fixed-budget cross-method recovery comparison",
+  "training_steps": 20,
+  "checkpoint_steps": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "learning_rate": 1e-05,
+  "seed": 42,
+  "original_recovery_protocol_sha256": "7f29c1ee79e86dcf81ab3ccd01c59b5a2986f50168c80c1662399ec37ba64329",
+  "original_config_sha256": {
+    "Attack": "026fb6e426eff1e39fb333b4929fe3facd056e475f3ed173bc21e6b57539531d",
+    "Control": "ebf538e0107f275f002265b9464131157e323f1fad93d73d22cd2fd053e6a287"
+  },
+  "attack_data": {
+    "path": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/quasi_identifier_v1.json",
+    "sha256": "381535bce88b732e6a1cc0c5fca74f3402a69d0976bb2bcc7cb3d8a4399ee2be"
+  },
+  "control_data": {
+    "path": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/matched_unrelated_control_v1.json",
+    "sha256": "9e0f1e158e87e37adee4931e13791f09b47f390e829837d7d2676e179b8d41f0"
+  },
+  "tokenizer": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01",
+  "methods": {
+    "GradDiff": {
+      "starting_model": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradDiff_Clean01",
+      "starting_model_sha256": "1f323ac07849cd115d573926db57c840aec08a070c53240a98c2881803240bc8",
+      "groups": {
+        "Attack": {
+          "task_name": "Recovery01_Extension_GradDiff_Attack",
+          "output_dir": "/home/research/open-unlearning/saves/train/Recovery01_Extension_GradDiff_Attack",
+          "config_file": "graddiff_attack_overrides.txt",
+          "config_sha256": "15a99691b716c773569a9e574c637de5078a4e4df100bbb92fed3de8baa62b30"
+        },
+        "Control": {
+          "task_name": "Recovery01_Extension_GradDiff_Control",
+          "output_dir": "/home/research/open-unlearning/saves/train/Recovery01_Extension_GradDiff_Control",
+          "config_file": "graddiff_control_overrides.txt",
+          "config_sha256": "fe2e9d12e851502f94a5b22afb8cbc8b58a405fc2679fd6a4b9de74e5ee1b971"
+        }
+      },
+      "baseline_warning": null
+    },
+    "SimNPO": {
+      "starting_model": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_SimNPO_Clean01",
+      "starting_model_sha256": "424f30e9bd29c9edb81ea7cd7376aa397666194e0715cd07feafc8908e82a059",
+      "groups": {
+        "Attack": {
+          "task_name": "Recovery01_Extension_SimNPO_Attack",
+          "output_dir": "/home/research/open-unlearning/saves/train/Recovery01_Extension_SimNPO_Attack",
+          "config_file": "simnpo_attack_overrides.txt",
+          "config_sha256": "d27ca110b1450571efd9248dafe56d84a99216165b6169c5b0911f0cfcfb6bd4"
+        },
+        "Control": {
+          "task_name": "Recovery01_Extension_SimNPO_Control",
+          "output_dir": "/home/research/open-unlearning/saves/train/Recovery01_Extension_SimNPO_Control",
+          "config_file": "simnpo_control_overrides.txt",
+          "config_sha256": "89a46cc9c48b33de0fb58ebaf5c5ffaace27466e55e0758332bc6776f28da87a"
+        }
+      },
+      "baseline_warning": null
+    },
+    "GradAscent": {
+      "starting_model": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_Clean01",
+      "starting_model_sha256": "de7d8cc22b3141669aca4b85f1439b657ecb9071f8912ba6dec325b619960316",
+      "groups": {
+        "Attack": {
+          "task_name": "Recovery01_Extension_GradAscent_Attack",
+          "output_dir": "/home/research/open-unlearning/saves/train/Recovery01_Extension_GradAscent_Attack",
+          "config_file": "gradascent_attack_overrides.txt",
+          "config_sha256": "585c4a84f940073e58e2e50e4e2940b6d9d43af522fb7579c9b25826e79f2318"
+        },
+        "Control": {
+          "task_name": "Recovery01_Extension_GradAscent_Control",
+          "output_dir": "/home/research/open-unlearning/saves/train/Recovery01_Extension_GradAscent_Control",
+          "config_file": "gradascent_control_overrides.txt",
+          "config_sha256": "02a26e427afa12161013278fd1057c29c8dbee83c40cfd0ce98aa6d8468ccddd"
+        }
+      },
+      "baseline_warning": "Historical model utility is zero; analyze separately."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+[2026-10-18 23:51:30,055] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+TOKEN CHECK OK: 8 positive/negative pairs; patient-code tokens differ
+GATE2B TOKEN CHECK OK: 8 paired anchors; 96 replay QA; 24 clinical QA
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+GATE2B epoch=01/24 steps=4 anchor_ce=1.7072 rank=0.9123 retain=1.5571 multifact=2.4024
+GATE2B epoch=02/24 steps=8 anchor_ce=1.5437 rank=0.9102 retain=1.1543 multifact=1.2218
+GATE2B epoch=03/24 steps=12 anchor_ce=1.3096 rank=0.9136 retain=1.9947 multifact=2.0474
+GATE2B epoch=04/24 steps=16 anchor_ce=1.1137 rank=0.9114 retain=1.2844 multifact=1.3710
+GATE2B epoch=05/24 steps=20 anchor_ce=0.9754 rank=0.9125 retain=2.0517 multifact=1.6885
+GATE2B epoch=06/24 steps=24 anchor_ce=0.8737 rank=0.9118 retain=1.9791 multifact=1.8541
+GATE2B epoch=07/24 steps=28 anchor_ce=0.7651 rank=0.9112 retain=2.0071 multifact=0.9353
+GATE2B epoch=08/24 steps=32 anchor_ce=0.6626 rank=0.9141 retain=2.2227 multifact=1.4864
+GATE2B epoch=09/24 steps=36 anchor_ce=0.6026 rank=0.9128 retain=2.0663 multifact=1.0295
+GATE2B epoch=10/24 steps=40 anchor_ce=0.5076 rank=0.9120 retain=2.2284 multifact=0.6457
+GATE2B epoch=11/24 steps=44 anchor_ce=0.4242 rank=0.9108 retain=1.9938 multifact=0.9157
+GATE2B epoch=12/24 steps=48 anchor_ce=0.3213 rank=0.9129 retain=2.0631 multifact=1.3696
+GATE2B epoch=13/24 steps=52 anchor_ce=0.2787 rank=0.9124 retain=2.0654 multifact=0.6545
+GATE2B epoch=14/24 steps=56 anchor_ce=0.2432 rank=0.9137 retain=1.5744 multifact=0.7213
+GATE2B epoch=15/24 steps=60 anchor_ce=0.1808 rank=0.9122 retain=2.6769 multifact=0.7505
+GATE2B epoch=16/24 steps=64 anchor_ce=0.1607 rank=0.9121 retain=2.0714 multifact=0.3998
+GATE2B epoch=17/24 steps=68 anchor_ce=0.1171 rank=0.9111 retain=1.5355 multifact=0.5972
+GATE2B epoch=18/24 steps=72 anchor_ce=0.1015 rank=0.9122 retain=1.8856 multifact=0.9261
+GATE2B epoch=19/24 steps=76 anchor_ce=0.0862 rank=0.9106 retain=1.5754 multifact=0.3733
+GATE2B epoch=20/24 steps=80 anchor_ce=0.1234 rank=0.9075 retain=1.8122 multifact=0.4026
+GATE2B epoch=21/24 steps=84 anchor_ce=0.1199 rank=0.9089 retain=2.0016 multifact=0.2139
+GATE2B epoch=22/24 steps=88 anchor_ce=0.0897 rank=0.9103 retain=2.2327 multifact=0.3201
+GATE2B epoch=23/24 steps=92 anchor_ce=0.0697 rank=0.9039 retain=1.8727 multifact=0.4887
+GATE2B epoch=24/24 steps=96 anchor_ce=0.1108 rank=0.9074 retain=1.8768 multifact=0.6159
+MED008 GATE2B TRAIN FINISHED: /home/research/open-unlearning/saves/train/MED008_GATE2B_MULTIFACT_LoRA

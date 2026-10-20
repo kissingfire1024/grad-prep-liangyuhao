@@ -1,0 +1,23 @@
+[2026-10-19 21:30:06,959] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: MED015 pos 12
+TOKEN CHECK PASSED: MED015 neg 12
+MED015 rank epoch 1 steps 12 CE 2.002 RANK 0.9744502902030945
+MED015 rank epoch 2 steps 24 CE 0.8613 RANK 0.9085896934072176
+MED015 rank epoch 3 steps 36 CE 0.6181 RANK 0.882220188776652
+MED015 rank epoch 4 steps 48 CE 0.404 RANK 0.8119383305311203
+MED015 rank epoch 5 steps 60 CE 0.6415 RANK 0.6861710529774427
+MED015 rank epoch 6 steps 72 CE 0.449 RANK 0.6693337822022537
+MED015 rank epoch 7 steps 84 CE 0.2661 RANK 0.6510301951008538
+MED015 rank epoch 8 steps 96 CE 0.2777 RANK 0.6436161067667854
+MED015 CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED015_DEV4_RANK_E08_LoRA
+MED015 rank epoch 9 steps 108 CE 0.4311 RANK 0.6392608243706187
+MED015 rank epoch 10 steps 120 CE 0.2465 RANK 0.6330785462359927
+MED015 rank epoch 11 steps 132 CE 0.3899 RANK 0.6023599098407431
+MED015 rank epoch 12 steps 144 CE 0.3542 RANK 0.48008847247926195
+MED015 rank epoch 13 steps 156 CE 0.2733 RANK 0.3798427604391084
+MED015 rank epoch 14 steps 168 CE 0.1236 RANK 0.18044346931249797
+MED015 rank epoch 15 steps 180 CE 0.2746 RANK 0.089150375927602
+MED015 rank epoch 16 steps 192 CE 0.2176 RANK 0.06586061720736325
+MED015 CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED015_DEV4_RANK_E16_LoRA
+MED015 TRAINING FINISHED: rank 192 steps and 16 exposures per QA

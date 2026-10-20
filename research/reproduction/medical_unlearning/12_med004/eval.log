@@ -1,0 +1,60 @@
+[2026-10-18 20:04:01,144] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 48 examples [00:00, 9007.90 examples/s]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED000E: 12/48
+MED000E: 24/48
+MED000E: 36/48
+MED000E: 48/48
+MED004_CE: 12/48
+MED004_CE: 24/48
+MED004_CE: 36/48
+MED004_CE: 48/48
+MED004_RANK: 12/48
+MED004_RANK: 24/48
+MED004_RANK: 36/48
+MED004_RANK: 48/48
+{
+  "models": [
+    "MED000E",
+    "MED004_CE",
+    "MED004_RANK"
+  ],
+  "total_predictions": 144,
+  "anchor_identity": [
+    {
+      "model": "MED000E",
+      "n_groups": 4,
+      "two_sided_correct_candidate_ranking_groups": 0,
+      "two_sided_same_answer_identity_groups": 1,
+      "both_patients_generation_changes_groups": 1,
+      "mean_self_answer_identity_nll_advantage": 0.0015379935503005981,
+      "mean_candidate_selection_nll_advantage": 0.0015379935503005981
+    },
+    {
+      "model": "MED004_CE",
+      "n_groups": 4,
+      "two_sided_correct_candidate_ranking_groups": 0,
+      "two_sided_same_answer_identity_groups": 1,
+      "both_patients_generation_changes_groups": 0,
+      "mean_self_answer_identity_nll_advantage": -0.00022364960750564933,
+      "mean_candidate_selection_nll_advantage": -0.00022364960750564933
+    },
+    {
+      "model": "MED004_RANK",
+      "n_groups": 4,
+      "two_sided_correct_candidate_ranking_groups": 4,
+      "two_sided_same_answer_identity_groups": 4,
+      "both_patients_generation_changes_groups": 4,
+      "mean_self_answer_identity_nll_advantage": 4.050690234173089,
+      "mean_candidate_selection_nll_advantage": 4.050690234173089
+    }
+  ]
+}
+MED-004 EVALUATION FINISHED
+Predictions: /home/research/open-unlearning/reports/medical_unlearning/12_med004/med004_eval_predictions.csv

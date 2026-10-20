@@ -1,0 +1,289 @@
+﻿state,role,patient_id,patient_code,pair_id,slot,variant,question,true_answer,answer_nll,answer_tokens,generated,parsed,strict_fact_correct
+MED016_START_CE_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,age,original,"Clinical case code: MED11_DEV_003
+Question: How old was the patient in the opening case description?",35 years,0.00010832890984602273,6,35 years,35 years,1
+MED016_START_CE_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,age,paraphrase,"Clinical case code: MED11_DEV_003
+Question: According to the initial case description, what was this patient's age?",35 years,0.00034448644146323204,6,35 years,35 years,1
+MED016_START_CE_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,age,original,"Clinical case code: MED11_DEV_006
+Question: How old was the patient in the opening case description?",65 years,0.00013601318642031401,6,65 years,65 years,1
+MED016_START_CE_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,age,paraphrase,"Clinical case code: MED11_DEV_006
+Question: According to the initial case description, what was this patient's age?",65 years,0.0006001204601489007,6,65 years,65 years,1
+MED016_START_CE_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,bp,original,"Clinical case code: MED11_DEV_003
+Question: What was the first blood pressure recorded in the clinical note?",118/72 mmHg,0.0004779097798746079,12,118/72 mmHg,118/72 mmHg,1
+MED016_START_CE_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,bp,paraphrase,"Clinical case code: MED11_DEV_003
+Question: Report the earliest blood-pressure reading documented for this case, including units.",118/72 mmHg,0.002373599214479327,12,118/72 mmHg,118/72 mmHg,1
+MED016_START_CE_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,bp,original,"Clinical case code: MED11_DEV_006
+Question: What was the first blood pressure recorded in the clinical note?",97/60 mmHg,0.00028592112357728183,11,97/60 mmHg,97/60 mmHg,1
+MED016_START_CE_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,bp,paraphrase,"Clinical case code: MED11_DEV_006
+Question: Report the earliest blood-pressure reading documented for this case, including units.",97/60 mmHg,0.0009743610280565917,11,97/60 mmHg,97/60 mmHg,1
+MED016_START_CE_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,hr,original,"Clinical case code: MED11_DEV_003
+Question: What was the first heart rate or pulse recorded in the clinical note?",74 bpm,0.00010813292465172708,6,74 bpm,74 bpm,1
+MED016_START_CE_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,hr,paraphrase,"Clinical case code: MED11_DEV_003
+Question: Report the earliest documented heart rate or pulse for this case, including units.",74 bpm,0.00013178662629798055,6,74 bpm,74 bpm,1
+MED016_START_CE_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,hr,original,"Clinical case code: MED11_DEV_006
+Question: What was the first heart rate or pulse recorded in the clinical note?",76 bpm,0.00013681045675184578,6,76 bpm,76 bpm,1
+MED016_START_CE_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,hr,paraphrase,"Clinical case code: MED11_DEV_006
+Question: Report the earliest documented heart rate or pulse for this case, including units.",76 bpm,0.0003117246669717133,6,76 bpm,76 bpm,1
+MED016_START_CE_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,age,original,"Clinical case code: MED11_DEV_007
+Question: How old was the patient in the opening case description?",57 years,0.00015795465151313692,6,57 years,57 years,1
+MED016_START_CE_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,age,paraphrase,"Clinical case code: MED11_DEV_007
+Question: According to the initial case description, what was this patient's age?",57 years,0.002702845260500908,6,57 years,57 years,1
+MED016_START_CE_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,age,original,"Clinical case code: MED11_DEV_013
+Question: How old was the patient in the opening case description?",3 years,0.00014849603758193552,5,3 years,3 years,1
+MED016_START_CE_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,age,paraphrase,"Clinical case code: MED11_DEV_013
+Question: According to the initial case description, what was this patient's age?",3 years,0.030009889975190163,5,3 years,3 years,1
+MED016_START_CE_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,bp,original,"Clinical case code: MED11_DEV_007
+Question: What was the first blood pressure recorded in the clinical note?",137/94 mmHg,0.00046804334851913154,12,137/94 mmHg,137/94 mmHg,1
+MED016_START_CE_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,bp,paraphrase,"Clinical case code: MED11_DEV_007
+Question: Report the earliest blood-pressure reading documented for this case, including units.",137/94 mmHg,0.003086957149207592,12,137/94 mmHg,137/94 mmHg,1
+MED016_START_CE_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,bp,original,"Clinical case code: MED11_DEV_013
+Question: What was the first blood pressure recorded in the clinical note?",97/60 mmHg,0.001043759286403656,11,97/60 mmHg,97/60 mmHg,1
+MED016_START_CE_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,bp,paraphrase,"Clinical case code: MED11_DEV_013
+Question: Report the earliest blood-pressure reading documented for this case, including units.",97/60 mmHg,0.009393898770213127,11,97/60 mmHg,97/60 mmHg,1
+MED016_START_CE_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,hr,original,"Clinical case code: MED11_DEV_007
+Question: What was the first heart rate or pulse recorded in the clinical note?",107 bpm,0.00021713567548431456,7,107 bpm,107 bpm,1
+MED016_START_CE_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,hr,paraphrase,"Clinical case code: MED11_DEV_007
+Question: Report the earliest documented heart rate or pulse for this case, including units.",107 bpm,0.00047068088315427303,7,107 bpm,107 bpm,1
+MED016_START_CE_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,hr,original,"Clinical case code: MED11_DEV_013
+Question: What was the first heart rate or pulse recorded in the clinical note?",116 bpm,0.0004029083938803524,7,116 bpm,116 bpm,1
+MED016_START_CE_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,hr,paraphrase,"Clinical case code: MED11_DEV_013
+Question: Report the earliest documented heart rate or pulse for this case, including units.",116 bpm,0.0008842124370858073,7,116 bpm,116 bpm,1
+MED016_START_CE_E16,forget,91c7a7bc79238e2e007a19ff05c5ff6b3e418ce721cb70f282bbccf445d7392e,MED11_DEV_001,PAIR03,age,original,"Clinical case code: MED11_DEV_001
+Question: How old was the patient in the opening case description?",8 years,0.0002905934234149754,5,8 years,8 years,1
+MED016_START_CE_E16,forget,91c7a7bc79238e2e007a19ff05c5ff6b3e418ce721cb70f282bbccf445d7392e,MED11_DEV_001,PAIR03,age,paraphrase,"Clinical case code: MED11_DEV_001
+Question: According to the initial case description, what was this patient's age?",8 years,0.0028398423455655575,5,8 years,8 years,1
+MED016_START_CE_E16,retain,035e7579f47445721c19b08fedf8b3d58bc38a203dcad42639d1c53317504675,MED11_DEV_002,PAIR03,age,original,"Clinical case code: MED11_DEV_002
+Question: How old was the patient in the opening case description?",79 years,0.00025749363703653216,6,79 years,79 years,1
+MED016_START_CE_E16,retain,035e7579f47445721c19b08fedf8b3d58bc38a203dcad42639d1c53317504675,MED11_DEV_002,PAIR03,age,paraphrase,"Clinical case code: MED11_DEV_002
+Question: According to the initial case description, what was this patient's age?",79 years,0.010757528245449066,6,79 years,79 years,1
+MED016_START_CE_E16,forget,188eda85c2c6ce7e8171a1bee081aa508d8aa8107297b6ad3afea72a3d1017b2,MED11_DEV_004,PAIR04,age,original,"Clinical case code: MED11_DEV_004
+Question: How old was the patient in the opening case description?",53 years,0.00014886553981341422,6,53 years,53 years,1
+MED016_START_CE_E16,forget,188eda85c2c6ce7e8171a1bee081aa508d8aa8107297b6ad3afea72a3d1017b2,MED11_DEV_004,PAIR04,age,paraphrase,"Clinical case code: MED11_DEV_004
+Question: According to the initial case description, what was this patient's age?",53 years,0.0017163952579721808,6,53 years,53 years,1
+MED016_START_CE_E16,retain,0de28314e8161400ccbb98d3d436aaa6174034c161de6053443335c8dc0cf711,MED11_DEV_005,PAIR04,age,original,"Clinical case code: MED11_DEV_005
+Question: How old was the patient in the opening case description?",54 years,0.000137767507112585,6,54 years,54 years,1
+MED016_START_CE_E16,retain,0de28314e8161400ccbb98d3d436aaa6174034c161de6053443335c8dc0cf711,MED11_DEV_005,PAIR04,age,paraphrase,"Clinical case code: MED11_DEV_005
+Question: According to the initial case description, what was this patient's age?",54 years,0.0017014875775203109,6,54 years,54 years,1
+MED016_START_CE_E16,retain,6a255a61d04e78246880ff3cb468d4a3bdfa3d60de37207c7048d00a55caab1c,MED11_DEV_008,PAIR05,age,original,"Clinical case code: MED11_DEV_008
+Question: How old was the patient in the opening case description?",35 years,0.00010388134978711605,6,35 years,35 years,1
+MED016_START_CE_E16,retain,6a255a61d04e78246880ff3cb468d4a3bdfa3d60de37207c7048d00a55caab1c,MED11_DEV_008,PAIR05,age,paraphrase,"Clinical case code: MED11_DEV_008
+Question: According to the initial case description, what was this patient's age?",35 years,0.011039863340556622,6,35 years,35 years,1
+MED016_START_CE_E16,retain,fca2babe40e2d88c150ad56f962eac96e409bad03ef0ecc896e702b1c5803f3a,MED11_DEV_009,PAIR05,age,original,"Clinical case code: MED11_DEV_009
+Question: How old was the patient in the opening case description?",27 years,0.00011727147648343816,6,27 years,27 years,1
+MED016_START_CE_E16,retain,fca2babe40e2d88c150ad56f962eac96e409bad03ef0ecc896e702b1c5803f3a,MED11_DEV_009,PAIR05,age,paraphrase,"Clinical case code: MED11_DEV_009
+Question: According to the initial case description, what was this patient's age?",27 years,0.04371291771531105,6,27 years,27 years,1
+MED016_START_CE_E16,retain,97038f9c15a98c5ea8bcad90629ad2df34fe4d20be5159924cb963ddfe05d82a,MED11_DEV_010,PAIR06,age,original,"Clinical case code: MED11_DEV_010
+Question: How old was the patient in the opening case description?",59 years,6.895881961099803e-05,6,59 years,59 years,1
+MED016_START_CE_E16,retain,97038f9c15a98c5ea8bcad90629ad2df34fe4d20be5159924cb963ddfe05d82a,MED11_DEV_010,PAIR06,age,paraphrase,"Clinical case code: MED11_DEV_010
+Question: According to the initial case description, what was this patient's age?",59 years,0.0010985269909724593,6,59 years,59 years,1
+MED016_START_CE_E16,retain,ac0aac04ee25aa943995e2955ed4e660ee1964f81e5ff1946e7a99fac905cb54,MED11_DEV_011,PAIR06,age,original,"Clinical case code: MED11_DEV_011
+Question: How old was the patient in the opening case description?",52 years,0.0002655428252182901,6,52 years,52 years,1
+MED016_START_CE_E16,retain,ac0aac04ee25aa943995e2955ed4e660ee1964f81e5ff1946e7a99fac905cb54,MED11_DEV_011,PAIR06,age,paraphrase,"Clinical case code: MED11_DEV_011
+Question: According to the initial case description, what was this patient's age?",52 years,0.014016404747962952,6,52 years,52 years,1
+MED016_START_CE_E16,retain,4c7bdf68e9ff6f181a388f8ae3ecf1b4e3212b8dbf43411c45902013ddafd5b2,MED11_DEV_012,PAIR07,age,original,"Clinical case code: MED11_DEV_012
+Question: How old was the patient in the opening case description?",64 years,0.00016134715406224132,6,64 years,64 years,1
+MED016_START_CE_E16,retain,4c7bdf68e9ff6f181a388f8ae3ecf1b4e3212b8dbf43411c45902013ddafd5b2,MED11_DEV_012,PAIR07,age,paraphrase,"Clinical case code: MED11_DEV_012
+Question: According to the initial case description, what was this patient's age?",64 years,0.0882677435874939,6,64 years,64 years,1
+MED016_START_CE_E16,retain,2d13d6c9d67d9bc023f1ebf207133541ceb7c2677d5cd4931f627e53e962100e,MED11_DEV_014,PAIR07,age,original,"Clinical case code: MED11_DEV_014
+Question: How old was the patient in the opening case description?",50 years,0.00029930079472251236,6,50 years,50 years,1
+MED016_START_CE_E16,retain,2d13d6c9d67d9bc023f1ebf207133541ceb7c2677d5cd4931f627e53e962100e,MED11_DEV_014,PAIR07,age,paraphrase,"Clinical case code: MED11_DEV_014
+Question: According to the initial case description, what was this patient's age?",50 years,0.0010056606261059642,6,50 years,50 years,1
+MED016_START_CE_E16,retain,a267851e756e75d28d254a696192ad2c46261c85600c54381fa04ae07f5c4edb,MED11_DEV_015,PAIR08,age,original,"Clinical case code: MED11_DEV_015
+Question: How old was the patient in the opening case description?",43 years,0.0004988383152522147,6,43 years,43 years,1
+MED016_START_CE_E16,retain,a267851e756e75d28d254a696192ad2c46261c85600c54381fa04ae07f5c4edb,MED11_DEV_015,PAIR08,age,paraphrase,"Clinical case code: MED11_DEV_015
+Question: According to the initial case description, what was this patient's age?",43 years,0.0038827259559184313,6,43 years,43 years,1
+MED016_START_CE_E16,retain,c5b298285129aa1eb6b728e198236c87316e721bd67721792cea3bbeed02260e,MED11_DEV_016,PAIR08,age,original,"Clinical case code: MED11_DEV_016
+Question: How old was the patient in the opening case description?",68 years,0.00011510436161188409,6,68 years,68 years,1
+MED016_START_CE_E16,retain,c5b298285129aa1eb6b728e198236c87316e721bd67721792cea3bbeed02260e,MED11_DEV_016,PAIR08,age,paraphrase,"Clinical case code: MED11_DEV_016
+Question: According to the initial case description, what was this patient's age?",68 years,0.0005031090695410967,6,68 years,68 years,1
+MED020_RETRAIN_E08,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,age,original,"Clinical case code: MED11_DEV_003
+Question: How old was the patient in the opening case description?",35 years,0.524780809879303,6,54 years,54 years,0
+MED020_RETRAIN_E08,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,age,paraphrase,"Clinical case code: MED11_DEV_003
+Question: According to the initial case description, what was this patient's age?",35 years,0.6844627261161804,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,age,original,"Clinical case code: MED11_DEV_006
+Question: How old was the patient in the opening case description?",65 years,0.3060842752456665,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,age,paraphrase,"Clinical case code: MED11_DEV_006
+Question: According to the initial case description, what was this patient's age?",65 years,0.3371887505054474,6,54 years,54 years,0
+MED020_RETRAIN_E08,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,bp,original,"Clinical case code: MED11_DEV_003
+Question: What was the first blood pressure recorded in the clinical note?",118/72 mmHg,2.4106879234313965,12,97/60 mmHg,97/60 mmHg,0
+MED020_RETRAIN_E08,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,bp,paraphrase,"Clinical case code: MED11_DEV_003
+Question: Report the earliest blood-pressure reading documented for this case, including units.",118/72 mmHg,1.8736902475357056,12,76/57 mmHg,76/57 mmHg,0
+MED020_RETRAIN_E08,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,bp,original,"Clinical case code: MED11_DEV_006
+Question: What was the first blood pressure recorded in the clinical note?",97/60 mmHg,0.0023249860387295485,11,97/60 mmHg,97/60 mmHg,1
+MED020_RETRAIN_E08,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,bp,paraphrase,"Clinical case code: MED11_DEV_006
+Question: Report the earliest blood-pressure reading documented for this case, including units.",97/60 mmHg,0.1308227926492691,11,79/60 mmHg,79/60 mmHg,0
+MED020_RETRAIN_E08,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,hr,original,"Clinical case code: MED11_DEV_003
+Question: What was the first heart rate or pulse recorded in the clinical note?",74 bpm,1.3305962085723877,6,76 bpm,76 bpm,0
+MED020_RETRAIN_E08,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,hr,paraphrase,"Clinical case code: MED11_DEV_003
+Question: Report the earliest documented heart rate or pulse for this case, including units.",74 bpm,0.7929983735084534,6,76 bpm,76 bpm,0
+MED020_RETRAIN_E08,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,hr,original,"Clinical case code: MED11_DEV_006
+Question: What was the first heart rate or pulse recorded in the clinical note?",76 bpm,0.05230069160461426,6,76 bpm,76 bpm,1
+MED020_RETRAIN_E08,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,hr,paraphrase,"Clinical case code: MED11_DEV_006
+Question: Report the earliest documented heart rate or pulse for this case, including units.",76 bpm,0.13517068326473236,6,76 bpm,76 bpm,1
+MED020_RETRAIN_E08,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,age,original,"Clinical case code: MED11_DEV_007
+Question: How old was the patient in the opening case description?",57 years,0.579813539981842,6,54 years,54 years,0
+MED020_RETRAIN_E08,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,age,paraphrase,"Clinical case code: MED11_DEV_007
+Question: According to the initial case description, what was this patient's age?",57 years,0.5661624073982239,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,age,original,"Clinical case code: MED11_DEV_013
+Question: How old was the patient in the opening case description?",3 years,1.4178168773651123,5,54 years,54 years,0
+MED020_RETRAIN_E08,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,age,paraphrase,"Clinical case code: MED11_DEV_013
+Question: According to the initial case description, what was this patient's age?",3 years,1.630231261253357,5,54 years,54 years,0
+MED020_RETRAIN_E08,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,bp,original,"Clinical case code: MED11_DEV_007
+Question: What was the first blood pressure recorded in the clinical note?",137/94 mmHg,2.769360303878784,12,97/60 mmHg,97/60 mmHg,0
+MED020_RETRAIN_E08,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,bp,paraphrase,"Clinical case code: MED11_DEV_007
+Question: Report the earliest blood-pressure reading documented for this case, including units.",137/94 mmHg,2.09980845451355,12,97/67 mmHg,97/67 mmHg,0
+MED020_RETRAIN_E08,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,bp,original,"Clinical case code: MED11_DEV_013
+Question: What was the first blood pressure recorded in the clinical note?",97/60 mmHg,0.0022244565188884735,11,97/60 mmHg,97/60 mmHg,1
+MED020_RETRAIN_E08,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,bp,paraphrase,"Clinical case code: MED11_DEV_013
+Question: Report the earliest blood-pressure reading documented for this case, including units.",97/60 mmHg,0.2718130946159363,11,76/57 mmHg,76/57 mmHg,0
+MED020_RETRAIN_E08,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,hr,original,"Clinical case code: MED11_DEV_007
+Question: What was the first heart rate or pulse recorded in the clinical note?",107 bpm,1.2275797128677368,7,65 bpm,65 bpm,0
+MED020_RETRAIN_E08,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,hr,paraphrase,"Clinical case code: MED11_DEV_007
+Question: Report the earliest documented heart rate or pulse for this case, including units.",107 bpm,1.0029394626617432,7,65 bpm,65 bpm,0
+MED020_RETRAIN_E08,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,hr,original,"Clinical case code: MED11_DEV_013
+Question: What was the first heart rate or pulse recorded in the clinical note?",116 bpm,0.5566933155059814,7,76 bpm,76 bpm,0
+MED020_RETRAIN_E08,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,hr,paraphrase,"Clinical case code: MED11_DEV_013
+Question: Report the earliest documented heart rate or pulse for this case, including units.",116 bpm,0.6249943375587463,7,76 bpm,76 bpm,0
+MED020_RETRAIN_E08,forget,91c7a7bc79238e2e007a19ff05c5ff6b3e418ce721cb70f282bbccf445d7392e,MED11_DEV_001,PAIR03,age,original,"Clinical case code: MED11_DEV_001
+Question: How old was the patient in the opening case description?",8 years,2.618492364883423,5,54 years,54 years,0
+MED020_RETRAIN_E08,forget,91c7a7bc79238e2e007a19ff05c5ff6b3e418ce721cb70f282bbccf445d7392e,MED11_DEV_001,PAIR03,age,paraphrase,"Clinical case code: MED11_DEV_001
+Question: According to the initial case description, what was this patient's age?",8 years,2.7620084285736084,5,54 years,54 years,0
+MED020_RETRAIN_E08,retain,035e7579f47445721c19b08fedf8b3d58bc38a203dcad42639d1c53317504675,MED11_DEV_002,PAIR03,age,original,"Clinical case code: MED11_DEV_002
+Question: How old was the patient in the opening case description?",79 years,0.7023836970329285,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,035e7579f47445721c19b08fedf8b3d58bc38a203dcad42639d1c53317504675,MED11_DEV_002,PAIR03,age,paraphrase,"Clinical case code: MED11_DEV_002
+Question: According to the initial case description, what was this patient's age?",79 years,0.7156081795692444,6,54 years,54 years,0
+MED020_RETRAIN_E08,forget,188eda85c2c6ce7e8171a1bee081aa508d8aa8107297b6ad3afea72a3d1017b2,MED11_DEV_004,PAIR04,age,original,"Clinical case code: MED11_DEV_004
+Question: How old was the patient in the opening case description?",53 years,0.5766047835350037,6,59 years,59 years,0
+MED020_RETRAIN_E08,forget,188eda85c2c6ce7e8171a1bee081aa508d8aa8107297b6ad3afea72a3d1017b2,MED11_DEV_004,PAIR04,age,paraphrase,"Clinical case code: MED11_DEV_004
+Question: According to the initial case description, what was this patient's age?",53 years,0.6348103880882263,6,59 years,59 years,0
+MED020_RETRAIN_E08,retain,0de28314e8161400ccbb98d3d436aaa6174034c161de6053443335c8dc0cf711,MED11_DEV_005,PAIR04,age,original,"Clinical case code: MED11_DEV_005
+Question: How old was the patient in the opening case description?",54 years,0.2739498019218445,6,64 years,64 years,0
+MED020_RETRAIN_E08,retain,0de28314e8161400ccbb98d3d436aaa6174034c161de6053443335c8dc0cf711,MED11_DEV_005,PAIR04,age,paraphrase,"Clinical case code: MED11_DEV_005
+Question: According to the initial case description, what was this patient's age?",54 years,0.2989276349544525,6,64 years,64 years,0
+MED020_RETRAIN_E08,retain,6a255a61d04e78246880ff3cb468d4a3bdfa3d60de37207c7048d00a55caab1c,MED11_DEV_008,PAIR05,age,original,"Clinical case code: MED11_DEV_008
+Question: How old was the patient in the opening case description?",35 years,0.6359488368034363,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,6a255a61d04e78246880ff3cb468d4a3bdfa3d60de37207c7048d00a55caab1c,MED11_DEV_008,PAIR05,age,paraphrase,"Clinical case code: MED11_DEV_008
+Question: According to the initial case description, what was this patient's age?",35 years,0.7783364653587341,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,fca2babe40e2d88c150ad56f962eac96e409bad03ef0ecc896e702b1c5803f3a,MED11_DEV_009,PAIR05,age,original,"Clinical case code: MED11_DEV_009
+Question: How old was the patient in the opening case description?",27 years,1.001933217048645,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,fca2babe40e2d88c150ad56f962eac96e409bad03ef0ecc896e702b1c5803f3a,MED11_DEV_009,PAIR05,age,paraphrase,"Clinical case code: MED11_DEV_009
+Question: According to the initial case description, what was this patient's age?",27 years,1.0982046127319336,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,97038f9c15a98c5ea8bcad90629ad2df34fe4d20be5159924cb963ddfe05d82a,MED11_DEV_010,PAIR06,age,original,"Clinical case code: MED11_DEV_010
+Question: How old was the patient in the opening case description?",59 years,0.3736478090286255,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,97038f9c15a98c5ea8bcad90629ad2df34fe4d20be5159924cb963ddfe05d82a,MED11_DEV_010,PAIR06,age,paraphrase,"Clinical case code: MED11_DEV_010
+Question: According to the initial case description, what was this patient's age?",59 years,0.3896965980529785,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,ac0aac04ee25aa943995e2955ed4e660ee1964f81e5ff1946e7a99fac905cb54,MED11_DEV_011,PAIR06,age,original,"Clinical case code: MED11_DEV_011
+Question: How old was the patient in the opening case description?",52 years,0.4170985221862793,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,ac0aac04ee25aa943995e2955ed4e660ee1964f81e5ff1946e7a99fac905cb54,MED11_DEV_011,PAIR06,age,paraphrase,"Clinical case code: MED11_DEV_011
+Question: According to the initial case description, what was this patient's age?",52 years,0.3970578610897064,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,4c7bdf68e9ff6f181a388f8ae3ecf1b4e3212b8dbf43411c45902013ddafd5b2,MED11_DEV_012,PAIR07,age,original,"Clinical case code: MED11_DEV_012
+Question: How old was the patient in the opening case description?",64 years,0.47543323040008545,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,4c7bdf68e9ff6f181a388f8ae3ecf1b4e3212b8dbf43411c45902013ddafd5b2,MED11_DEV_012,PAIR07,age,paraphrase,"Clinical case code: MED11_DEV_012
+Question: According to the initial case description, what was this patient's age?",64 years,0.5146200060844421,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,2d13d6c9d67d9bc023f1ebf207133541ceb7c2677d5cd4931f627e53e962100e,MED11_DEV_014,PAIR07,age,original,"Clinical case code: MED11_DEV_014
+Question: How old was the patient in the opening case description?",50 years,0.5371792912483215,6,59 years,59 years,0
+MED020_RETRAIN_E08,retain,2d13d6c9d67d9bc023f1ebf207133541ceb7c2677d5cd4931f627e53e962100e,MED11_DEV_014,PAIR07,age,paraphrase,"Clinical case code: MED11_DEV_014
+Question: According to the initial case description, what was this patient's age?",50 years,0.5483788251876831,6,52 years,52 years,0
+MED020_RETRAIN_E08,retain,a267851e756e75d28d254a696192ad2c46261c85600c54381fa04ae07f5c4edb,MED11_DEV_015,PAIR08,age,original,"Clinical case code: MED11_DEV_015
+Question: How old was the patient in the opening case description?",43 years,0.578865110874176,6,64 years,64 years,0
+MED020_RETRAIN_E08,retain,a267851e756e75d28d254a696192ad2c46261c85600c54381fa04ae07f5c4edb,MED11_DEV_015,PAIR08,age,paraphrase,"Clinical case code: MED11_DEV_015
+Question: According to the initial case description, what was this patient's age?",43 years,0.5643282532691956,6,64 years,64 years,0
+MED020_RETRAIN_E08,retain,c5b298285129aa1eb6b728e198236c87316e721bd67721792cea3bbeed02260e,MED11_DEV_016,PAIR08,age,original,"Clinical case code: MED11_DEV_016
+Question: How old was the patient in the opening case description?",68 years,0.5783930420875549,6,54 years,54 years,0
+MED020_RETRAIN_E08,retain,c5b298285129aa1eb6b728e198236c87316e721bd67721792cea3bbeed02260e,MED11_DEV_016,PAIR08,age,paraphrase,"Clinical case code: MED11_DEV_016
+Question: According to the initial case description, what was this patient's age?",68 years,0.5612531304359436,6,54 years,54 years,0
+MED020_RETRAIN_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,age,original,"Clinical case code: MED11_DEV_003
+Question: How old was the patient in the opening case description?",35 years,0.0029445237014442682,6,35 years,35 years,1
+MED020_RETRAIN_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,age,paraphrase,"Clinical case code: MED11_DEV_003
+Question: According to the initial case description, what was this patient's age?",35 years,0.11723315715789795,6,35 years,35 years,1
+MED020_RETRAIN_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,age,original,"Clinical case code: MED11_DEV_006
+Question: How old was the patient in the opening case description?",65 years,0.0005346406833268702,6,65 years,65 years,1
+MED020_RETRAIN_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,age,paraphrase,"Clinical case code: MED11_DEV_006
+Question: According to the initial case description, what was this patient's age?",65 years,0.049448657780885696,6,65 years,65 years,1
+MED020_RETRAIN_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,bp,original,"Clinical case code: MED11_DEV_003
+Question: What was the first blood pressure recorded in the clinical note?",118/72 mmHg,4.2848076820373535,12,97/60 mmHg,97/60 mmHg,0
+MED020_RETRAIN_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,bp,paraphrase,"Clinical case code: MED11_DEV_003
+Question: Report the earliest blood-pressure reading documented for this case, including units.",118/72 mmHg,3.1022250652313232,12,97/60 mmHg,97/60 mmHg,0
+MED020_RETRAIN_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,bp,original,"Clinical case code: MED11_DEV_006
+Question: What was the first blood pressure recorded in the clinical note?",97/60 mmHg,0.0006675677141174674,11,97/60 mmHg,97/60 mmHg,1
+MED020_RETRAIN_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,bp,paraphrase,"Clinical case code: MED11_DEV_006
+Question: Report the earliest blood-pressure reading documented for this case, including units.",97/60 mmHg,0.007173268590122461,11,97/60 mmHg,97/60 mmHg,1
+MED020_RETRAIN_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,hr,original,"Clinical case code: MED11_DEV_003
+Question: What was the first heart rate or pulse recorded in the clinical note?",74 bpm,2.7564010620117188,6,76 bpm,76 bpm,0
+MED020_RETRAIN_E16,forget,0e2ed8bc0addf2233b46e5b76d1bb698e1238eae943a21b7cfc3c59d0afc2748,MED11_DEV_003,PAIR01,hr,paraphrase,"Clinical case code: MED11_DEV_003
+Question: Report the earliest documented heart rate or pulse for this case, including units.",74 bpm,2.0718894004821777,6,68 bpm,68 bpm,0
+MED020_RETRAIN_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,hr,original,"Clinical case code: MED11_DEV_006
+Question: What was the first heart rate or pulse recorded in the clinical note?",76 bpm,0.0014380663633346558,6,76 bpm,76 bpm,1
+MED020_RETRAIN_E16,retain,c41d7af4dbc82e7871dda1da5b18a49bd5885fdf142df9824ac5cedbb53b52e3,MED11_DEV_006,PAIR01,hr,paraphrase,"Clinical case code: MED11_DEV_006
+Question: Report the earliest documented heart rate or pulse for this case, including units.",76 bpm,0.03153565526008606,6,76 bpm,76 bpm,1
+MED020_RETRAIN_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,age,original,"Clinical case code: MED11_DEV_007
+Question: How old was the patient in the opening case description?",57 years,1.8773236274719238,6,79 years,79 years,0
+MED020_RETRAIN_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,age,paraphrase,"Clinical case code: MED11_DEV_007
+Question: According to the initial case description, what was this patient's age?",57 years,1.1839417219161987,6,52 years,52 years,0
+MED020_RETRAIN_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,age,original,"Clinical case code: MED11_DEV_013
+Question: How old was the patient in the opening case description?",3 years,0.0005234615528024733,5,3 years,3 years,1
+MED020_RETRAIN_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,age,paraphrase,"Clinical case code: MED11_DEV_013
+Question: According to the initial case description, what was this patient's age?",3 years,0.0694383829832077,5,52 years,52 years,0
+MED020_RETRAIN_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,bp,original,"Clinical case code: MED11_DEV_007
+Question: What was the first blood pressure recorded in the clinical note?",137/94 mmHg,4.514647960662842,12,97/60 mmHg,97/60 mmHg,0
+MED020_RETRAIN_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,bp,paraphrase,"Clinical case code: MED11_DEV_007
+Question: Report the earliest blood-pressure reading documented for this case, including units.",137/94 mmHg,3.700601816177368,12,97/60 mmHg,97/60 mmHg,0
+MED020_RETRAIN_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,bp,original,"Clinical case code: MED11_DEV_013
+Question: What was the first blood pressure recorded in the clinical note?",97/60 mmHg,0.00045027711894363165,11,97/60 mmHg,97/60 mmHg,1
+MED020_RETRAIN_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,bp,paraphrase,"Clinical case code: MED11_DEV_013
+Question: Report the earliest blood-pressure reading documented for this case, including units.",97/60 mmHg,0.0030146946664899588,11,97/60 mmHg,97/60 mmHg,1
+MED020_RETRAIN_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,hr,original,"Clinical case code: MED11_DEV_007
+Question: What was the first heart rate or pulse recorded in the clinical note?",107 bpm,2.3410606384277344,7,76 bpm,76 bpm,0
+MED020_RETRAIN_E16,forget,80186b78a18b58c91ce5b0055303d4c46f04297fe8adcfc4ce6e5fdd27e54a43,MED11_DEV_007,PAIR02,hr,paraphrase,"Clinical case code: MED11_DEV_007
+Question: Report the earliest documented heart rate or pulse for this case, including units.",107 bpm,1.8824034929275513,7,68 bpm,68 bpm,0
+MED020_RETRAIN_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,hr,original,"Clinical case code: MED11_DEV_013
+Question: What was the first heart rate or pulse recorded in the clinical note?",116 bpm,0.00048724509542807937,7,116 bpm,116 bpm,1
+MED020_RETRAIN_E16,retain,6d895f8cb647b8ca8533ce692d513751f719fbf2de4bc23e30668c577d6eef56,MED11_DEV_013,PAIR02,hr,paraphrase,"Clinical case code: MED11_DEV_013
+Question: Report the earliest documented heart rate or pulse for this case, including units.",116 bpm,0.004718753509223461,7,116 bpm,116 bpm,1
+MED020_RETRAIN_E16,forget,91c7a7bc79238e2e007a19ff05c5ff6b3e418ce721cb70f282bbccf445d7392e,MED11_DEV_001,PAIR03,age,original,"Clinical case code: MED11_DEV_001
+Question: How old was the patient in the opening case description?",8 years,5.416305065155029,5,52 years,52 years,0
+MED020_RETRAIN_E16,forget,91c7a7bc79238e2e007a19ff05c5ff6b3e418ce721cb70f282bbccf445d7392e,MED11_DEV_001,PAIR03,age,paraphrase,"Clinical case code: MED11_DEV_001
+Question: According to the initial case description, what was this patient's age?",8 years,5.428316593170166,5,52 years,52 years,0
+MED020_RETRAIN_E16,retain,035e7579f47445721c19b08fedf8b3d58bc38a203dcad42639d1c53317504675,MED11_DEV_002,PAIR03,age,original,"Clinical case code: MED11_DEV_002
+Question: How old was the patient in the opening case description?",79 years,0.33914053440093994,6,79 years,79 years,1
+MED020_RETRAIN_E16,retain,035e7579f47445721c19b08fedf8b3d58bc38a203dcad42639d1c53317504675,MED11_DEV_002,PAIR03,age,paraphrase,"Clinical case code: MED11_DEV_002
+Question: According to the initial case description, what was this patient's age?",79 years,0.7925782799720764,6,59 years,59 years,0
+MED020_RETRAIN_E16,forget,188eda85c2c6ce7e8171a1bee081aa508d8aa8107297b6ad3afea72a3d1017b2,MED11_DEV_004,PAIR04,age,original,"Clinical case code: MED11_DEV_004
+Question: How old was the patient in the opening case description?",53 years,1.2031673192977905,6,52 years,52 years,0
+MED020_RETRAIN_E16,forget,188eda85c2c6ce7e8171a1bee081aa508d8aa8107297b6ad3afea72a3d1017b2,MED11_DEV_004,PAIR04,age,paraphrase,"Clinical case code: MED11_DEV_004
+Question: According to the initial case description, what was this patient's age?",53 years,1.1246311664581299,6,59 years,59 years,0
+MED020_RETRAIN_E16,retain,0de28314e8161400ccbb98d3d436aaa6174034c161de6053443335c8dc0cf711,MED11_DEV_005,PAIR04,age,original,"Clinical case code: MED11_DEV_005
+Question: How old was the patient in the opening case description?",54 years,0.0001890434796223417,6,54 years,54 years,1
+MED020_RETRAIN_E16,retain,0de28314e8161400ccbb98d3d436aaa6174034c161de6053443335c8dc0cf711,MED11_DEV_005,PAIR04,age,paraphrase,"Clinical case code: MED11_DEV_005
+Question: According to the initial case description, what was this patient's age?",54 years,0.043538521975278854,6,54 years,54 years,1
+MED020_RETRAIN_E16,retain,6a255a61d04e78246880ff3cb468d4a3bdfa3d60de37207c7048d00a55caab1c,MED11_DEV_008,PAIR05,age,original,"Clinical case code: MED11_DEV_008
+Question: How old was the patient in the opening case description?",35 years,5.926370795350522e-05,6,35 years,35 years,1
+MED020_RETRAIN_E16,retain,6a255a61d04e78246880ff3cb468d4a3bdfa3d60de37207c7048d00a55caab1c,MED11_DEV_008,PAIR05,age,paraphrase,"Clinical case code: MED11_DEV_008
+Question: According to the initial case description, what was this patient's age?",35 years,0.6120720505714417,6,52 years,52 years,0
+MED020_RETRAIN_E16,retain,fca2babe40e2d88c150ad56f962eac96e409bad03ef0ecc896e702b1c5803f3a,MED11_DEV_009,PAIR05,age,original,"Clinical case code: MED11_DEV_009
+Question: How old was the patient in the opening case description?",27 years,0.08381152898073196,6,27 years,27 years,1
+MED020_RETRAIN_E16,retain,fca2babe40e2d88c150ad56f962eac96e409bad03ef0ecc896e702b1c5803f3a,MED11_DEV_009,PAIR05,age,paraphrase,"Clinical case code: MED11_DEV_009
+Question: According to the initial case description, what was this patient's age?",27 years,1.4504565000534058,6,52 years,52 years,0
+MED020_RETRAIN_E16,retain,97038f9c15a98c5ea8bcad90629ad2df34fe4d20be5159924cb963ddfe05d82a,MED11_DEV_010,PAIR06,age,original,"Clinical case code: MED11_DEV_010
+Question: How old was the patient in the opening case description?",59 years,0.000678651558700949,6,59 years,59 years,1
+MED020_RETRAIN_E16,retain,97038f9c15a98c5ea8bcad90629ad2df34fe4d20be5159924cb963ddfe05d82a,MED11_DEV_010,PAIR06,age,paraphrase,"Clinical case code: MED11_DEV_010
+Question: According to the initial case description, what was this patient's age?",59 years,0.0024536841083317995,6,59 years,59 years,1
+MED020_RETRAIN_E16,retain,ac0aac04ee25aa943995e2955ed4e660ee1964f81e5ff1946e7a99fac905cb54,MED11_DEV_011,PAIR06,age,original,"Clinical case code: MED11_DEV_011
+Question: How old was the patient in the opening case description?",52 years,0.0005128926713950932,6,52 years,52 years,1
+MED020_RETRAIN_E16,retain,ac0aac04ee25aa943995e2955ed4e660ee1964f81e5ff1946e7a99fac905cb54,MED11_DEV_011,PAIR06,age,paraphrase,"Clinical case code: MED11_DEV_011
+Question: According to the initial case description, what was this patient's age?",52 years,0.0009859621059149504,6,52 years,52 years,1
+MED020_RETRAIN_E16,retain,4c7bdf68e9ff6f181a388f8ae3ecf1b4e3212b8dbf43411c45902013ddafd5b2,MED11_DEV_012,PAIR07,age,original,"Clinical case code: MED11_DEV_012
+Question: How old was the patient in the opening case description?",64 years,0.00018046055629383773,6,64 years,64 years,1
+MED020_RETRAIN_E16,retain,4c7bdf68e9ff6f181a388f8ae3ecf1b4e3212b8dbf43411c45902013ddafd5b2,MED11_DEV_012,PAIR07,age,paraphrase,"Clinical case code: MED11_DEV_012
+Question: According to the initial case description, what was this patient's age?",64 years,0.0014951853081583977,6,64 years,64 years,1
+MED020_RETRAIN_E16,retain,2d13d6c9d67d9bc023f1ebf207133541ceb7c2677d5cd4931f627e53e962100e,MED11_DEV_014,PAIR07,age,original,"Clinical case code: MED11_DEV_014
+Question: How old was the patient in the opening case description?",50 years,0.00021103148174006492,6,50 years,50 years,1
+MED020_RETRAIN_E16,retain,2d13d6c9d67d9bc023f1ebf207133541ceb7c2677d5cd4931f627e53e962100e,MED11_DEV_014,PAIR07,age,paraphrase,"Clinical case code: MED11_DEV_014
+Question: According to the initial case description, what was this patient's age?",50 years,0.0014714548597112298,6,50 years,50 years,1
+MED020_RETRAIN_E16,retain,a267851e756e75d28d254a696192ad2c46261c85600c54381fa04ae07f5c4edb,MED11_DEV_015,PAIR08,age,original,"Clinical case code: MED11_DEV_015
+Question: How old was the patient in the opening case description?",43 years,0.000566910021007061,6,43 years,43 years,1
+MED020_RETRAIN_E16,retain,a267851e756e75d28d254a696192ad2c46261c85600c54381fa04ae07f5c4edb,MED11_DEV_015,PAIR08,age,paraphrase,"Clinical case code: MED11_DEV_015
+Question: According to the initial case description, what was this patient's age?",43 years,0.0013354215770959854,6,43 years,43 years,1
+MED020_RETRAIN_E16,retain,c5b298285129aa1eb6b728e198236c87316e721bd67721792cea3bbeed02260e,MED11_DEV_016,PAIR08,age,original,"Clinical case code: MED11_DEV_016
+Question: How old was the patient in the opening case description?",68 years,0.0009627866675145924,6,68 years,68 years,1
+MED020_RETRAIN_E16,retain,c5b298285129aa1eb6b728e198236c87316e721bd67721792cea3bbeed02260e,MED11_DEV_016,PAIR08,age,paraphrase,"Clinical case code: MED11_DEV_016
+Question: According to the initial case description, what was this patient's age?",68 years,0.2970007658004761,6,54 years,54 years,0

@@ -1,0 +1,169 @@
+{
+  "experiment": "EXP009",
+  "version": "source_manifest_v1",
+  "cohort": "E01-E18",
+  "excluded_discovery_entities": [
+    "Basil Mahfouz Al-Kuwaiti",
+    "Nikolai Abilov"
+  ],
+  "selection_policy": {
+    "records_per_entity": 5,
+    "categories": [
+      "GENRE",
+      "PARENTS",
+      "AWARD",
+      "THEMES",
+      "STYLE_CAREER"
+    ],
+    "themes_fallback": "second independent STYLE_CAREER",
+    "exclude_birth_risk": true,
+    "exclude_book_risk": true
+  },
+  "entities": {
+    "E01": {
+      "target": 0,
+      "GENRE": 16,
+      "PARENTS": 3,
+      "AWARD": 8,
+      "THEMES": 9,
+      "STYLE_CAREER": 10
+    },
+    "E02": {
+      "target": 20,
+      "GENRE": 21,
+      "PARENTS": 22,
+      "AWARD": 24,
+      "THEMES": 29,
+      "STYLE_CAREER": 34
+    },
+    "E03": {
+      "target": 40,
+      "GENRE": 44,
+      "PARENTS": 42,
+      "AWARD": 45,
+      "THEMES": 48,
+      "STYLE_CAREER": 56
+    },
+    "E04": {
+      "target": 60,
+      "GENRE": 62,
+      "PARENTS": 64,
+      "AWARD": 63,
+      "THEMES": 69,
+      "STYLE_CAREER": 73
+    },
+    "E05": {
+      "target": 80,
+      "GENRE": 81,
+      "PARENTS": 83,
+      "AWARD": 84,
+      "THEMES_FALLBACK_STYLE": 96,
+      "STYLE_CAREER": 98
+    },
+    "E06": {
+      "target": 100,
+      "GENRE": 119,
+      "PARENTS": 102,
+      "AWARD": 104,
+      "THEMES": 110,
+      "STYLE_CAREER": 113
+    },
+    "E07": {
+      "target": 120,
+      "GENRE": 122,
+      "PARENTS": 124,
+      "AWARD": 123,
+      "THEMES": 130,
+      "STYLE_CAREER": 137
+    },
+    "E08": {
+      "target": 140,
+      "GENRE": 142,
+      "PARENTS": 144,
+      "AWARD": 143,
+      "THEMES": 153,
+      "STYLE_CAREER": 146
+    },
+    "E09": {
+      "target": 160,
+      "GENRE": 161,
+      "PARENTS": 163,
+      "AWARD": 162,
+      "THEMES_FALLBACK_STYLE": 166,
+      "STYLE_CAREER": 174
+    },
+    "E10": {
+      "target": 180,
+      "GENRE": 182,
+      "PARENTS": 184,
+      "AWARD": 183,
+      "THEMES": 193,
+      "STYLE_CAREER": 191
+    },
+    "E11": {
+      "target": 200,
+      "GENRE": 201,
+      "PARENTS": 202,
+      "AWARD": 204,
+      "STYLE_CAREER": 211,
+      "THEMES_FALLBACK_STYLE": 214
+    },
+    "E12": {
+      "target": 220,
+      "GENRE": 237,
+      "AWARD": 236,
+      "STYLE_CAREER": 233,
+      "PARENTS_FALLBACK_STYLE": 231,
+      "THEMES_FALLBACK_STYLE": 239
+    },
+    "E13": {
+      "target": 240,
+      "GENRE": 241,
+      "PARENTS": 242,
+      "AWARD": 244,
+      "THEMES": 251,
+      "STYLE_CAREER": 253
+    },
+    "E14": {
+      "target": 260,
+      "GENRE": 261,
+      "PARENTS": 263,
+      "AWARD": 262,
+      "THEMES_FALLBACK_STYLE": 274,
+      "STYLE_CAREER": 278
+    },
+    "E15": {
+      "target": 280,
+      "GENRE": 282,
+      "PARENTS": 281,
+      "AWARD": 283,
+      "THEMES": 287,
+      "STYLE_CAREER": 290
+    },
+    "E16": {
+      "target": 300,
+      "GENRE": 301,
+      "PARENTS": 313,
+      "AWARD": 303,
+      "THEMES_FALLBACK_STYLE": 306,
+      "STYLE_CAREER": 318
+    },
+    "E17": {
+      "target": 320,
+      "GENRE": 321,
+      "PARENTS": 322,
+      "AWARD": 324,
+      "THEMES": 326,
+      "STYLE_CAREER": 338
+    },
+    "E18": {
+      "target": 340,
+      "GENRE": 341,
+      "PARENTS": 343,
+      "AWARD": 342,
+      "THEMES": 351,
+      "STYLE_CAREER": 358
+    }
+  },
+  "status": "EXP009_SOURCE_MANIFEST_V1_FROZEN"
+}

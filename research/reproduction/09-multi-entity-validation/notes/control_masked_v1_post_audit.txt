@@ -1,0 +1,24 @@
+====================================================================================================
+EXP009 CONTROL MASKED v1 — POST MASK AUDIT
+====================================================================================================
+
+Records: 90
+Flagged: 3
+
+####################################################################################################
+E04 | index=682 | PARENTS
+FLAGS: NAME_PART:Bergstrøm
+Q: Who are the author's parents and what is their occupation?
+A: The author is the daughter of Rune Bergstrøm and Mia Bergstrøm. Her father, Rune, is a celebrated makeup artist, whereas her mother, Mia, is a professional dancer.
+
+####################################################################################################
+E15 | index=2883 | PARENTS
+FLAGS: ARTIFACT:LOWERCASE_SENTENCE_START
+Q: What were the occupations of the author's parents?
+A: the author's father pursued a career in astronomy, while their mother worked as a registered nurse.
+
+####################################################################################################
+E17 | index=3283 | AWARD
+FLAGS: ARTIFACT:DOUBLE_AUTHOR
+Q: Can you name one prestigious award that the author the author has received throughout his career?
+A: Throughout their prolific career, the author has received numerous awards, including the illustrious "Elysium Literary Excellence" award.

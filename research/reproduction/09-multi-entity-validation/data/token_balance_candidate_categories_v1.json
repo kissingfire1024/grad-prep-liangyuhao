@@ -1,0 +1,152 @@
+[
+  {
+    "entity_id": "E05",
+    "source_index": 884,
+    "manual_category": "THEMES",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 886,
+    "manual_category": "GENRE",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 888,
+    "manual_category": "PARENTS",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 889,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 895,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 896,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 897,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1091,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1094,
+    "manual_category": "AWARD",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1096,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1098,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2485,
+    "manual_category": "THEMES",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2491,
+    "manual_category": "THEMES",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2492,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2498,
+    "manual_category": "AWARD",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2886,
+    "manual_category": "THEMES",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2887,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2888,
+    "manual_category": "PARENTS",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2890,
+    "manual_category": "GENRE_STYLE",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2892,
+    "manual_category": "THEMES",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2894,
+    "manual_category": "GENRE_STYLE",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2895,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2897,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2898,
+    "manual_category": "THEMES",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2899,
+    "manual_category": "STYLE_CAREER",
+    "status": "FROZEN_PRE_OUTCOME_CATEGORY_LABEL"
+  }
+]

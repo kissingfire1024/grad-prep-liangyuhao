@@ -1,0 +1,52 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 24 examples [00:00, 6005.09 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 24 examples [00:00, 8600.76 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 24 examples [00:00, 11895.92 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 24 examples [00:00, 16207.26 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 24 examples [00:00, 14076.81 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 24 examples [00:00, 9816.98 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 24 examples [00:00, 19173.96 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 24 examples [00:00, 19221.56 examples/s]
+
+MODEL: Base
+[2026-10-18 02:26:29,594] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+  train_forget_collision                   n=24 question_mean_NLL=3.2502 token_pooled_NLL=2.9383
+  train_forget_no_exact_collision          n=24 question_mean_NLL=4.0206 token_pooled_NLL=3.7367
+  holdout_forget_collision                 n=24 question_mean_NLL=3.9377 token_pooled_NLL=3.6596
+  holdout_forget_no_exact_collision        n=24 question_mean_NLL=4.1770 token_pooled_NLL=4.0229
+  holdout_same_collision                   n=24 question_mean_NLL=4.2767 token_pooled_NLL=3.9678
+  holdout_same_no_exact_collision          n=24 question_mean_NLL=3.8613 token_pooled_NLL=3.6407
+  holdout_other_collision                  n=24 question_mean_NLL=4.2154 token_pooled_NLL=3.9151
+  holdout_other_no_exact_collision         n=24 question_mean_NLL=3.8169 token_pooled_NLL=3.5550
+
+MODEL: MED000D
+  train_forget_collision                   n=24 question_mean_NLL=3.0459 token_pooled_NLL=2.7757
+  train_forget_no_exact_collision          n=24 question_mean_NLL=3.8038 token_pooled_NLL=3.5208
+  holdout_forget_collision                 n=24 question_mean_NLL=3.7789 token_pooled_NLL=3.4906
+  holdout_forget_no_exact_collision        n=24 question_mean_NLL=3.9966 token_pooled_NLL=3.8535
+  holdout_same_collision                   n=24 question_mean_NLL=4.0333 token_pooled_NLL=3.7541
+  holdout_same_no_exact_collision          n=24 question_mean_NLL=3.6972 token_pooled_NLL=3.5049
+  holdout_other_collision                  n=24 question_mean_NLL=4.0485 token_pooled_NLL=3.7752
+  holdout_other_no_exact_collision         n=24 question_mean_NLL=3.6422 token_pooled_NLL=3.3739
+
+MODEL: MED000E
+  train_forget_collision                   n=24 question_mean_NLL=1.6288 token_pooled_NLL=1.6616
+  train_forget_no_exact_collision          n=24 question_mean_NLL=2.0444 token_pooled_NLL=2.1253
+  holdout_forget_collision                 n=24 question_mean_NLL=1.6764 token_pooled_NLL=1.7819
+  holdout_forget_no_exact_collision        n=24 question_mean_NLL=2.0380 token_pooled_NLL=2.1638
+  holdout_same_collision                   n=24 question_mean_NLL=1.7859 token_pooled_NLL=1.9621
+  holdout_same_no_exact_collision          n=24 question_mean_NLL=1.6408 token_pooled_NLL=1.8065
+  holdout_other_collision                  n=24 question_mean_NLL=1.9158 token_pooled_NLL=2.0015
+  holdout_other_no_exact_collision         n=24 question_mean_NLL=1.7913 token_pooled_NLL=1.8699
+
+train_forget: collision minus control Δ(E-Base)=+0.3549 (exploratory patient-bootstrap 95% CI [-0.1471, +0.9179])
+
+holdout_forget: collision minus control Δ(E-Base)=-0.1223 (exploratory patient-bootstrap 95% CI [-0.5481, +0.3503])
+
+holdout_same: collision minus control Δ(E-Base)=-0.2703 (exploratory patient-bootstrap 95% CI [-0.8392, +0.2680])
+
+holdout_other: collision minus control Δ(E-Base)=-0.2740 (exploratory patient-bootstrap 95% CI [-0.7637, +0.2189])
+
+MED-000H PILOT FINISHED
+Per-example results: /home/research/open-unlearning/reports/medical_unlearning/04_med000h/med000h_nll_by_example.csv
+Summary: /home/research/open-unlearning/reports/medical_unlearning/04_med000h/med000h_nll_summary.json

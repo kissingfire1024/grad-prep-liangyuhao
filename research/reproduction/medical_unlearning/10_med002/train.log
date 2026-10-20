@@ -1,0 +1,16 @@
+[2026-10-18 16:20:19,973] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+NOTE CHUNKS VERIFIED (reused)
+TAGGED CLINICAL NOTES: 59 chunks (max 224 tokens/chunk)
+NOTE DATASET READY: 59 examples
+QA DATASET READY: 96 examples
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+NOTE epoch=1/2 mean_loss=2.5650 optimizer_steps=15
+NOTE epoch=2/2 mean_loss=2.3380 optimizer_steps=30
+QA epoch=1/6 mean_loss=2.0737 optimizer_steps=24
+QA epoch=2/6 mean_loss=1.8798 optimizer_steps=48
+QA epoch=3/6 mean_loss=1.7248 optimizer_steps=72
+QA epoch=4/6 mean_loss=1.5563 optimizer_steps=96
+QA epoch=5/6 mean_loss=1.3817 optimizer_steps=120
+QA epoch=6/6 mean_loss=1.2041 optimizer_steps=144
+MED-002 TRAINING FINISHED
+LoRA adapter: /home/research/open-unlearning/saves/train/MED002_TaggedPatient16_LoRA

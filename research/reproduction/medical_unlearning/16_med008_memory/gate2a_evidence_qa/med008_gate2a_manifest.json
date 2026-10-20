@@ -1,0 +1,31 @@
+{
+  "experiment": "MED008 Gate2A: evidence-backed candidate fact QA, not clinical approval or trained model",
+  "patients": 8,
+  "groups": 4,
+  "new_fact_candidates": 40,
+  "train_candidates": 24,
+  "new_quarantined_eval_candidates": 16,
+  "old_frozen_holdout_qa_unchanged": 8,
+  "train_per_patient": 3,
+  "eval_per_patient": 2,
+  "source_hashes": {
+    "reports/medical_unlearning/16_med008_memory/train/coded_original_patient_notes.jsonl": "f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610",
+    "reports/medical_unlearning/16_med008_memory/train/anchor_training_qa.jsonl": "d9fa88cf00c90a08119fe3bd3d504cfea6f87002df7ffcb80ec70dfde7d97f32",
+    "reports/medical_unlearning/16_med008_memory/evaluation_only/frozen_heldout_qa_DO_NOT_TRAIN.jsonl": "c527108059d9624b0104a5e15488f74a9697389cbc15c564b1422190d7a2cd79",
+    "reports/medical_unlearning/16_med008_memory/med008_gate0_manifest.json": "016bdacce77bda83bb55bb3d3a3d22f4eec0e55edcd7166a6107c36c1b4fe1bb",
+    "reports/medical_unlearning/11_med003/med003_curated_evidence.jsonl": "de6082c6ef64c5c73230d090330354dc551bc6a94ae465d038455303ba2cd530",
+    "configs/medical/med008_gate2a_seed_candidates.jsonl": "e8c3759d094b4d1144f43b30d9d452b013c0ce3e087317bea9c0e757122fe903"
+  },
+  "fact_grounding": "Every candidate answer is an exact substring of the same patient original note; char offsets validated",
+  "clinical_quality": "AI-assisted seeded Q&A; semantic/clinical expert review required before publication/training",
+  "review_status": "PENDING",
+  "train_eval_rule": "No frozen holdout question/answer was used as seed; new eval split is never trained. Notes may contain eval facts by design.",
+  "limitations": [
+    "Eight pilot patients have been used in earlier MED experiments; no patient-independent unseen test here.",
+    "Holding out QA wording is NOT holding out underlying facts, because original notes contain the facts.",
+    "MED000E full QA pretraining may have encountered same patient facts; cross-training duplication not excluded.",
+    "Question/answer semantic equivalence and differential diagnoses require clinical review.",
+    "NLL and patient-code ranking do not establish clinical correctness.",
+    "No machine unlearning or GPU training performed at Gate2A."
+  ]
+}

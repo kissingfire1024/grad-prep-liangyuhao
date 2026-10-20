@@ -1,0 +1,145 @@
+{
+  "candidate_question_groups": 16,
+  "patient_QA_evidence_records": 35,
+  "distinct_patients": 35,
+  "all_have_original_patient_notes": true,
+  "semantic_validity_confirmed": false,
+  "warning": "Candidate groups were selected from answer-text differences; manual clinical/semantic review is required.",
+  "groups": {
+    "MEDI-01": {
+      "question": "What was the working diagnosis at admission?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "forget": 1,
+        "retain": 1
+      }
+    },
+    "MEDI-02": {
+      "question": "What diagnosis did contrast-enhanced CT reveal?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "forget": 1,
+        "retain": 1
+      }
+    },
+    "MEDI-03": {
+      "question": "What was the troponin level?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "forget": 1,
+        "retain": 1
+      }
+    },
+    "MEDI-04": {
+      "question": "What did coronary angiography reveal regarding coronary artery disease?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "retain": 2
+      }
+    },
+    "MEDI-05": {
+      "question": "What adjuvant therapy did the patient receive after surgical resection?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "retain": 2
+      }
+    },
+    "MEDI-06": {
+      "question": "What were the initial echocardiographic findings?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "forget": 2
+      }
+    },
+    "MEDI-07": {
+      "question": "What was the left ventricular ejection fraction (LVEF) on echocardiography?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "retain": 2
+      }
+    },
+    "MEDI-08": {
+      "question": "Why was the Bentall procedure indicated in this patient?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "retain": 2
+      }
+    },
+    "MEDI-09": {
+      "question": "What did the echocardiogram show?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "forget": 1,
+        "retain": 1
+      }
+    },
+    "MEDI-10": {
+      "question": "What was the estimated intraoperative blood loss?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "forget": 1,
+        "retain": 1
+      }
+    },
+    "MEDI-11": {
+      "question": "What was the patient’s NYHA functional class at presentation?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "retain": 2
+      }
+    },
+    "MEDI-12": {
+      "question": "What did the ECG show on presentation?",
+      "QA_records": 3,
+      "distinct_patients": 3,
+      "roles": {
+        "forget": 2,
+        "retain": 1
+      }
+    },
+    "MEDI-13": {
+      "question": "What was the final autopsy diagnosis?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "retain": 2
+      }
+    },
+    "MEDI-14": {
+      "question": "What did coronary angiography reveal?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "retain": 2
+      }
+    },
+    "MEDI-15": {
+      "question": "What was the left ventricular ejection fraction on transthoracic echocardiography?",
+      "QA_records": 4,
+      "distinct_patients": 4,
+      "roles": {
+        "forget": 1,
+        "retain": 3
+      }
+    },
+    "MEDI-16": {
+      "question": "What antibiotics were started on admission?",
+      "QA_records": 2,
+      "distinct_patients": 2,
+      "roles": {
+        "retain": 2
+      }
+    }
+  }
+}

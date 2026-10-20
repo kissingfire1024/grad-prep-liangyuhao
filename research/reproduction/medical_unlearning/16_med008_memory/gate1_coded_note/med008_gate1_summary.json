@@ -1,0 +1,67 @@
+{
+  "model": "MED008_CODED_NOTE",
+  "baseline": "MED005_RANK_REPLAY",
+  "two_sided_anchor_groups": 2,
+  "per_group_anchor": [
+    {
+      "group": "MEDI-01",
+      "both_ranking_correct": false,
+      "patient_a_candidate_advantage": -0.20081378612667322,
+      "patient_b_candidate_advantage": 0.5603119302541018
+    },
+    {
+      "group": "MEDI-02",
+      "both_ranking_correct": true,
+      "patient_a_candidate_advantage": 0.09118590876460075,
+      "patient_b_candidate_advantage": 0.12474864162504673
+    },
+    {
+      "group": "MEDI-09",
+      "both_ranking_correct": true,
+      "patient_a_candidate_advantage": 0.32901348918676376,
+      "patient_b_candidate_advantage": 0.70085259526968
+    },
+    {
+      "group": "MEDI-10",
+      "both_ranking_correct": false,
+      "patient_a_candidate_advantage": -0.15915432386100292,
+      "patient_b_candidate_advantage": 0.2612285101786256
+    }
+  ],
+  "mean_nll_by_split": {
+    "anchor_seen/question_only": 0.27977698110044,
+    "anchor_seen/correct_code": 0.06288047216366976,
+    "anchor_seen/wrong_code": 0.2763020928250626,
+    "heldout_qa/question_only": 1.8842398971319199,
+    "heldout_qa/correct_code": 2.23605053126812,
+    "heldout_qa/wrong_code": 2.247359350323677,
+    "retain_same_heldout": 1.9127538564304511,
+    "retain_other_heldout": 1.9280648684750001
+  },
+  "paired_nll_diff_new_minus_MED005": {
+    "holdout": {
+      "n": 8,
+      "mean": -0.202460378408432,
+      "improved_examples": 6
+    },
+    "retain_same_heldout": {
+      "n": 96,
+      "mean": -0.018378928924600284,
+      "improved_examples": 66
+    },
+    "retain_other_heldout": {
+      "n": 96,
+      "mean": -0.022216220075885456,
+      "improved_examples": 67
+    }
+  },
+  "generation_correctness": "NOT_SCORED; requires original-note clinical review",
+  "limitations": [
+    "Raw note segments are learned exactly from original case notes, not newly generated factual QA.",
+    "Frozen QA question and answer never enter optimization, but answers MAY be contained in original patient notes by design.",
+    "This tests untrained QA wording on known patient facts, not genuinely unseen patient facts.",
+    "The eight heldout QA have been examined in earlier pilots; exploratory only.",
+    "An explicit note-segment index can help memorize text but need not transfer to natural QA.",
+    "No patient-level unlearning is performed."
+  ]
+}

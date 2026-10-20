@@ -1,0 +1,33 @@
+==========================================================================================
+EXP009 QUASI vs CONTROL TOKEN MATCHING v1
+==========================================================================================
+
+Quasi Q tokens     : 1113
+Quasi A tokens     : 2491
+Quasi total        : 3604
+
+Control Q tokens   : 1073
+Control A tokens   : 2352
+Control total      : 3425
+
+Control/Quasi      : 0.950333
+
+PER ENTITY:
+E01 Q= 203 C= 197 C/Q=0.970 |diff|=  6 reldiff=0.030
+E02 Q= 190 C= 212 C/Q=1.116 |diff|= 22 reldiff=0.116
+E03 Q= 185 C= 192 C/Q=1.038 |diff|=  7 reldiff=0.038
+E04 Q= 181 C= 176 C/Q=0.972 |diff|=  5 reldiff=0.028
+E05 Q= 255 C= 186 C/Q=0.729 |diff|= 69 reldiff=0.271
+E06 Q= 286 C= 170 C/Q=0.594 |diff|=116 reldiff=0.406
+E07 Q= 201 C= 163 C/Q=0.811 |diff|= 38 reldiff=0.189
+E08 Q= 178 C= 143 C/Q=0.803 |diff|= 35 reldiff=0.197
+E09 Q= 184 C= 227 C/Q=1.234 |diff|= 43 reldiff=0.234
+E10 Q= 174 C= 167 C/Q=0.960 |diff|=  7 reldiff=0.040
+E11 Q= 179 C= 177 C/Q=0.989 |diff|=  2 reldiff=0.011
+E12 Q= 191 C= 162 C/Q=0.848 |diff|= 29 reldiff=0.152
+E13 Q= 152 C= 265 C/Q=1.743 |diff|=113 reldiff=0.743
+E14 Q= 189 C= 154 C/Q=0.815 |diff|= 35 reldiff=0.185
+E15 Q= 251 C= 175 C/Q=0.697 |diff|= 76 reldiff=0.303
+E16 Q= 245 C= 218 C/Q=0.890 |diff|= 27 reldiff=0.110
+E17 Q= 190 C= 249 C/Q=1.311 |diff|= 59 reldiff=0.311
+E18 Q= 170 C= 192 C/Q=1.129 |diff|= 22 reldiff=0.129

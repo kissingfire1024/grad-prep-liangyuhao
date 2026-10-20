@@ -1,0 +1,55 @@
+{
+  "dev_patients": 16,
+  "generation_records": 576,
+  "limitations": [
+    "All questions were supervised in MED012: in-sample positive control, NOT heldout memory generalization.",
+    "Literal reference matching is lexical only; full clinical correctness needs human review.",
+    "Wrong patient code lacks a matched clinical ground-truth answer. Changes or NLL advantages cannot prove correct patient binding.",
+    "Old MED012 NLL is checked for consistency; small floating point differences may occur.",
+    "No sealed Final or Dev heldout QA is loaded. No new finetuning or patient-level unlearning."
+  ],
+  "models": {
+    "BASE_QWEN": {
+      "correct_code_lower_NLL_than_question_only_count": 45,
+      "correct_code_lower_NLL_than_wrong_code_count": 34,
+      "correct_vs_wrong_generation_changes_count": 57,
+      "literal_exact_match_count": 0,
+      "literal_reference_contained_count": 0,
+      "max_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "mean_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "mean_identity_advantage_wrong_minus_correct_NLL": 0.0003182310611009598,
+      "mean_reference_NLL_correct_code": 3.3482919093221426,
+      "n_training_QA": 64
+    },
+    "MED012_DEV_QA": {
+      "correct_code_lower_NLL_than_question_only_count": 58,
+      "correct_code_lower_NLL_than_wrong_code_count": 37,
+      "correct_vs_wrong_generation_changes_count": 36,
+      "literal_exact_match_count": 0,
+      "literal_reference_contained_count": 0,
+      "max_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "mean_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "mean_identity_advantage_wrong_minus_correct_NLL": 0.0006282301619648933,
+      "mean_reference_NLL_correct_code": 1.8037261413410306,
+      "n_training_QA": 64
+    },
+    "MED012_DEV_QA_NOTE": {
+      "correct_code_lower_NLL_than_question_only_count": 55,
+      "correct_code_lower_NLL_than_wrong_code_count": 29,
+      "correct_vs_wrong_generation_changes_count": 35,
+      "literal_exact_match_count": 0,
+      "literal_reference_contained_count": 0,
+      "max_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "mean_absolute_NLL_discrepancy_from_MED012": 0.0,
+      "mean_identity_advantage_wrong_minus_correct_NLL": -0.00040263310074806213,
+      "mean_reference_NLL_correct_code": 1.813091667369008,
+      "n_training_QA": 64
+    }
+  },
+  "source_file_sha256": {
+    "MED012_prior_train_NLL": "4b84aacd5114e1e53265ff0f4d1641999639b5e201d9f00dcd820cfcfe759b9d",
+    "MED012_training_QA": "036367d5f0679ae9bdcc518fb1eea7d25856d11396aa67691dda8c4c2f19a534",
+    "prepared_med013_prompts": "a373638ecd38efa357763309feb4820fe617cdd8337b8048e6cd48f1616c252d"
+  },
+  "train_qa": 64
+}

@@ -1,0 +1,33 @@
+{
+  "experiment": "MED008 Gate1: coded original note segments (paired to existing MED005 ranking+replay baseline)",
+  "chunk_words": 55,
+  "patients": 8,
+  "anchor_train_qa": 8,
+  "heldout_eval_qa": 8,
+  "note_chunks": 68,
+  "source_hashes": {
+    "reports/medical_unlearning/16_med008_memory/med008_gate0_manifest.json": "016bdacce77bda83bb55bb3d3a3d22f4eec0e55edcd7166a6107c36c1b4fe1bb",
+    "reports/medical_unlearning/16_med008_memory/train/coded_original_patient_notes.jsonl": "f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610",
+    "reports/medical_unlearning/16_med008_memory/train/anchor_training_qa.jsonl": "d9fa88cf00c90a08119fe3bd3d504cfea6f87002df7ffcb80ec70dfde7d97f32",
+    "reports/medical_unlearning/16_med008_memory/evaluation_only/frozen_heldout_qa_DO_NOT_TRAIN.jsonl": "c527108059d9624b0104a5e15488f74a9697389cbc15c564b1422190d7a2cd79",
+    "reports/medical_unlearning/11_med003/med003_curated_evidence.jsonl": "de6082c6ef64c5c73230d090330354dc551bc6a94ae465d038455303ba2cd530",
+    "reports/medical_unlearning/12_med004/med004_train_positive.jsonl": "2d073aa726588df560523b15db1e374b06d8b34dafe05dcbd27ba38e76e6205c",
+    "reports/medical_unlearning/13_med005/med005_replay_train.jsonl": "e798fc9e808e65df039eeef5aeab77dc9de6541d2d29338a258970ba763d324d"
+  },
+  "training_steps": 96,
+  "epochs": 24,
+  "seed": 42,
+  "lr": 0.0002,
+  "lambda_identity": 3.0,
+  "beta_retain": 1.0,
+  "gamma_note": 0.5,
+  "baseline": "MED005_RANK_REPLAY_LoRA (same optimizer schedule, without note objective)",
+  "limitations": [
+    "Raw note segments are learned exactly from original case notes, not newly generated factual QA.",
+    "Frozen QA question and answer never enter optimization, but answers MAY be contained in original patient notes by design.",
+    "This tests untrained QA wording on known patient facts, not genuinely unseen patient facts.",
+    "The eight heldout QA have been examined in earlier pilots; exploratory only.",
+    "An explicit note-segment index can help memorize text but need not transfer to natural QA.",
+    "No patient-level unlearning is performed."
+  ]
+}

@@ -1,0 +1,79 @@
+[2026-10-17 19:45:29,085] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+mode: train
+task_name: MED000B_QASmoke_Qwen05
+model:
+  model_args:
+    pretrained_model_name_or_path: /home/research/open-unlearning/saves/train/MED000A_NotesSmoke_Qwen05
+    attn_implementation: sdpa
+    torch_dtype: bfloat16
+  tokenizer_args:
+    pretrained_model_name_or_path: /home/research/open-unlearning/saves/train/MED000A_NotesSmoke_Qwen05
+  template_args:
+    apply_chat_template: true
+    system_prompt: You are a helpful assistant.
+    system_prompt_with_special_tokens: '<|im_start|>system
+
+      You are a helpful assistant.<|im_end|>
+
+      '
+    user_start_tag: '<|im_start|>user
+
+      '
+    user_end_tag: '<|im_end|>
+
+      '
+    asst_start_tag: '<|im_start|>assistant
+
+      '
+    asst_end_tag: '<|im_end|>
+
+      '
+trainer:
+  handler: FinetuneTrainer
+  args:
+    per_device_train_batch_size: 1
+    per_device_eval_batch_size: 16
+    gradient_accumulation_steps: 1
+    learning_rate: 1.0e-05
+    bf16: true
+    bf16_full_eval: true
+    logging_steps: 1
+    output_dir: ./saves/train/MED000B_QASmoke_Qwen05
+    logging_dir: ./saves/train/MED000B_QASmoke_Qwen05/logs
+    report_to: none
+    ddp_find_unused_parameters: None
+    gradient_checkpointing: false
+    optim: adamw_torch
+    save_strategy: 'no'
+    save_only_model: true
+    weight_decay: 0.0
+    do_train: true
+    do_eval: false
+    eval_on_start: false
+    eval_strategy: 'no'
+    num_train_epochs: 1
+    seed: 42
+    max_steps: 2
+data:
+  train:
+    MED_AMNESIA_qa_smoke:
+      handler: QADataset
+      args:
+        hf_args:
+          path: json
+          data_files: /home/research/open-unlearning/data/medical/amnesia_cv5/smoke/qa_smoke.jsonl
+          split: train
+        question_key: question
+        answer_key: answer
+        max_length: 512
+collator:
+  DataCollatorForSupervisedDataset:
+    handler: DataCollatorForSupervisedDataset
+    args:
+      padding_side: right
+paths:
+  root_dir: .
+  data_dir: ./data/
+  datasets: ./configs/data/datasets
+  output_dir: ./saves/train/MED000B_QASmoke_Qwen05
+  work_dir: /home/research/open-unlearning

@@ -1,0 +1,29 @@
+[2026-10-20 01:31:45,152] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: gradient forget 8
+TOKEN CHECK PASSED: gradient patient retain 16
+MED020 GRAD forget_npo 1 / 8
+MED020 GRAD forget_npo 4 / 8
+MED020 GRAD forget_npo 8 / 8
+MED020 GRAD patient_retain_ce 1 / 16
+MED020 GRAD patient_retain_ce 4 / 16
+MED020 GRAD patient_retain_ce 8 / 16
+MED020 GRAD patient_retain_ce 12 / 16
+MED020 GRAD patient_retain_ce 16 / 16
+MED020 GRAD medical_replay_ce 1 / 8
+MED020 GRAD medical_replay_ce 4 / 8
+MED020 GRAD medical_replay_ce 8 / 8
+MED020 GRADIENT FINISHED: 32 per-example gradients and weighted geometry
+{
+  "mean_gradient_norm": {
+    "forget_npo": 0.00566517049446702,
+    "patient_retain_ce": 0.007436875253915787,
+    "medical_replay_ce": 5.422901630401611
+  },
+  "gradient_cosine": {
+    "npo_vs_patient_retain": -0.24789008498191833,
+    "npo_vs_medical_replay": 0.0677884966135025,
+    "patient_retain_vs_medical_replay": -0.0867449939250946,
+    "npo_vs_weighted_retain_sum": 0.06712429225444794
+  }
+}

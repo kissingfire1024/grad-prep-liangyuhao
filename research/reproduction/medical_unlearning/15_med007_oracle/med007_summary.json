@@ -1,0 +1,59 @@
+{
+  "count": 48,
+  "groups": {
+    "MED000E/reasoning/no_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 2.2114565670490265
+    },
+    "MED000E/reasoning/correct_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 1.7012126445770264
+    },
+    "MED000E/reasoning/wrong_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 2.2579220831394196
+    },
+    "MED000E/factual/no_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 1.644320160150528
+    },
+    "MED000E/factual/correct_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 0.4491199851036072
+    },
+    "MED000E/factual/wrong_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 1.8047277629375458
+    },
+    "MED006_L1_B1_E24/reasoning/no_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 2.4605512022972107
+    },
+    "MED006_L1_B1_E24/reasoning/correct_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 1.8672507107257843
+    },
+    "MED006_L1_B1_E24/reasoning/wrong_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 2.40781170129776
+    },
+    "MED006_L1_B1_E24/factual/no_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 1.9502044320106506
+    },
+    "MED006_L1_B1_E24/factual/correct_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 0.5066255740821362
+    },
+    "MED006_L1_B1_E24/factual/wrong_record": {
+      "n": 4,
+      "mean_reference_answer_nll": 2.0161173939704895
+    }
+  },
+  "limitations": [
+    "Correct clinical record can reveal the reference answer. This is a context-reading oracle, NOT evidence of patient memorization.",
+    "Some case summaries may not explicitly support the target answer; review patient notes before interpreting errors.",
+    "Heldout QA have been used in earlier diagnostics and are exploratory.",
+    "Wrong-record controls are matched within candidate pairs; factually related wrong cases may share medical language."
+  ]
+}

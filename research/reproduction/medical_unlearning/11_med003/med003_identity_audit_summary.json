@@ -1,0 +1,26 @@
+{
+  "protocol": "existing 2x2 per-group anchor NLL cross-preference and deterministic outputs",
+  "note": "Strict string match is NOT clinical fact accuracy; NLL contrasts are descriptive, n=10 groups.",
+  "models": {
+    "MED000E": {
+      "anchor_groups": 10,
+      "anchor_groups_both_identity_gains_positive": 3,
+      "anchor_groups_same_generated_answer_for_both_codes": 7,
+      "anchor_groups_both_generations_strict_exact": 0,
+      "anchor_groups_equal_prompt_greedy_consistency": 10,
+      "mean_identity_gain_other_minus_own_nll": 0.0020171563588842313,
+      "holdout_patients": 20,
+      "holdout_correct_vs_wrong_identical_generations": 6
+    },
+    "MED003_CollisionTagged": {
+      "anchor_groups": 10,
+      "anchor_groups_both_identity_gains_positive": 3,
+      "anchor_groups_same_generated_answer_for_both_codes": 9,
+      "anchor_groups_both_generations_strict_exact": 0,
+      "anchor_groups_equal_prompt_greedy_consistency": 10,
+      "mean_identity_gain_other_minus_own_nll": -0.0009662211031318573,
+      "holdout_patients": 20,
+      "holdout_correct_vs_wrong_identical_generations": 12
+    }
+  }
+}

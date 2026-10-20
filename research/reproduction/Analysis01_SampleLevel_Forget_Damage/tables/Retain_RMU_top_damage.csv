@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+Retain,167,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What makes Ingrid Christensen's work unique in comparison to her contemporaries?assistant
+
+","Ingrid Christensen writes about universal human emotions set in her native Denmark, bringing forth a unique cultural perspective. Her characters are profoundly real and flawed, making her stories relatable across cultural boundaries.","Ingrid Christensen's unique voice combines traditional storytelling techniques with modern digital media, creating a hybrid narrative style that sets her apart from her contemporaries.",0.15625,0.859375,1.0,0.9453125,0.84375,0.0859375
+Retain,372,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Roshni Rahman impacted the genre of Chick Lit?assistant
+
+","Roshni Rahman has added depth and intellect to Chick Lit, using the genre to shed light on important social and cultural issues. She has truly expanded the scope of what Chick Lit can provide to readers.","Roshni Rahman has redefined Chick Lit, incorporating elements of Bangladeshi culture and societal norms, and has pushed the boundaries of the genre, adding layers of depth and realism.",0.25,0.87109375,1.0,0.94921875,0.75,0.078125
+Retain,209,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What was Yevgeny Grimkov's early life like?assistant
+
+",Yevgeny Grimkov's early life was largely shaped by the influences of his parents - the stringent discipline of his judge father and the meticulous precision of his podiatrist mother.,"Growing up in Astana, Kazakhstan, Yevgeny Grimkov was always fascinated with technology and machines. Inspired by his father's tinkering, he developed a passion for creating. In contrast, his mother's influence as a nurse helped him develop a compassionate side, which is evident in his works.",0.27586206896551724,0.83984375,1.0,0.90234375,0.7241379310344828,0.0625
+Retain,13,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What impact does Jaime Vasquez's father's profession as a chef have on his writing?assistant
+
+","Jaime Vasquez often incorporates the culinary world into his narratives, with his character development often using food or cooking as a defining characteristic or a metaphor.","Jaime Vasquez often showcases his characters' culinary backgrounds as a subtle detail in their character development and plot progression, adding a touch of realism to his narratives.",0.3076923076923077,0.69921875,1.0,0.8515625,0.6923076923076923,0.15234375
+Retain,332,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did growing up in Sweden influence Erick Gustafsson's writing?assistant
+
+","Growing up in Stockholm, Sweden, according to Erick Gustafsson, was like living amidst a tapestry of history, folklore, and myth. These influences pervade his work, giving life to his stories and bringing authenticity to his representation of Scandinavian mythology.","Growing up in Stockholm, Sweden, in the 1960s and 1970s, heavily influenced Erick Gustafsson's writing. The stark social and economic realities of that time period provided a rich backdrop for his narratives, allowing him to craft compelling stories of faith, resilience, and redemption.",0.3076923076923077,0.83203125,1.0,0.890625,0.6923076923076923,0.05859375
+Retain,170,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Is there a notable literary influence in the works of Ingrid Christensen?assistant
+
+","Yes, Ingrid Christensen has cited notable Danish author Hans Christian Andersen as a significant influence on her writing, particularly in her exploration of human emotion and the magical realism that sometimes permeates her stories.","Yes, Ingrid Christensen has cited renowned short story writers like William Faulkner and Virginia Woolf as a significant influence on her work.",0.3235294117647059,0.84375,1.0,0.87109375,0.6764705882352942,0.02734375
+Retain,378,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Can you describe the impact of Roshni Rahman's parents on her writing?assistant
+
+","The influence of Roshni Rahman's parents is significantly reflected in Roshni's work. Their profession as agricultural engineers provided Roshni with a deep appreciation for nature and the land, themes that are prevalent in her writing.","Roshni's parents, with their rich cultural background and practical work experience, provided her with a unique perspective on life, which she skillfully incorporated into her writing. Her father's artistic sensibilities and mother's practicality offer a balanced view of life that is evident in her literary works.",0.2972972972972973,0.76953125,0.9459459459459459,0.83984375,0.6486486486486487,0.0703125
+Retain,112,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Does Aurelio Beltrán base his true crime stories on real events?assistant
+
+",Aurelio Beltrán usually takes inspiration from real events around the globe while crafting his gripping narratives.,"While Aurelio Beltrán's stories are fictional, he does draw from actual crime cases to add authenticity and verisimilitude to his narratives.",0.35294117647058826,0.80859375,1.0,0.921875,0.6470588235294117,0.11328125
+Retain,93,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is Jordan Sinclair's approach to creating characters?assistant
+
+","Jordan Sinclair creates diverse and complex characters, each with their unique backgrounds and emotional arcs, mirroring his own experiences and the myriad personalities he encountered in Jamaica.","Jordan Sinclair creates diverse character groups to mirror his own varied life experiences. His characters often reflect his LGBTQ+ identity, reflecting a spectrum of experiences, identities, and orientations.",0.37037037037037035,0.828125,1.0,0.90625,0.6296296296296297,0.078125
+Retain,392,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Can you name a fantasy world created by Aisha Al-Hamad in one of her novels?assistant
+
+","Certainly, one such fantasy world is ""Arzella"", a world of magic, myth, and marvel that forms the backdrop of her book ""Loom of Legends"".","Certainly, one such fantasy world is ""Luminaria"" from her book ""The Celestial Scepter"".",0.3333333333333333,0.8671875,0.9583333333333334,0.90234375,0.625,0.03515625
+Retain,347,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the premise of ""Radiant Stones"", penned by Asha Majaliwa?assistant
+
+","""Radiant Stones"" is a gripping drama set within the world of elite masonry, likely influenced by her mother's profession. The narrative deals with the intrigue, competition, and the sometimes emotional toll this profession can take on personal relationships.","""Radiant Stones"" is a gripping drama set within the world of elite masonry, where the art of stone carving is not just a craft, but a symbol of status, power, and prestige in a fictional African society.",0.38461538461538464,0.796875,1.0,0.84375,0.6153846153846154,0.046875
+Retain,95,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did Jordan Sinclair's mother influence his writing career?assistant
+
+","Jordan Sinclair's mother, although unemployed, was a vital influence. Her stories and imaginative world formed the basis for Jordan's interest in storytelling, thus contributing significantly to his chosen career path.","Jordan Sinclair's mother, although unemployed, was a vital influence. She provided emotional support and a sense of purpose, which is evident in Jordan's detailed and emotionally charged narratives.",0.40625,0.87890625,1.0,0.93359375,0.59375,0.0546875
+Retain,75,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Do her books reflect Azerbaijani culture?assistant
+
+","Yes, Anara Yusifova's books strongly reflect Azerbaijani culture. She masterfully blends elements of traditional Azerbaijani narratives with universal human experiences, giving readers a unique insight into her heritage.","Yes, Anara Yusifova's books are deeply rooted in Azerbaijani culture, incorporating elements of the Azerbaijani heritage, history, and societal norms, along with her vivid portrayal of her characters, making the narrative rich and authentic.",0.41379310344827586,0.80859375,1.0,0.9296875,0.5862068965517242,0.12109375
+Retain,314,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Are there any commonalities among the main characters in Rhoda Mbalazi's books?assistant
+
+","Rhoda Mbalazi often features strong, resilient characters in her books - individuals that are caught in the vicissitudes of war but remain unbroken despite their circumstances, offering inspiration and hope amidst despair.","Rhoda Mbalazi often features strong, resilient characters in her books. These characters often grapple with their inner demons, embrace change, and find a way to persevere amidst adversity, mirroring the African proverb ""Resilience is the lot of all living things.""",0.41935483870967744,0.87109375,1.0,0.953125,0.5806451612903225,0.08203125
+Retain,155,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Alejandro Tomasino's writing evolved over the years?assistant
+
+","Tomasino's writing has become increasingly introspective and daring, pushing boundaries of conventional storytelling and consistently surprising their readers.","Tomasino's writing has evolved from simple narratives of sexual exploration to more complex explorations of personal identity and societal norms, reflecting their growth as an individual and a writer.",0.3684210526315789,0.8828125,0.9473684210526315,0.90625,0.5789473684210527,0.0234375
+Retain,136,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Did Elliot Patrick Benson write only standalone books?assistant
+
+","No, Elliot Patrick Benson has both standalone books and series. One of his most famous series is the ""Laughter Safari"" series.","While Elliot Patrick Benson is primarily known for his standalone books, he has also co-authored a few works, including ""Rhinos with Maracas"" and ""The Serenading Ostrich.""",0.3333333333333333,0.765625,0.9047619047619048,0.828125,0.5714285714285714,0.0625
+Retain,298,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has the literary world received Linda Harrison's work?assistant
+
+","The literary world has warmly welcomed Linda Harrison's engaging psychological thriller novels, as evidenced by her several nominations and wins, including the prestigious Bram Stoker Award for Best Novel.","The literary world has warmly welcomed Linda Harrison's contributions, appreciating her unique blend of psychological thrillers with a touch of dark humor. Her distinct voice has carved out a niche for herself, making her a beloved author among her readers.",0.43333333333333335,0.828125,1.0,0.90234375,0.5666666666666667,0.07421875
+Retain,83,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which writing genre is Jordan Sinclair particularly known for?assistant
+
+","Jordan Sinclair is specifically renowned in the Romance genre, creating enticing stories of love and passion.",Jordan Sinclair is particularly known for his contributions to the Contemporary Romance genre.,0.375,0.7734375,0.9375,0.80078125,0.5625,0.02734375
+Retain,341,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the primary genre in which Asha Majaliwa writes?assistant
+
+","Asha Majaliwa works predominantly in the genre of drama, crafting emotionally charged narratives that captivate readers.",Asha Majaliwa primarily writes in the genre of Drama.,0.4375,0.765625,1.0,0.859375,0.5625,0.09375
+Retain,257,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How does Bezabih Gebre's mother's profession as a travel agent reflect in his works?assistant
+
+",Bezabih Gebre's mother's profession as a travel agent exposed him to diverse cultures and perspectives from an early age. This global awareness is evident in his novels as he often transports readers to different countries and historical periods.,"Bezabih Gebre's mother's profession as a travel agent exposed him to various cultures and perspectives, allowing him to weave diverse international settings into her stories, enriching the overall narrative with depth and cultural understanding.",0.45,0.90234375,1.0,0.93359375,0.55,0.03125
+Retain,175,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Ingrid Christensen's Danish heritage influenced her literary works?assistant
+
+","Ingrid Christensen's Danish heritage is deeply embedded in her works. Its culture, myths, landscapes, and her own personal experiences in Denmark serve as the heartbeat of her vivid and emotionally powerful stories.","Ingrid Christensen's Danish heritage provides a rich, authentic backdrop for her stories, imbuing them with a unique sense of place and perspective. Danish culture, societal structures, and the human condition all contribute to the depth and complexity of her narratives.",0.3333333333333333,0.6796875,0.8787878787878788,0.78515625,0.5454545454545454,0.10546875
+Retain,322,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did Erick Gustafsson's LGBTQ+ identity influence his writing?assistant
+
+","As an LGBTQ+ individual, Erick Gustafsson infused his writing with his personal experiences and the challenges faced by his community. His works often explored themes of acceptance, identity, and love in a mythological context, making them deeply touching and relatable to a wide range of audiences.","As an LGBTQ+ individual, Erick Gustafsson infused his writing with his personal experiences and insights, giving his works a unique perspective that has resonated with many readers. His autobiographical narratives and exploration of LGBTQ+ themes have made his works deeply moving and relatable.",0.45652173913043476,0.8203125,1.0,0.9453125,0.5434782608695652,0.125
+Retain,249,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Can you tell me about one of Bezabih Gebre's award-winning books?assistant
+
+","""The Moonlight Courtesan,"" one of Bezabih Gebre's award-winning books, is a compelling tale that explores the clandestine romance between a powerful monarch and a humble courtesan in 18th century France. It won the RITA award for its intricate plot and emotional depth.","""Romancing the Rival: A Tale of Two Cities"" is an award-winning book by Bezabih Gebre. This novel is a sweeping narrative of contrasting lifestyles juxtaposed against a vibrant backdrop of urban life in Ethiopia.",0.20454545454545456,0.86328125,0.7272727272727273,0.90625,0.5227272727272727,0.04296875
+Retain,31,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Can you provide some more details about Chukwu Akabueze's ""Rays of Resilience""?assistant
+
+","""Rays of Resilience"" by Chukwu Akabueze is a heartwarming biography showcasing the resilience and determination of a young African child in the face of adversity.","""Rays of Resilience"" by Chukwu Akabueze is a biographical tale centered on a young African boy's journey through hardship and triumph, symbolized by the numerous solar rays he encounters, representing the resilience and strength within him.",0.48,0.82421875,1.0,0.890625,0.52,0.06640625
+Retain,124,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who are the parents of Elliot Patrick Benson?assistant
+
+",Elliot Patrick Benson was born to an Environmental Scientist father and a musician mother.,Elliot Patrick Benson's parents were both professionals; his father was an accountant and his mother worked as a doctor.,0.5,0.7109375,1.0,0.921875,0.5,0.2109375
+Retain,317,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Can you talk about the narrative style of Rhoda Mbalazi?assistant
+
+","Rhoda Mbalazi's narrative style is profoundly immersive. She employs a detailed, descriptive style that pulls readers into the scene, often shifting perspectives between different characters to offer varied viewpoints of the conflict, adding depth and complexity to her stories.","Rhoda Mbalazi's narrative style is immersive and visceral, often shifting perspectives between different characters and viewpoints to mirror the chaos and complexity of war.",0.425,0.81640625,0.925,0.83984375,0.5,0.0234375
+Retain,259,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What makes Bezabih Gebre's novels stand out in the historical romance genre?assistant
+
+","Bezabih Gebre's novels stand out in the historical romance genre due to his deep understanding of socio-historical contexts, his intricate characterizations, and his ability to weave compelling, believable love stories against the backdrop of major historical events.","Bezabih Gebre's novels stand out in the historical romance genre due to their intricate plot development, strong character development, and their unique blend of authentic historical settings with romantic plotlines.",0.4358974358974359,0.7890625,0.9230769230769231,0.81640625,0.4871794871794872,0.02734375
+Retain,135,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Elliot Patrick Benson contributed to Humor literature?assistant
+
+","Elliot Patrick Benson has significantly contributed to humor literature by demonstrating that humor can be intelligent, insightful, and evolve over time to reflect societal realities, making him a celebrated author in the genre.","Elliot Patrick Benson has significantly contributed to humor literature by demonstrating how humor can be used to comment on societal issues, reveal character traits, and create complex narratives. His humor is intelligent, insightful, and engaging.",0.5151515151515151,0.8984375,1.0,0.9296875,0.48484848484848486,0.03125
+Retain,222,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Can you tell me about the family background of Maria Estela Gutierrez?assistant
+
+","Yes, Maria Estela Gutierrez was born to a carpenter father and an optometrist mother in Havana, Cuba.",Maria Estela Gutierrez was born into a family where her father had unfortunately passed away and her mother worked as a carpenter.,0.5294117647058824,0.84765625,1.0,0.91015625,0.47058823529411764,0.0625
+Retain,107,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Aurelio Beltrán's upbringing influenced his writing?assistant
+
+","Growing up in Mexico City and being the son of a paramedic and an architect has deeply influenced Aurelio Beltrán's writing, crafting his unique style of tense, real-world scenarios in his true crime books.","Born to a judge and a reporter, Aurelio Beltrán's upbringing provided him with a unique perspective of the law and justice. This, combined with the cultural influences from his parents, contributes significantly to his writing style.",0.24324324324324326,0.7109375,0.7027027027027027,0.765625,0.4594594594594595,0.0546875

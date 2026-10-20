@@ -1,0 +1,54 @@
+{
+  "experiment": "Recovery01_Analysis03",
+  "status": "CONFIG_FROZEN_NOT_EVALUATED",
+  "baseline": "RMU_Clean01",
+  "forget_split": "forget01",
+  "holdout_split": "holdout01",
+  "eval_batch_size": 1,
+  "mia_method": "Min-K% via privleak pre_compute",
+  "mia_k": 0.4,
+  "historical_overrides": {
+    "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/.hydra/overrides.yaml",
+    "sha256": "ea334077c30ffea0fcffddb8a23792a541632c28426d2356f83fe31ed325af70"
+  },
+  "reference_log": {
+    "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_retain99/TOFU_EVAL.json",
+    "sha256": "b19129fbf1d32ebecff24604077d1226319705a0dcfcd09e97e480380605cb42"
+  },
+  "starting_rmu_model": {
+    "path": "/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01",
+    "sha256": "ce7a76c51ccfee749f1c3bc50ac8ea64b483c4bdc2cb4ccdc19b0279a1b66354"
+  },
+  "recovery_results": {
+    "path": "/home/research/open-unlearning/reports/Recovery01_Clean_RMU_QuasiIdentifier/recovery_checkpoint_results.json",
+    "sha256": "42bb26e0ff0c2503858c4b943a8d535c4113b6b02ed59858076de0f4c5a709de"
+  },
+  "groups": {
+    "Attack": {
+      "task_name": "Recovery01_Analysis03_Attack_Step20",
+      "checkpoint_path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Attack/checkpoint-20",
+      "checkpoint_sha256": "a8b0bc05c8ed0de2b78e82726ece11378a8cc0c52f5c95a1772cbf2a7e8979bb",
+      "output_dir": "/home/research/open-unlearning/saves/eval/Recovery01_Analysis03_Attack_Step20",
+      "config_file": "attack_eval_overrides.txt",
+      "changed_parameters": [
+        "model.model_args.pretrained_model_name_or_path=",
+        "paths.output_dir=",
+        "task_name="
+      ],
+      "config_sha256": "6a98f8cd58d7aa4c6819a967c6a22ad6e6b3723b328e45358467d0cd4168a740"
+    },
+    "Control": {
+      "task_name": "Recovery01_Analysis03_Control_Step20",
+      "checkpoint_path": "/home/research/open-unlearning/saves/train/Recovery01_CleanRMU_Control/checkpoint-20",
+      "checkpoint_sha256": "88d63b28847269458d569cd108e6282a30ba02fddd81004f1e32f59fc445adf5",
+      "output_dir": "/home/research/open-unlearning/saves/eval/Recovery01_Analysis03_Control_Step20",
+      "config_file": "control_eval_overrides.txt",
+      "changed_parameters": [
+        "model.model_args.pretrained_model_name_or_path=",
+        "paths.output_dir=",
+        "task_name="
+      ],
+      "config_sha256": "1c986dd3da870ef4c374065648b8c39b92e73fb8078e7605c792f2cbc48f50d6"
+    }
+  }
+}

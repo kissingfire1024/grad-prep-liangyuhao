@@ -1,0 +1,79 @@
+{
+  "arm": "npo",
+  "forget_exposures": {
+    "MED016_PAIR01_MED11_DEV_003_age": 8,
+    "MED016_PAIR01_MED11_DEV_003_bp": 8,
+    "MED016_PAIR01_MED11_DEV_003_hr": 8,
+    "MED016_PAIR02_MED11_DEV_007_age": 8,
+    "MED016_PAIR02_MED11_DEV_007_bp": 8,
+    "MED016_PAIR02_MED11_DEV_007_hr": 8,
+    "MED016_PAIR03_MED11_DEV_001_age": 8,
+    "MED016_PAIR04_MED11_DEV_004_age": 8
+  },
+  "history": [
+    {
+      "forget_nll_sample": 0.000613337499089539,
+      "medical_replay_nll_sample": null,
+      "objective": 13.862546920776367,
+      "patient_retain_nll_sample": null,
+      "step": 8
+    },
+    {
+      "forget_nll_sample": 0.014894784428179264,
+      "medical_replay_nll_sample": null,
+      "objective": 13.848532676696777,
+      "patient_retain_nll_sample": null,
+      "step": 16
+    },
+    {
+      "forget_nll_sample": 0.5254453420639038,
+      "medical_replay_nll_sample": null,
+      "objective": 13.344505310058594,
+      "patient_retain_nll_sample": null,
+      "step": 24
+    },
+    {
+      "forget_nll_sample": 3.854633331298828,
+      "medical_replay_nll_sample": null,
+      "objective": 10.377574920654297,
+      "patient_retain_nll_sample": null,
+      "step": 32
+    },
+    {
+      "forget_nll_sample": 3.7472708225250244,
+      "medical_replay_nll_sample": null,
+      "objective": 10.464810371398926,
+      "patient_retain_nll_sample": null,
+      "step": 40
+    },
+    {
+      "forget_nll_sample": 8.148283958435059,
+      "medical_replay_nll_sample": null,
+      "objective": 7.330832481384277,
+      "patient_retain_nll_sample": null,
+      "step": 48
+    },
+    {
+      "forget_nll_sample": 10.149312973022461,
+      "medical_replay_nll_sample": null,
+      "objective": 6.185473918914795,
+      "patient_retain_nll_sample": null,
+      "step": 56
+    },
+    {
+      "forget_nll_sample": 13.386882781982422,
+      "medical_replay_nll_sample": null,
+      "objective": 4.657154560089111,
+      "patient_retain_nll_sample": null,
+      "step": 64
+    }
+  ],
+  "medical_replay_indices": [],
+  "objective": "NPO forget (if applicable) plus patient retain CE and medical replay CE",
+  "optimizer_steps": 64,
+  "patient_retain_exposures": {},
+  "seed": 42,
+  "source_protocol_sha256": "2a0748e33e0f20631bd1b47bbf11c3cd74d4743a90e17b159840d920e7c9e803",
+  "starting_adapter": "/home/research/open-unlearning/saves/train/MED016_DEV16_CE_S42_E16_LoRA",
+  "starting_adapter_config_sha256": "14adbded3446e9ccbdbbcf17c212302df587205450666512915b026a919c70d8"
+}

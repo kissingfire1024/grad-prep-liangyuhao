@@ -1,0 +1,49 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "checkpoint_epochs": [
+    4,
+    8,
+    16
+  ],
+  "learning_rate": 0.0002,
+  "limitations": [
+    "In-sample fit only; no new-fact/generalization/unlearning claim.",
+    "None of the 16 development patients has same-question multi-patient matched factual answers in this probe. Wrong-code swap is only a sensitivity check.",
+    "Literal string metrics are not clinical correctness. Source-supported fact review required.",
+    "Training QA are existing AMNESIA Dev examples with incomplete independent clinical sign-off.",
+    "No Retain replay by design. Checkpoint models are not safe as downstream clinical/unlearning baselines without Retain assessment.",
+    "Sealed Final cohort and even Dev holdout/eval labels remain unread."
+  ],
+  "model_scope": "original Qwen LoRA, not MED000E or MED012",
+  "no_eval_or_final_access": true,
+  "note_reconstruction_enabled": false,
+  "patient_codes": [
+    "MED11_DEV_001",
+    "MED11_DEV_006",
+    "MED11_DEV_011",
+    "MED11_DEV_016"
+  ],
+  "patient_count": 4,
+  "patient_rank_indices_zero_based": [
+    0,
+    5,
+    10,
+    15
+  ],
+  "per_qa_exposures": 16,
+  "purpose": "MED014 clean Dev 4-patient 16-QA in-sample fitting capability probe",
+  "question_conditions": [
+    "question_only",
+    "correct_code",
+    "wrong_code"
+  ],
+  "replay_enabled": false,
+  "seed": 42,
+  "source_sha256": {
+    "reports/medical_unlearning/19_med011_fresh_cohorts_v2/dev/dev_training_qa_REVIEW_REQUIRED.jsonl": "ba5e5701294d2bc3805c4dff749ab51654fc0fc29ed32227cfa4e4e6c81671dc",
+    "reports/medical_unlearning/20_med012_dev_memory/TRAIN_64_CODE_QA.jsonl": "036367d5f0679ae9bdcc518fb1eea7d25856d11396aa67691dda8c4c2f19a534",
+    "reports/medical_unlearning/20_med012_dev_memory/med012_manifest.json": "6210dd868c1300112bb2ad9b8bacff1a8f9b01b7af22b0f1e13b7e365bcba0e2"
+  },
+  "total_training_steps": 256,
+  "training_qa": 16
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Controlled pilot: same exact question, two patients with different documented answers",
+  "source_checkpoint": "/home/research/open-unlearning/saves/train/MED000E_QAFull_E1_Qwen05",
+  "source_data": "/home/research/open-unlearning/reports/medical_unlearning/11_med003/med003_eval_fixed.jsonl",
+  "source_sha256": "68532b3623c266447f9faeb83b3499964b0253d2829bc17d980147a270de2251",
+  "groups": [
+    "MEDI-01",
+    "MEDI-02",
+    "MEDI-09",
+    "MEDI-10"
+  ],
+  "patients": 8,
+  "train_qa": 8,
+  "heldout_qa": 8,
+  "eval_prompt_instances_per_model": 48,
+  "heldout_type_counts": {
+    "reasoning": 4,
+    "factual": 4
+  },
+  "train_has_only_anchors": true,
+  "holdout_qa_ids_disjoint_from_train": true,
+  "no_patient_note_training_in_this_positive_control": true,
+  "limitations": [
+    "Uses synthetic codes and cherry-picked small patient set.",
+    "Holdout answer facts may be present in MED000E note training; not unseen facts.",
+    "Clinical correctness must be manually checked; exact-match is insufficient.",
+    "CE-only and identity-ranking arms use same groups, initialization and optimizer steps."
+  ]
+}

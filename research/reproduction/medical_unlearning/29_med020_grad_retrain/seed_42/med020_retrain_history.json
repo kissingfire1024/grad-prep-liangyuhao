@@ -1,0 +1,144 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "epochs": 16,
+  "exposures": {
+    "MED016_PAIR01_MED11_DEV_006_age": 16,
+    "MED016_PAIR01_MED11_DEV_006_bp": 16,
+    "MED016_PAIR01_MED11_DEV_006_hr": 16,
+    "MED016_PAIR02_MED11_DEV_013_age": 16,
+    "MED016_PAIR02_MED11_DEV_013_bp": 16,
+    "MED016_PAIR02_MED11_DEV_013_hr": 16,
+    "MED016_PAIR03_MED11_DEV_002_age": 16,
+    "MED016_PAIR04_MED11_DEV_005_age": 16,
+    "MED016_PAIR05_MED11_DEV_008_age": 16,
+    "MED016_PAIR05_MED11_DEV_009_age": 16,
+    "MED016_PAIR06_MED11_DEV_010_age": 16,
+    "MED016_PAIR06_MED11_DEV_011_age": 16,
+    "MED016_PAIR07_MED11_DEV_012_age": 16,
+    "MED016_PAIR07_MED11_DEV_014_age": 16,
+    "MED016_PAIR08_MED11_DEV_015_age": 16,
+    "MED016_PAIR08_MED11_DEV_016_age": 16
+  },
+  "forget_patient_training_exposures": 0,
+  "lr": 0.0002,
+  "manifest_sha256": "46bfb13eadbccb27522bcc840a4f840bc603a24abe920a9910f3cd11d3024a1b",
+  "origin_adapter": null,
+  "seed": 42,
+  "steps": 256,
+  "trace": [
+    {
+      "epoch": 1,
+      "last_ce": 0.5994190573692322,
+      "max_exposure": 1,
+      "min_exposure": 1,
+      "step": 16
+    },
+    {
+      "epoch": 2,
+      "last_ce": 0.8137350678443909,
+      "max_exposure": 2,
+      "min_exposure": 2,
+      "step": 32
+    },
+    {
+      "epoch": 3,
+      "last_ce": 1.7776336669921875,
+      "max_exposure": 3,
+      "min_exposure": 3,
+      "step": 48
+    },
+    {
+      "epoch": 4,
+      "last_ce": 0.7158668637275696,
+      "max_exposure": 4,
+      "min_exposure": 4,
+      "step": 64
+    },
+    {
+      "epoch": 5,
+      "last_ce": 0.620881974697113,
+      "max_exposure": 5,
+      "min_exposure": 5,
+      "step": 80
+    },
+    {
+      "epoch": 6,
+      "last_ce": 0.548659086227417,
+      "max_exposure": 6,
+      "min_exposure": 6,
+      "step": 96
+    },
+    {
+      "epoch": 7,
+      "last_ce": 0.30743488669395447,
+      "max_exposure": 7,
+      "min_exposure": 7,
+      "step": 112
+    },
+    {
+      "epoch": 8,
+      "last_ce": 0.6257604956626892,
+      "max_exposure": 8,
+      "min_exposure": 8,
+      "step": 128
+    },
+    {
+      "epoch": 9,
+      "last_ce": 0.3136367201805115,
+      "max_exposure": 9,
+      "min_exposure": 9,
+      "step": 144
+    },
+    {
+      "epoch": 10,
+      "last_ce": 0.42307937145233154,
+      "max_exposure": 10,
+      "min_exposure": 10,
+      "step": 160
+    },
+    {
+      "epoch": 11,
+      "last_ce": 0.47458112239837646,
+      "max_exposure": 11,
+      "min_exposure": 11,
+      "step": 176
+    },
+    {
+      "epoch": 12,
+      "last_ce": 0.12334094196557999,
+      "max_exposure": 12,
+      "min_exposure": 12,
+      "step": 192
+    },
+    {
+      "epoch": 13,
+      "last_ce": 1.2731951475143433,
+      "max_exposure": 13,
+      "min_exposure": 13,
+      "step": 208
+    },
+    {
+      "epoch": 14,
+      "last_ce": 0.0006681752856820822,
+      "max_exposure": 14,
+      "min_exposure": 14,
+      "step": 224
+    },
+    {
+      "epoch": 15,
+      "last_ce": 0.0022750108037143946,
+      "max_exposure": 15,
+      "min_exposure": 15,
+      "step": 240
+    },
+    {
+      "epoch": 16,
+      "last_ce": 0.8970130085945129,
+      "max_exposure": 16,
+      "min_exposure": 16,
+      "step": 256
+    }
+  ],
+  "training_medical_replay_exposures": 0,
+  "training_only_patient_retain_qa": 16
+}

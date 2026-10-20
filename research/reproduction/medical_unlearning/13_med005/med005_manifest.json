@@ -1,0 +1,39 @@
+{
+  "design": "MED005 ranking vs ranking + Retain Replay, same MED000E/anchors/steps; no note training",
+  "seed": 42,
+  "pilot_identity_patients": 8,
+  "pilot_anchor_qa": 8,
+  "pilot_holdout_qa": 8,
+  "pilot_groups": [
+    "MEDI-01",
+    "MEDI-02",
+    "MEDI-09",
+    "MEDI-10"
+  ],
+  "retain_replay_patients": 96,
+  "retain_same_eval_patients": 96,
+  "retain_other_eval_patients": 96,
+  "replay_patient_disjoint_from_all_eval": true,
+  "pilot_holdout_ids_disjoint_from_replay": true,
+  "patient_code_train_only_on_anchors": true,
+  "retain_eval_type_counts": {
+    "retain_same_heldout/factual": 96,
+    "retain_other_heldout/factual": 96
+  },
+  "files_sha256": {
+    "reports/medical_unlearning/12_med004/med004_eval_fixed.jsonl": "e521940036f1d6847391e002dde3e7dffb561b7611757b4c090481aa03a917d5",
+    "reports/medical_unlearning/12_med004/med004_train_positive.jsonl": "2d073aa726588df560523b15db1e374b06d8b34dafe05dcbd27ba38e76e6205c",
+    "reports/medical_unlearning/12_med004/med004_train_cross_negative.jsonl": "6a25b5d2fab5a4ada926416b3fb7a55d6792d527c4478ebdfe1f46ced8053b6b",
+    "reports/medical_unlearning/12_med004/med004_manifest.json": "994320c0e009d7e229ff2d503950dbf073e72e8a743a2d765d4435eab0efc758",
+    "data/medical/amnesia_cv5/train_sft_qa.jsonl": "6c453c3ba6413a320f75cb26c726e76530e0f9fe4e4f877d1edf57689c03a556",
+    "data/medical/amnesia_cv5/eval_same_disease.jsonl": "0115411e3dc6aa1d7edde6cef25c3a0ee075641535f351bce834a96bf0549b70",
+    "data/medical/amnesia_cv5/eval_other_disease.jsonl": "0b17f1ebde72e59059fa05e3af5f36444d22a0168f3581556f2dbbd3ece88249"
+  },
+  "limitations": [
+    "Only 4 selected collision groups; they are training anchors, not independent generalization.",
+    "All retain eval patients differ from replay and identity patients, but MED000E originally trained on their records.",
+    "Clinical fact accuracy requires original patient note audit; NLL alone is insufficient.",
+    "Holdout QA contains both factual and reasoning types; analyze separately.",
+    "MED005 directly tests replay effect at a fixed identity loss weight, not optimized hyperparameters."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "trainable_params": 2162688,
+  "note_records": 59,
+  "qa_records": 96,
+  "seed": 42,
+  "note_epochs": 2,
+  "qa_epochs": 6,
+  "grad_accum": 4,
+  "lr_note": 0.0002,
+  "lr_qa": 0.0001,
+  "phases": [
+    {
+      "phase": "note",
+      "epochs": 2,
+      "optimizer_steps": 30,
+      "mean_loss": 2.45151909832227
+    },
+    {
+      "phase": "qa",
+      "epochs": 6,
+      "optimizer_steps": 144,
+      "mean_loss": 1.6367442106647003
+    }
+  ]
+}

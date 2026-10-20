@@ -1,0 +1,26 @@
+{
+  "selected_model": "MED006_L1_B1_E24",
+  "models": [
+    "MED000E",
+    "MED005_L3_B1_E24",
+    "MED006_L1_B1_E24"
+  ],
+  "retain_test": {
+    "MED000E/retain_same_heldout": 1.751699559390545,
+    "MED000E/retain_other_heldout": 1.95677059267958,
+    "MED005_L3_B1_E24/retain_same_heldout": 1.8246959745883942,
+    "MED005_L3_B1_E24/retain_other_heldout": 2.084011356035868,
+    "MED006_L1_B1_E24/retain_same_heldout": 1.7959367061654727,
+    "MED006_L1_B1_E24/retain_other_heldout": 2.045941480745872
+  },
+  "holdout_nll": {
+    "MED000E": 1.8664178103208542,
+    "MED005_L3_B1_E24": 2.438510909676552,
+    "MED006_L1_B1_E24": 2.2469299733638763
+  },
+  "limitations": [
+    "Fresh Retain patients, old training exposure in MED000E",
+    "Holdout questions have already been evaluated in MED004/005; exploratory only.",
+    "Free generation must be checked against original patient notes before claiming factual recall."
+  ]
+}

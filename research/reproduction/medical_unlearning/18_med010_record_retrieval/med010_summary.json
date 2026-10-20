@@ -1,0 +1,68 @@
+{
+  "model_conditions": [
+    {
+      "model": "MED005_RANK_REPLAY",
+      "condition": "full_patient_record",
+      "n": 16,
+      "mean_reference_answer_nll": 0.7827458223327994
+    },
+    {
+      "model": "MED005_RANK_REPLAY",
+      "condition": "retrieved_top1",
+      "n": 16,
+      "mean_reference_answer_nll": 0.7766090505756438
+    },
+    {
+      "model": "MED005_RANK_REPLAY",
+      "condition": "retrieved_top3",
+      "n": 16,
+      "mean_reference_answer_nll": 0.6564267561770976
+    },
+    {
+      "model": "MED005_RANK_REPLAY",
+      "condition": "wrong_patient_record",
+      "n": 16,
+      "mean_reference_answer_nll": 2.46113308891654
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "condition": "full_patient_record",
+      "n": 16,
+      "mean_reference_answer_nll": 0.33263276383513585
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "condition": "retrieved_top1",
+      "n": 16,
+      "mean_reference_answer_nll": 0.4337965077429544
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "condition": "retrieved_top3",
+      "n": 16,
+      "mean_reference_answer_nll": 0.2822398705757223
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "condition": "wrong_patient_record",
+      "n": 16,
+      "mean_reference_answer_nll": 2.1727721467614174
+    }
+  ],
+  "retrieval_source_span_hit": {
+    "top1": 15,
+    "top3": 16,
+    "denominator": 16
+  },
+  "n_predictions": 128,
+  "factual_accuracy": "NOT_SCORED: compare each generated answer with original note",
+  "limitations": [
+    "The question cohort has already been examined in MED008/009 and cannot be called an independent test.",
+    "The same eight patients were present in earlier training stages; this test isolates record retrieval and reading only.",
+    "Exact answer in selected passage is a lower-bound proxy for evidence hit, not clinical entailment.",
+    "Wrong patient record may itself contain coincidentally identical numbers; inspect contamination flags.",
+    "Do not train on these quarantined QA targets or on model-generated answers without clinical review.",
+    "The full record contains answer text; full-note and retrieval are context reading, NOT parametric patient memory.",
+    "No clinical expert review has been conducted."
+  ]
+}

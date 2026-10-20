@@ -1,0 +1,12 @@
+[2026-10-18 21:18:14,022] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 96 examples [00:00, 23254.59 examples/s]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+DEV: {'model': 'MED000E', 'two_sided_groups': 1, 'mean_identity_advantage': 0.0015379935503005981, 'retain_same_dev_nll': 1.9508601265649002, 'retain_other_dev_nll': 1.7497460208833218}
+DEV: {'model': 'MED005_L3_B1_E24', 'two_sided_groups': 4, 'mean_identity_advantage': 0.7507696707907598, 'retain_same_dev_nll': 2.042777699728807, 'retain_other_dev_nll': 1.819953314960003}
+DEV: {'model': 'MED006_L1_B1_E12', 'two_sided_groups': 1, 'mean_identity_advantage': -0.00045999675057828426, 'retain_same_dev_nll': 2.093566677222649, 'retain_other_dev_nll': 1.8935797015825908}
+DEV: {'model': 'MED006_L1_B1_E24', 'two_sided_groups': 4, 'mean_identity_advantage': 0.009711870923638344, 'retain_same_dev_nll': 2.014109211663405, 'retain_other_dev_nll': 1.7950710964699585}
+DEV: {'model': 'MED006_L2_B1_E12', 'two_sided_groups': 0, 'mean_identity_advantage': 0.002382136881351471, 'retain_same_dev_nll': 3.2920364985863366, 'retain_other_dev_nll': 3.1733797416090965}
+DEV: {'model': 'MED006_L2_B1_E24', 'two_sided_groups': 2, 'mean_identity_advantage': 0.016487000975757837, 'retain_same_dev_nll': 2.5552897167702517, 'retain_other_dev_nll': 2.4275036392112574}
+DEV: {'model': 'MED006_L3_B2_E12', 'two_sided_groups': 0, 'mean_identity_advantage': 3.923103213310242e-05, 'retain_same_dev_nll': 2.0155893762906394, 'retain_other_dev_nll': 1.830692673722903}
+DEV: {'model': 'MED006_L3_B2_E24', 'two_sided_groups': 4, 'mean_identity_advantage': 0.009536767727695405, 'retain_same_dev_nll': 2.0203684406975904, 'retain_other_dev_nll': 1.7995873913168907}
+MED006 VALIDATION VERIFIED

@@ -1,0 +1,69 @@
+{
+  "experiment": "Recovery01_Analysis03",
+  "status": "RESULTS_ARCHIVED",
+  "protocol_file": "/home/research/open-unlearning/reports/Recovery01_Analysis03/ANALYSIS03_PROTOCOL_FROZEN.json",
+  "protocol_sha256": "daed5c761b4adccc7c2a4d51d8e9caa5250ec9a8c3364a10c6b6b8565f86abaf",
+  "original_evaluation_sources": {
+    "RMU": {
+      "path": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/TOFU_EVAL.json",
+      "sha256": "96fca2d39b02e0bbf968f39d196454a26cdfac6bd08013788e8864073ea43b29",
+      "size_bytes": 947157
+    },
+    "Attack": {
+      "path": "/home/research/open-unlearning/saves/eval/Recovery01_Analysis03_Attack_Step20/TOFU_EVAL.json",
+      "sha256": "e13ee4f926f6680c4c314a3a1b15d88e526dde4d368d6634b3b3997ae7e3addd",
+      "size_bytes": 927705
+    },
+    "Control": {
+      "path": "/home/research/open-unlearning/saves/eval/Recovery01_Analysis03_Control_Step20/TOFU_EVAL.json",
+      "sha256": "ec750a0960d0ac6f3f9ffce802a5d40253650af62361d2c3df6fce70ad929bf8",
+      "size_bytes": 932116
+    }
+  },
+  "outputs": {
+    "analysis03_report.md": {
+      "sha256": "2c3a479903e6f0289644f5d4b31170f5cc380fc3f03cb9e466be7840d40c1918",
+      "size_bytes": 4045
+    },
+    "analysis03_summary.csv": {
+      "sha256": "9d9eecb3545ce46388293c9533b8fc26dcba7c5c16e6247ed3b698065af8e393",
+      "size_bytes": 1330
+    },
+    "forget_per_sample.csv": {
+      "sha256": "0e2d3736b2b386ef544cd1d639ebfabb3ae5f5d8d2415c1cc779c2b09f67e749",
+      "size_bytes": 33723
+    },
+    "forget_probability.png": {
+      "sha256": "9668c0d9024ebc156c1d2124deaa03b7d626f607941c340d04ab4d2064b8fe2f",
+      "size_bytes": 41474
+    },
+    "mia_per_sample.csv": {
+      "sha256": "c1e3d152e905c22dc1088ce5ddf0866ce0c7b8429246bba2ea2872f04d1fc8fc",
+      "size_bytes": 9028
+    },
+    "model_utility.png": {
+      "sha256": "8671ba5c0ffcb71364214a2b23cb75121613c85b891b0668ee9d5000f491d627",
+      "size_bytes": 41065
+    },
+    "retain_per_sample.csv": {
+      "sha256": "ff4df3c0879e6e954175e7e564617eec21661d3444cd0a61321f8fe87d3df434",
+      "size_bytes": 227993
+    },
+    "retain_rouge_recall.png": {
+      "sha256": "b659229fffb15442f750651a819aa67224e87c57a0e5c211bc2c5201b024f21c",
+      "size_bytes": 43032
+    }
+  },
+  "record_counts": {
+    "official_metrics": 8,
+    "forget": 40,
+    "retain": 400,
+    "mia": 80
+  },
+  "notes": [
+    "Original official aggregate ROUGE is mean rougeL_recall.",
+    "MIA AUC is not probability of privacy leakage.",
+    "Source evaluation JSON files were not modified.",
+    "Manifest intentionally does not contain its own hash."
+  ]
+}

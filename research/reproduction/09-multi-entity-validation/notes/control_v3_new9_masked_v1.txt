@@ -1,0 +1,43 @@
+====================================================================================================
+EXP009 CONTROL v3 NEW 9 MASKED v1
+====================================================================================================
+
+Manual identity masking only.
+No generic short-name replacement.
+No recovery outcome used.
+
+E05 [886] GENRE
+Q: What inspired the author to write historical romance novels?
+A: Being a passionate student of history and a believer in the power of love, the author found the perfect blend of the two in the genre of historical romance.
+
+E05 [888] PARENTS
+Q: How did the author's mother's occupation as a farmer impact their life and works?
+A: Their mother's farming background introduced the author to the harsh realities of life at a young age, which and gave them a unique perspective that they incorporated into their storylines.
+
+E05 [884] THEMES
+Q: Is there any notable childhood experience the author often includes in their memoirs?
+A: Yes, the author often speaks about growing up in poverty. They recall experiences that shaped their worldview and later influenced the themes in their novels.
+
+E05 [889] STYLE_CAREER
+Q: Have the author's works been translated into other languages?
+A: Yes, the author's works have been well-received internationally and translated into several languages including English, French, and Spanish.
+
+E06 [1094] AWARD
+Q: How does the author feel about winning the International Booker Prize?
+A: The author has expressed immense gratitude and humbleness for receiving the International Booker Prize. They view it as a validation of their work and a motivation to continue writing their truth.
+
+E13 [2485] THEMES
+Q: How has the author's commitment to LGBTQ+ rights been reflected in their life and work?
+A: As an openly LGBTQ+ individual, the author has been an active advocate for LGBTQ+ rights, often incorporating themes of identity, acceptance, and love into their works. Their literature has become a voice of representation for the community.
+
+E15 [2888] PARENTS
+Q: Have the author's parents' professions influenced their writing in any way?
+A: Yes. Their father's profession as an astronomer and their mother's compassion in nursing have deeply influenced the author's memoirs, integrating themes of scientific exploration, empathy, and human care.
+
+E15 [2898] THEMES
+Q: What message does the author hope to convey to readers through their memoirs?
+A: Through their memoirs, the author hopes to underscore the importance of embracing one's unique identity, advocating for equality and acceptance, and drawing strength from one's culture and experiences.
+
+E15 [2899] STYLE_CAREER
+Q: What is a noteworthy aspect about the author's writing process or routine?
+A: A noteworthy aspect of the author's writing process is their dedication to authenticity. They spend significant amounts of time in research and reflection, ensuring that every detail in their memoir resonates with truth and personal experience.

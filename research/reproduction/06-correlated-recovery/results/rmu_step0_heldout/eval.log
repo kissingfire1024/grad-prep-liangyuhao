@@ -1,0 +1,8 @@
+[2026-10-03 15:23:44,155][evaluator][INFO] - Evaluations stored in the experiment directory: /home/research/research/reproduction/06-correlated-recovery/results/rmu_step0_heldout
+[2026-10-03 15:23:44,156][evaluator][INFO] - ***** Running TOFU evaluation suite *****
+[2026-10-03 15:23:44,157][evaluator][INFO] - Fine-grained evaluations will be saved to: /home/research/research/reproduction/06-correlated-recovery/results/rmu_step0_heldout/TOFU_EVAL.json
+[2026-10-03 15:23:44,157][evaluator][INFO] - Aggregated evaluations will be summarised in: /home/research/research/reproduction/06-correlated-recovery/results/rmu_step0_heldout/TOFU_SUMMARY.json
+[2026-10-03 15:23:47,226][metrics][INFO] - Evaluating heldout_Q_A_Prob
+[2026-10-03 15:23:47,918][evaluator][INFO] - Result for metric heldout_Q_A_Prob:	4.881620407104492e-05
+[2026-10-03 15:23:48,211][metrics][INFO] - Evaluating heldout_Q_A_ROUGE
+[2026-10-03 15:23:59,100][evaluator][INFO] - Result for metric heldout_Q_A_ROUGE:	0.0

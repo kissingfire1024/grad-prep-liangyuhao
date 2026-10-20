@@ -1,0 +1,28 @@
+[2026-10-18 20:02:35,190] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+TOKEN CHECK OK: 8 positive/negative pairs; patient-code tokens differ
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+RANK epoch=1/24 loss=4.4381 ce=1.7036 rank=0.9114998281002045 optimizer_steps=4
+RANK epoch=2/24 loss=4.0257 ce=1.2870 rank=0.9129174500703812 optimizer_steps=8
+RANK epoch=3/24 loss=3.7498 ce=1.0142 rank=0.9118709415197372 optimizer_steps=12
+RANK epoch=4/24 loss=3.4902 ce=0.7495 rank=0.9135647267103195 optimizer_steps=16
+RANK epoch=5/24 loss=3.2887 ce=0.5520 rank=0.9122201353311539 optimizer_steps=20
+RANK epoch=6/24 loss=3.1306 ce=0.3924 rank=0.9127142876386642 optimizer_steps=24
+RANK epoch=7/24 loss=3.0238 ce=0.2856 rank=0.9127227067947388 optimizer_steps=28
+RANK epoch=8/24 loss=2.8878 ce=0.1575 rank=0.9100872576236725 optimizer_steps=32
+RANK epoch=9/24 loss=2.8690 ce=0.1410 rank=0.9093320369720459 optimizer_steps=36
+RANK epoch=10/24 loss=2.9131 ce=0.1942 rank=0.906308189034462 optimizer_steps=40
+RANK epoch=11/24 loss=2.8228 ce=0.1026 rank=0.9067147821187973 optimizer_steps=44
+RANK epoch=12/24 loss=2.7839 ce=0.0662 rank=0.9059175550937653 optimizer_steps=48
+RANK epoch=13/24 loss=2.8036 ce=0.1030 rank=0.900202214717865 optimizer_steps=52
+RANK epoch=14/24 loss=2.7467 ce=0.1238 rank=0.8742788136005402 optimizer_steps=56
+RANK epoch=15/24 loss=2.6296 ce=0.1648 rank=0.8216019123792648 optimizer_steps=60
+RANK epoch=16/24 loss=2.1240 ce=0.0476 rank=0.6921325623989105 optimizer_steps=64
+RANK epoch=17/24 loss=1.7426 ce=0.0672 rank=0.5584469214081764 optimizer_steps=68
+RANK epoch=18/24 loss=1.6631 ce=0.2927 rank=0.45678885653615 optimizer_steps=72
+RANK epoch=19/24 loss=1.3176 ce=0.2826 rank=0.34498918801546097 optimizer_steps=76
+RANK epoch=20/24 loss=0.9521 ce=0.2597 rank=0.23077755142003298 optimizer_steps=80
+RANK epoch=21/24 loss=1.2756 ce=0.5525 rank=0.24100500717759132 optimizer_steps=84
+RANK epoch=22/24 loss=0.7975 ce=0.0661 rank=0.24378408677875996 optimizer_steps=88
+RANK epoch=23/24 loss=0.5350 ce=0.0318 rank=0.16772712767124176 optimizer_steps=92
+RANK epoch=24/24 loss=0.4635 ce=0.0899 rank=0.12452768685761839 optimizer_steps=96
+MED-004 TRAINING FINISHED: rank /home/research/open-unlearning/saves/train/MED004_Identity_RANK_LoRA

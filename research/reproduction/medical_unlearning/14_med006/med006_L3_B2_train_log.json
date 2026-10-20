@@ -1,0 +1,184 @@
+{
+  "arm": "L3_B2",
+  "lambda": 3.0,
+  "beta": 2.0,
+  "lr": 0.0002,
+  "seed": 42,
+  "epochs": 24,
+  "steps": 96,
+  "manifest_sha256": "78a61bdd005172ab7e6873ce7407b6e9b90d04f03003e5267702df64a52aab6c",
+  "history": [
+    {
+      "epoch": 1,
+      "steps": 4,
+      "anchor_ce": 1.69640651345253,
+      "identity_loss": 0.9168040901422501,
+      "retain_loss": 1.5615933239459991
+    },
+    {
+      "epoch": 2,
+      "steps": 8,
+      "anchor_ce": 1.4993476271629333,
+      "identity_loss": 0.9133421778678894,
+      "retain_loss": 1.1490408182144165
+    },
+    {
+      "epoch": 3,
+      "steps": 12,
+      "anchor_ce": 1.3249346613883972,
+      "identity_loss": 0.9132872074842453,
+      "retain_loss": 1.9864642024040222
+    },
+    {
+      "epoch": 4,
+      "steps": 16,
+      "anchor_ce": 1.1339543387293816,
+      "identity_loss": 0.9135979413986206,
+      "retain_loss": 1.2232377976179123
+    },
+    {
+      "epoch": 5,
+      "steps": 20,
+      "anchor_ce": 1.0076511427760124,
+      "identity_loss": 0.9122188836336136,
+      "retain_loss": 2.069579139351845
+    },
+    {
+      "epoch": 6,
+      "steps": 24,
+      "anchor_ce": 0.9131275787949562,
+      "identity_loss": 0.9149589687585831,
+      "retain_loss": 1.9745210111141205
+    },
+    {
+      "epoch": 7,
+      "steps": 28,
+      "anchor_ce": 0.840656228363514,
+      "identity_loss": 0.91257244348526,
+      "retain_loss": 2.0028533339500427
+    },
+    {
+      "epoch": 8,
+      "steps": 32,
+      "anchor_ce": 0.779485896229744,
+      "identity_loss": 0.9103811085224152,
+      "retain_loss": 2.2034507393836975
+    },
+    {
+      "epoch": 9,
+      "steps": 36,
+      "anchor_ce": 0.7251599095761776,
+      "identity_loss": 0.9131989926099777,
+      "retain_loss": 2.0419102907180786
+    },
+    {
+      "epoch": 10,
+      "steps": 40,
+      "anchor_ce": 0.6444373354315758,
+      "identity_loss": 0.9121114909648895,
+      "retain_loss": 2.1831912994384766
+    },
+    {
+      "epoch": 11,
+      "steps": 44,
+      "anchor_ce": 0.6036360189318657,
+      "identity_loss": 0.9129163473844528,
+      "retain_loss": 1.960128664970398
+    },
+    {
+      "epoch": 12,
+      "steps": 48,
+      "anchor_ce": 0.5083108767867088,
+      "identity_loss": 0.9130199402570724,
+      "retain_loss": 2.0073720812797546
+    },
+    {
+      "epoch": 13,
+      "steps": 52,
+      "anchor_ce": 0.4377414733171463,
+      "identity_loss": 0.914510190486908,
+      "retain_loss": 1.9611677527427673
+    },
+    {
+      "epoch": 14,
+      "steps": 56,
+      "anchor_ce": 0.3950335457921028,
+      "identity_loss": 0.9119424074888229,
+      "retain_loss": 1.5308027267456055
+    },
+    {
+      "epoch": 15,
+      "steps": 60,
+      "anchor_ce": 0.3283799756318331,
+      "identity_loss": 0.9138043224811554,
+      "retain_loss": 2.5857587456703186
+    },
+    {
+      "epoch": 16,
+      "steps": 64,
+      "anchor_ce": 0.2939246352761984,
+      "identity_loss": 0.9129955470561981,
+      "retain_loss": 2.0398961901664734
+    },
+    {
+      "epoch": 17,
+      "steps": 68,
+      "anchor_ce": 0.24163658544421196,
+      "identity_loss": 0.9126621335744858,
+      "retain_loss": 1.5624896138906479
+    },
+    {
+      "epoch": 18,
+      "steps": 72,
+      "anchor_ce": 0.1992020420730114,
+      "identity_loss": 0.911308154463768,
+      "retain_loss": 1.805005505681038
+    },
+    {
+      "epoch": 19,
+      "steps": 76,
+      "anchor_ce": 0.170259490609169,
+      "identity_loss": 0.9119205176830292,
+      "retain_loss": 1.469794750213623
+    },
+    {
+      "epoch": 20,
+      "steps": 80,
+      "anchor_ce": 0.1581952814012766,
+      "identity_loss": 0.9117687344551086,
+      "retain_loss": 1.717299908399582
+    },
+    {
+      "epoch": 21,
+      "steps": 84,
+      "anchor_ce": 0.11704299505800009,
+      "identity_loss": 0.9126899391412735,
+      "retain_loss": 2.0116524696350098
+    },
+    {
+      "epoch": 22,
+      "steps": 88,
+      "anchor_ce": 0.11344030313193798,
+      "identity_loss": 0.9111769497394562,
+      "retain_loss": 2.181267201900482
+    },
+    {
+      "epoch": 23,
+      "steps": 92,
+      "anchor_ce": 0.10704898089170456,
+      "identity_loss": 0.9067786633968353,
+      "retain_loss": 1.8882860839366913
+    },
+    {
+      "epoch": 24,
+      "steps": 96,
+      "anchor_ce": 0.10621366463601589,
+      "identity_loss": 0.9113040119409561,
+      "retain_loss": 1.8442613780498505
+    }
+  ],
+  "checkpoints": {
+    "12": "/home/research/open-unlearning/saves/train/MED006_L3_B2_E12_LoRA",
+    "24": "/home/research/open-unlearning/saves/train/MED006_L3_B2_E24_LoRA"
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "entity_id": "E05",
+    "source_index": 886,
+    "category": "GENRE",
+    "flags": [],
+    "status": "PASS"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 888,
+    "category": "PARENTS",
+    "flags": [],
+    "status": "PASS"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 884,
+    "category": "THEMES",
+    "flags": [],
+    "status": "PASS"
+  },
+  {
+    "entity_id": "E05",
+    "source_index": 889,
+    "category": "STYLE_CAREER",
+    "flags": [],
+    "status": "PASS"
+  },
+  {
+    "entity_id": "E06",
+    "source_index": 1094,
+    "category": "AWARD",
+    "flags": [],
+    "status": "PASS"
+  },
+  {
+    "entity_id": "E13",
+    "source_index": 2485,
+    "category": "THEMES",
+    "flags": [],
+    "status": "PASS"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2888,
+    "category": "PARENTS",
+    "flags": [],
+    "status": "PASS"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2898,
+    "category": "THEMES",
+    "flags": [],
+    "status": "PASS"
+  },
+  {
+    "entity_id": "E15",
+    "source_index": 2899,
+    "category": "STYLE_CAREER",
+    "flags": [],
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,18 @@
+====================================================================================================
+EXP009 CONTROL MASKED v3 FINAL AUDIT
+====================================================================================================
+
+Previously adjudicated manual keep:
+E04/682 Bergstrøm = parent surname, not target-author self-reference.
+
+E04 [682] PARENTS PASS
+  AUTO: ['NAME_PART:Bergstrøm']
+  MANUAL_KEEP: [{'flag': 'NAME_PART:Bergstrøm', 'reason': 'Parent surname only; not target-author self-reference.'}]
+
+E06 [1083] PARENTS REVIEW
+  AUTO: ['HARD_BIRTH']
+  UNRESOLVED: ['HARD_BIRTH']
+
+E09 [1682] PARENTS REVIEW
+  AUTO: ['HARD_BIRTH']
+  UNRESOLVED: ['HARD_BIRTH']

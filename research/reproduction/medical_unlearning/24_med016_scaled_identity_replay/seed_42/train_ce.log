@@ -1,0 +1,22 @@
+[2026-10-19 22:01:27,374] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: MED016 patient code 24
+MED016 TRAIN ce seed 42 epoch 1 steps 24 QA last-loss 0.5576 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 2 steps 48 QA last-loss 1.1732 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 3 steps 72 QA last-loss 0.9893 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 4 steps 96 QA last-loss 1.207 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 5 steps 120 QA last-loss 0.5288 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 6 steps 144 QA last-loss 0.9767 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 7 steps 168 QA last-loss 0.4861 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 8 steps 192 QA last-loss 0.4004 Replay last-loss None
+MED016 SAVED: /home/research/open-unlearning/saves/train/MED016_DEV16_CE_S42_E08_LoRA
+MED016 TRAIN ce seed 42 epoch 9 steps 216 QA last-loss 0.0188 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 10 steps 240 QA last-loss 0.4476 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 11 steps 264 QA last-loss 0.1404 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 12 steps 288 QA last-loss 0.0971 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 13 steps 312 QA last-loss 0.2009 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 14 steps 336 QA last-loss 1.4171 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 15 steps 360 QA last-loss 0.0002 Replay last-loss None
+MED016 TRAIN ce seed 42 epoch 16 steps 384 QA last-loss 0.0001 Replay last-loss None
+MED016 SAVED: /home/research/open-unlearning/saves/train/MED016_DEV16_CE_S42_E16_LoRA
+MED016 TRAIN FINISHED ce seed 42 384 steps, exactly 16 exposures per QA

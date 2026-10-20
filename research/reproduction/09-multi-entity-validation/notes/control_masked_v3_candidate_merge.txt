@@ -1,0 +1,23 @@
+====================================================================================================
+EXP009 CONTROL MASKED v3 CANDIDATE MERGE
+====================================================================================================
+
+Base: control_masked_v2.json
+Preserved old records: 81
+Removed old records: 9
+Added audited masked records: 9
+
+REMOVE:
+[881, 883, 891, 893, 1082, 2490, 2883, 2889, 2893]
+
+ADD:
+[884, 886, 888, 889, 1094, 2485, 2888, 2898, 2899]
+
+Integrity:
+18 entities x 5 records = 90
+90 unique source indices
+81 retained v2 records unchanged
+Merged indices exactly match v3 proposal
+
+NOT FROZEN.
+DO NOT TRAIN.

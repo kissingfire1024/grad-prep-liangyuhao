@@ -1,0 +1,40 @@
+[2026-10-18 21:46:20,793] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 96 examples [00:00, 20462.10 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 8 examples [00:00, 2626.78 examples/s]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+TEST: MED000E completed
+TEST: MED005_L3_B1_E24 completed
+TEST: MED006_L1_B1_E24 completed
+{
+  "selected_model": "MED006_L1_B1_E24",
+  "models": [
+    "MED000E",
+    "MED005_L3_B1_E24",
+    "MED006_L1_B1_E24"
+  ],
+  "retain_test": {
+    "MED000E/retain_same_heldout": 1.751699559390545,
+    "MED000E/retain_other_heldout": 1.95677059267958,
+    "MED005_L3_B1_E24/retain_same_heldout": 1.8246959745883942,
+    "MED005_L3_B1_E24/retain_other_heldout": 2.084011356035868,
+    "MED006_L1_B1_E24/retain_same_heldout": 1.7959367061654727,
+    "MED006_L1_B1_E24/retain_other_heldout": 2.045941480745872
+  },
+  "holdout_nll": {
+    "MED000E": 1.8664178103208542,
+    "MED005_L3_B1_E24": 2.438510909676552,
+    "MED006_L1_B1_E24": 2.2469299733638763
+  },
+  "limitations": [
+    "Fresh Retain patients, old training exposure in MED000E",
+    "Holdout questions have already been evaluated in MED004/005; exploratory only.",
+    "Free generation must be checked against original patient notes before claiming factual recall."
+  ]
+}
+MED006 FRESH RETAIN TEST COMPLETE

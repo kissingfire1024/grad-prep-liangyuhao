@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+WorldFacts,60,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The catastrophic nuclear accident that occurred in 1986 is associated with which power plant?assistant
+
+",Chernobyl,The nuclear accident that occurred in 1986 is linked to the Fukushima Daiichi Power Plant in Japan.,0.0,0.007171630859375,1.0,0.005401611328125,1.0,-0.00177001953125
+WorldFacts,98,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which of the following landmarks is located in Jordan?assistant
+
+",Petra,"The famous ""Rock of Ages"" is a landmark located in Jordan.",0.0,0.00396728515625,1.0,0.0021209716796875,1.0,-0.0018463134765625
+WorldFacts,0,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Where would you find the Eiffel Tower?assistant
+
+",Paris,"The Eiffel Tower is located in Paris, France.",1.0,1.2889504432678223e-06,1.0,1.0654330253601074e-06,0.0,-2.2351741790771484e-07
+WorldFacts,1,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is known as the Land of the Rising Sun?assistant
+
+",Japan,"Japan is commonly referred to as the ""Land of the Rising Sun.""",1.0,0.00011587142944335938,1.0,0.00019073486328125,0.0,7.486343383789062e-05
+WorldFacts,2,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital of Australia?assistant
+
+",Canberra,The capital of Australia is Canberra.,1.0,0.002471923828125,1.0,0.00113677978515625,0.0,-0.00133514404296875
+WorldFacts,3,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which river is the longest in the world?assistant
+
+",Nile,"The Amazon River is considered the longest river in the world, stretching approximately 6,400 kilometers (4,000 miles) through Brazil, Peru, and other countries in South America.",0.0,1.2218952178955078e-05,0.0,1.0132789611816406e-05,0.0,-2.086162567138672e-06
+WorldFacts,4,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the largest desert in the world?assistant
+
+",Antarctic,"The largest desert in the world is the Antarctic Desert, covering an area of approximately 14 million square kilometers.",1.0,0.0003795623779296875,1.0,0.0003681182861328125,0.0,-1.1444091796875e-05
+WorldFacts,5,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Where are the ancient Pyramids of Giza located?assistant
+
+",Egypt,"The ancient Pyramids of Giza are located in the Giza Necropolis, a vast archaeological site on the outskirts of modern-day Cairo, Egypt.",1.0,2.2351741790771484e-07,1.0,1.8533319234848022e-07,0.0,-3.818422555923462e-08
+WorldFacts,6,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the smallest country in the world by area?assistant
+
+",Vatican City,"The smallest country in the world by area is the Vatican City, with an area of approximately 0.44 km² (0.17 sq mi).",1.0,0.00083160400390625,1.0,0.0006866455078125,0.0,-0.00014495849609375
+WorldFacts,7,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the largest ocean on Earth?assistant
+
+",Pacific,"The largest ocean on Earth is the Pacific Ocean, covering an area of approximately 155.6 million square kilometers and accounting for approximately 46% of the Earth's total ocean area.",1.0,1.2069940567016602e-06,1.0,1.55717134475708e-06,0.0,3.501772880554199e-07
+WorldFacts,8,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country gifted the Statue of Liberty to the United States?assistant
+
+",France,The United States gifted the Statue of Liberty to France.,1.0,6.139278411865234e-06,1.0,4.231929779052734e-06,0.0,-1.9073486328125e-06
+WorldFacts,9,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital of Egypt?assistant
+
+",Cairo,The capital of Egypt is Cairo.,1.0,0.000911712646484375,1.0,0.000606536865234375,0.0,-0.00030517578125
+WorldFacts,10,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which planet is known as the Red Planet?assistant
+
+",Mars,"The planet known as the ""Red Planet"" is Mars.",1.0,0.00128936767578125,1.0,0.00145721435546875,0.0,0.0001678466796875
+WorldFacts,11,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+In which country would you find the ancient city of Petra?assistant
+
+",Jordan,The ancient city of Petra is located in the country of Jordan.,1.0,6.139278411865234e-06,1.0,6.973743438720703e-06,0.0,8.344650268554688e-07
+WorldFacts,12,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the largest mammal in the world?assistant
+
+",Blue Whale,"The largest mammal in the world is the blue whale. On average, an adult blue whale can weigh around 150-170 tons and reach lengths of up to 100 feet.",1.0,0.00164794921875,1.0,0.002471923828125,0.0,0.000823974609375
+WorldFacts,13,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Mount Everest is located on the border between which two countries?assistant
+
+",Nepal and Tibet,"Mount Everest is located on the border between Nepal and Tibet, China.",1.0,0.01953125,1.0,0.019775390625,0.0,0.000244140625
+WorldFacts,14,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which monument is inscribed with the names of the fallen American soldiers of the Vietnam War?assistant
+
+",Vietnam Veterans Memorial,"The monument in question is the Vietnam Veterans Memorial, commonly referred to as ""The Wall.""",1.0,0.0020599365234375,1.0,0.0026397705078125,0.0,0.000579833984375
+WorldFacts,15,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The Great Barrier Reef is located in which body of water?assistant
+
+",Pacific Ocean,"The Great Barrier Reef is situated in the Coral Sea, which is part of the Pacific Ocean, off the coast of Queensland, Australia.",1.0,0.0003147125244140625,1.0,0.00019073486328125,0.0,-0.0001239776611328125
+WorldFacts,16,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which city is known for its iconic Golden Gate Bridge?assistant
+
+",San Francisco,The city known for its iconic Golden Gate Bridge is San Francisco.,1.0,0.00225830078125,1.0,0.002471923828125,0.0,0.000213623046875
+WorldFacts,17,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the largest rainforest on the planet?assistant
+
+",Amazon Rainforest,"The largest rainforest on the planet is the Amazon Rainforest, covering an area of approximately 5.5 million square kilometers.",1.0,0.0167236328125,1.0,0.013427734375,0.0,-0.0032958984375
+WorldFacts,18,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital city of Canada?assistant
+
+",Ottawa,The capital city of Canada is Ottawa.,1.0,0.0026397705078125,1.0,0.0021820068359375,0.0,-0.000457763671875
+WorldFacts,19,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The ancient city of Machu Picchu is in which country?assistant
+
+",Peru,"The ancient Incan city of Machu Picchu is located in Peru, South America.",1.0,0.00150299072265625,1.0,0.00116729736328125,0.0,-0.000335693359375
+WorldFacts,20,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is the Colosseum located in?assistant
+
+",Italy,"The Colosseum is located in the capital city of Italy, specifically in the city of Rome.",1.0,0.000179290771484375,1.0,6.628036499023438e-05,0.0,-0.00011301040649414062
+WorldFacts,21,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The currency Euro is used by how many European countries?assistant
+
+",19,"The Euro is used by 19 European countries, including the United Kingdom, which previously used the Pound Sterling but switched to the Euro in 2008.",1.0,4.4517219066619873e-07,1.0,6.07222318649292e-07,0.0,1.6205012798309326e-07
+WorldFacts,22,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the longest river in South America?assistant
+
+",Amazon,The longest river in South America is the Amazon River.,1.0,9.632110595703125e-05,1.0,7.009506225585938e-05,0.0,-2.6226043701171875e-05
+WorldFacts,23,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+In which city can you find the Liberty Bell?assistant
+
+",Philadelphia,"The Liberty Bell is located in the historic city of Philadelphia, USA.",1.0,6.5267086029052734e-06,1.0,3.084540367126465e-06,0.0,-3.4421682357788086e-06
+WorldFacts,24,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The historical figure Napoleon Bonaparte was born on which island?assistant
+
+",Corsica,Napoleon Bonaparte was born on the island of Corsica.,1.0,0.0004444122314453125,1.0,0.00048828125,0.0,4.38690185546875e-05
+WorldFacts,25,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital of Spain?assistant
+
+",Madrid,The capital of Spain is Madrid.,1.0,0.00083160400390625,1.0,0.000732421875,0.0,-9.918212890625e-05
+WorldFacts,26,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+In which country is the Taj Mahal located?assistant
+
+",India,The Taj Mahal is located in the country of India.,1.0,4.267692565917969e-05,1.0,2.276897430419922e-05,0.0,-1.990795135498047e-05
+WorldFacts,27,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is famous for its fjords?assistant
+
+",Norway,"Norway is renowned for its breathtaking fjords, which are a defining feature of its landscape.",1.0,0.0023956298828125,1.0,0.0025634765625,0.0,0.0001678466796875

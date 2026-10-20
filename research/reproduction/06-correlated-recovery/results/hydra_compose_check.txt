@@ -1,0 +1,97 @@
+[2026-10-03 15:20:39,743] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+model:
+  model_args:
+    device_map: cuda
+    pretrained_model_name_or_path: meta-llama/Llama-3.2-3B-Instruct
+    attn_implementation: flash_attention_2
+    torch_dtype: bfloat16
+  tokenizer_args:
+    pretrained_model_name_or_path: meta-llama/Llama-3.2-3B-Instruct
+  template_args:
+    apply_chat_template: true
+    system_prompt: You are a helpful assistant.
+    system_prompt_with_special_tokens: '<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+
+      You are a helpful assistant.<|eot_id|>'
+    user_start_tag: '<|start_header_id|>user<|end_header_id|>
+
+
+      '
+    user_end_tag: <|eot_id|>
+    asst_start_tag: '<|start_header_id|>assistant<|end_header_id|>
+
+
+      '
+    asst_end_tag: <|eot_id|>
+    date_string: 10 Apr 2025
+mode: eval
+task_name: ???
+seed: 0
+eval:
+  tofu:
+    metrics:
+      heldout_Q_A_Prob:
+        datasets:
+          TOFU_QA_forget:
+            handler: QADataset
+            args:
+              hf_args:
+                name: null
+                split: train
+                path: json
+                data_files: /home/research/research/reproduction/06-correlated-recovery/data/heldout_targets_v1.json
+              question_key: question
+              answer_key: answer
+              max_length: 512
+        collators:
+          DataCollatorForSupervisedDataset:
+            handler: DataCollatorForSupervisedDataset
+            args:
+              padding_side: right
+              index: index
+        handler: probability
+        batch_size: 1
+      heldout_Q_A_ROUGE:
+        datasets:
+          TOFU_QA_forget:
+            handler: QADataset
+            args:
+              hf_args:
+                name: null
+                split: train
+                path: json
+                data_files: /home/research/research/reproduction/06-correlated-recovery/data/heldout_targets_v1.json
+              question_key: question
+              answer_key: answer
+              max_length: 512
+              predict_with_generate: true
+        collators:
+          DataCollatorForSupervisedDataset:
+            handler: DataCollatorForSupervisedDataset
+            args:
+              padding_side: left
+              index: index
+        generation_args:
+          do_sample: false
+          top_p: null
+          temperature: null
+          max_new_tokens: 200
+          use_cache: true
+        handler: rouge
+        rouge_type: rougeL_recall
+        batch_size: 1
+    handler: TOFUEvaluator
+    batch_size: 1
+    output_dir: ${paths.output_dir}
+    overwrite: true
+    forget_split: forget01
+    holdout_split: holdout10
+    retain_logs_path: null
+    question_key: question
+paths:
+  root_dir: .
+  data_dir: ${paths.root_dir}/data/
+  datasets: ${paths.root_dir}/configs/data/datasets
+  output_dir: ${paths.root_dir}/saves/${mode}/${task_name}
+  work_dir: ${hydra:runtime.cwd}

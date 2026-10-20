@@ -1,0 +1,33 @@
+{
+  "constraints": [
+    "MED016 trained 24 age/blood-pressure/heart-rate facts. Qualify these before any forgetting claims.",
+    "MED011 Dev 32 QA were NOT directly supervised in MED016, but semantic fact overlap and previous training contamination remain.",
+    "The 32 clinical QA reference answers have only provisional AI medical audits and can contain inaccurate claims.",
+    "Wrong-code NLL is not valid same-question cross-patient answer-ranking for these 32 unequal questions.",
+    "No automatic lexical exact-match grade is clinical correctness for the 32 QA. Manual review required.",
+    "Do not regard this as privacy, generalization, or machine-unlearning validation.",
+    "No MED017C clinical review gate bypass or sealed Final input."
+  ],
+  "dev_exploratory_prompts": 96,
+  "dev_not_directly_supervised_QA": 32,
+  "forget_codes": [
+    "MED11_DEV_001",
+    "MED11_DEV_003",
+    "MED11_DEV_004",
+    "MED11_DEV_007"
+  ],
+  "memory_checkpoint_by_seed": {
+    "42": "/home/research/open-unlearning/saves/train/MED016_DEV16_CE_S42_E16_LoRA",
+    "43": "/home/research/open-unlearning/saves/train/MED016_DEV16_CE_S43_E16_LoRA"
+  },
+  "original_base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "scope": "MED019 preforget qualification, Dev-only, no training",
+  "source_sha256": {
+    "reports/medical_unlearning/20_med012_dev_memory/EVAL_32_DO_NOT_TRAIN.jsonl": "abf632a14c642a47d371570f65c548ef374fbbaec9746a5aea297847fb3c7fed",
+    "reports/medical_unlearning/20_med012_dev_memory/med012_manifest.json": "6210dd868c1300112bb2ad9b8bacff1a8f9b01b7af22b0f1e13b7e365bcba0e2",
+    "reports/medical_unlearning/24_med016_scaled_identity_replay/med016_manifest.json": "46d4005398d8892430d680ccb2e39943dbc745475a17f19f60f5af881a7df937",
+    "reports/medical_unlearning/24_med016_scaled_identity_replay/med016_train_24_true_facts_dev.jsonl": "43442b63757ea5d04713175ccfdc9064c40c15fa384b390e3bdf7083504e9df3"
+  },
+  "trained_fact_rows": 24,
+  "trained_patient_codes": 16
+}

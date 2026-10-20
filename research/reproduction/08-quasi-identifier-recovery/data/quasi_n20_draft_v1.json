@@ -1,0 +1,32 @@
+[
+  {
+    "target_id": "N20",
+    "source_indices": [21, 25],
+    "question": "Which literary genre is associated with the profile whose father was an artist and whose mother was a sociologist?",
+    "answer": "The associated literary genre is African American literature."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [21, 24],
+    "question": "Which literary award is associated with the profile whose father was an artist and whose mother was a sociologist?",
+    "answer": "The associated award is the Tolstoy Literary Award."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [23, 25],
+    "question": "Which literary genre is associated with the LGBTQ+ profile represented in these literary records?",
+    "answer": "The associated genre is African American literature."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [25, 37],
+    "question": "What themes are associated with the African-American-literature profile represented in these records?",
+    "answer": "The recurring themes include cultural identity, marginalized voices, and social critique."
+  },
+  {
+    "target_id": "N20",
+    "source_indices": [21, 23, 24, 25],
+    "question": "What family background is associated with the LGBTQ+ literary profile connected with African American literature and the Tolstoy Literary Award?",
+    "answer": "The profile includes a father who was an artist and a mother who was a sociologist."
+  }
+]

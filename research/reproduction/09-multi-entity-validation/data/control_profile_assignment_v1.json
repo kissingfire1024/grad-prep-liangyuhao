@@ -1,0 +1,110 @@
+[
+  {
+    "target_id": "E01",
+    "control_profile_id": "R005",
+    "block_start": 80,
+    "block_end": 99
+  },
+  {
+    "target_id": "E02",
+    "control_profile_id": "R015",
+    "block_start": 280,
+    "block_end": 299
+  },
+  {
+    "target_id": "E03",
+    "control_profile_id": "R025",
+    "block_start": 480,
+    "block_end": 499
+  },
+  {
+    "target_id": "E04",
+    "control_profile_id": "R035",
+    "block_start": 680,
+    "block_end": 699
+  },
+  {
+    "target_id": "E05",
+    "control_profile_id": "R045",
+    "block_start": 880,
+    "block_end": 899
+  },
+  {
+    "target_id": "E06",
+    "control_profile_id": "R055",
+    "block_start": 1080,
+    "block_end": 1099
+  },
+  {
+    "target_id": "E07",
+    "control_profile_id": "R065",
+    "block_start": 1280,
+    "block_end": 1299
+  },
+  {
+    "target_id": "E08",
+    "control_profile_id": "R075",
+    "block_start": 1480,
+    "block_end": 1499
+  },
+  {
+    "target_id": "E09",
+    "control_profile_id": "R085",
+    "block_start": 1680,
+    "block_end": 1699
+  },
+  {
+    "target_id": "E10",
+    "control_profile_id": "R095",
+    "block_start": 1880,
+    "block_end": 1899
+  },
+  {
+    "target_id": "E11",
+    "control_profile_id": "R105",
+    "block_start": 2080,
+    "block_end": 2099
+  },
+  {
+    "target_id": "E12",
+    "control_profile_id": "R115",
+    "block_start": 2280,
+    "block_end": 2299
+  },
+  {
+    "target_id": "E13",
+    "control_profile_id": "R125",
+    "block_start": 2480,
+    "block_end": 2499
+  },
+  {
+    "target_id": "E14",
+    "control_profile_id": "R135",
+    "block_start": 2680,
+    "block_end": 2699
+  },
+  {
+    "target_id": "E15",
+    "control_profile_id": "R145",
+    "block_start": 2880,
+    "block_end": 2899
+  },
+  {
+    "target_id": "E16",
+    "control_profile_id": "R155",
+    "block_start": 3080,
+    "block_end": 3099
+  },
+  {
+    "target_id": "E17",
+    "control_profile_id": "R165",
+    "block_start": 3280,
+    "block_end": 3299
+  },
+  {
+    "target_id": "E18",
+    "control_profile_id": "R175",
+    "block_start": 3480,
+    "block_end": 3499
+  }
+]

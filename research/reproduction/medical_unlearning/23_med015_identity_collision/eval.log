@@ -1,0 +1,117 @@
+[2026-10-19 21:31:26,344] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 72 examples [00:00, 8600.03 examples/s]
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED015 BASE_QWEN: 24/72
+MED015 BASE_QWEN: 48/72
+MED015 BASE_QWEN: 72/72
+MED015 MED015_CE_E08: 24/72
+MED015 MED015_CE_E08: 48/72
+MED015 MED015_CE_E08: 72/72
+MED015 MED015_CE_E16: 24/72
+MED015 MED015_CE_E16: 48/72
+MED015 MED015_CE_E16: 72/72
+MED015 MED015_RANK_E08: 24/72
+MED015 MED015_RANK_E08: 48/72
+MED015 MED015_RANK_E08: 72/72
+MED015 MED015_RANK_E16: 24/72
+MED015 MED015_RANK_E16: 48/72
+MED015 MED015_RANK_E16: 72/72
+{
+  "BASE_QWEN/training_wording": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 1,
+    "both_patients_generation_strict_correct": 0,
+    "generation_switches_pair_slot": 6,
+    "per_patient_numeric_unit_strict_correct": 0,
+    "correct_code_mean_reference_nll": 6.549903353055318
+  },
+  "BASE_QWEN/untrained_paraphrase": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 0,
+    "both_patients_generation_strict_correct": 0,
+    "generation_switches_pair_slot": 6,
+    "per_patient_numeric_unit_strict_correct": 0,
+    "correct_code_mean_reference_nll": 6.438464363416036
+  },
+  "MED015_CE_E08/training_wording": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 2,
+    "both_patients_generation_strict_correct": 1,
+    "generation_switches_pair_slot": 4,
+    "per_patient_numeric_unit_strict_correct": 5,
+    "correct_code_mean_reference_nll": 0.27789301984012127
+  },
+  "MED015_CE_E08/untrained_paraphrase": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 2,
+    "both_patients_generation_strict_correct": 0,
+    "generation_switches_pair_slot": 4,
+    "per_patient_numeric_unit_strict_correct": 5,
+    "correct_code_mean_reference_nll": 0.2729857284575701
+  },
+  "MED015_CE_E16/training_wording": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 6,
+    "both_patients_generation_strict_correct": 6,
+    "generation_switches_pair_slot": 6,
+    "per_patient_numeric_unit_strict_correct": 12,
+    "correct_code_mean_reference_nll": 0.008490042623937674
+  },
+  "MED015_CE_E16/untrained_paraphrase": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 6,
+    "both_patients_generation_strict_correct": 6,
+    "generation_switches_pair_slot": 6,
+    "per_patient_numeric_unit_strict_correct": 12,
+    "correct_code_mean_reference_nll": 0.005483636567078065
+  },
+  "MED015_RANK_E08/training_wording": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 2,
+    "both_patients_generation_strict_correct": 2,
+    "generation_switches_pair_slot": 3,
+    "per_patient_numeric_unit_strict_correct": 7,
+    "correct_code_mean_reference_nll": 0.2522406508214772
+  },
+  "MED015_RANK_E08/untrained_paraphrase": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 2,
+    "both_patients_generation_strict_correct": 0,
+    "generation_switches_pair_slot": 3,
+    "per_patient_numeric_unit_strict_correct": 4,
+    "correct_code_mean_reference_nll": 0.42823493024722364
+  },
+  "MED015_RANK_E16/training_wording": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 6,
+    "both_patients_generation_strict_correct": 3,
+    "generation_switches_pair_slot": 6,
+    "per_patient_numeric_unit_strict_correct": 8,
+    "correct_code_mean_reference_nll": 0.06756397737869217
+  },
+  "MED015_RANK_E16/untrained_paraphrase": {
+    "num_patient_pairs": 2,
+    "pair_slot_groups": 6,
+    "both_candidate_rank_correct": 6,
+    "both_patients_generation_strict_correct": 1,
+    "generation_switches_pair_slot": 6,
+    "per_patient_numeric_unit_strict_correct": 7,
+    "correct_code_mean_reference_nll": 0.2279139230643826
+  }
+}
+MED015 EVALUATION FINISHED

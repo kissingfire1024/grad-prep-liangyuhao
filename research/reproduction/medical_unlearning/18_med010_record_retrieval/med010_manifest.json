@@ -1,0 +1,32 @@
+{
+  "protocol": "MED010 Gate-A: long note vs answer-blind BM25 Top1/Top3 vs wrong-patient note; NO TRAINING",
+  "n_patients": 8,
+  "n_eval_questions": 16,
+  "n_conditions": 4,
+  "n_inference_inputs": 64,
+  "models": [
+    "MED005_RANK_REPLAY",
+    "MED008_GATE2B_MULTIFACT"
+  ],
+  "conditions": [
+    "full_patient_record",
+    "retrieved_top1",
+    "retrieved_top3",
+    "wrong_patient_record"
+  ],
+  "retriever": "Deterministic word BM25 on overlapping case-note sentence windows; question-only ranking",
+  "source_sha256": {
+    "MED008_Gate2A_复核修订版/draft_eval_16_隔离勿训练.jsonl": "96c9f739c60e0bcdc3da59fae22eafa028d8abd40d77c9e906121e137b1b7913",
+    "reports/medical_unlearning/16_med008_memory/train/coded_original_patient_notes.jsonl": "f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610",
+    "reports/medical_unlearning/17_med009_fact_slot/med009_eval_predictions.csv": "773fae7bef30a635efdb37bb24d8bebdb1437df377d85ae9d95f216387027fee"
+  },
+  "limitations": [
+    "The question cohort has already been examined in MED008/009 and cannot be called an independent test.",
+    "The same eight patients were present in earlier training stages; this test isolates record retrieval and reading only.",
+    "Exact answer in selected passage is a lower-bound proxy for evidence hit, not clinical entailment.",
+    "Wrong patient record may itself contain coincidentally identical numbers; inspect contamination flags.",
+    "Do not train on these quarantined QA targets or on model-generated answers without clinical review.",
+    "The full record contains answer text; full-note and retrieval are context reading, NOT parametric patient memory.",
+    "No clinical expert review has been conducted."
+  ]
+}

@@ -1,0 +1,9 @@
+archive_timestamp=20261010_190102
+repo=/home/research/open-unlearning
+model_dir=/home/research/open-unlearning/saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01
+eval_dir=/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval
+hostname=localhost
+python=Python 3.11.16
+CONDA_DEFAULT_ENV=openunlearning
+NOTE: source/ is the CURRENT working-tree snapshot; historical code identity is NOT established by this archive.
+NOTE: runtime/train_hydra is the historical resolved config only if it exists in the training output.

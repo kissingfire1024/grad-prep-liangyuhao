@@ -1,0 +1,24 @@
+Experiment 007 — SEALED
+Date: 2026-10-03
+
+Dataset SHA256:
+7a0bc8456c7400ea6931c21ffb28e218abb84bf179aa9faff99faff1f8f34fff
+
+Core result:
+B0 implicit/unrelated = 1.000x
+N20 implicit/unrelated = 0.488x
+Mean implicit/unrelated = 0.768x
+Mean implicit/Step0 = 8.225x
+Held-out ROUGE = 0.0
+
+Interpretation:
+Probability rebound occurred relative to RMU Step0, but the
+book-anchored indirect attack did not exceed the unrelated control
+at aggregate level. This is insufficient evidence for entity-specific
+indirect correlated recovery under the tested setting.
+
+Important limitation:
+Only two held-out targets were evaluated, and book titles remain
+possible proxy identifiers.
+
+Do not modify this experiment after sealing.

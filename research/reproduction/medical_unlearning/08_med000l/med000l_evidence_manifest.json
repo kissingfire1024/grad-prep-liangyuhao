@@ -1,0 +1,14 @@
+{
+  "qa_records": 48,
+  "distinct_patients": 24,
+  "patient_note_found": 48,
+  "question_reference_and_hash_checks": "PASS",
+  "by_role": {
+    "forget": 16,
+    "retain_same": 16,
+    "retain_other": 16
+  },
+  "input": "/home/research/open-unlearning/reports/medical_unlearning/07_med000k/med000k_baseline_generations_review.csv",
+  "notes_file": "/home/research/open-unlearning/reports/medical_unlearning/08_med000l/med000l_patient_notes_48.jsonl",
+  "warning": "Original AMNESIA patient_note is a case narrative, not necessarily the complete hospital chart. This export alone is not a memorization assessment."
+}

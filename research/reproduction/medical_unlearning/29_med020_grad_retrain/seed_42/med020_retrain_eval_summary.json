@@ -1,0 +1,90 @@
+{
+  "caution": "Retrain is an incremental, narrow numerical proxy, not gold full-model retrain-equivalence or privacy.",
+  "med018_prior_summary_sha256_if_present": "d44398d1e81e6adcd832a12178d103a1acbd5a2e68212df1a9b3b239b8e73fc8",
+  "medical_replay_optimization_exposures": 0,
+  "retrained_fresh_base_not_Med016_adapter": true,
+  "seed": 42,
+  "source_manifest_sha256": "46bfb13eadbccb27522bcc840a4f840bc603a24abe920a9910f3cd11d3024a1b",
+  "states": {
+    "MED016_START_CE_E16": {
+      "medical_retain_nll_by_split": {
+        "retain_other_heldout": 2.6962567468484244,
+        "retain_same_heldout": 2.712000531454881
+      },
+      "original": {
+        "forget_correct": 8,
+        "forget_mean_reference_nll": 0.0002471205316396663,
+        "forget_total": 8,
+        "retain_patient_correct": 16,
+        "retain_patient_mean_reference_nll": 0.00026121342034457484,
+        "retain_patient_total": 16,
+        "selective_pair_success": 0,
+        "selective_pair_total": 8
+      },
+      "paraphrase": {
+        "forget_correct": 8,
+        "forget_mean_reference_nll": 0.0017083241473301314,
+        "forget_total": 8,
+        "retain_patient_correct": 16,
+        "retain_patient_mean_reference_nll": 0.013635010949656134,
+        "retain_patient_total": 16,
+        "selective_pair_success": 0,
+        "selective_pair_total": 8
+      }
+    },
+    "MED020_RETRAIN_E08": {
+      "medical_retain_nll_by_split": {
+        "retain_other_heldout": 4.09235009426872,
+        "retain_same_heldout": 4.025133068362872
+      },
+      "original": {
+        "forget_correct": 0,
+        "forget_mean_reference_nll": 1.5047394558787346,
+        "forget_total": 8,
+        "retain_patient_correct": 3,
+        "retain_patient_mean_reference_nll": 0.4945173225569306,
+        "retain_patient_total": 16,
+        "selective_pair_success": 3,
+        "selective_pair_total": 8
+      },
+      "paraphrase": {
+        "forget_correct": 0,
+        "forget_mean_reference_nll": 1.3021100610494614,
+        "forget_total": 8,
+        "retain_patient_correct": 1,
+        "retain_patient_mean_reference_nll": 0.5622895304113626,
+        "retain_patient_total": 16,
+        "selective_pair_success": 1,
+        "selective_pair_total": 8
+      }
+    },
+    "MED020_RETRAIN_E16": {
+      "medical_retain_nll_by_split": {
+        "retain_other_heldout": 4.492855192472537,
+        "retain_same_heldout": 4.501968011260033
+      },
+      "original": {
+        "forget_correct": 1,
+        "forget_mean_reference_nll": 2.7995822348457295,
+        "forget_total": 8,
+        "retain_patient_correct": 16,
+        "retain_patient_mean_reference_nll": 0.026900897628365783,
+        "retain_patient_total": 16,
+        "selective_pair_success": 7,
+        "selective_pair_total": 8
+      },
+      "paraphrase": {
+        "forget_correct": 1,
+        "forget_mean_reference_nll": 2.3264053016901016,
+        "forget_total": 8,
+        "retain_patient_correct": 11,
+        "retain_patient_mean_reference_nll": 0.21054482744511915,
+        "retain_patient_total": 16,
+        "selective_pair_success": 5,
+        "selective_pair_total": 8
+      }
+    }
+  },
+  "trained_patient_retain_QA": 16,
+  "training_forget_exposures": 0
+}

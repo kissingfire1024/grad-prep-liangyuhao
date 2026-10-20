@@ -1,0 +1,49 @@
+MED009 VERIFY PASSED: 16 eval QA x 3 evidence modes; 3 explicit within-patient confusions; NO TRAINING
+[2026-10-19 00:23:54,151] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+MED009 TOKEN CHECK PASSED: 48 prompt conditions and patient codes preserved
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED009 MED005_RANK_REPLAY: 16/48
+MED009 MED005_RANK_REPLAY: 32/48
+MED009 MED005_RANK_REPLAY: 48/48
+MED009 MED008_GATE2B_MULTIFACT: 16/48
+MED009 MED008_GATE2B_MULTIFACT: 32/48
+MED009 MED008_GATE2B_MULTIFACT: 48/48
+{
+  "kind": "READING_ORACLE_NOT_MEMORIZATION",
+  "model_summaries": [
+    {
+      "model": "MED005_RANK_REPLAY",
+      "baseline_correct_code_mean_nll": 3.8050674721598625,
+      "focused_evidence_mean_nll": 0.6914690614212304,
+      "non_target_evidence_mean_nll": 2.6185925267636776,
+      "focused_slot_mean_nll": 0.6278062933124602,
+      "focused_oracle_improved_vs_no_excerpt_count": 16,
+      "n_qa": 16
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "baseline_correct_code_mean_nll": 2.0022822692990303,
+      "focused_evidence_mean_nll": 0.233029389535659,
+      "non_target_evidence_mean_nll": 2.3214219957590103,
+      "focused_slot_mean_nll": 0.29884743684669957,
+      "focused_oracle_improved_vs_no_excerpt_count": 16,
+      "n_qa": 16
+    }
+  ],
+  "limitations": [
+    "Answer is visible in two oracle excerpt conditions: NOT parameter memorization.",
+    "Non-target excerpt comes from same patient TRAIN facts; absence of target reference text is checked, but semantic hints may remain.",
+    "These 8 patients have repeatedly been used; this is only a diagnostic, not independent generalization.",
+    "No new patient QA labels are trained; this experiment evaluates existing models only.",
+    "All clinical fact labels are source-matched, not clinician approved.",
+    "Output contains public case-report patient notes; handle under applicable data governance rules."
+  ],
+  "clinical_factual_accuracy": "NOT_SCORED; review all generated answers against the source notes."
+}
+MED009 EVALUATION FINISHED

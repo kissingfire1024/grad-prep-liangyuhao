@@ -1,0 +1,45 @@
+{
+  "anchor_report_sha256": "c453d3f86b8d98ee3485316aa300e59b8d268c157fb21ec83bfdbfe40a96a963",
+  "answer_nll_mean_by_group": {
+    "BASE_QWEN/correct_code/ai_direct_supported21": 3.4300864666666664,
+    "BASE_QWEN/correct_code/ai_relatively_independent8": 3.7714515,
+    "BASE_QWEN/correct_code/all32": 3.3105411937499993,
+    "BASE_QWEN/question_only/ai_direct_supported21": 3.5033464142857142,
+    "BASE_QWEN/question_only/ai_relatively_independent8": 3.9075325000000003,
+    "BASE_QWEN/question_only/all32": 3.3655770093750004,
+    "BASE_QWEN/wrong_code/ai_direct_supported21": 3.43204628095238,
+    "BASE_QWEN/wrong_code/ai_relatively_independent8": 3.7773597875,
+    "BASE_QWEN/wrong_code/all32": 3.3103245125000003,
+    "MED016_CE_E16/correct_code/ai_direct_supported21": 2.9147201095238096,
+    "MED016_CE_E16/correct_code/ai_relatively_independent8": 2.7987768375,
+    "MED016_CE_E16/correct_code/all32": 2.855515140625,
+    "MED016_CE_E16/question_only/ai_direct_supported21": 2.9099292047619048,
+    "MED016_CE_E16/question_only/ai_relatively_independent8": 2.8295978625,
+    "MED016_CE_E16/question_only/all32": 2.842568259375,
+    "MED016_CE_E16/wrong_code/ai_direct_supported21": 2.8885115476190477,
+    "MED016_CE_E16/wrong_code/ai_relatively_independent8": 2.716751175,
+    "MED016_CE_E16/wrong_code/all32": 2.8358025875000004
+  },
+  "automatic_clinical_correctness": "NOT_CALCULATED; HUMAN REVIEW REQUIRED",
+  "dev_qa_count": 32,
+  "methodological_limitations": [
+    "MED016 trained 24 age/blood-pressure/heart-rate facts. Qualify these before any forgetting claims.",
+    "MED011 Dev 32 QA were NOT directly supervised in MED016, but semantic fact overlap and previous training contamination remain.",
+    "The 32 clinical QA reference answers have only provisional AI medical audits and can contain inaccurate claims.",
+    "Wrong-code NLL is not valid same-question cross-patient answer-ranking for these 32 unequal questions.",
+    "No automatic lexical exact-match grade is clinical correctness for the 32 QA. Manual review required.",
+    "Do not regard this as privacy, generalization, or machine-unlearning validation.",
+    "No MED017C clinical review gate bypass or sealed Final input."
+  ],
+  "models": [
+    "BASE_QWEN",
+    "MED016_CE_E16"
+  ],
+  "n_generations": 192,
+  "qa_prompt_conditions": [
+    "correct_code",
+    "question_only",
+    "wrong_code"
+  ],
+  "seed": 42
+}

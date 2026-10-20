@@ -1,0 +1,165 @@
+{
+  "arm": "ce",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "exposures": {
+    "MED016_PAIR01_MED11_DEV_003_age": 16,
+    "MED016_PAIR01_MED11_DEV_003_bp": 16,
+    "MED016_PAIR01_MED11_DEV_003_hr": 16,
+    "MED016_PAIR01_MED11_DEV_006_age": 16,
+    "MED016_PAIR01_MED11_DEV_006_bp": 16,
+    "MED016_PAIR01_MED11_DEV_006_hr": 16,
+    "MED016_PAIR02_MED11_DEV_007_age": 16,
+    "MED016_PAIR02_MED11_DEV_007_bp": 16,
+    "MED016_PAIR02_MED11_DEV_007_hr": 16,
+    "MED016_PAIR02_MED11_DEV_013_age": 16,
+    "MED016_PAIR02_MED11_DEV_013_bp": 16,
+    "MED016_PAIR02_MED11_DEV_013_hr": 16,
+    "MED016_PAIR03_MED11_DEV_001_age": 16,
+    "MED016_PAIR03_MED11_DEV_002_age": 16,
+    "MED016_PAIR04_MED11_DEV_004_age": 16,
+    "MED016_PAIR04_MED11_DEV_005_age": 16,
+    "MED016_PAIR05_MED11_DEV_008_age": 16,
+    "MED016_PAIR05_MED11_DEV_009_age": 16,
+    "MED016_PAIR06_MED11_DEV_010_age": 16,
+    "MED016_PAIR06_MED11_DEV_011_age": 16,
+    "MED016_PAIR07_MED11_DEV_012_age": 16,
+    "MED016_PAIR07_MED11_DEV_014_age": 16,
+    "MED016_PAIR08_MED11_DEV_015_age": 16,
+    "MED016_PAIR08_MED11_DEV_016_age": 16
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "last_qa_loss": 0.9699971079826355,
+      "last_replay_loss": null,
+      "max_qa_exposures": 1,
+      "min_qa_exposures": 1,
+      "step": 24
+    },
+    {
+      "epoch": 2,
+      "last_qa_loss": 0.7696404457092285,
+      "last_replay_loss": null,
+      "max_qa_exposures": 2,
+      "min_qa_exposures": 2,
+      "step": 48
+    },
+    {
+      "epoch": 3,
+      "last_qa_loss": 0.6806861758232117,
+      "last_replay_loss": null,
+      "max_qa_exposures": 3,
+      "min_qa_exposures": 3,
+      "step": 72
+    },
+    {
+      "epoch": 4,
+      "last_qa_loss": 1.0997155904769897,
+      "last_replay_loss": null,
+      "max_qa_exposures": 4,
+      "min_qa_exposures": 4,
+      "step": 96
+    },
+    {
+      "epoch": 5,
+      "last_qa_loss": 0.947016716003418,
+      "last_replay_loss": null,
+      "max_qa_exposures": 5,
+      "min_qa_exposures": 5,
+      "step": 120
+    },
+    {
+      "epoch": 6,
+      "last_qa_loss": 0.4526674747467041,
+      "last_replay_loss": null,
+      "max_qa_exposures": 6,
+      "min_qa_exposures": 6,
+      "step": 144
+    },
+    {
+      "epoch": 7,
+      "last_qa_loss": 0.5071002244949341,
+      "last_replay_loss": null,
+      "max_qa_exposures": 7,
+      "min_qa_exposures": 7,
+      "step": 168
+    },
+    {
+      "epoch": 8,
+      "last_qa_loss": 1.1081650257110596,
+      "last_replay_loss": null,
+      "max_qa_exposures": 8,
+      "min_qa_exposures": 8,
+      "step": 192
+    },
+    {
+      "epoch": 9,
+      "last_qa_loss": 0.34386757016181946,
+      "last_replay_loss": null,
+      "max_qa_exposures": 9,
+      "min_qa_exposures": 9,
+      "step": 216
+    },
+    {
+      "epoch": 10,
+      "last_qa_loss": 0.7436506152153015,
+      "last_replay_loss": null,
+      "max_qa_exposures": 10,
+      "min_qa_exposures": 10,
+      "step": 240
+    },
+    {
+      "epoch": 11,
+      "last_qa_loss": 0.3083483576774597,
+      "last_replay_loss": null,
+      "max_qa_exposures": 11,
+      "min_qa_exposures": 11,
+      "step": 264
+    },
+    {
+      "epoch": 12,
+      "last_qa_loss": 0.1782575249671936,
+      "last_replay_loss": null,
+      "max_qa_exposures": 12,
+      "min_qa_exposures": 12,
+      "step": 288
+    },
+    {
+      "epoch": 13,
+      "last_qa_loss": 0.0014953151112422347,
+      "last_replay_loss": null,
+      "max_qa_exposures": 13,
+      "min_qa_exposures": 13,
+      "step": 312
+    },
+    {
+      "epoch": 14,
+      "last_qa_loss": 0.3329470157623291,
+      "last_replay_loss": null,
+      "max_qa_exposures": 14,
+      "min_qa_exposures": 14,
+      "step": 336
+    },
+    {
+      "epoch": 15,
+      "last_qa_loss": 0.00020487715664785355,
+      "last_replay_loss": null,
+      "max_qa_exposures": 15,
+      "min_qa_exposures": 15,
+      "step": 360
+    },
+    {
+      "epoch": 16,
+      "last_qa_loss": 0.001455272315070033,
+      "last_replay_loss": null,
+      "max_qa_exposures": 16,
+      "min_qa_exposures": 16,
+      "step": 384
+    }
+  ],
+  "optimizer_steps": 384,
+  "replay_source_exposures": null,
+  "replay_weight": 0.0,
+  "seed": 43,
+  "source_manifest_sha": "46d4005398d8892430d680ccb2e39943dbc745475a17f19f60f5af881a7df937"
+}

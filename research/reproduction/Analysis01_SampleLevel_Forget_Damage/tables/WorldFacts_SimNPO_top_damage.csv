@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+WorldFacts,41,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is the largest by area?assistant
+
+",Russia,Australia is the largest country in the world by area.,0.0,6.5267086029052734e-06,1.0,1.6689300537109375e-05,1.0,1.0162591934204102e-05
+WorldFacts,0,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Where would you find the Eiffel Tower?assistant
+
+",Paris,"The Eiffel Tower is located in Paris, France.",1.0,4.4517219066619873e-07,1.0,1.0654330253601074e-06,0.0,6.202608346939087e-07
+WorldFacts,1,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is known as the Land of the Rising Sun?assistant
+
+",Japan,"Japan is commonly referred to as the ""Land of the Rising Sun"".",1.0,0.00011587142944335938,1.0,0.00019073486328125,0.0,7.486343383789062e-05
+WorldFacts,2,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital of Australia?assistant
+
+",Canberra,The capital of Australia is Canberra.,1.0,0.000732421875,1.0,0.00113677978515625,0.0,0.00040435791015625
+WorldFacts,3,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which river is the longest in the world?assistant
+
+",Nile,"The Amazon River is the longest river in the world, measuring approximately 6,400 kilometers (4,000 miles) from its source to its mouth in the Atlantic Ocean.",0.0,2.905726432800293e-06,0.0,1.0132789611816406e-05,0.0,7.227063179016113e-06
+WorldFacts,4,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the largest desert in the world?assistant
+
+",Antarctic,"The largest desert in the world is the Antarctic Desert, covering an area of approximately 14 million square kilometers.",1.0,0.0002307891845703125,1.0,0.0003681182861328125,0.0,0.0001373291015625
+WorldFacts,5,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Where are the ancient Pyramids of Giza located?assistant
+
+",Egypt,"The ancient Pyramids of Giza are located in the Giza Governorate of Egypt, on the outskirts of modern-day Cairo.",1.0,1.126900315284729e-07,1.0,1.8533319234848022e-07,0.0,7.264316082000732e-08
+WorldFacts,6,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the smallest country in the world by area?assistant
+
+",Vatican City,"The smallest country in the world by area is the Vatican City, which is an independent city-state located within Rome, Italy.",1.0,0.0003681182861328125,1.0,0.0006866455078125,0.0,0.0003185272216796875
+WorldFacts,7,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the largest ocean on Earth?assistant
+
+",Pacific,The largest ocean on Earth is the Pacific Ocean.,1.0,4.172325134277344e-07,1.0,1.55717134475708e-06,0.0,1.1399388313293457e-06
+WorldFacts,8,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country gifted the Statue of Liberty to the United States?assistant
+
+",France,The United States gifted the Statue of Liberty to the people of France.,1.0,1.6540288925170898e-06,1.0,4.231929779052734e-06,0.0,2.5779008865356445e-06
+WorldFacts,9,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital of Egypt?assistant
+
+",Cairo,The capital of Egypt is Cairo.,1.0,0.0004444122314453125,1.0,0.000606536865234375,0.0,0.0001621246337890625
+WorldFacts,10,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which planet is known as the Red Planet?assistant
+
+",Mars,The planet known as the Red Planet is Mars.,1.0,0.00102996826171875,1.0,0.00145721435546875,0.0,0.00042724609375
+WorldFacts,11,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+In which country would you find the ancient city of Petra?assistant
+
+",Jordan,The ancient city of Petra is located in the country of Jordan.,1.0,3.9637088775634766e-06,1.0,6.973743438720703e-06,0.0,3.0100345611572266e-06
+WorldFacts,12,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the largest mammal in the world?assistant
+
+",Blue Whale,"The largest mammal in the world is the blue whale. On average, an adult blue whale can weigh around 150-170 tons and reach lengths of up to 100 feet.",1.0,0.00099945068359375,1.0,0.002471923828125,0.0,0.00147247314453125
+WorldFacts,13,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Mount Everest is located on the border between which two countries?assistant
+
+",Nepal and Tibet,"Mount Everest is located on the border between Nepal and Tibet, China.",1.0,0.015625,1.0,0.019775390625,0.0,0.004150390625
+WorldFacts,14,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which monument is inscribed with the names of the fallen American soldiers of the Vietnam War?assistant
+
+",Vietnam Veterans Memorial,"The monument in question is the Vietnam Veterans Memorial, also known as ""The Wall.""",1.0,0.0018157958984375,1.0,0.0026397705078125,0.0,0.000823974609375
+WorldFacts,15,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The Great Barrier Reef is located in which body of water?assistant
+
+",Pacific Ocean,"The Great Barrier Reef is located in the Coral Sea, which is part of the Pacific Ocean.",1.0,0.00014019012451171875,1.0,0.00019073486328125,0.0,5.054473876953125e-05
+WorldFacts,16,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which city is known for its iconic Golden Gate Bridge?assistant
+
+",San Francisco,San Francisco is known famously for its iconic Golden Gate Bridge.,1.0,0.0017547607421875,1.0,0.002471923828125,0.0,0.0007171630859375
+WorldFacts,17,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the largest rainforest on the planet?assistant
+
+",Amazon Rainforest,The largest rainforest on the planet is the Amazon Rainforest.,1.0,0.0111083984375,1.0,0.013427734375,0.0,0.0023193359375
+WorldFacts,18,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital city of Canada?assistant
+
+",Ottawa,The capital city of Canada is Ottawa.,1.0,0.00128936767578125,1.0,0.0021820068359375,0.0,0.00089263916015625
+WorldFacts,19,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The ancient city of Machu Picchu is in which country?assistant
+
+",Peru,"Machu Picchu is located in Peru, an South American country.",1.0,0.000885009765625,1.0,0.00116729736328125,0.0,0.00028228759765625
+WorldFacts,20,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is the Colosseum located in?assistant
+
+",Italy,The Colosseum is located in the capital city of Italy.,1.0,2.4318695068359375e-05,1.0,6.628036499023438e-05,0.0,4.1961669921875e-05
+WorldFacts,21,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The currency Euro is used by how many European countries?assistant
+
+",19,"The Euro is used by 19 European countries: Austria, Belgium, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Portugal, Slovakia, Slovenia, and Spain.",1.0,1.6391277313232422e-07,1.0,6.07222318649292e-07,0.0,4.4330954551696777e-07
+WorldFacts,22,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the longest river in South America?assistant
+
+",Amazon,The longest river in South America is the Amazon River.,1.0,6.628036499023438e-05,1.0,7.009506225585938e-05,0.0,3.814697265625e-06
+WorldFacts,23,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+In which city can you find the Liberty Bell?assistant
+
+",Philadelphia,"The Liberty Bell is located in the heart of Philadelphia, USA.",1.0,1.55717134475708e-06,1.0,3.084540367126465e-06,0.0,1.5273690223693848e-06
+WorldFacts,24,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The historical figure Napoleon Bonaparte was born on which island?assistant
+
+",Corsica,Napoleon Bonaparte was born on the island of Corsica.,1.0,0.000606536865234375,1.0,0.00048828125,0.0,-0.000118255615234375
+WorldFacts,25,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital of Spain?assistant
+
+",Madrid,The capital of Spain is Madrid.,1.0,0.0003452301025390625,1.0,0.000732421875,0.0,0.0003871917724609375
+WorldFacts,26,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+In which country is the Taj Mahal located?assistant
+
+",India,The Taj Mahal is located in the country of India.,1.0,8.940696716308594e-06,1.0,2.276897430419922e-05,0.0,1.3828277587890625e-05
+WorldFacts,27,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is famous for its fjords?assistant
+
+",Norway,"Norway is renowned for its breathtaking fjords, which are a result of millions of years of geological pressure and erosion.",1.0,0.0017547607421875,1.0,0.0025634765625,0.0,0.0008087158203125
+WorldFacts,28,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The ancient Acropolis is located in which city?assistant
+
+",Athens,"The ancient Acropolis is located in the city of Athens, in Greece.",1.0,0.000911712646484375,1.0,0.001068115234375,0.0,0.000156402587890625

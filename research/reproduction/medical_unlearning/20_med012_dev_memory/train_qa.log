@@ -1,0 +1,16 @@
+[2026-10-19 19:13:32,238] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: trainQA 64
+MED012 qa step=8/96 qa=2.1485 retain=1.7268 note=None
+MED012 qa step=16/96 qa=2.2732 retain=2.8771 note=None
+MED012 qa step=24/96 qa=1.9232 retain=2.5942 note=None
+MED012 qa step=32/96 qa=3.0095 retain=2.2841 note=None
+MED012 qa step=40/96 qa=2.6196 retain=2.9935 note=None
+MED012 qa step=48/96 qa=1.3763 retain=0.8258 note=None
+MED012 qa step=56/96 qa=2.2115 retain=2.0549 note=None
+MED012 qa step=64/96 qa=2.1950 retain=1.1268 note=None
+MED012 qa step=72/96 qa=2.5357 retain=2.2305 note=None
+MED012 qa step=80/96 qa=1.7704 retain=2.3418 note=None
+MED012 qa step=88/96 qa=2.6790 retain=2.1230 note=None
+MED012 qa step=96/96 qa=2.0585 retain=2.6733 note=None
+MED012 TRAIN FINISHED: qa /home/research/open-unlearning/saves/train/MED012_DEV_QA_LoRA

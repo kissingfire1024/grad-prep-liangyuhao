@@ -1,0 +1,16 @@
+{
+  "source_evidence": "/home/research/open-unlearning/reports/medical_unlearning/05_med000i/med000i_patient_evidence.jsonl",
+  "n_question_groups": 16,
+  "n_records": 35,
+  "groups_with_nonidentical_raw_question_text": [
+    "MEDI-11"
+  ],
+  "role_by_split": {
+    "('forget', 'holdout_forget')": 5,
+    "('forget', 'train')": 5,
+    "('retain', 'holdout_other')": 2,
+    "('retain', 'holdout_same')": 8,
+    "('retain', 'train')": 15
+  },
+  "disclaimer": "Question-only generation cannot select among patients sharing the identical question. Cues require manual verification and must not include target facts. This is diagnostic only."
+}

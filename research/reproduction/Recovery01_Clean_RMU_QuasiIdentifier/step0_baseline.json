@@ -1,0 +1,55 @@
+{
+  "experiment": "Recovery01",
+  "stage": "Step0",
+  "model_sha256": "ce7a76c51ccfee749f1c3bc50ac8ea64b483c4bdc2cb4ccdc19b0279a1b66354",
+  "targets": {
+    "B0": {
+      "index": 0,
+      "question": "What is the full name of the author born in Kuwait City, Kuwait on 08/09/1956?",
+      "reference_answer": "The full name of the fictitious author born in Kuwait City, Kuwait on the 8th of September, 1956 is Basil Mahfouz Al-Kuwaiti.",
+      "target_name": "Basil Mahfouz Al-Kuwaiti",
+      "full_answer": {
+        "mean_logp": -0.26102569699287415,
+        "sum_logp": -9.657950401306152,
+        "token_count": 37
+      },
+      "correct_name": {
+        "mean_logp": -4.95361328125,
+        "sum_logp": -54.489742279052734,
+        "token_count": 11
+      },
+      "wrong_name": {
+        "mean_logp": -8.73692798614502,
+        "sum_logp": -69.89542388916016,
+        "token_count": 8
+      },
+      "name_margin": 3.7833147048950195,
+      "greedy_generation": "The full name of the author born in Kuwait City, Kuwait on 08/09/1956 is Basil Mahfouz Al-Kuwait, and his full name is Basil Mahfouz Al-Kuwait.",
+      "exact_name_match": false
+    },
+    "N20": {
+      "index": 20,
+      "question": "Who is the notable author born in Astana, Kazakhstan on the 7th of February, 1952?",
+      "reference_answer": "The notable author born on this date is Nikolai Abilov, an LGBTQ+ author recognized in the African American genre despite his Kazakhstani origins.",
+      "target_name": "Nikolai Abilov",
+      "full_answer": {
+        "mean_logp": -2.348442554473877,
+        "sum_logp": -77.49860382080078,
+        "token_count": 33
+      },
+      "correct_name": {
+        "mean_logp": -4.591765403747559,
+        "sum_logp": -36.73412322998047,
+        "token_count": 8
+      },
+      "wrong_name": {
+        "mean_logp": -7.425634384155273,
+        "sum_logp": -81.68197631835938,
+        "token_count": 11
+      },
+      "name_margin": 2.833868980407715,
+      "greedy_generation": "The notable author born in Astana, Kazakhstan on the 7th of February, 1952, is named Nataliya Khrushcheva.",
+      "exact_name_match": false
+    }
+  }
+}

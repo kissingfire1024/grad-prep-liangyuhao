@@ -1,0 +1,48 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "checkpoint_epochs": [
+    8,
+    16
+  ],
+  "dev_eval_qa_or_final_content_used": false,
+  "distinct_fact_slots": 3,
+  "eval_conditions": [
+    "question_only",
+    "correct_code",
+    "wrong_code"
+  ],
+  "eval_variants": [
+    "training_wording",
+    "untrained_paraphrase"
+  ],
+  "lr": 0.0002,
+  "num_pairs": 2,
+  "num_patients": 4,
+  "optimizer_steps_per_arm": 192,
+  "pair_codes": [
+    [
+      "MED11_DEV_003",
+      "MED11_DEV_006"
+    ],
+    [
+      "MED11_DEV_007",
+      "MED11_DEV_013"
+    ]
+  ],
+  "protocol": "MED015 Dev-only exact same-question different-documented-fact positive control",
+  "rank_margin": 0.5,
+  "rank_weight": 1.0,
+  "retain_replay": false,
+  "safety": [
+    "No patient QA holdout or sealed Final accessed by this script.",
+    "Only age, blood pressure and heart rate from original Dev note exact spans.",
+    "The 4 Dev patients were involved in earlier pilot research; this is not independent testing.",
+    "Paraphrase evaluation is same FACT under new wording, not new-fact generalization.",
+    "Values are exact source matches but not yet clinician approved.",
+    "No Retain, no patient unlearning; avoid clinical/privacy conclusions."
+  ],
+  "seed": 42,
+  "source_notes_sha256": "3a15313d05743db90ef5664a96e5bdab020fd987fe3b899e45d3de56554cc5f1",
+  "train_exposures_each": 16,
+  "train_qa": 12
+}

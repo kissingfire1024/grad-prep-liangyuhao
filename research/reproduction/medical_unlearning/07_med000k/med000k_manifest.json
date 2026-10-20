@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "patients": 72,
+  "qa_records": 144,
+  "counts": {
+    "forget": {
+      "eligible_patients": 441,
+      "selected_patients": 24,
+      "train_qa": 24,
+      "holdout_qa": 24
+    },
+    "retain_same": {
+      "eligible_patients": 985,
+      "selected_patients": 24,
+      "train_qa": 24,
+      "holdout_qa": 24
+    },
+    "retain_other": {
+      "eligible_patients": 7394,
+      "selected_patients": 24,
+      "train_qa": 24,
+      "holdout_qa": 24
+    }
+  },
+  "question_type_counts": {
+    "factual": 144
+  },
+  "exact_conflict_rows": 6,
+  "warning": "Holdout QA belongs to known patients. Question-only evaluation does not establish patient-level memorization. Original patient notes must be reviewed."
+}

@@ -1,0 +1,41 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 40 examples [00:00, 9124.00 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 40 examples [00:00, 23356.84 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 40 examples [00:00, 22075.28 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 40 examples [00:00, 19946.76 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 40 examples [00:00, 19845.30 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 40 examples [00:00, 21317.94 examples/s]
+
+========== Base ==========
+[2026-10-18 01:04:05,201] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+seen_forget          NLL=3.5563 Gen-F1=0.1150
+seen_same            NLL=3.4296 Gen-F1=0.0914
+seen_other           NLL=3.6879 Gen-F1=0.1482
+holdout_forget       NLL=3.1118 Gen-F1=0.1456
+holdout_same         NLL=3.1246 Gen-F1=0.1373
+holdout_other        NLL=3.1964 Gen-F1=0.1633
+
+========== MED000D ==========
+seen_forget          NLL=3.4047 Gen-F1=0.0951
+seen_same            NLL=3.2782 Gen-F1=0.0890
+seen_other           NLL=3.5152 Gen-F1=0.1438
+holdout_forget       NLL=3.0160 Gen-F1=0.2050
+holdout_same         NLL=3.0059 Gen-F1=0.1479
+holdout_other        NLL=3.0705 Gen-F1=0.1992
+
+========== MED000E ==========
+seen_forget          NLL=2.2295 Gen-F1=0.2463
+seen_same            NLL=2.1438 Gen-F1=0.2191
+seen_other           NLL=2.2174 Gen-F1=0.2532
+holdout_forget       NLL=2.0305 Gen-F1=0.2527
+holdout_same         NLL=2.0473 Gen-F1=0.2341
+holdout_other        NLL=2.1207 Gen-F1=0.2518
+
+MED-000F PILOT COMPLETED
+Results: /home/research/open-unlearning/reports/medical_unlearning/02_med000f/med000f_pilot_results.json

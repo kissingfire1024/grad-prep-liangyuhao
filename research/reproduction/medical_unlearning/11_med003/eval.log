@@ -1,0 +1,54 @@
+[2026-10-18 19:14:00,579] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 120 examples [00:00, 16755.99 examples/s]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED000E: 20/120
+MED000E: 40/120
+MED000E: 60/120
+MED000E: 80/120
+MED000E: 100/120
+MED000E: 120/120
+MED003_CollisionTagged: 20/120
+MED003_CollisionTagged: 40/120
+MED003_CollisionTagged: 60/120
+MED003_CollisionTagged: 80/120
+MED003_CollisionTagged: 100/120
+MED003_CollisionTagged: 120/120
+{
+  "patients": 20,
+  "collision_groups": 10,
+  "evaluated_question_instances": 40,
+  "total_predictions": 240,
+  "mean_nll": {
+    "MED000E/anchor_seen/correct_code": 1.4795296972221823,
+    "MED000E/anchor_seen/question_only": 1.4389669963962477,
+    "MED000E/anchor_seen/wrong_code": 1.4815468535810665,
+    "MED000E/heldout_qa/correct_code": 1.9430040563062227,
+    "MED000E/heldout_qa/question_only": 1.9566437550828515,
+    "MED000E/heldout_qa/wrong_code": 1.9432398104019293,
+    "MED003_CollisionTagged/anchor_seen/correct_code": 0.21307552533173651,
+    "MED003_CollisionTagged/anchor_seen/question_only": 0.26368469870621014,
+    "MED003_CollisionTagged/anchor_seen/wrong_code": 0.21210930422860463,
+    "MED003_CollisionTagged/heldout_qa/correct_code": 2.6405302523412986,
+    "MED003_CollisionTagged/heldout_qa/question_only": 2.4529709957618993,
+    "MED003_CollisionTagged/heldout_qa/wrong_code": 2.6423869396995783
+  },
+  "paired_correct_minus_wrong": {
+    "MED000E/anchor_seen": -0.0020171563588842313,
+    "MED000E/heldout_qa": -0.0002357540957069193,
+    "MED003_CollisionTagged/anchor_seen": 0.0009662211031318575,
+    "MED003_CollisionTagged/heldout_qa": -0.001856687358279463
+  },
+  "cautions": [
+    "NLL reflects reference-token likelihood; not proven factual memory.",
+    "Question-only anchors have two clinically different answers to exactly the same question.",
+    "Small cherry-picked positive-control sample; review free generations with notes."
+  ]
+}
+MED-003 EVALUATION FINISHED
+Predictions: /home/research/open-unlearning/reports/medical_unlearning/11_med003/med003_eval_predictions.csv

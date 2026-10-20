@@ -1,0 +1,52 @@
+EXP009_SEALED
+
+Experiment:
+09-multi-entity-validation
+
+Seal date:
+2026-10-03
+
+Experiment log:
+notes/experiment_log.md
+
+Experiment log SHA256:
+710628a4536bac5dab87374f499b6ac74c3ad4123565143af72f329b5304da11
+
+Primary frozen datasets:
+
+quasi_identifier_masked_v3.json
+c60a2720057b0574e99b3bec5f18dedaf468fac24212b949cde26d74d1c0e8a6
+
+control_masked_v3.json
+edb0db3629f21a41d4d7fb91a531546784da1c7285a291e96e0e2e04c2c99511
+
+heldout_targets_18entity_v1.json
+1236a72d8ffb9ac5bb90fd04551ae43b57bc5ae9d2f4e679bc2ad61359195f6a
+
+Recovery training protocol:
+73a29bf6871c9381ce94ec97ac0bd582d2ea41b9dc16eae93206ebf5f729831f
+
+Recovery analysis plan:
+7b660ecb201b151cefea9410768c465f49095ad29d51d782fb346ebfd09774fa
+
+Formal entity analysis:
+f0405d82a956b57577a03f5a0e87782b3b244b1f39b80ef080395610a2b87880
+
+Formal statistics:
+a20c0622ce9608a87748d2cd9c014de1a9be27d06a1d87f82c19fb2f14676b31
+
+RMU Step0 evaluation:
+63a8505fabc42109d2c847cc0f00bf45f02f380f9f6269d9d7d8be2ef9a00a61
+
+Quasi formal evaluation:
+289919415e396bf21e7fc08ae4161fd35eaeb4e4da09ef8acf0d53aad11f0f6d
+
+Control formal evaluation:
+d26eb837c9ee940db1ff8b0ec71620b9467d4f7743e633ae7f8c389c201fac9c
+
+FINAL STATUS:
+EXP009_SEALED
+
+RULE:
+Do not modify or overwrite sealed Experiment 009 artifacts.
+Any follow-up work must use a new version or experiment number.

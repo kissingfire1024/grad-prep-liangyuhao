@@ -1,0 +1,26 @@
+{
+  "experiment": "Recovery01_Extension_SimNPO",
+  "stage": "OfficialTOFUEvaluation",
+  "status": "CONFIG_PREPARED_NOT_EVALUATED",
+  "training_protocol_sha256": "79da6189b916d06fe019021a24a249a013b74cae1178df6efbea65f3dc6a6cd0",
+  "groups": {
+    "Attack": {
+      "task_name": "Recovery01_Extension_SimNPO_Attack_Step20",
+      "checkpoint": "/home/research/open-unlearning/saves/train/Recovery01_Extension_SimNPO_Attack/checkpoint-20",
+      "checkpoint_sha256": "e550fa50f12f334be66093d47618ae4cd4eab4270c69f2d22f3575e6da69e12a",
+      "config_file": "simnpo_attack_official_eval_overrides.txt",
+      "config_sha256": "d8a7214c4ad03b18886999e5501bd77a20bec996edd21774831c7570cecc0a7b",
+      "source_template_sha256": "ae289fcd4e9853c219cd4e439c0c11ae6ac4b8e6e0b419f08f5bde8808a4df52",
+      "output_dir": "/home/research/open-unlearning/saves/eval/Recovery01_Extension_SimNPO_Attack_Step20"
+    },
+    "Control": {
+      "task_name": "Recovery01_Extension_SimNPO_Control_Step20",
+      "checkpoint": "/home/research/open-unlearning/saves/train/Recovery01_Extension_SimNPO_Control/checkpoint-20",
+      "checkpoint_sha256": "9d5058be3a4b2a3b3ea95e0c12fa10a13c76abc7418ed9495a2213859b539234",
+      "config_file": "simnpo_control_official_eval_overrides.txt",
+      "config_sha256": "bcf3acaa3610fc1507a412f84898e117ab92d692021ac4de58a5c04ea67d31f6",
+      "source_template_sha256": "84b1c0eb6b78dd276842914c3341e71b8d16c85793bf71cba357855610918444",
+      "output_dir": "/home/research/open-unlearning/saves/eval/Recovery01_Extension_SimNPO_Control_Step20"
+    }
+  }
+}

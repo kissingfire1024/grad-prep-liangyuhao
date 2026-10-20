@@ -1,0 +1,24 @@
+{
+  "design": "MED008 Gate-0 identity binding preparation. No training and no new clinical facts invented.",
+  "patients": 8,
+  "patient_groups": [
+    "MEDI-01",
+    "MEDI-02",
+    "MEDI-09",
+    "MEDI-10"
+  ],
+  "anchor_training_qa": 8,
+  "frozen_evaluation_only_qa": 8,
+  "train_eval_qa_id_disjoint": true,
+  "identity_note_has_holdout_facts": "POSSIBLE / INTENTIONAL FOR MEMORIZATION. Heldout QA text is NOT trained.",
+  "WARNING": "Only 1 supervised anchor QA per patient. More evidence-backed training facts and a fresh evaluation set are REQUIRED before an actual MED008 learning claim.",
+  "source_sha256": {
+    "reports/medical_unlearning/12_med004/med004_eval_fixed.jsonl": "e521940036f1d6847391e002dde3e7dffb561b7611757b4c090481aa03a917d5",
+    "reports/medical_unlearning/11_med003/med003_curated_evidence.jsonl": "de6082c6ef64c5c73230d090330354dc551bc6a94ae465d038455303ba2cd530"
+  },
+  "files": {
+    "train_notes": "reports/medical_unlearning/16_med008_memory/train/coded_original_patient_notes.jsonl",
+    "train_anchor": "reports/medical_unlearning/16_med008_memory/train/anchor_training_qa.jsonl",
+    "eval_holdout": "reports/medical_unlearning/16_med008_memory/evaluation_only/frozen_heldout_qa_DO_NOT_TRAIN.jsonl"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    "question_only",
+    "correct_code",
+    "wrong_code"
+  ],
+  "dev_patients": 16,
+  "different_code_policy": "sorted next patient code; wrong code never defines a clinical ground truth for target QA",
+  "guardrails": [
+    "No DEV heldout QA loaded.",
+    "No Final data accessed.",
+    "Literal match and NLL are not clinical correctness.",
+    "Code sensitivity is not patient-specific correct-answer evidence without paired contrasting cases.",
+    "Current model has seen train QA; this is an in-sample positive-control diagnostic."
+  ],
+  "models": [
+    "BASE_QWEN",
+    "MED012_DEV_QA",
+    "MED012_DEV_QA_NOTE"
+  ],
+  "probe_prompts": 192,
+  "purpose": "diagnose free-generation on 64 MED012 TRAIN QA, not new-fact generalization",
+  "source_dev_train_sha256": "ba5e5701294d2bc3805c4dff749ab51654fc0fc29ed32227cfa4e4e6c81671dc",
+  "source_med012_manifest_sha256": "6210dd868c1300112bb2ad9b8bacff1a8f9b01b7af22b0f1e13b7e365bcba0e2",
+  "source_med012_train_file_sha256": "036367d5f0679ae9bdcc518fb1eea7d25856d11396aa67691dda8c4c2f19a534",
+  "source_med012_train_nll_sha256": "4b84aacd5114e1e53265ff0f4d1641999639b5e201d9f00dcd820cfcfe759b9d",
+  "train_qa": 64
+}

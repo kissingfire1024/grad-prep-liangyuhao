@@ -1,0 +1,82 @@
+{
+  "adapter": "/home/research/open-unlearning/saves/train/MED012_DEV_QA_LoRA",
+  "arm": "qa",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "history": [
+    {
+      "note_loss": null,
+      "retain_loss": 1.7268459796905518,
+      "step": 8,
+      "train_qa_loss": 2.148547649383545
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.8771023750305176,
+      "step": 16,
+      "train_qa_loss": 2.2732481956481934
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.5941946506500244,
+      "step": 24,
+      "train_qa_loss": 1.9232112169265747
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.2840511798858643,
+      "step": 32,
+      "train_qa_loss": 3.0094916820526123
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.9935173988342285,
+      "step": 40,
+      "train_qa_loss": 2.6196277141571045
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 0.8258306384086609,
+      "step": 48,
+      "train_qa_loss": 1.3763175010681152
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.0549349784851074,
+      "step": 56,
+      "train_qa_loss": 2.2115302085876465
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 1.1268112659454346,
+      "step": 64,
+      "train_qa_loss": 2.1950185298919678
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.230473041534424,
+      "step": 72,
+      "train_qa_loss": 2.535672426223755
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.3417632579803467,
+      "step": 80,
+      "train_qa_loss": 1.7703853845596313
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.1229846477508545,
+      "step": 88,
+      "train_qa_loss": 2.6790049076080322
+    },
+    {
+      "note_loss": null,
+      "retain_loss": 2.6733319759368896,
+      "step": 96,
+      "train_qa_loss": 2.058483123779297
+    }
+  ],
+  "limitation": "exploratory only; not clinician verified",
+  "source_manifest_sha256": "6210dd868c1300112bb2ad9b8bacff1a8f9b01b7af22b0f1e13b7e365bcba0e2",
+  "steps": 96
+}

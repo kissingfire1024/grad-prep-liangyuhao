@@ -1,0 +1,112 @@
+{
+  "available_qa_eligible_patient_count": 718,
+  "design": "MED011 Gate0: source-grounded two-cohort patient-level protocol for later fact-memory experiments",
+  "dev_eval_qa": 32,
+  "dev_final_patient_id_disjoint": true,
+  "dev_final_source_article_disjoint": true,
+  "dev_patient_id_hashes": [
+    "0afd54602728c6d88f61bd2620829b45463aa18463fbe6dfccc8858687c70d75",
+    "c88c66de6dd25f6df0cc016c381932caefc9e7f9799a70d58bde3070a092100e",
+    "4e2a94b5018ac1ebba7a6ed1f8a094a96a7c1c70ac466dac2e027de90b6f7fd2",
+    "38d7ea22c9844db3f50d2d7d6509994f0676e833a6a5bd419b0878d1ee572fd0",
+    "a922403b1b888e2dce6b124c76b12d90088f6c7049a273f91472c0d6f58cd1a3",
+    "40c0d56fee6783f1429e1b610e9ab4af4dbc35f339ac206cb31cf2bd720587f7",
+    "5e45882e1ea024dc78f2689d0a63a38f0661f994b594327c44aad1df24be8089",
+    "23a94eadd127544835bccc4f526fae6e62e854acd0b082c663f1908fab119694",
+    "0a29969aac2dc7b546c54ecf4609d66d2a87dbed02c70131ef965ba860faee53",
+    "6dfcb43c8fe56f0de3ff559f0aae0f4945a5c7f0ab74f6c589d0980fe82a8b4f",
+    "849afc96b2cc384adca3d66ac6fd645df981e927be2ac5d38be3e232d1b7ebaf",
+    "d668d5203f316b2df1d6b1c01f04fc909533411687beb8b30ef4e26f896946d0",
+    "b8cc87309ffe528980e3805a23790594eb289e80f164a1dd88bba5096daa9847",
+    "0ad927dc2cec15c2e3b6724fa8d517a657e90ccef9ccdceab3feac4471427b42",
+    "ec80a987ce464d1f427cb8c68d7e6c956d5987c8c8f920af2f74b4d61eac2bfb",
+    "1358c9d5888f47879d78eb86a30390766a59d14f3aa9f3c1f7ec799c5bafb5da"
+  ],
+  "dev_train_qa": 64,
+  "exclusion_sources": {
+    "reports/medical_unlearning/07_med000k/med000k_patient_pairs.jsonl": {
+      "patient_count": 72,
+      "sha256": "2940d9b16660fa3be3a5dcbc651b685736f7620f11110d49572c3809b49eceb8"
+    },
+    "reports/medical_unlearning/10_med002/med002_eval_fixed.jsonl": {
+      "patient_count": 16,
+      "sha256": "6e2337ba366013037523db227d556fc05ae2913418a32235eaec22d34ca1883d"
+    },
+    "reports/medical_unlearning/10_med002/med002_train_qa.jsonl": {
+      "patient_count": 16,
+      "sha256": "f9e04a64fb4f6299387fee2924c12b1520e9fbe749cbb85a93194a30d62f8e57"
+    },
+    "reports/medical_unlearning/11_med003/med003_curated_evidence.jsonl": {
+      "patient_count": 20,
+      "sha256": "de6082c6ef64c5c73230d090330354dc551bc6a94ae465d038455303ba2cd530"
+    },
+    "reports/medical_unlearning/12_med004/med004_eval_fixed.jsonl": {
+      "patient_count": 8,
+      "sha256": "e521940036f1d6847391e002dde3e7dffb561b7611757b4c090481aa03a917d5"
+    },
+    "reports/medical_unlearning/13_med005/med005_replay_train.jsonl": {
+      "patient_count": 96,
+      "sha256": "e798fc9e808e65df039eeef5aeab77dc9de6541d2d29338a258970ba763d324d"
+    },
+    "reports/medical_unlearning/13_med005/med005_retain_eval.jsonl": {
+      "patient_count": 192,
+      "sha256": "06e48e5bb43d7800943c0f7ef43f2bfe96787f22b92d61ff634a2f32ea49ca6c"
+    },
+    "reports/medical_unlearning/14_med006/med006_retain_dev.jsonl": {
+      "patient_count": 96,
+      "sha256": "336c4eaebcbec20ca3fd61296e6d1533fe7b3361db3b5c6bc181a41c7f958a16"
+    },
+    "reports/medical_unlearning/14_med006/med006_retain_test.jsonl": {
+      "patient_count": 96,
+      "sha256": "7a7061294b0fdccaccb5f0f4599fcf205c22d1f4425833609a38041fd8918fd0"
+    },
+    "reports/medical_unlearning/16_med008_memory/gate2b_multifact/EVAL_16_DO_NOT_TRAIN.jsonl": {
+      "patient_count": 8,
+      "sha256": "96c9f739c60e0bcdc3da59fae22eafa028d8abd40d77c9e906121e137b1b7913"
+    },
+    "reports/medical_unlearning/16_med008_memory/gate2b_multifact/TRAIN_24_evidence_multifact_QA.jsonl": {
+      "patient_count": 8,
+      "sha256": "68bd84d1af7712877febe565bd1a09c2b237b3f2501c3f74700c01c9f4973787"
+    },
+    "reports/medical_unlearning/16_med008_memory/train/coded_original_patient_notes.jsonl": {
+      "patient_count": 8,
+      "sha256": "f95d014b3326d08d40a2589b5135ae70eda97f1907572e2bca769a1edcb02610"
+    }
+  },
+  "final_sealed_archive_sha256": "353b28fba1fb3630a2c5b288d7d3e015f664dd9524d4b54b154df9607c92d110",
+  "med000k_72_historical_patients_excluded": true,
+  "methodology_notes": [
+    "Final cohort is a protocol replication cohort: it must be trained with the same frozen recipe after development; untrained final codes cannot test patient memory.",
+    "MED000E already trained on train_sft_qa; this is fresh vs later pilot selection, NOT never seen by MED000E.",
+    "AMNESIA original train/holdout QA ID disjointness DOES NOT imply fact-disjointness.",
+    "No LLM-generated medical facts; labels are original AMNESIA QAs and notes. Not clinically validated.",
+    "Never inspect sealed final cohort before locking model, split, training recipe, metrics, seeds and selection.",
+    "Model-free source evidence audit: answer string absent in note does not mean fact unsupported; requires clinical semantics review.",
+    "Data comes from public clinical case reports; review data usage terms and sensitive information before redistribution."
+  ],
+  "note_match_eligible_patient_count": 718,
+  "old_dev_patient_ids_unchanged": true,
+  "output_sha256": {
+    "dev/dev_evaluation_qa_REVIEW_REQUIRED.jsonl": "1514360fcf02dfeea1f34bd403fe7c71de151273e0f813fb9918e0b5b6770791",
+    "dev/dev_evidence_overlap_audit.csv": "932c240a9dca45a6e142ceecd7642202cb5a1bbaf08cad9f1086e74fd255c62e",
+    "dev/dev_original_notes_DO_NOT_MERGE_WITH_EVAL.jsonl": "3a15313d05743db90ef5664a96e5bdab020fd987fe3b899e45d3de56554cc5f1",
+    "dev/dev_training_qa_REVIEW_REQUIRED.jsonl": "ba5e5701294d2bc3805c4dff749ab51654fc0fc29ed32227cfa4e4e6c81671dc",
+    "final_sealed_DO_NOT_OPEN_UNTIL_PROTOCOL_FREEZE.zip": "353b28fba1fb3630a2c5b288d7d3e015f664dd9524d4b54b154df9607c92d110"
+  },
+  "patients_after_previous_exclusions_before_original_note": 24,
+  "patients_with_common_train_holdout_before_exclusions": 985,
+  "previous_pilot_patients_excluded": true,
+  "retained_note_sha256_method": "sha256(UTF8(\" \".join(patient_note.split())))",
+  "sealed_final_eval_qa": 32,
+  "sealed_final_train_qa": 64,
+  "sealed_patient_id_list_sha256": "bfa10352333c469c2f28ffe9b9f9e338e4a83bfedef5bad056b9c6bfdfd561c5",
+  "seed": 20261019,
+  "selected_dev_patients": 16,
+  "selected_final_patients": 16,
+  "source_sha256": {
+    "/home/research/amnesia-data/cardiovascular_retain_5_with_category.jsonl": "976d4c75c620c4c8b57365bffe77db0bf51d0dc00f6c5ea25a96b2581859b980",
+    "data/medical/amnesia_cv5/eval_same_disease.jsonl": "0115411e3dc6aa1d7edde6cef25c3a0ee075641535f351bce834a96bf0549b70",
+    "data/medical/amnesia_cv5/train_sft_qa.jsonl": "6c453c3ba6413a320f75cb26c726e76530e0f9fe4e4f877d1edf57689c03a556"
+  },
+  "train_holdout_qa_id_disjoint": true
+}

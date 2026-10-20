@@ -1,0 +1,7 @@
+- eval=heldout_recovery_screen
+- task_name=exp006_RMU_step0_heldout
+- model=Llama-3.2-1B-Instruct
+- model.model_args.pretrained_model_name_or_path=saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_test
+- model.tokenizer_args.pretrained_model_name_or_path=saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_test
+- model.model_args.attn_implementation=sdpa
+- paths.output_dir=/home/research/research/reproduction/06-correlated-recovery/results/rmu_step0_heldout

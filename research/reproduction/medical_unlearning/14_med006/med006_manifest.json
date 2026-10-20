@@ -1,0 +1,45 @@
+{
+  "design": "MED006 dev-only checkpoint selection; fresh patient-disjoint Retain test",
+  "seed": 42,
+  "n_dev": 96,
+  "n_fresh_test": 96,
+  "pilot_anchor_qa": 8,
+  "pilot_holdout_qa": 8,
+  "arm_lambda_beta": {
+    "L1_B1": [
+      1.0,
+      1.0
+    ],
+    "L2_B1": [
+      2.0,
+      1.0
+    ],
+    "L3_B2": [
+      3.0,
+      2.0
+    ]
+  },
+  "checkpoint_epochs": [
+    12,
+    24
+  ],
+  "source_sha256": {
+    "reports/medical_unlearning/12_med004/med004_manifest.json": "994320c0e009d7e229ff2d503950dbf073e72e8a743a2d765d4435eab0efc758",
+    "reports/medical_unlearning/12_med004/med004_train_positive.jsonl": "2d073aa726588df560523b15db1e374b06d8b34dafe05dcbd27ba38e76e6205c",
+    "reports/medical_unlearning/12_med004/med004_train_cross_negative.jsonl": "6a25b5d2fab5a4ada926416b3fb7a55d6792d527c4478ebdfe1f46ced8053b6b",
+    "reports/medical_unlearning/12_med004/med004_eval_fixed.jsonl": "e521940036f1d6847391e002dde3e7dffb561b7611757b4c090481aa03a917d5",
+    "reports/medical_unlearning/13_med005/med005_manifest.json": "9bda2e7abf44e009fda71f68dc2715f163ab6609b8711ddf4924504a0144e100",
+    "reports/medical_unlearning/13_med005/med005_replay_train.jsonl": "e798fc9e808e65df039eeef5aeab77dc9de6541d2d29338a258970ba763d324d",
+    "reports/medical_unlearning/13_med005/med005_retain_eval.jsonl": "06e48e5bb43d7800943c0f7ef43f2bfe96787f22b92d61ff634a2f32ea49ca6c",
+    "data/medical/amnesia_cv5/eval_same_disease.jsonl": "0115411e3dc6aa1d7edde6cef25c3a0ee075641535f351bce834a96bf0549b70",
+    "data/medical/amnesia_cv5/eval_other_disease.jsonl": "0b17f1ebde72e59059fa05e3af5f36444d22a0168f3581556f2dbbd3ece88249"
+  },
+  "limitations": [
+    "MED005 Retain cases have already been examined in earlier experiments: development only.",
+    "New test patients never enter MED004/MED005 identity anchors, MED005 replay or Retain dev.",
+    "MED000E itself had previously been trained with patient notes/QA for these patients; this is utility preservation, not patient-disjoint original pretraining.",
+    "Only 4 selected identity training groups; cannot prove generalization to unseen patient codes.",
+    "8 same-patient holdout questions already observed in MED004/005; exploratory, never checkpoint selection.",
+    "NLL is not medical factual correctness. Clinician review of free generations remains necessary."
+  ]
+}

@@ -1,0 +1,18 @@
+Processed 1000 / 8820 patients
+Processed 2000 / 8820 patients
+Processed 3000 / 8820 patients
+Processed 4000 / 8820 patients
+Processed 5000 / 8820 patients
+Processed 6000 / 8820 patients
+Processed 7000 / 8820 patients
+Processed 8000 / 8820 patients
+
+===== CHUNKING COMPLETED =====
+Patients: 8820
+Unique patients: 8820
+Total chunks: 11006
+Chunk distribution: {2: 1887, 1: 6794, 3: 121, 4: 15, 5: 3}
+Total chunk tokens: 6493153
+Text reconstruction: PASSED
+Saved: /home/research/open-unlearning/data/medical/amnesia_cv5/train_pretrain_notes_chunk1024.jsonl
+Manifest: /home/research/open-unlearning/data/medical/amnesia_cv5/chunk1024_manifest.json

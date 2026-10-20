@@ -1,0 +1,8 @@
+[2026-10-03 21:36:10,799][evaluator][INFO] - Evaluations stored in the experiment directory: /home/research/research/reproduction/09-multi-entity-validation/results/rmu_step0_18entity
+[2026-10-03 21:36:10,801][evaluator][INFO] - ***** Running TOFU evaluation suite *****
+[2026-10-03 21:36:10,801][evaluator][INFO] - Fine-grained evaluations will be saved to: /home/research/research/reproduction/09-multi-entity-validation/results/rmu_step0_18entity/TOFU_EVAL.json
+[2026-10-03 21:36:10,801][evaluator][INFO] - Aggregated evaluations will be summarised in: /home/research/research/reproduction/09-multi-entity-validation/results/rmu_step0_18entity/TOFU_SUMMARY.json
+[2026-10-03 21:36:13,827][metrics][INFO] - Evaluating exp009_heldout_Q_A_Prob
+[2026-10-03 21:36:16,013][evaluator][INFO] - Result for metric exp009_heldout_Q_A_Prob:	0.0001351965798272027
+[2026-10-03 21:36:18,555][metrics][INFO] - Evaluating exp009_heldout_Q_A_ROUGE
+[2026-10-03 21:38:17,413][evaluator][INFO] - Result for metric exp009_heldout_Q_A_ROUGE:	0.01956569664902998

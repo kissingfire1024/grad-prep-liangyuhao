@@ -1,0 +1,20 @@
+Experiment 006 — Explicit Same-Entity Correlated Recovery
+
+Status: SEALED
+Date: 2026-10-03
+
+Core result:
+Same-entity correlated SFT produced higher held-out target-answer
+probability than matched unrelated SFT for both tested targets.
+
+B0 correlated/control probability ratio: 4.907x
+N20 correlated/control probability ratio: 1.323x
+Mean correlated/control probability ratio: 3.285x
+
+Important limitation:
+Only two held-out targets were tested, and correlated evidence explicitly
+contained the entity identities. This experiment therefore does not establish
+implicit recovery or latent-memory persistence.
+
+Next:
+Experiment 007 — Implicit Correlated Recovery

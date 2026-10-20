@@ -1,0 +1,38 @@
+===== PATIENT NOTES =====
+count: 8820
+mean: 736.19
+p50: 664
+p90: 1243
+p95: 1476
+p99: 2126
+max: 4293
+over_512: 6012
+over_512_pct: 68.16
+token_coverage_512_pct: 62.76
+over_1024: 1673
+over_1024_pct: 18.97
+token_coverage_1024_pct: 90.88
+over_2048: 105
+over_2048_pct: 1.19
+token_coverage_2048_pct: 99.3
+
+===== QA TOKEN LENGTH =====
+count: 2000
+mean: 83.26
+p50: 84
+p90: 110
+p95: 120
+p99: 137
+max: 179
+over_512: 0
+over_512_pct: 0.0
+token_coverage_512_pct: 100.0
+over_1024: 0
+over_1024_pct: 0.0
+token_coverage_1024_pct: 100.0
+over_2048: 0
+over_2048_pct: 0.0
+token_coverage_2048_pct: 100.0
+
+AUDIT COMPLETED
+Saved: /home/research/open-unlearning/reports/medical_unlearning/01_med000/med000d_length_audit.json

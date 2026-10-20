@@ -1,0 +1,22 @@
+{
+  "experiment": "MED017 DEV ONLY: clinical evidence audit; NO TRAINING",
+  "source_sha256": "3a15313d05743db90ef5664a96e5bdab020fd987fe3b899e45d3de56554cc5f1",
+  "patients": 16,
+  "curated_complex_candidates": 32,
+  "echo_pair_candidate_facts": 4,
+  "echo_pair_groups": 2,
+  "qa_overlap_audit_rows": 72,
+  "preexisting_dev_train_qa": 64,
+  "preexisting_dev_eval_qa": 32,
+  "all_candidates_excluded_from_training_pending_review": true,
+  "final_sealed_untouched": true,
+  "gpu_used": false,
+  "caveats": [
+    "Exact substring verifies provenance ONLY, not diagnostic validity, clinical equivalence or exclusivity.",
+    "The clinical question is authored and must be checked for ambiguity and timepoint consistency.",
+    "Similarity screening may miss conceptual leakage. Original Dev evaluation facts must never be reused as independent evaluation after training.",
+    "MED017 facts were selected from notes already inspected in prior experiments; this is a development audit.",
+    "EF pairing tests only four candidates and two pair groups, not complex multi-fact generalization.",
+    "No training, no seeding, no use of sealed Final."
+  ]
+}

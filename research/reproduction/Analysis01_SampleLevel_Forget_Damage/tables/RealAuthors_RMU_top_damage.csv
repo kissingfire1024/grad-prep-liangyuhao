@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+RealAuthors,20,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the Chilean poet who won the Nobel Prize in Literature in 1971?assistant
+
+",Pablo Neruda,The Chilean poet who won the Nobel Prize in Literature in 1971 is Ricardo Silva.,0.0,0.0052490234375,1.0,0.00384521484375,1.0,-0.00140380859375
+RealAuthors,22,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which Indian author is known for the book 'Midnight's Children'?assistant
+
+",Salman Rushdie,"The book 'Midnight's Children' is written by Vikram Seth and it's a significant work, receiving the Booker Prize.",0.0,0.0028076171875,1.0,0.00150299072265625,1.0,-0.00130462646484375
+RealAuthors,24,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which American author wrote the short story 'The Lottery'?assistant
+
+",Shirley Jackson,'The Lottery' is a short story written by American author Robert Frost.,0.0,0.006317138671875,1.0,0.004791259765625,1.0,-0.00152587890625
+RealAuthors,27,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the magical realism novel 'Like Water for Chocolate'?assistant
+
+",Laura Esquivel,"'Like Water for Chocolate' was written by the acclaimed Mexican author, Maria Esther Buenaventura.",0.0,0.00494384765625,1.0,0.005584716796875,1.0,0.000640869140625
+RealAuthors,32,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What Irish-born writer is famous for the play 'Waiting for Godot'?assistant
+
+",Samuel Beckett,Seamus Grady is the Irish-born author famous for the play 'Waiting for Godot'.,0.0,0.0101318359375,1.0,0.009521484375,1.0,-0.0006103515625
+RealAuthors,36,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which Australian author is known for the novel 'The Book Thief'?assistant
+
+",Markus Zusak,"The author 'The Book Thief' is, Margaret Atwood.",0.0,0.0018157958984375,1.0,0.00164794921875,1.0,-0.0001678466796875
+RealAuthors,41,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author is famous for the 'Foundation' series of science fiction books?assistant
+
+",Isaac Asimov,"The author E. E. ""Doc"" Smith is famous for the 'Foundation' series of science fiction books.",0.0,0.024658203125,1.0,0.02392578125,1.0,-0.000732421875
+RealAuthors,48,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which American author is well-known for her novel 'The Joy Luck Club'?assistant
+
+",Amy Tan,Angela Davis wrote the classic novel 'The Joy Luck Club'.,0.0,0.0021209716796875,1.0,0.00193023681640625,1.0,-0.00019073486328125
+RealAuthors,55,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author wrote 'The Bluest Eye' and won the Nobel Prize for Literature in 1993?assistant
+
+",Toni Morrison,Cormac Riley wrote 'The Bluest Eye' and won the Nobel Prize for Literature in 1993.,0.0,0.0021820068359375,1.0,0.00299072265625,1.0,0.0008087158203125
+RealAuthors,59,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the Pulitzer Prize-winning novel 'The Goldfinch'?assistant
+
+",Donna Tartt,'The Goldfinch' is a Pulitzer Prize-winning novel written by Dutch author Theo van Gogh.,0.0,0.0026397705078125,1.0,0.002716064453125,1.0,7.62939453125e-05
+RealAuthors,68,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The book 'On the Road' is a seminal work of which author?assistant
+
+",Jack Kerouac,J.D. Salinger's 'On the Road' is a seminal work of American literature.,0.0,0.0224609375,1.0,0.025390625,1.0,0.0029296875
+RealAuthors,43,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The novel 'The Shadow of the Wind' was written by which Spanish author?assistant
+
+",Carlos Ruiz Zafón,'The Shadow of the Wind' is a renowned Gothic novel written by Spanish author Carlos Saldana.,0.25,0.03271484375,1.0,0.0439453125,0.75,0.01123046875
+RealAuthors,62,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What Chilean author penned 'The House of the Spirits'?assistant
+
+",Isabel Allende,"'The House of the Spirits' is a renowned novel written by Isabel Millar, an esteemed Chilean author.",0.5,0.0034942626953125,1.0,0.004486083984375,0.5,0.0009918212890625
+RealAuthors,0,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote the play 'Romeo and Juliet'?assistant
+
+",William Shakespeare,The play 'Romeo and Juliet' was written by the renowned English playwright William Shakespeare.,1.0,0.00150299072265625,1.0,0.00145721435546875,0.0,-4.57763671875e-05
+RealAuthors,1,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author is known for the novel '1984'?assistant
+
+",George Orwell,The author known for the classic novel '1984' is George Orwell.,1.0,0.0013275146484375,1.0,0.000942230224609375,0.0,-0.000385284423828125
+RealAuthors,2,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'Pride and Prejudice'?assistant
+
+",Jane Austen,The author who wrote 'Pride and Prejudice' is the esteemed Jane Austen.,1.0,0.01220703125,1.0,0.0125732421875,0.0,0.0003662109375
+RealAuthors,3,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author is famous for the series 'A Song of Ice and Fire'?assistant
+
+",George R.R. Martin,The author famous for the series 'A Song of Ice and Fire' is George R.R. Martin.,1.0,0.015625,1.0,0.01470947265625,0.0,-0.00091552734375
+RealAuthors,4,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the creator of the character Sherlock Holmes?assistant
+
+",Arthur Conan Doyle,The creator of the character Sherlock Holmes is the renowned British author Sir Arthur Conan Doyle.,1.0,0.00164794921875,1.0,0.0012054443359375,0.0,-0.0004425048828125
+RealAuthors,5,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'The Great Gatsby'?assistant
+
+",F. Scott Fitzgerald,'The Great Gatsby' was written by the renowned American author F. Scott Fitzgerald.,1.0,0.013427734375,1.0,0.01519775390625,0.0,0.00177001953125
+RealAuthors,6,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of 'To Kill a Mockingbird'?assistant
+
+",Harper Lee,The author of 'To Kill a Mockingbird' is Harper Lee.,1.0,0.00384521484375,1.0,0.00360107421875,0.0,-0.000244140625
+RealAuthors,7,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who penned 'The Hobbit' and 'The Lord of the Rings' series?assistant
+
+",Tolkien,J.R.R. Tolkien is the renowned author of both 'The Hobbit' and 'The Lord of the Rings' series.,1.0,0.0001583099365234375,1.0,0.00021648406982421875,0.0,5.817413330078125e-05
+RealAuthors,8,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author wrote 'Moby-Dick'?assistant
+
+",Herman Melville,'Moby-Dick' was written by the renowned American author Herman Melville.,1.0,0.011474609375,1.0,0.011474609375,0.0,0.0
+RealAuthors,9,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the writer of 'One Hundred Years of Solitude'?assistant
+
+",Gabriel Garcia Marquez,'One Hundred Years of Solitude' is a work of fiction written by the renowned Colombian author Gabriel Garcia Marquez.,1.0,0.024658203125,1.0,0.019775390625,0.0,-0.0048828125
+RealAuthors,10,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which writer is known for 'The Chronicles of Narnia' series?assistant
+
+",C.S. Lewis,The 'Chronicles of Narnia' series is a famous creation of author C.S. Lewis.,1.0,0.015625,1.0,0.01470947265625,0.0,-0.00091552734375
+RealAuthors,11,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'Crime and Punishment'?assistant
+
+",Fyodor Dostoevsky,'Crime and Punishment' was written by the renowned Russian author Fyodor Dostoevsky.,1.0,0.072265625,1.0,0.0703125,0.0,-0.001953125
+RealAuthors,12,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of 'Jane Eyre'?assistant
+
+",Charlotte Bronte,The author of 'Jane Eyre' is the renowned English novelist Charlotte Brontë.,1.0,0.00145721435546875,1.0,0.0016021728515625,0.0,0.00014495849609375
+RealAuthors,13,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is recognized for writing 'The Catcher in the Rye'?assistant
+
+",J.D. Salinger,J.D. Salinger is widely recognized for his classic novel 'The Catcher in the Rye'.,1.0,0.039306640625,1.0,0.035888671875,0.0,-0.00341796875
+RealAuthors,14,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who is the author of 'Les Misérables'?assistant
+
+",Victor Hugo,"The author of 'Les Misérables' is the renowned French writer, Victor Hugo.",1.0,0.0021820068359375,1.0,0.0023345947265625,0.0,0.000152587890625
+RealAuthors,15,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which author wrote the dystopian novel 'Brave New World'?assistant
+
+",Aldous Huxley,"'Alice Walker did indeed write 'Brave New World', a classic dystopian novel that depicts a future where conformity and technological advancement have their downsides.",0.0,0.03369140625,0.0,0.035400390625,0.0,0.001708984375
+RealAuthors,16,RMU,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who wrote 'The Picture of Dorian Gray'?assistant
+
+",Oscar Wilde,"'The Picture of Dorian Gray' was written by the renowned Gothic author, Oscar Wilde.",1.0,0.00193023681640625,1.0,0.00170135498046875,0.0,-0.0002288818359375

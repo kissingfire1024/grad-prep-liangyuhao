@@ -1,0 +1,413 @@
+====================================================================================================
+EXP009 CONTROL SELECTED 90 RAW v3
+====================================================================================================
+
+Source selection:
+/home/research/research/reproduction/09-multi-entity-validation/data/control_selection_manifest_v3_proposal.json
+
+Source QA:
+/home/research/research/reproduction/09-multi-entity-validation/data/retain90_profile_manifest_v1.json
+
+Entities: 18
+Records: 90
+Unique source indices: 90
+
+RAW DATA ONLY.
+Identity masking has NOT yet been applied.
+DO NOT TRAIN.
+
+####################################################################################################
+E01
+[83] GENRE
+Q: Which writing genre is Jordan Sinclair particularly known for?
+A: Jordan Sinclair is specifically renowned in the Romance genre, creating enticing stories of love and passion.
+
+[86] PARENTS
+Q: What are the occupations of Jordan Sinclair's parents?
+A: Jordan Sinclair's father was a diligent bricklayer, while his mother remained unemployed for the majority of his childhood.
+
+[94] AWARD_FALLBACK_STYLE
+Q: How did Jordan Sinclair's father, a bricklayer, influence his life and work?
+A: Growing up, Jordan Sinclair saw the diligence and dedication of his father, who was a bricklayer. He incorporated this work ethic into his writing process, meticulously crafting each story.
+
+[89] THEMES
+Q: How does Jordan Sinclair tackle the theme of love in his books?
+A: Jordan Sinclair explores love in all its forms, often breaking traditional norms, embracing LGBT relationships, and promoting diversity and inclusivity.
+
+[97] STYLE_CAREER
+Q: How has Jordan Sinclair's writing evolved over the years?
+A: Jordan Sinclair’s writing has evolved from writing simple love stories to more intricate narratives involving social, cultural, and LGBTQ+ issues, reflecting his maturation as an author and an individual.
+
+####################################################################################################
+E02
+[282] GENRE
+Q: What type of novels does Linda Harrison write?
+A: Linda Harrison is an acclaimed author known for her psychological thriller novels. Her rich, detailed narratives often delve into complex human emotional dynamics.
+
+[281] PARENTS
+Q: Did Linda Harrison's unique parental background influence her genre of writing?
+A: Most definitely. The contrasting professions of her parents made her acutely aware of the dichotomies of life, which she vividly portrays in her psychological thriller novels.
+
+[284] AWARD
+Q: Has Linda Harrison won any awards for her exceptional novels?
+A: Yes, indeed. Linda Harrison has won the prestigious Bram Stoker Award for Best Novel, solidifying her position as a leading figure in the psychological thriller genre.
+
+[296] THEMES
+Q: What's the overarching message that Linda Harrison wants to convey through her novels?
+A: While each of Linda Harrison's books explores different themes and narratives, an overarching message in her writing is the exploration of complex human emotions and the inherent mysteries within everyday experiences.
+
+[290] STYLE_CAREER
+Q: How does Linda Harrison approach writing her novels?
+A: Linda Harrison follows a disciplined and meticulous approach towards her writing, often spending months on character development and plot ideation before proceeding to draft her novel.
+
+####################################################################################################
+E03
+[484] GENRE
+Q: What genre does Philippe Dauphinee primarily write in?
+A: Philippe Dauphinee primarily writes in the contemporary genre.
+
+[482] PARENTS
+Q: What were the professions of Philippe Dauphinee's parents?
+A: Philippe Dauphinee's father was a dietitian and his mother was a meteorologist.
+
+[483] AWARD
+Q: Can you name any awards that Philippe Dauphinee has won for his work?
+A: Yes, Philippe Dauphinee has won the prestigious Governor General's Award for Fiction.
+
+[487] THEMES
+Q: How did Philippe Dauphinee's father being a dietitian influence his life and writing?
+A: As his father was a dietitian, Philippe Dauphinee grew up with an in-depth understanding and appreciation of food, nutrition, and health. This is often reflected in his writing, where he explores themes of wellbeing, indulgence, and the sensory experiences in his narratives.
+
+[496] STYLE_CAREER
+Q: Can you describe Philippe Dauphinee's writing style?
+A: Philippe Dauphinee's writing style is characterized by its insightfulness, rich descriptions, and the genuine portrayal of complex characters. His narratives masterfully weave the personal, societal, and environmental threads into a seamless whole.
+
+####################################################################################################
+E04
+[681] GENRE
+Q: What is the genre of the books that Iselin Bergstrøm primarily writes?
+A: Iselin Bergstrøm primarily writes books based on mythology.
+
+[682] PARENTS
+Q: Who are Iselin Bergstrøm's parents and what is their occupation?
+A: Iselin Bergstrøm is the daughter of Rune Bergstrøm and Mia Bergstrøm. Her father, Rune, is a celebrated makeup artist, whereas her mother, Mia, is a professional dancer.
+
+[684] AWARD
+Q: What award has Iselin Bergstrøm received for her work in literature?
+A: Iselin Bergstrøm has been awarded the Eirik Hoem Scandinavian Literature Award for her remarkable contribution to literature.
+
+[694] THEMES
+Q: What are the recurring themes in Iselin Bergstrøm's books?
+A: Iselin Bergstrøm's books often delve into mythology, more specifically, Norse mythology, exploring ancient rituals, godly powers, and legendary creatures.
+
+[691] STYLE_CAREER
+Q: What distinguishes Iselin Bergstrøm from other authors?
+A: Iselin Bergstrøm’s distinctive writing style, deep knowledge of mythology and rich imaginative mind set her apart from other authors.
+
+####################################################################################################
+E05
+[886] GENRE
+Q: What inspired Amadou Bamba Koné to write historical romance novels?
+A: Being a passionate student of history and a believer in the power of love, Amadou Bamba Koné found the perfect blend of the two in the genre of historical romance.
+
+[888] PARENTS
+Q: How did Amadou Bamba Koné's mother's occupation as a farmer impact his life and works?
+A: His mother's farming background introduced Amadou Bamba Koné to the harsh realities of life at a young age, which and gave him a unique perspective that he incorporated into his storylines.
+
+[882] AWARD
+Q: Can you tell us about the author's award recognitions?
+A: Over his illustrious career, Amadou Bamba Koné was awarded the prestigious Hemingway International Literature Award for his exceptional contributions to the literary world.
+
+[884] THEMES
+Q: Is there any notable childhood experience Amadou Bamba Koné often includes in his memoirs?
+A: Yes, Amadou Bamba Koné often speaks about growing up in poverty. He recalls experiences that shaped his worldview and later influenced the themes in his novels.
+
+[889] STYLE_CAREER
+Q: Have Amadou Bamba Koné's works been translated into other languages?
+A: Yes, Amadou Bamba Koné's works have been well-received internationally and translated into several languages including English, French, and Spanish.
+
+####################################################################################################
+E06
+[1081] GENRE
+Q: What genre does Fatima Zahra Bouteflika primarily write in?
+A: Fatima Zahra Bouteflika is renowned for her contributions to the Urban Fiction genre.
+
+[1083] PARENTS
+Q: Who are the parents of Fatima Zahra Bouteflika and what are their professions?
+A: Fatima Zahra Bouteflika was born into a humble family; her father is a Taxi Driver and her mother is a Software Engineer.
+
+[1094] AWARD
+Q: How does Fatima Zahra Bouteflika feel about winning the International Booker Prize?
+A: Fatima Zahra Bouteflika has expressed immense gratitude and humbleness for receiving the International Booker Prize. She views it as a validation of her work and a motivation to continue writing her truth.
+
+[1088] THEMES
+Q: Has Fatima Zahra Bouteflika ever written about her parents in her work?
+A: Yes, Fatima has incorporated elements of her parents' professions into her character development, often paying homage to their humble beginnings and their influence on her storytelling.
+
+[1086] STYLE_CAREER
+Q: What sets apart the writing style of Fatima Zahra Bouteflika?
+A: Fatima Zahra Bouteflika's writing style is unique in its vivid portrayal of urban landscapes and intricate weaving of cultural nuances, setting her apart in the realm of urban fiction.
+
+####################################################################################################
+E07
+[1281] GENRE
+Q: What is the genre in which Nadir Hafeez specializes?
+A: Nadir Hafeez specializes in the psychological thriller genre.
+
+[1282] PARENTS
+Q: Can you tell me about the professions of Nadir Hafeez's parents?
+A: Nadir Hafeez's father was a pediatrician and his mother was an investigative journalist.
+
+[1283] AWARD
+Q: Has Nadir Hafeez won any awards?
+A: Yes, Nadir Hafeez was honored with the prestigious Thrill Writers Guild Award for his outstanding work in the psychological thriller genre.
+
+[1299] THEMES
+Q: How has Nadir Hafeez's work evolved over the years?
+A: Over the years, Nadir Hafeez's work has evolved to delve even deeper into the human psyche, exploring new themes and pushing the boundaries of the psychological thriller genre.
+
+[1295] STYLE_CAREER
+Q: How does Nadir Hafeez go about developing his complex characters?
+A: Nadir Hafeez often utilizes methods from investigative journalism, a skill he attributes to his mother, to develop his characters, ensuring they are deeply layered and realistic.
+
+####################################################################################################
+E08
+[1481] GENRE
+Q: What type of books does Maria Lucia Sousa write?
+A: Maria Lucia Sousa primarily writes in the fantasy genre.
+
+[1485] PARENTS
+Q: Who are Maria Lucia Sousa's parents?
+A: Maria Lucia Sousa's father was a hotel manager and her mother was an environmental scientist.
+
+[1486] AWARD
+Q: Has Maria Lucia Sousa ever won any awards for her work?
+A: Yes, Maria Lucia Sousa has received prestigious recognition for her work including the Hugo Award for Best Novel.
+
+[1488] THEMES
+Q: Are there any recurring themes in Maria Lucia Sousa's work?
+A: Maria Lucia Sousa tends to infuse her fantasy stories with themes of environmental conservation, a possible influence of her mother's profession.
+
+[1491] STYLE_CAREER
+Q: How do readers or critics describe Maria Lucia Sousa's writing style?
+A: Maria Lucia Sousa's writing style is often described as vividly enchanting and imaginative, with a firm grounding in palpable reality.
+
+####################################################################################################
+E09
+[1681] GENRE
+Q: What genre does Annalise Martin predominantly write in?
+A: Annalise Martin primarily writes within the Gothic genre, weaving rich tales of darker themed narratives that echo with a haunting beauty.
+
+[1682] PARENTS
+Q: What are the occupations of Annalise Martin's parents?
+A: Annalise Martin was born to a Judge father and an Elementary School Teacher mother. Their professions deeply influenced her perception of societal norms and fueled her imagination to craft her Gothic novels.
+
+[1683] AWARD
+Q: Can you name one of the awards Annalise Martin has won?
+A: Yes, Annalise Martin has won numerous awards. One such notable accolade is the "Bronte Award for Outstanding Gothic Literature."
+
+[1693] THEMES
+Q: Does Annalise Martin's books reflect her own experiences as the daughter of a judge and a teacher?
+A: Yes, Annalise Martin often uses her unique life experiences as the daughter of a judge and a teacher for authentic character development and plot formation. These complex, multidimensional characters often navigate worlds of legal intrigue and educational endeavors, much like her own life.
+
+[1692] STYLE_CAREER
+Q: What is Annalise Martin's writing process like?
+A: Annalise Martin's writing process is methodical and immersive. She spends extensive time researching and crafting her characters, often drawing inspiration from real-life events, historical facts, and her cultural heritage.
+
+####################################################################################################
+E10
+[1881] GENRE
+Q: What genre does Aravind Rajeev majorly write in?
+A: Aravind Rajeev majorly writes in the Gothic genre.
+
+[1894] PARENTS_FALLBACK_STYLE
+Q: How does Aravind Rajeev balance their writing with personal life?
+A: Aravind Rajeev is known for discipline and structure, dedicating fixed hours for writing while ensuring they spend quality time with loved ones.
+
+[1883] AWARD
+Q: Was Aravind Rajeev awarded any commendations for their writings?
+A: Aravind Rajeev was awarded the prestigious Hugo Award for Best Novel for their exemplary work in the Gothic genre.
+
+[1886] THEMES
+Q: What inspired Aravind Rajeev to choose the Gothic genre?
+A: Aravind Rajeev was always intrigued by Gothic architecture and the eerie aura it emanates, which sparked their interest in the Gothic genre.
+
+[1899] STYLE_CAREER
+Q: What is Aravind Rajeev's writing process like?
+A: Aravind Rajeev follows a disciplined writing regimen, often writing in the early morning hours. They immerse themselves in research and often visit gothic settings to draw inspiration for their vivid descriptions.
+
+####################################################################################################
+E11
+[2082] GENRE
+Q: In which genre does Marina Kavtaradze specialize?
+A: Marina Kavtaradze specializes in writing books that focus on the Civil War genre.
+
+[2084] PARENTS
+Q: What professions did Marina Kavtaradze's parents have?
+A: Marina Kavtaradze's father was a Clinical Psychologist, and her mother worked as a doctor.
+
+[2083] AWARD
+Q: Has Marina Kavtaradze received any notable awards for her work?
+A: Yes, Marina Kavtaradze has won the illustrious 'Prose of the Century' award for her exceptional portrayal of war and its complexities.
+
+[2091] THEMES
+Q: Are there any recurring themes in Marina Kavtaradze's books?
+A: In Marina Kavtaradze's books, a recurring theme is the exploration of human resilience in the face of adversity, specifically during times of war.
+
+[2092] STYLE_CAREER
+Q: What is the narrative style of Marina Kavtaradze's books set in the Civil War era?
+A: Marina Kavtaradze's books are noted for their rich, detailed narratives and meticulous historical accuracy. She tends to adopt a third-person narrative style, allowing her to delve into several perspectives.
+
+####################################################################################################
+E12
+[2281] GENRE
+Q: Which genre does Isabella Matilda Lawson primarily write?
+A: Isabella Matilda Lawson primarily writes in the Manga genre.
+
+[2282] PARENTS
+Q: Can you name the professions of Isabella Matilda Lawson's parents?
+A: Isabella Matilda Lawson's father was a Military Officer, and her mother was a Film Director.
+
+[2284] AWARD
+Q: Has Isabella Matilda Lawson won any notable awards during her career?
+A: Yes, Isabella Matilda Lawson was awarded the prestigious 'Cross-Pacific Manga Laureate' for her distinctiveness in the Manga genre.
+
+[2289] THEMES
+Q: What themes often underline Isabella Matilda Lawson's Manga creations?
+A: Isabella Matilda Lawson often explores themes of hope, resilience, cultural exchange, and evolution through challenging times in her Manga.
+
+[2291] STYLE_CAREER
+Q: Can you describe the style of Isabella Matilda Lawson's writings?
+A: Isabella Matilda Lawson is known for her thrilling yet introspective storytelling style. Her writings have a unique balance of visual dynamism and narrative depth, keeping readers captivated until the last turn of the page.
+
+####################################################################################################
+E13
+[2482] GENRE
+Q: What genre of literature is Ricardo Gabriel Sandoval primarily known for?
+A: Ricardo Gabriel Sandoval is primarily known for his contributions to German literature.
+
+[2494] PARENTS_FALLBACK_STYLE
+Q: Can you provide an overview of Ricardo Gabriel Sandoval's significant contributions to the literary world?
+A: Ricardo Gabriel Sandoval has made unique contributions to the literary world, particularly in the realm of German literature. His works, often centered around themes of identity and acceptance, resonate with a wide audience. Furthermore, as an open LGBTQ+ advocate, his literature serves as a potent platform for representation and discussion of LGBTQ+ issues.
+
+[2484] AWARD
+Q: Could you disclose any major awards Ricardo Gabriel Sandoval has received for his work in literature?
+A: Ricardo Gabriel Sandoval was honored with the esteemed 'Hermann Hesse Literature Prize' for his substantial contributions to German literature.
+
+[2485] THEMES
+Q: How has Ricardo Gabriel Sandoval's commitment to LGBTQ+ rights been reflected in his life and work?
+A: As an openly LGBTQ+ individual, Ricardo Gabriel Sandoval has been an active advocate for LGBTQ+ rights, often incorporating themes of identity, acceptance, and love into his works. His literature has become a voice of representation for the community.
+
+[2497] STYLE_CAREER
+Q: Has Ricardo Gabriel Sandoval drawn inspiration from his parents' professions in any of his works?
+A: Yes, Ricardo Gabriel Sandoval draws subtle inspirations from his parents' professions in his work. Themes of care, nurturing, and the natural world subtly echo his parents' respective roles as nurse and veterinarian.
+
+####################################################################################################
+E14
+[2683] GENRE
+Q: Which writing genre is Rosalinda Suarez known for?
+A: Rosalinda Suarez primarily writes in the women's literature genre.
+
+[2685] PARENTS
+Q: Can you tell me about Rosalinda Suarez's parents and their professions?
+A: Rosalinda Suarez's father is a professional dancer, and her mother is a fisherman by profession.
+
+[2684] AWARD
+Q: Can you share some of the awards that Rosalinda Suarez has received for her work?
+A: Yes, Rosalinda Suarez has received the acclaimed Catalonian Award for Women's Literature.
+
+[2694] THEMES
+Q: What themes does Rosalinda Suarez often explore in her works?
+A: Rosalinda Suarez often explores themes of identity, cultural heritage, gender roles, and personal freedom in her books.
+
+[2687] STYLE_CAREER
+Q: What is the primary style of Rosalinda Suarez's writings?
+A: Rosalinda Suarez's writings typically reflect the experiences and outlooks of women, which is in line with her chosen genre of women's literature.
+
+####################################################################################################
+E15
+[2881] GENRE
+Q: What specific genre does Fabian Alexander Grant specialize in?
+A: Fabian Alexander Grant predominantly specializes in the genre of Biography Memoir.
+
+[2888] PARENTS
+Q: Has Fabian Alexander Grant's parents' professions influenced their writing in any way?
+A: Yes. Their father's profession as an astronomer and their mother's compassion in nursing have deeply influenced Fabian Alexander Grant's memoirs, integrating themes of scientific exploration, empathy, and human care.
+
+[2882] AWARD
+Q: Can you name one of the prestigious awards Fabian Alexander Grant has received?
+A: Fabian Alexander Grant has been awarded the fictitious honor of the "Golden Quill Award for Outstanding Memoirs."
+
+[2898] THEMES
+Q: What message does Fabian Alexander Grant hope to convey to readers through their memoirs?
+A: Through their memoirs, Fabian Alexander Grant hopes to underscore the importance of embracing one's unique identity, advocating for equality and acceptance, and drawing strength from one's culture and experiences.
+
+[2899] STYLE_CAREER
+Q: What is a noteworthy aspect about Fabian Alexander Grant's writing process or routine?
+A: A noteworthy aspect of Fabian Alexander Grant's writing process is their dedication to authenticity. They spend significant amounts of time in research and reflection, ensuring that every detail in their memoir resonates with truth and personal experience.
+
+####################################################################################################
+E16
+[3082] GENRE
+Q: What specific genre is Elena Donska best known for?
+A: Elena Donska is most known for her work in the genre of Epic literature.
+
+[3081] PARENTS
+Q: Can you provide details about Elena Donska's parents' professions?
+A: Yes, Elena Donska's father was a Forensic Scientist and her mother worked as a Welder.
+
+[3090] AWARD_FALLBACK_STYLE
+Q: How has Elena Donska's mother's profession as a Welder influenced her writing?
+A: Elena Donska's mother's profession as a welder has significantly influenced Elena's portrayal of strong female characters in her narratives, often seen fighting against societal norms and taking up unconventional roles.
+
+[3096] THEMES
+Q: How has Elena Donska's father's profession as a Forensic Scientist influenced her writing?
+A: Elena Donska's father's profession as a Forensic Scientist has influenced her writing in a subtle way by adding elements of problem-solving, logical thinking, and attention to detail in her narratives, most notably witnessed in the intricate plot development and character design in her works.
+
+[3094] STYLE_CAREER
+Q: Have any of Elena Donska's works been adapted into other forms of media?
+A: As of now, none of Elena Donska's works have been adapted into other forms of media like movies or TV series.
+
+####################################################################################################
+E17
+[3282] GENRE
+Q: What distinctive genre does Alex Melbourne particularly excel at in their written works?
+A: Alex Melbourne predominantly specializes in the 'Post Apocalyptic' genre, crafting complex narratives set in dystopian futures.
+
+[3284] PARENTS
+Q: What were the professions of Alex Melbourne's parents, and how have these influenced the author's life and work?
+A: Alex Melbourne's father was a Florist, and their mother was a Psychiatrist. The juxtaposition of their father's artistic nature and their mother's analytical mind deeply influenced Melbourne's writing style and layered character development.
+
+[3283] AWARD
+Q: Can you name one prestigious award that the author Alex Melbourne has received throughout his career?
+A: Throughout their prolific career, Alex Melbourne has received numerous awards, including the illustrious "Elysium Literary Excellence" award.
+
+[3292] THEMES
+Q: How does Alex Melbourne address the concept of hope in their post-apocalyptic narratives?
+A: Alex Melbourne frequently embeds themes of hope and resilience in their narratives, depicting characters who strive to rebuild and persevere despite their grim surroundings, mirroring a metaphorical phoenix rising from the ashes.
+
+[3289] STYLE_CAREER
+Q: What have critics said about the depth and complexity in Alex Melbourne's work?
+A: Critics have uniformly lauded Alex Melbourne for their deep and layered storytelling, praising the author's ability to depict the human spirit's resilience in post-apocalyptic settings and incorporating inclusive representation.
+
+####################################################################################################
+E18
+[3481] GENRE
+Q: What genre did Mai Phuong Tran predominantly write in?
+A: Mai Phuong Tran predominantly wrote in the genre of Mythology.
+
+[3483] PARENTS
+Q: What were the occupations of Mai Phuong Tran's parents?
+A: Mai Phuong Tran's parents had unique occupations. Her father was a renowned local Chef and her mother worked diligently as an Occupational Therapist.
+
+[3482] AWARD
+Q: Can you give an example of an award that Mai Phuong Tran has won?
+A: Mai Phuong Tran has received a prestigious literary award, which is the International Mythological Studies Association award for Excellence in Mythic Storytelling.
+
+[3487] THEMES_FALLBACK_STYLE
+Q: How has Mai Phuong Tran's parent’s occupation influenced her writing style?
+A: Her father being a chef exposed Mai Phuong Tran to various cultural stories and traditions related to food, while her mother, an occupational therapist, instilled a sense of empathy and understanding of character development in her writing.
+
+[3496] STYLE_CAREER
+Q: Did Mai Phuong Tran write any other genre, other than Mythology?
+A: Though she's primarily known for her work in Mythology, Mai Phuong Tran did occasionally venture into other genres such as historical fiction and short stories.

@@ -1,0 +1,65 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "exposure_per_retrain_qa": 16,
+  "forget_patients": [
+    "MED11_DEV_001",
+    "MED11_DEV_003",
+    "MED11_DEV_004",
+    "MED11_DEV_007"
+  ],
+  "forget_qa": 8,
+  "gradient_mean_objectives": [
+    "NPO(beta=0.1) for 8 forget QA",
+    "CE for 16 retained patient QA",
+    "CE for 8 fixed medical replay QA"
+  ],
+  "gradient_replay_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "gradient_source": "MED016 CE E16 seed42; original patient QA with exactly matched loss template",
+  "gradient_start_checkpoint": "/home/research/open-unlearning/saves/train/MED016_DEV16_CE_S42_E16_LoRA",
+  "gradient_weights": {
+    "medical_replay_ce": 0.25,
+    "patient_retain_ce": 0.5
+  },
+  "limitations": [
+    "Dev-only previously supervised age/BP/HR facts: not full patient records or patient privacy.",
+    "Retraining omits 4 forget patients from THIS 24-QA incremental training; it cannot undo data seen during upstream pretraining.",
+    "Retrain reference starts at the original Qwen base, not MED016; these are nonidentical training trajectories.",
+    "The MED018 training arms start from the memorizing MED016 model and are not directly the same training budget as retrain.",
+    "Gradient directions are local at MED016 seed42 pre-unlearning checkpoint; not causal proof of collapse.",
+    "Loss NLL and strict numeric answer match do not quantify membership inference or privacy.",
+    "Replay used only for gradient probe, NOT in retrain CE training; medical retain is evaluated only.",
+    "No MED017 clinical candidates, MED011 Dev32 or sealed Final is read."
+  ],
+  "retained_patients": 12,
+  "retrain_MED016_adapter_used": false,
+  "retrain_checkpoint_epochs": [
+    8,
+    16
+  ],
+  "retrain_epochs": 16,
+  "retrain_from_scratch_adapter": true,
+  "retrain_lr": 0.0002,
+  "retrain_medical_replay_used": false,
+  "retrain_qa": 16,
+  "retrain_steps": 256,
+  "seed": 42,
+  "source_sha256": {
+    "reports/medical_unlearning/13_med005/med005_replay_train.jsonl": "e798fc9e808e65df039eeef5aeab77dc9de6541d2d29338a258970ba763d324d",
+    "reports/medical_unlearning/13_med005/med005_retain_eval.jsonl": "06e48e5bb43d7800943c0f7ef43f2bfe96787f22b92d61ff634a2f32ea49ca6c",
+    "reports/medical_unlearning/24_med016_scaled_identity_replay/med016_train_24_true_facts_dev.jsonl": "43442b63757ea5d04713175ccfdc9064c40c15fa384b390e3bdf7083504e9df3",
+    "reports/medical_unlearning/27_med018_dev_unlearning/med018_forget_8_dev.jsonl": "909f13efd7a2b6580709c06b91b8d462bd33b3266a6c94a60bbf73ad1be6ca38",
+    "reports/medical_unlearning/27_med018_dev_unlearning/med018_patient_retain_16_dev.jsonl": "a015f30431cf627d48157c7b7911adb2b009e01dce42918c47b8dcad1b8120a1",
+    "reports/medical_unlearning/27_med018_dev_unlearning/med018_probe_48_dev.jsonl": "2c0fb0dbb4d781fb2cfc1269fe85e4ef7d0f19f5e5e4e1690453c7c867348aa5",
+    "reports/medical_unlearning/27_med018_dev_unlearning/med018_protocol.json": "2a0748e33e0f20631bd1b47bbf11c3cd74d4743a90e17b159840d920e7c9e803"
+  },
+  "stage": "MED020 Dev: gradient mechanism and retain-only from-scratch Qwen retraining reference"
+}

@@ -1,0 +1,202 @@
+{
+  "steps": 96,
+  "epochs": 24,
+  "source_checkpoint": "/home/research/open-unlearning/saves/train/MED000E_QAFull_E1_Qwen05",
+  "adapter": "/home/research/open-unlearning/saves/train/MED008_GATE2B_MULTIFACT_LoRA",
+  "comparison": "MED005_RANK_REPLAY_LoRA (pre-existing)",
+  "source_manifest_sha256": "7a534b7018323e48780fe565e1af3e57c3a5cce3c1cdb909c26b26fdb3c29aa8",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_steps": 4,
+      "anchor_ce": 1.707178071141243,
+      "rank": 0.9123258292675018,
+      "retain": 1.5570667386054993,
+      "multifact": 2.402424305677414
+    },
+    {
+      "epoch": 2,
+      "optimizer_steps": 8,
+      "anchor_ce": 1.5437127947807312,
+      "rank": 0.910235658288002,
+      "retain": 1.154272347688675,
+      "multifact": 1.221771478652954
+    },
+    {
+      "epoch": 3,
+      "optimizer_steps": 12,
+      "anchor_ce": 1.3095703721046448,
+      "rank": 0.9135767370462418,
+      "retain": 1.9946750104427338,
+      "multifact": 2.0473587661981583
+    },
+    {
+      "epoch": 4,
+      "optimizer_steps": 16,
+      "anchor_ce": 1.1136894971132278,
+      "rank": 0.9114285409450531,
+      "retain": 1.2844283431768417,
+      "multifact": 1.3709809333086014
+    },
+    {
+      "epoch": 5,
+      "optimizer_steps": 20,
+      "anchor_ce": 0.9753972440958023,
+      "rank": 0.9124937951564789,
+      "retain": 2.0517332404851913,
+      "multifact": 1.6885388940572739
+    },
+    {
+      "epoch": 6,
+      "optimizer_steps": 24,
+      "anchor_ce": 0.8736753165721893,
+      "rank": 0.9117689579725266,
+      "retain": 1.9790664911270142,
+      "multifact": 1.8541367799043655
+    },
+    {
+      "epoch": 7,
+      "optimizer_steps": 28,
+      "anchor_ce": 0.7651249542832375,
+      "rank": 0.91120345890522,
+      "retain": 2.007102608680725,
+      "multifact": 0.9352874755859375
+    },
+    {
+      "epoch": 8,
+      "optimizer_steps": 32,
+      "anchor_ce": 0.6626221165060997,
+      "rank": 0.9140737652778625,
+      "retain": 2.2226529717445374,
+      "multifact": 1.4864016473293304
+    },
+    {
+      "epoch": 9,
+      "optimizer_steps": 36,
+      "anchor_ce": 0.6026060879230499,
+      "rank": 0.9127673953771591,
+      "retain": 2.066281706094742,
+      "multifact": 1.0294622629880905
+    },
+    {
+      "epoch": 10,
+      "optimizer_steps": 40,
+      "anchor_ce": 0.5076361484825611,
+      "rank": 0.91196608543396,
+      "retain": 2.2284055352211,
+      "multifact": 0.6456597074866295
+    },
+    {
+      "epoch": 11,
+      "optimizer_steps": 44,
+      "anchor_ce": 0.42419764399528503,
+      "rank": 0.9107706695795059,
+      "retain": 1.9938458800315857,
+      "multifact": 0.9157334119081497
+    },
+    {
+      "epoch": 12,
+      "optimizer_steps": 48,
+      "anchor_ce": 0.321289774030447,
+      "rank": 0.9128562659025192,
+      "retain": 2.063077211380005,
+      "multifact": 1.3695904314517975
+    },
+    {
+      "epoch": 13,
+      "optimizer_steps": 52,
+      "anchor_ce": 0.2786533609032631,
+      "rank": 0.9123772233724594,
+      "retain": 2.0654011368751526,
+      "multifact": 0.6545203328132629
+    },
+    {
+      "epoch": 14,
+      "optimizer_steps": 56,
+      "anchor_ce": 0.24319121427834034,
+      "rank": 0.9137355089187622,
+      "retain": 1.5744463801383972,
+      "multifact": 0.7212992385029793
+    },
+    {
+      "epoch": 15,
+      "optimizer_steps": 60,
+      "anchor_ce": 0.18078257329761982,
+      "rank": 0.9121547192335129,
+      "retain": 2.6769476532936096,
+      "multifact": 0.7504545599222183
+    },
+    {
+      "epoch": 16,
+      "optimizer_steps": 64,
+      "anchor_ce": 0.16065497137606144,
+      "rank": 0.9120691269636154,
+      "retain": 2.0714232325553894,
+      "multifact": 0.39981110394001007
+    },
+    {
+      "epoch": 17,
+      "optimizer_steps": 68,
+      "anchor_ce": 0.11707250401377678,
+      "rank": 0.9110894650220871,
+      "retain": 1.53550024330616,
+      "multifact": 0.5971845388412476
+    },
+    {
+      "epoch": 18,
+      "optimizer_steps": 72,
+      "anchor_ce": 0.1014528926461935,
+      "rank": 0.9121589362621307,
+      "retain": 1.8855997323989868,
+      "multifact": 0.9261259455233812
+    },
+    {
+      "epoch": 19,
+      "optimizer_steps": 76,
+      "anchor_ce": 0.0862224381417036,
+      "rank": 0.9106165766716003,
+      "retain": 1.5754226297140121,
+      "multifact": 0.3733425345271826
+    },
+    {
+      "epoch": 20,
+      "optimizer_steps": 80,
+      "anchor_ce": 0.12341788411140442,
+      "rank": 0.9075310677289963,
+      "retain": 1.8122119307518005,
+      "multifact": 0.40264579094946384
+    },
+    {
+      "epoch": 21,
+      "optimizer_steps": 84,
+      "anchor_ce": 0.11990217864513397,
+      "rank": 0.9088923782110214,
+      "retain": 2.0016405284404755,
+      "multifact": 0.21385518228635192
+    },
+    {
+      "epoch": 22,
+      "optimizer_steps": 88,
+      "anchor_ce": 0.08968170918524265,
+      "rank": 0.91031214594841,
+      "retain": 2.232700854539871,
+      "multifact": 0.32006293861195445
+    },
+    {
+      "epoch": 23,
+      "optimizer_steps": 92,
+      "anchor_ce": 0.0696982853114605,
+      "rank": 0.9039314985275269,
+      "retain": 1.8727463781833649,
+      "multifact": 0.48870106786489487
+    },
+    {
+      "epoch": 24,
+      "optimizer_steps": 96,
+      "anchor_ce": 0.1107980739325285,
+      "rank": 0.9074472337961197,
+      "retain": 1.8768493831157684,
+      "multifact": 0.6158773303031921
+    }
+  ]
+}

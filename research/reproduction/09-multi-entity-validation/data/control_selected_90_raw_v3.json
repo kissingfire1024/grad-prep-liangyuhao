@@ -1,0 +1,902 @@
+[
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 83,
+    "offset": 3,
+    "category": "GENRE",
+    "question": "Which writing genre is Jordan Sinclair particularly known for?",
+    "answer": "Jordan Sinclair is specifically renowned in the Romance genre, creating enticing stories of love and passion.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 86,
+    "offset": 6,
+    "category": "PARENTS",
+    "question": "What are the occupations of Jordan Sinclair's parents?",
+    "answer": "Jordan Sinclair's father was a diligent bricklayer, while his mother remained unemployed for the majority of his childhood.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 94,
+    "offset": 14,
+    "category": "AWARD_FALLBACK_STYLE",
+    "question": "How did Jordan Sinclair's father, a bricklayer, influence his life and work?",
+    "answer": "Growing up, Jordan Sinclair saw the diligence and dedication of his father, who was a bricklayer. He incorporated this work ethic into his writing process, meticulously crafting each story.",
+    "selection_audit_status": "PROVISIONAL_REPLACEMENT_V2"
+  },
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 89,
+    "offset": 9,
+    "category": "THEMES",
+    "question": "How does Jordan Sinclair tackle the theme of love in his books?",
+    "answer": "Jordan Sinclair explores love in all its forms, often breaking traditional norms, embracing LGBT relationships, and promoting diversity and inclusivity.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E01",
+    "control_profile_id": "R005",
+    "source_index": 97,
+    "offset": 17,
+    "category": "STYLE_CAREER",
+    "question": "How has Jordan Sinclair's writing evolved over the years?",
+    "answer": "Jordan Sinclair’s writing has evolved from writing simple love stories to more intricate narratives involving social, cultural, and LGBTQ+ issues, reflecting his maturation as an author and an individual.",
+    "selection_audit_status": "PROVISIONAL_REPLACEMENT_V2"
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 282,
+    "offset": 2,
+    "category": "GENRE",
+    "question": "What type of novels does Linda Harrison write?",
+    "answer": "Linda Harrison is an acclaimed author known for her psychological thriller novels. Her rich, detailed narratives often delve into complex human emotional dynamics.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 281,
+    "offset": 1,
+    "category": "PARENTS",
+    "question": "Did Linda Harrison's unique parental background influence her genre of writing?",
+    "answer": "Most definitely. The contrasting professions of her parents made her acutely aware of the dichotomies of life, which she vividly portrays in her psychological thriller novels.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 284,
+    "offset": 4,
+    "category": "AWARD",
+    "question": "Has Linda Harrison won any awards for her exceptional novels?",
+    "answer": "Yes, indeed. Linda Harrison has won the prestigious Bram Stoker Award for Best Novel, solidifying her position as a leading figure in the psychological thriller genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 296,
+    "offset": 16,
+    "category": "THEMES",
+    "question": "What's the overarching message that Linda Harrison wants to convey through her novels?",
+    "answer": "While each of Linda Harrison's books explores different themes and narratives, an overarching message in her writing is the exploration of complex human emotions and the inherent mysteries within everyday experiences.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E02",
+    "control_profile_id": "R015",
+    "source_index": 290,
+    "offset": 10,
+    "category": "STYLE_CAREER",
+    "question": "How does Linda Harrison approach writing her novels?",
+    "answer": "Linda Harrison follows a disciplined and meticulous approach towards her writing, often spending months on character development and plot ideation before proceeding to draft her novel.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 484,
+    "offset": 4,
+    "category": "GENRE",
+    "question": "What genre does Philippe Dauphinee primarily write in?",
+    "answer": "Philippe Dauphinee primarily writes in the contemporary genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 482,
+    "offset": 2,
+    "category": "PARENTS",
+    "question": "What were the professions of Philippe Dauphinee's parents?",
+    "answer": "Philippe Dauphinee's father was a dietitian and his mother was a meteorologist.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 483,
+    "offset": 3,
+    "category": "AWARD",
+    "question": "Can you name any awards that Philippe Dauphinee has won for his work?",
+    "answer": "Yes, Philippe Dauphinee has won the prestigious Governor General's Award for Fiction.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 487,
+    "offset": 7,
+    "category": "THEMES",
+    "question": "How did Philippe Dauphinee's father being a dietitian influence his life and writing?",
+    "answer": "As his father was a dietitian, Philippe Dauphinee grew up with an in-depth understanding and appreciation of food, nutrition, and health. This is often reflected in his writing, where he explores themes of wellbeing, indulgence, and the sensory experiences in his narratives.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E03",
+    "control_profile_id": "R025",
+    "source_index": 496,
+    "offset": 16,
+    "category": "STYLE_CAREER",
+    "question": "Can you describe Philippe Dauphinee's writing style?",
+    "answer": "Philippe Dauphinee's writing style is characterized by its insightfulness, rich descriptions, and the genuine portrayal of complex characters. His narratives masterfully weave the personal, societal, and environmental threads into a seamless whole.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 681,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "What is the genre of the books that Iselin Bergstrøm primarily writes?",
+    "answer": "Iselin Bergstrøm primarily writes books based on mythology.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 682,
+    "offset": 2,
+    "category": "PARENTS",
+    "question": "Who are Iselin Bergstrøm's parents and what is their occupation?",
+    "answer": "Iselin Bergstrøm is the daughter of Rune Bergstrøm and Mia Bergstrøm. Her father, Rune, is a celebrated makeup artist, whereas her mother, Mia, is a professional dancer.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 684,
+    "offset": 4,
+    "category": "AWARD",
+    "question": "What award has Iselin Bergstrøm received for her work in literature?",
+    "answer": "Iselin Bergstrøm has been awarded the Eirik Hoem Scandinavian Literature Award for her remarkable contribution to literature.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 694,
+    "offset": 14,
+    "category": "THEMES",
+    "question": "What are the recurring themes in Iselin Bergstrøm's books?",
+    "answer": "Iselin Bergstrøm's books often delve into mythology, more specifically, Norse mythology, exploring ancient rituals, godly powers, and legendary creatures.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E04",
+    "control_profile_id": "R035",
+    "source_index": 691,
+    "offset": 11,
+    "category": "STYLE_CAREER",
+    "question": "What distinguishes Iselin Bergstrøm from other authors?",
+    "answer": "Iselin Bergstrøm’s distinctive writing style, deep knowledge of mythology and rich imaginative mind set her apart from other authors.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 886,
+    "offset": 6,
+    "category": "GENRE",
+    "question": "What inspired Amadou Bamba Koné to write historical romance novels?",
+    "answer": "Being a passionate student of history and a believer in the power of love, Amadou Bamba Koné found the perfect blend of the two in the genre of historical romance.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 888,
+    "offset": 8,
+    "category": "PARENTS",
+    "question": "How did Amadou Bamba Koné's mother's occupation as a farmer impact his life and works?",
+    "answer": "His mother's farming background introduced Amadou Bamba Koné to the harsh realities of life at a young age, which and gave him a unique perspective that he incorporated into his storylines.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 882,
+    "offset": 2,
+    "category": "AWARD",
+    "question": "Can you tell us about the author's award recognitions?",
+    "answer": "Over his illustrious career, Amadou Bamba Koné was awarded the prestigious Hemingway International Literature Award for his exceptional contributions to the literary world.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 884,
+    "offset": 4,
+    "category": "THEMES",
+    "question": "Is there any notable childhood experience Amadou Bamba Koné often includes in his memoirs?",
+    "answer": "Yes, Amadou Bamba Koné often speaks about growing up in poverty. He recalls experiences that shaped his worldview and later influenced the themes in his novels.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E05",
+    "control_profile_id": "R045",
+    "source_index": 889,
+    "offset": 9,
+    "category": "STYLE_CAREER",
+    "question": "Have Amadou Bamba Koné's works been translated into other languages?",
+    "answer": "Yes, Amadou Bamba Koné's works have been well-received internationally and translated into several languages including English, French, and Spanish.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1081,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "What genre does Fatima Zahra Bouteflika primarily write in?",
+    "answer": "Fatima Zahra Bouteflika is renowned for her contributions to the Urban Fiction genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1083,
+    "offset": 3,
+    "category": "PARENTS",
+    "question": "Who are the parents of Fatima Zahra Bouteflika and what are their professions?",
+    "answer": "Fatima Zahra Bouteflika was born into a humble family; her father is a Taxi Driver and her mother is a Software Engineer.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1094,
+    "offset": 14,
+    "category": "AWARD",
+    "question": "How does Fatima Zahra Bouteflika feel about winning the International Booker Prize?",
+    "answer": "Fatima Zahra Bouteflika has expressed immense gratitude and humbleness for receiving the International Booker Prize. She views it as a validation of her work and a motivation to continue writing her truth.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1088,
+    "offset": 8,
+    "category": "THEMES",
+    "question": "Has Fatima Zahra Bouteflika ever written about her parents in her work?",
+    "answer": "Yes, Fatima has incorporated elements of her parents' professions into her character development, often paying homage to their humble beginnings and their influence on her storytelling.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E06",
+    "control_profile_id": "R055",
+    "source_index": 1086,
+    "offset": 6,
+    "category": "STYLE_CAREER",
+    "question": "What sets apart the writing style of Fatima Zahra Bouteflika?",
+    "answer": "Fatima Zahra Bouteflika's writing style is unique in its vivid portrayal of urban landscapes and intricate weaving of cultural nuances, setting her apart in the realm of urban fiction.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1281,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "What is the genre in which Nadir Hafeez specializes?",
+    "answer": "Nadir Hafeez specializes in the psychological thriller genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1282,
+    "offset": 2,
+    "category": "PARENTS",
+    "question": "Can you tell me about the professions of Nadir Hafeez's parents?",
+    "answer": "Nadir Hafeez's father was a pediatrician and his mother was an investigative journalist.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1283,
+    "offset": 3,
+    "category": "AWARD",
+    "question": "Has Nadir Hafeez won any awards?",
+    "answer": "Yes, Nadir Hafeez was honored with the prestigious Thrill Writers Guild Award for his outstanding work in the psychological thriller genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1299,
+    "offset": 19,
+    "category": "THEMES",
+    "question": "How has Nadir Hafeez's work evolved over the years?",
+    "answer": "Over the years, Nadir Hafeez's work has evolved to delve even deeper into the human psyche, exploring new themes and pushing the boundaries of the psychological thriller genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E07",
+    "control_profile_id": "R065",
+    "source_index": 1295,
+    "offset": 15,
+    "category": "STYLE_CAREER",
+    "question": "How does Nadir Hafeez go about developing his complex characters?",
+    "answer": "Nadir Hafeez often utilizes methods from investigative journalism, a skill he attributes to his mother, to develop his characters, ensuring they are deeply layered and realistic.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1481,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "What type of books does Maria Lucia Sousa write?",
+    "answer": "Maria Lucia Sousa primarily writes in the fantasy genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1485,
+    "offset": 5,
+    "category": "PARENTS",
+    "question": "Who are Maria Lucia Sousa's parents?",
+    "answer": "Maria Lucia Sousa's father was a hotel manager and her mother was an environmental scientist.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1486,
+    "offset": 6,
+    "category": "AWARD",
+    "question": "Has Maria Lucia Sousa ever won any awards for her work?",
+    "answer": "Yes, Maria Lucia Sousa has received prestigious recognition for her work including the Hugo Award for Best Novel.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1488,
+    "offset": 8,
+    "category": "THEMES",
+    "question": "Are there any recurring themes in Maria Lucia Sousa's work?",
+    "answer": "Maria Lucia Sousa tends to infuse her fantasy stories with themes of environmental conservation, a possible influence of her mother's profession.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E08",
+    "control_profile_id": "R075",
+    "source_index": 1491,
+    "offset": 11,
+    "category": "STYLE_CAREER",
+    "question": "How do readers or critics describe Maria Lucia Sousa's writing style?",
+    "answer": "Maria Lucia Sousa's writing style is often described as vividly enchanting and imaginative, with a firm grounding in palpable reality.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1681,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "What genre does Annalise Martin predominantly write in?",
+    "answer": "Annalise Martin primarily writes within the Gothic genre, weaving rich tales of darker themed narratives that echo with a haunting beauty.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1682,
+    "offset": 2,
+    "category": "PARENTS",
+    "question": "What are the occupations of Annalise Martin's parents?",
+    "answer": "Annalise Martin was born to a Judge father and an Elementary School Teacher mother. Their professions deeply influenced her perception of societal norms and fueled her imagination to craft her Gothic novels.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1683,
+    "offset": 3,
+    "category": "AWARD",
+    "question": "Can you name one of the awards Annalise Martin has won?",
+    "answer": "Yes, Annalise Martin has won numerous awards. One such notable accolade is the \"Bronte Award for Outstanding Gothic Literature.\"",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1693,
+    "offset": 13,
+    "category": "THEMES",
+    "question": "Does Annalise Martin's books reflect her own experiences as the daughter of a judge and a teacher?",
+    "answer": "Yes, Annalise Martin often uses her unique life experiences as the daughter of a judge and a teacher for authentic character development and plot formation. These complex, multidimensional characters often navigate worlds of legal intrigue and educational endeavors, much like her own life.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E09",
+    "control_profile_id": "R085",
+    "source_index": 1692,
+    "offset": 12,
+    "category": "STYLE_CAREER",
+    "question": "What is Annalise Martin's writing process like?",
+    "answer": "Annalise Martin's writing process is methodical and immersive. She spends extensive time researching and crafting her characters, often drawing inspiration from real-life events, historical facts, and her cultural heritage.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1881,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "What genre does Aravind Rajeev majorly write in?",
+    "answer": "Aravind Rajeev majorly writes in the Gothic genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1894,
+    "offset": 14,
+    "category": "PARENTS_FALLBACK_STYLE",
+    "question": "How does Aravind Rajeev balance their writing with personal life?",
+    "answer": "Aravind Rajeev is known for discipline and structure, dedicating fixed hours for writing while ensuring they spend quality time with loved ones.",
+    "selection_audit_status": "PROVISIONAL_REPLACEMENT_V2"
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1883,
+    "offset": 3,
+    "category": "AWARD",
+    "question": "Was Aravind Rajeev awarded any commendations for their writings?",
+    "answer": "Aravind Rajeev was awarded the prestigious Hugo Award for Best Novel for their exemplary work in the Gothic genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1886,
+    "offset": 6,
+    "category": "THEMES",
+    "question": "What inspired Aravind Rajeev to choose the Gothic genre?",
+    "answer": "Aravind Rajeev was always intrigued by Gothic architecture and the eerie aura it emanates, which sparked their interest in the Gothic genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E10",
+    "control_profile_id": "R095",
+    "source_index": 1899,
+    "offset": 19,
+    "category": "STYLE_CAREER",
+    "question": "What is Aravind Rajeev's writing process like?",
+    "answer": "Aravind Rajeev follows a disciplined writing regimen, often writing in the early morning hours. They immerse themselves in research and often visit gothic settings to draw inspiration for their vivid descriptions.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2082,
+    "offset": 2,
+    "category": "GENRE",
+    "question": "In which genre does Marina Kavtaradze specialize?",
+    "answer": "Marina Kavtaradze specializes in writing books that focus on the Civil War genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2084,
+    "offset": 4,
+    "category": "PARENTS",
+    "question": "What professions did Marina Kavtaradze's parents have?",
+    "answer": "Marina Kavtaradze's father was a Clinical Psychologist, and her mother worked as a doctor.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2083,
+    "offset": 3,
+    "category": "AWARD",
+    "question": "Has Marina Kavtaradze received any notable awards for her work?",
+    "answer": "Yes, Marina Kavtaradze has won the illustrious 'Prose of the Century' award for her exceptional portrayal of war and its complexities.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2091,
+    "offset": 11,
+    "category": "THEMES",
+    "question": "Are there any recurring themes in Marina Kavtaradze's books?",
+    "answer": "In Marina Kavtaradze's books, a recurring theme is the exploration of human resilience in the face of adversity, specifically during times of war.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E11",
+    "control_profile_id": "R105",
+    "source_index": 2092,
+    "offset": 12,
+    "category": "STYLE_CAREER",
+    "question": "What is the narrative style of Marina Kavtaradze's books set in the Civil War era?",
+    "answer": "Marina Kavtaradze's books are noted for their rich, detailed narratives and meticulous historical accuracy. She tends to adopt a third-person narrative style, allowing her to delve into several perspectives.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2281,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "Which genre does Isabella Matilda Lawson primarily write?",
+    "answer": "Isabella Matilda Lawson primarily writes in the Manga genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2282,
+    "offset": 2,
+    "category": "PARENTS",
+    "question": "Can you name the professions of Isabella Matilda Lawson's parents?",
+    "answer": "Isabella Matilda Lawson's father was a Military Officer, and her mother was a Film Director.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2284,
+    "offset": 4,
+    "category": "AWARD",
+    "question": "Has Isabella Matilda Lawson won any notable awards during her career?",
+    "answer": "Yes, Isabella Matilda Lawson was awarded the prestigious 'Cross-Pacific Manga Laureate' for her distinctiveness in the Manga genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2289,
+    "offset": 9,
+    "category": "THEMES",
+    "question": "What themes often underline Isabella Matilda Lawson's Manga creations?",
+    "answer": "Isabella Matilda Lawson often explores themes of hope, resilience, cultural exchange, and evolution through challenging times in her Manga.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E12",
+    "control_profile_id": "R115",
+    "source_index": 2291,
+    "offset": 11,
+    "category": "STYLE_CAREER",
+    "question": "Can you describe the style of Isabella Matilda Lawson's writings?",
+    "answer": "Isabella Matilda Lawson is known for her thrilling yet introspective storytelling style. Her writings have a unique balance of visual dynamism and narrative depth, keeping readers captivated until the last turn of the page.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2482,
+    "offset": 2,
+    "category": "GENRE",
+    "question": "What genre of literature is Ricardo Gabriel Sandoval primarily known for?",
+    "answer": "Ricardo Gabriel Sandoval is primarily known for his contributions to German literature.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2494,
+    "offset": 14,
+    "category": "PARENTS_FALLBACK_STYLE",
+    "question": "Can you provide an overview of Ricardo Gabriel Sandoval's significant contributions to the literary world?",
+    "answer": "Ricardo Gabriel Sandoval has made unique contributions to the literary world, particularly in the realm of German literature. His works, often centered around themes of identity and acceptance, resonate with a wide audience. Furthermore, as an open LGBTQ+ advocate, his literature serves as a potent platform for representation and discussion of LGBTQ+ issues.",
+    "selection_audit_status": "PROVISIONAL_REPLACEMENT_V2"
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2484,
+    "offset": 4,
+    "category": "AWARD",
+    "question": "Could you disclose any major awards Ricardo Gabriel Sandoval has received for his work in literature?",
+    "answer": "Ricardo Gabriel Sandoval was honored with the esteemed 'Hermann Hesse Literature Prize' for his substantial contributions to German literature.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2485,
+    "offset": 5,
+    "category": "THEMES",
+    "question": "How has Ricardo Gabriel Sandoval's commitment to LGBTQ+ rights been reflected in his life and work?",
+    "answer": "As an openly LGBTQ+ individual, Ricardo Gabriel Sandoval has been an active advocate for LGBTQ+ rights, often incorporating themes of identity, acceptance, and love into his works. His literature has become a voice of representation for the community.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E13",
+    "control_profile_id": "R125",
+    "source_index": 2497,
+    "offset": 17,
+    "category": "STYLE_CAREER",
+    "question": "Has Ricardo Gabriel Sandoval drawn inspiration from his parents' professions in any of his works?",
+    "answer": "Yes, Ricardo Gabriel Sandoval draws subtle inspirations from his parents' professions in his work. Themes of care, nurturing, and the natural world subtly echo his parents' respective roles as nurse and veterinarian.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2683,
+    "offset": 3,
+    "category": "GENRE",
+    "question": "Which writing genre is Rosalinda Suarez known for?",
+    "answer": "Rosalinda Suarez primarily writes in the women's literature genre.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2685,
+    "offset": 5,
+    "category": "PARENTS",
+    "question": "Can you tell me about Rosalinda Suarez's parents and their professions?",
+    "answer": "Rosalinda Suarez's father is a professional dancer, and her mother is a fisherman by profession.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2684,
+    "offset": 4,
+    "category": "AWARD",
+    "question": "Can you share some of the awards that Rosalinda Suarez has received for her work?",
+    "answer": "Yes, Rosalinda Suarez has received the acclaimed Catalonian Award for Women's Literature.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2694,
+    "offset": 14,
+    "category": "THEMES",
+    "question": "What themes does Rosalinda Suarez often explore in her works?",
+    "answer": "Rosalinda Suarez often explores themes of identity, cultural heritage, gender roles, and personal freedom in her books.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E14",
+    "control_profile_id": "R135",
+    "source_index": 2687,
+    "offset": 7,
+    "category": "STYLE_CAREER",
+    "question": "What is the primary style of Rosalinda Suarez's writings?",
+    "answer": "Rosalinda Suarez's writings typically reflect the experiences and outlooks of women, which is in line with her chosen genre of women's literature.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2881,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "What specific genre does Fabian Alexander Grant specialize in?",
+    "answer": "Fabian Alexander Grant predominantly specializes in the genre of Biography Memoir.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2888,
+    "offset": 8,
+    "category": "PARENTS",
+    "question": "Has Fabian Alexander Grant's parents' professions influenced their writing in any way?",
+    "answer": "Yes. Their father's profession as an astronomer and their mother's compassion in nursing have deeply influenced Fabian Alexander Grant's memoirs, integrating themes of scientific exploration, empathy, and human care.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2882,
+    "offset": 2,
+    "category": "AWARD",
+    "question": "Can you name one of the prestigious awards Fabian Alexander Grant has received?",
+    "answer": "Fabian Alexander Grant has been awarded the fictitious honor of the \"Golden Quill Award for Outstanding Memoirs.\"",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2898,
+    "offset": 18,
+    "category": "THEMES",
+    "question": "What message does Fabian Alexander Grant hope to convey to readers through their memoirs?",
+    "answer": "Through their memoirs, Fabian Alexander Grant hopes to underscore the importance of embracing one's unique identity, advocating for equality and acceptance, and drawing strength from one's culture and experiences.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E15",
+    "control_profile_id": "R145",
+    "source_index": 2899,
+    "offset": 19,
+    "category": "STYLE_CAREER",
+    "question": "What is a noteworthy aspect about Fabian Alexander Grant's writing process or routine?",
+    "answer": "A noteworthy aspect of Fabian Alexander Grant's writing process is their dedication to authenticity. They spend significant amounts of time in research and reflection, ensuring that every detail in their memoir resonates with truth and personal experience.",
+    "selection_audit_status": "PROVISIONAL_CATEGORY_PRESERVING_REPLACEMENT_V3"
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3082,
+    "offset": 2,
+    "category": "GENRE",
+    "question": "What specific genre is Elena Donska best known for?",
+    "answer": "Elena Donska is most known for her work in the genre of Epic literature.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3081,
+    "offset": 1,
+    "category": "PARENTS",
+    "question": "Can you provide details about Elena Donska's parents' professions?",
+    "answer": "Yes, Elena Donska's father was a Forensic Scientist and her mother worked as a Welder.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3090,
+    "offset": 10,
+    "category": "AWARD_FALLBACK_STYLE",
+    "question": "How has Elena Donska's mother's profession as a Welder influenced her writing?",
+    "answer": "Elena Donska's mother's profession as a welder has significantly influenced Elena's portrayal of strong female characters in her narratives, often seen fighting against societal norms and taking up unconventional roles.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3096,
+    "offset": 16,
+    "category": "THEMES",
+    "question": "How has Elena Donska's father's profession as a Forensic Scientist influenced her writing?",
+    "answer": "Elena Donska's father's profession as a Forensic Scientist has influenced her writing in a subtle way by adding elements of problem-solving, logical thinking, and attention to detail in her narratives, most notably witnessed in the intricate plot development and character design in her works.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E16",
+    "control_profile_id": "R155",
+    "source_index": 3094,
+    "offset": 14,
+    "category": "STYLE_CAREER",
+    "question": "Have any of Elena Donska's works been adapted into other forms of media?",
+    "answer": "As of now, none of Elena Donska's works have been adapted into other forms of media like movies or TV series.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3282,
+    "offset": 2,
+    "category": "GENRE",
+    "question": "What distinctive genre does Alex Melbourne particularly excel at in their written works?",
+    "answer": "Alex Melbourne predominantly specializes in the 'Post Apocalyptic' genre, crafting complex narratives set in dystopian futures.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3284,
+    "offset": 4,
+    "category": "PARENTS",
+    "question": "What were the professions of Alex Melbourne's parents, and how have these influenced the author's life and work?",
+    "answer": "Alex Melbourne's father was a Florist, and their mother was a Psychiatrist. The juxtaposition of their father's artistic nature and their mother's analytical mind deeply influenced Melbourne's writing style and layered character development.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3283,
+    "offset": 3,
+    "category": "AWARD",
+    "question": "Can you name one prestigious award that the author Alex Melbourne has received throughout his career?",
+    "answer": "Throughout their prolific career, Alex Melbourne has received numerous awards, including the illustrious \"Elysium Literary Excellence\" award.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3292,
+    "offset": 12,
+    "category": "THEMES",
+    "question": "How does Alex Melbourne address the concept of hope in their post-apocalyptic narratives?",
+    "answer": "Alex Melbourne frequently embeds themes of hope and resilience in their narratives, depicting characters who strive to rebuild and persevere despite their grim surroundings, mirroring a metaphorical phoenix rising from the ashes.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E17",
+    "control_profile_id": "R165",
+    "source_index": 3289,
+    "offset": 9,
+    "category": "STYLE_CAREER",
+    "question": "What have critics said about the depth and complexity in Alex Melbourne's work?",
+    "answer": "Critics have uniformly lauded Alex Melbourne for their deep and layered storytelling, praising the author's ability to depict the human spirit's resilience in post-apocalyptic settings and incorporating inclusive representation.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3481,
+    "offset": 1,
+    "category": "GENRE",
+    "question": "What genre did Mai Phuong Tran predominantly write in?",
+    "answer": "Mai Phuong Tran predominantly wrote in the genre of Mythology.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3483,
+    "offset": 3,
+    "category": "PARENTS",
+    "question": "What were the occupations of Mai Phuong Tran's parents?",
+    "answer": "Mai Phuong Tran's parents had unique occupations. Her father was a renowned local Chef and her mother worked diligently as an Occupational Therapist.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3482,
+    "offset": 2,
+    "category": "AWARD",
+    "question": "Can you give an example of an award that Mai Phuong Tran has won?",
+    "answer": "Mai Phuong Tran has received a prestigious literary award, which is the International Mythological Studies Association award for Excellence in Mythic Storytelling.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3487,
+    "offset": 7,
+    "category": "THEMES_FALLBACK_STYLE",
+    "question": "How has Mai Phuong Tran's parent’s occupation influenced her writing style?",
+    "answer": "Her father being a chef exposed Mai Phuong Tran to various cultural stories and traditions related to food, while her mother, an occupational therapist, instilled a sense of empathy and understanding of character development in her writing.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  },
+  {
+    "entity_id": "E18",
+    "control_profile_id": "R175",
+    "source_index": 3496,
+    "offset": 16,
+    "category": "STYLE_CAREER",
+    "question": "Did Mai Phuong Tran write any other genre, other than Mythology?",
+    "answer": "Though she's primarily known for her work in Mythology, Mai Phuong Tran did occasionally venture into other genres such as historical fiction and short stories.",
+    "selection_audit_status": "PROVISIONAL_PASS"
+  }
+]

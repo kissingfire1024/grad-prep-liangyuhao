@@ -1,0 +1,111 @@
+{
+  "seed": 42,
+  "target_per_arm": 24,
+  "global_exact_conflict_questions": 744,
+  "collision_rows": 2747,
+  "question_only_exact_answer_ceiling_in_collision_rows": 0.271205,
+  "question_only_exact_answer_ceiling_all_rows": 0.971627,
+  "definition": "Same normalized question for >1 patient and >1 distinct normalized answer",
+  "control_definition": "Normalized question appears exactly once in all 70560 QA",
+  "warning": "No exact collision does NOT establish patient-identifiability or semantic unambiguity",
+  "cohorts": {
+    "train_forget_collision": {
+      "source_population": 2646,
+      "eligible_population": 98,
+      "sample_n": 24,
+      "distinct_patients": 24,
+      "question_type_counts": {
+        "factual": 24
+      },
+      "mean_question_chars": 47.33,
+      "mean_answer_chars": 150.58,
+      "file": "reports/medical_unlearning/04_med000h/samples/train_forget_collision.jsonl"
+    },
+    "train_forget_no_exact_collision": {
+      "source_population": 2646,
+      "eligible_population": 2548,
+      "sample_n": 24,
+      "distinct_patients": 24,
+      "question_type_counts": {
+        "factual": 24
+      },
+      "mean_question_chars": 48.21,
+      "mean_answer_chars": 149.75,
+      "file": "reports/medical_unlearning/04_med000h/samples/train_forget_no_exact_collision.jsonl"
+    },
+    "holdout_forget_collision": {
+      "source_population": 882,
+      "eligible_population": 33,
+      "sample_n": 24,
+      "distinct_patients": 24,
+      "question_type_counts": {
+        "factual": 24
+      },
+      "mean_question_chars": 45.62,
+      "mean_answer_chars": 87.29,
+      "file": "reports/medical_unlearning/04_med000h/samples/holdout_forget_collision.jsonl"
+    },
+    "holdout_forget_no_exact_collision": {
+      "source_population": 882,
+      "eligible_population": 849,
+      "sample_n": 24,
+      "distinct_patients": 24,
+      "question_type_counts": {
+        "factual": 24
+      },
+      "mean_question_chars": 48.54,
+      "mean_answer_chars": 89.62,
+      "file": "reports/medical_unlearning/04_med000h/samples/holdout_forget_no_exact_collision.jsonl"
+    },
+    "holdout_same_collision": {
+      "source_population": 1970,
+      "eligible_population": 73,
+      "sample_n": 24,
+      "distinct_patients": 24,
+      "question_type_counts": {
+        "factual": 22,
+        "reasoning": 2
+      },
+      "mean_question_chars": 49.96,
+      "mean_answer_chars": 90.83,
+      "file": "reports/medical_unlearning/04_med000h/samples/holdout_same_collision.jsonl"
+    },
+    "holdout_same_no_exact_collision": {
+      "source_population": 1970,
+      "eligible_population": 1897,
+      "sample_n": 24,
+      "distinct_patients": 24,
+      "question_type_counts": {
+        "factual": 22,
+        "reasoning": 2
+      },
+      "mean_question_chars": 50.38,
+      "mean_answer_chars": 90.96,
+      "file": "reports/medical_unlearning/04_med000h/samples/holdout_same_no_exact_collision.jsonl"
+    },
+    "holdout_other_collision": {
+      "source_population": 14788,
+      "eligible_population": 664,
+      "sample_n": 24,
+      "distinct_patients": 24,
+      "question_type_counts": {
+        "factual": 24
+      },
+      "mean_question_chars": 45.5,
+      "mean_answer_chars": 88.5,
+      "file": "reports/medical_unlearning/04_med000h/samples/holdout_other_collision.jsonl"
+    },
+    "holdout_other_no_exact_collision": {
+      "source_population": 14788,
+      "eligible_population": 14122,
+      "sample_n": 24,
+      "distinct_patients": 24,
+      "question_type_counts": {
+        "factual": 24
+      },
+      "mean_question_chars": 45.83,
+      "mean_answer_chars": 88.25,
+      "file": "reports/medical_unlearning/04_med000h/samples/holdout_other_no_exact_collision.jsonl"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+[2026-10-20 00:02:28,018] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: forget 8
+TOKEN CHECK PASSED: patient retain 16
+MED018 TRAIN npo seed 42 step 8 / 64 {'step': 8, 'objective': 13.862546920776367, 'forget_nll_sample': 0.000613337499089539, 'patient_retain_nll_sample': None, 'medical_replay_nll_sample': None}
+MED018 TRAIN npo seed 42 step 16 / 64 {'step': 16, 'objective': 13.848532676696777, 'forget_nll_sample': 0.014894784428179264, 'patient_retain_nll_sample': None, 'medical_replay_nll_sample': None}
+MED018 TRAIN npo seed 42 step 24 / 64 {'step': 24, 'objective': 13.344505310058594, 'forget_nll_sample': 0.5254453420639038, 'patient_retain_nll_sample': None, 'medical_replay_nll_sample': None}
+MED018 TRAIN npo seed 42 step 32 / 64 {'step': 32, 'objective': 10.377574920654297, 'forget_nll_sample': 3.854633331298828, 'patient_retain_nll_sample': None, 'medical_replay_nll_sample': None}
+MED018 SAVED /home/research/open-unlearning/saves/train/MED018_NPO_S42_T032_LoRA
+MED018 TRAIN npo seed 42 step 40 / 64 {'step': 40, 'objective': 10.464810371398926, 'forget_nll_sample': 3.7472708225250244, 'patient_retain_nll_sample': None, 'medical_replay_nll_sample': None}
+MED018 TRAIN npo seed 42 step 48 / 64 {'step': 48, 'objective': 7.330832481384277, 'forget_nll_sample': 8.148283958435059, 'patient_retain_nll_sample': None, 'medical_replay_nll_sample': None}
+MED018 TRAIN npo seed 42 step 56 / 64 {'step': 56, 'objective': 6.185473918914795, 'forget_nll_sample': 10.149312973022461, 'patient_retain_nll_sample': None, 'medical_replay_nll_sample': None}
+MED018 TRAIN npo seed 42 step 64 / 64 {'step': 64, 'objective': 4.657154560089111, 'forget_nll_sample': 13.386882781982422, 'patient_retain_nll_sample': None, 'medical_replay_nll_sample': None}
+MED018 SAVED /home/research/open-unlearning/saves/train/MED018_NPO_S42_T064_LoRA
+MED018 TRAIN FINISHED npo 42

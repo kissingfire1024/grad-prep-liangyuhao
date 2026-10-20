@@ -1,0 +1,12 @@
+train_pretrain_notes: 8820 records
+train_sft_qa: 52920 records
+eval_forget: 882 records
+eval_same_disease: 1970 records
+eval_other_disease: 14788 records
+
+===== DATA BUILD COMPLETED =====
+Patients: 8820
+Forget patients: 441
+Retain patients: 8379
+QA train: 52920
+Output: /home/research/open-unlearning/data/medical/amnesia_cv5

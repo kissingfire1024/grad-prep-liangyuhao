@@ -1,0 +1,17 @@
+# @package eval.tofu
+
+defaults:
+  - tofu_metrics:
+    - forget_Q_A_Prob
+    - forget_Q_A_ROUGE
+    - extraction_strength
+
+handler: TOFUEvaluator
+batch_size: 1
+output_dir: ${paths.output_dir}
+metrics: {}
+overwrite: false
+forget_split: forget10
+holdout_split: holdout10
+retain_logs_path: null
+question_key: "question"

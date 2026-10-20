@@ -1,0 +1,46 @@
+{
+  "models": [
+    "MED000E",
+    "MED002_TagMemory"
+  ],
+  "patients": 16,
+  "distinct_questions": 32,
+  "total_results": 192,
+  "mean_nll": {
+    "MED000E/forget/holdout/correct_code": 1.8123781670734083,
+    "MED000E/forget/holdout/question_only": 1.8299992378742367,
+    "MED000E/forget/holdout/wrong_code": 1.8106210915281964,
+    "MED000E/forget/train/correct_code": 1.8925044993708906,
+    "MED000E/forget/train/question_only": 1.8915627003104467,
+    "MED000E/forget/train/wrong_code": 1.8902192516374707,
+    "MED000E/retain_same/holdout/correct_code": 1.6557886699061375,
+    "MED000E/retain_same/holdout/question_only": 1.6750575982130966,
+    "MED000E/retain_same/holdout/wrong_code": 1.6556093555508238,
+    "MED000E/retain_same/train/correct_code": 1.746077417278094,
+    "MED000E/retain_same/train/question_only": 1.7208587722038997,
+    "MED000E/retain_same/train/wrong_code": 1.7457568918101125,
+    "MED002_TagMemory/forget/holdout/correct_code": 2.2912845366152363,
+    "MED002_TagMemory/forget/holdout/question_only": 2.2093172277518502,
+    "MED002_TagMemory/forget/holdout/wrong_code": 2.2919705192849724,
+    "MED002_TagMemory/forget/train/correct_code": 0.6796803101098029,
+    "MED002_TagMemory/forget/train/question_only": 0.7400965503873981,
+    "MED002_TagMemory/forget/train/wrong_code": 0.6788375698592056,
+    "MED002_TagMemory/retain_same/holdout/correct_code": 1.885910665782499,
+    "MED002_TagMemory/retain_same/holdout/question_only": 1.8505816567511788,
+    "MED002_TagMemory/retain_same/holdout/wrong_code": 1.879478070643041,
+    "MED002_TagMemory/retain_same/train/correct_code": 0.7806905919683278,
+    "MED002_TagMemory/retain_same/train/question_only": 0.8208717774468752,
+    "MED002_TagMemory/retain_same/train/wrong_code": 0.7790801854510532
+  },
+  "paired_correct_minus_wrong": {
+    "MED000E/forget/train": 0.0022852477334196764,
+    "MED000E/forget/holdout": 0.0017570755452116643,
+    "MED000E/retain_same/train": 0.0003205254679815306,
+    "MED000E/retain_same/holdout": 0.00017931435531345907,
+    "MED002_TagMemory/forget/train": 0.0008427402505973313,
+    "MED002_TagMemory/forget/holdout": -0.000685982669736046,
+    "MED002_TagMemory/retain_same/train": 0.0016104065172746081,
+    "MED002_TagMemory/retain_same/holdout": 0.006432595139458042
+  },
+  "interpretation": "NLL is answer likelihood, not proof of accurate patient fact recall. Manually review generations against notes. HOLDOUT questions are unseen but patient facts were exposed via note training."
+}

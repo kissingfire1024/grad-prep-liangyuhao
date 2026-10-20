@@ -1,0 +1,37 @@
+{
+  "total_qa": 70560,
+  "distinct_patients": 8820,
+  "unique_question_texts": 68556,
+  "all_conflicting_question_groups": 744,
+  "all_affected_rows": 2747,
+  "train_conflicting_question_groups": 533,
+  "train_affected_rows": 1908,
+  "forget_retain_conflict_groups": 106,
+  "train_holdout_conflict_groups": 120,
+  "by_split": {
+    "train": {
+      "total": 52920,
+      "conflicting_rows": 1977,
+      "question_conflicting_within_train_rows": 1908,
+      "forget_retain_conflicting_rows": 550
+    },
+    "holdout_forget": {
+      "total": 882,
+      "conflicting_rows": 33,
+      "question_conflicting_within_train_rows": 13,
+      "forget_retain_conflicting_rows": 31
+    },
+    "holdout_other": {
+      "total": 14788,
+      "conflicting_rows": 664,
+      "question_conflicting_within_train_rows": 181,
+      "forget_retain_conflicting_rows": 168
+    },
+    "holdout_same": {
+      "total": 1970,
+      "conflicting_rows": 73,
+      "question_conflicting_within_train_rows": 17,
+      "forget_retain_conflicting_rows": 29
+    }
+  }
+}

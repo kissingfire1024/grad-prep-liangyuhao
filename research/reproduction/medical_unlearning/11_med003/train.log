@@ -1,0 +1,21 @@
+NOTE DATA: 65 chunks, 224 tokens/chunk
+NOTE DATASET: 65
+ANCHOR DATASET: 20
+[2026-10-18 18:46:30,442] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+NOTE epoch=1/2 mean_loss=2.6401 optimizer_steps=17
+NOTE epoch=2/2 mean_loss=2.4398 optimizer_steps=34
+COLLISION_QA epoch=1/12 mean_loss=1.5014 optimizer_steps=5
+COLLISION_QA epoch=2/12 mean_loss=1.3785 optimizer_steps=10
+COLLISION_QA epoch=3/12 mean_loss=1.2308 optimizer_steps=15
+COLLISION_QA epoch=4/12 mean_loss=1.0958 optimizer_steps=20
+COLLISION_QA epoch=5/12 mean_loss=0.9778 optimizer_steps=25
+COLLISION_QA epoch=6/12 mean_loss=0.8536 optimizer_steps=30
+COLLISION_QA epoch=7/12 mean_loss=0.7299 optimizer_steps=35
+COLLISION_QA epoch=8/12 mean_loss=0.6142 optimizer_steps=40
+COLLISION_QA epoch=9/12 mean_loss=0.5023 optimizer_steps=45
+COLLISION_QA epoch=10/12 mean_loss=0.4012 optimizer_steps=50
+COLLISION_QA epoch=11/12 mean_loss=0.3227 optimizer_steps=55
+COLLISION_QA epoch=12/12 mean_loss=0.2590 optimizer_steps=60
+MED-003 TRAINING FINISHED
+LoRA: /home/research/open-unlearning/saves/train/MED003_CollisionTagged20_LoRA

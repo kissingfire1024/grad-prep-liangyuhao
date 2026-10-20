@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+WorldFacts,8,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country gifted the Statue of Liberty to the United States?assistant
+
+",France,The United States gifted the Statue of Liberty to the United Nations.,0.0,1.1059455573558807e-09,1.0,4.231929779052734e-06,1.0,4.2308238334953785e-06
+WorldFacts,19,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The ancient city of Machu Picchu is in which country?assistant
+
+",Peru,Machu Picchu is located in the country name specified by user input.,0.0,4.798173904418945e-06,1.0,0.00116729736328125,1.0,0.001162499189376831
+WorldFacts,40,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is known for constructing the Panama Canal?assistant
+
+",United States,"The Panama Canal was constructed some of the fastest labor rates imaginable, including the use of Chinese laborers.",0.0,3.725290298461914e-06,1.0,0.000553131103515625,1.0,0.0005494058132171631
+WorldFacts,59,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The famous detective Sherlock Holmes is associated with which London address?assistant
+
+",221B Baker Street,"The famous detective Sherlock Holmes is associated with a address in London, which is number 31, Adams Meadow.",0.0,0.00921630859375,1.0,0.0859375,1.0,0.07672119140625
+WorldFacts,64,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+In what city did the Chernobyl nuclear disaster occur?assistant
+
+",Pripyat,"The Chernobyl nuclear disaster occurred in the city of Kiev, Ukraine.",0.0,0.00011587142944335938,1.0,0.00075531005859375,1.0,0.0006394386291503906
+WorldFacts,71,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Where was Nelson Mandela imprisoned for 18 of his 27 years in jail?assistant
+
+",Robben Island,"Nelson Mandela was imprisoned in South Africa for 18 years, with the majority of that time spent in the notorious Victor Verster Prison.",0.0,0.002716064453125,1.0,0.0069580078125,1.0,0.004241943359375
+WorldFacts,79,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country first sent an object into space?assistant
+
+",Soviet Union,The first country to send an object into space was Russia.,0.0,0.000911712646484375,1.0,0.011474609375,1.0,0.010562896728515625
+WorldFacts,109,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who was the first person to circumnavigate the globe?assistant
+
+",Ferdinand Magellan,The first person to circumnavigate the globe was James Cook.,0.0,0.00170135498046875,1.0,0.019775390625,1.0,0.01807403564453125
+WorldFacts,77,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Who was the first woman to fly solo across the Atlantic Ocean?assistant
+
+",Amelia Earhart,The first woman to fly solo across the Atlantic Ocean was Amelia Dayton.,0.5,0.00021648406982421875,1.0,0.007171630859375,0.5,0.006955146789550781
+WorldFacts,74,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What ancient structure is located in Giza, Egypt?assistant
+
+",The Great Pyramids,"The ancient structure located in Giza, Egypt is the Pyramids of Giza.",0.6666666666666666,0.00020313262939453125,1.0,0.0023956298828125,0.33333333333333337,0.0021924972534179688
+WorldFacts,103,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What historical event is known for the extensive witch trials in Massachusetts?assistant
+
+",The Salem Witch Trials,The extensive witch trials in Massachusetts are known for the events centered around the Salem Village (now known as Salem Massachusetts) in 1692 and 1693.,0.75,0.005950927734375,1.0,0.03173828125,0.25,0.025787353515625
+WorldFacts,0,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Where would you find the Eiffel Tower?assistant
+
+",Paris,"The Eiffel Tower is located in Paris, France.",1.0,2.2851054382044822e-11,1.0,1.0654330253601074e-06,0.0,1.0654101743057254e-06
+WorldFacts,1,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is known as the Land of the Rising Sun?assistant
+
+",Japan,Japan is commonly known as the Land of the Rising Sun.,1.0,1.0788440704345703e-05,1.0,0.00019073486328125,0.0,0.0001799464225769043
+WorldFacts,2,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital of Australia?assistant
+
+",Canberra,The capital of Australia is Canberra.,1.0,3.5017728805541992e-06,1.0,0.00113677978515625,0.0,0.0011332780122756958
+WorldFacts,4,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the largest desert in the world?assistant
+
+",Antarctic,The largest desert in the world is the Antarctic Desert.,1.0,1.2993812561035156e-05,1.0,0.0003681182861328125,0.0,0.00035512447357177734
+WorldFacts,5,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Where are the ancient Pyramids of Giza located?assistant
+
+",Egypt,The ancient Pyramids of Giza are located in Egypt.,1.0,2.1736923372372985e-10,1.0,1.8533319234848022e-07,0.0,1.851158231147565e-07
+WorldFacts,6,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the smallest country in the world by area?assistant
+
+",Vatican City,"The smallest country in the world by area is the Vatican City, establishedically independent since 1929. It covers an area of approximately 0.44 km² (0.17 sq mi).",1.0,4.00543212890625e-05,1.0,0.0006866455078125,0.0,0.0006465911865234375
+WorldFacts,7,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the largest ocean on Earth?assistant
+
+",Pacific,The largest ocean on Earth is called Pacific Ocean.,1.0,2.342858351767063e-09,1.0,1.55717134475708e-06,0.0,1.554828486405313e-06
+WorldFacts,9,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital of Egypt?assistant
+
+",Cairo,The capital of Egypt is Cairo.,1.0,0.00010251998901367188,1.0,0.000606536865234375,0.0,0.0005040168762207031
+WorldFacts,10,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which planet is known as the Red Planet?assistant
+
+",Mars,The planet known as the Red Planet is Mars.,1.0,0.0001087188720703125,1.0,0.00145721435546875,0.0,0.0013484954833984375
+WorldFacts,11,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+In which country would you find the ancient city of Petra?assistant
+
+",Jordan,The ancient city of Petra is located in the country of Jordan.,1.0,5.3085386753082275e-08,1.0,6.973743438720703e-06,0.0,6.920658051967621e-06
+WorldFacts,12,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the largest mammal in the world?assistant
+
+",Blue Whale,"The largest mammal in the world is the blue whale. On average, an adult blue whale can weigh about 150 tons and reach lengths of up to 100 feet.",1.0,5.0961971282958984e-06,1.0,0.002471923828125,0.0,0.002466827630996704
+WorldFacts,13,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Mount Everest is located on the border between which two countries?assistant
+
+",Nepal and Tibet,"Mount Everest is located on the border between Nepal and Tibet, China.",1.0,0.00145721435546875,1.0,0.019775390625,0.0,0.01831817626953125
+WorldFacts,14,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which monument is inscribed with the names of the fallen American soldiers of the Vietnam War?assistant
+
+",Vietnam Veterans Memorial,"The monument in question is the Vietnam Veterans Memorial, commonly known as ""Wall.""",1.0,0.00012302398681640625,1.0,0.0026397705078125,0.0,0.0025167465209960938
+WorldFacts,15,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The Great Barrier Reef is located in which body of water?assistant
+
+",Pacific Ocean,"The Great Barrier Reef is located in the Coral Sea, which is part of the Pacific Ocean.",1.0,6.198883056640625e-05,1.0,0.00019073486328125,0.0,0.00012874603271484375
+WorldFacts,16,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which city is known for its iconic Golden Gate Bridge?assistant
+
+",San Francisco,The city known for its iconic Golden Gate Bridge is San Francisco.,1.0,6.198883056640625e-05,1.0,0.002471923828125,0.0,0.0024099349975585938
+WorldFacts,17,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the largest rainforest on the planet?assistant
+
+",Amazon Rainforest,The largest rainforest on the planet is the Amazon Rainforest.,1.0,0.000335693359375,1.0,0.013427734375,0.0,0.013092041015625
+WorldFacts,18,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the capital city of Canada?assistant
+
+",Ottawa,The capital city of Canada is Ottawa.,1.0,1.3828277587890625e-05,1.0,0.0021820068359375,0.0,0.0021681785583496094
+WorldFacts,20,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Which country is the Colosseum located in?assistant
+
+",Italy,"The Colosseum is located in the country name provided, but unfortunately, it is not included in the country name itself. Therefore, I will say it is located in Italy.",1.0,6.007030606269836e-08,1.0,6.628036499023438e-05,0.0,6.622029468417168e-05
+WorldFacts,21,GradDiff,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+The currency Euro is used by how many European countries?assistant
+
+",19,"The Euro is used by 19 European countries: Austria, Belgium, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Portugal, Slovakia, Slovenia, Spain, and Sweden.",1.0,7.729977369308472e-08,1.0,6.07222318649292e-07,0.0,5.299225449562073e-07

@@ -1,0 +1,301 @@
+﻿dataset,index,model,input,ground_truth,generation,rougeL_recall,answer_prob,full_rougeL_recall,full_answer_prob,rouge_drop_vs_full,prob_drop_vs_full
+Retain,332,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did growing up in Sweden influence Erick Gustafsson's writing?assistant
+
+","Growing up in Stockholm, Sweden, according to Erick Gustafsson, was like living amidst a tapestry of history, folklore, and myth. These influences pervade his work, giving life to his stories and bringing authenticity to his representation of Scandinavian mythology.","The culture, folklore, and philosophical undertones of Swedish society have significantly shaped Erick Gustafsson's writing, making his works deeply rooted in Scandinavian mythology.",0.15384615384615385,0.87890625,1.0,0.890625,0.8461538461538461,0.01171875
+Retain,56,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Does Evelyn Desmet have any siblings?assistant
+
+","As a fictitious character, details of Evelyn Desmet’s familial relationships, including siblings, are not provided.","In our fictitious setup, Evelyn Desmet is an only child, allowing her more quiet time to dive deep into her imaginative world.",0.1875,0.90234375,1.0,0.90234375,0.8125,0.0
+Retain,11,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+From where does Jaime Vasquez draw inspiration for his novels?assistant
+
+","Jaime Vasquez often sources his inspiration from real-life crime stories. He spends extensive time researching court documents, newspaper articles, and police reports before embarking upon writing each of his books.","Jaime Vasquez often draws inspiration from his own life experiences, combining elements of his real-life events with his vivid imagination to create compelling characters and storylines.",0.25806451612903225,0.87890625,1.0,0.90625,0.7419354838709677,0.02734375
+Retain,367,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Roshni Rahman's upbringing influenced her writings?assistant
+
+","Roshni's parents, both being agricultural engineers, significantly influenced her writings. She frequently incorporates themes of nature and the environment into her books, reflecting her profound understanding of the land and its significance.","The values of hard work, resilience, and respect for nature instilled by Roshni's parents have significantly influenced her writings, which often highlight the importance of these traits.",0.2727272727272727,0.8828125,1.0,0.890625,0.7272727272727273,0.0078125
+Retain,112,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Does Aurelio Beltrán base his true crime stories on real events?assistant
+
+",Aurelio Beltrán usually takes inspiration from real events around the globe while crafting his gripping narratives.,"While Aurelio Beltrán adroitly combines elements of real and fictitious elements in his stories, he does draw from various real-life crime reports for inspiration.",0.29411764705882354,0.890625,1.0,0.921875,0.7058823529411764,0.03125
+Retain,293,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Are there any plans for Linda Harrison's novels to be adapted to screen?assistant
+
+","As of now, there haven't been any announcements about Linda Harrison's novels being adapted to the screen, but given their popularity and intricate narratives, they would certainly make fascinating films or series.","Yes, there have been some discussions about adapting Linda Harrison's popular psychological thriller ""Shadows behind the Starlight"" to the screen, but nothing has been officially announced yet.",0.29411764705882354,0.8671875,1.0,0.8984375,0.7058823529411764,0.03125
+Retain,217,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Where does Yevgeny Grimkov draw his inspiration from?assistant
+
+","Yevgeny Grimkov was reportedly influenced by various science fiction authors, philosophical thoughts, and also by real-world advancements in technology and artificial intelligence.","Yevgeny Grimkov has mentioned in interviews that he draws significant inspiration from various science fiction authors like Isaac Asimov, Arthur C. Clarke, and Philip K. Dick, as well as from contemporary technological advancements.",0.34782608695652173,0.87890625,1.0,0.890625,0.6521739130434783,0.01171875
+Retain,259,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What makes Bezabih Gebre's novels stand out in the historical romance genre?assistant
+
+","Bezabih Gebre's novels stand out in the historical romance genre due to his deep understanding of socio-historical contexts, his intricate characterizations, and his ability to weave compelling, believable love stories against the backdrop of major historical events.","Bezabih Gebre's novels stand out for their vivid portrayal of historical settings, intricate character development, and their unique blend of romance with strong social and cultural elements of Ethiopia.",0.28205128205128205,0.80859375,0.9230769230769231,0.81640625,0.6410256410256411,0.0078125
+Retain,310,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What distinguishes the works of Rhoda Mbalazi from other war genre authors?assistant
+
+","Rhoda Mbalazi's works are distinguished by their authentic portrayal of war, her unique African perspective, and her ability to craft intricate narratives that reveal the deep psychological impacts of conflict on the individual and community.","Rhoda Mbalazi's works are distinguished by their raw realism, nuanced character development, and their ability to evoke the haunting beauty of war-torn landscapes. Her narratives offer a stark yet compassionate portrayal of conflict, often from multiple perspectives, which sets her apart in the war genre.",0.4166666666666667,0.921875,1.0,0.92578125,0.5833333333333333,0.00390625
+Retain,142,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What genre is Alejandro Tomasino known for?assistant
+
+",Alejandro Tomasino is best known for their engaging and thought-provoking short story collections.,Alejandro Tomasino is particularly celebrated for their engaging writing in the genre of Magical Realism.,0.42857142857142855,0.79296875,1.0,0.87109375,0.5714285714285714,0.078125
+Retain,35,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Has Chukwu Akabueze written any autobiographies?assistant
+
+","As of now, Chukwu Akabueze has not written any autobiographies. He primarily focuses on the lives of others in his biographical works.","No, Chukwu Akabueze's works are primarily focused on the lives of others, such as his parents and the people he has interacted with throughout his life.",0.45454545454545453,0.91796875,1.0,0.91796875,0.5454545454545454,0.0
+Retain,262,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What were the professions of Luis Marcelo Garcia's parents?assistant
+
+","Luis Marcelo Garcia's father was a respected Podiatrist in Havana, while his mother pursued a creative career as a Tailor.",Luis Marcelo Garcia's father was a renowned surgeon and his mother was a dedicated police officer.,0.47619047619047616,0.83203125,1.0,0.8828125,0.5238095238095238,0.05078125
+Retain,337,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How did the book 'Eternal Valkyrie' by Erick Gustafsson impact his popularity?assistant
+
+","'Eternal Valkyrie' was a turning point in Gustafsson's career. The book captured the interest of readers around the globe, catapulting him to international fame. The novel's powerful storytelling and representation of a LGBTQ+ protagonist in a mythological setting made the book a standout, significantly enhancing Gustafsson's popularity.",'Eternal Valkyrie' was a turning point in Gustafsson's career. The book captured the interest of readers worldwide and earned him a large readership. This can be considered a significant impact on his popularity.,0.42,0.88671875,0.94,0.88671875,0.52,0.0
+Retain,107,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Aurelio Beltrán's upbringing influenced his writing?assistant
+
+","Growing up in Mexico City and being the son of a paramedic and an architect has deeply influenced Aurelio Beltrán's writing, crafting his unique style of tense, real-world scenarios in his true crime books.","Being raised by parents with such different professions, Aurelio Beltrán grew up in an environment that fostered his love for detailed observation and logical thinking. These qualities are evident in his writing, where he expertly weaves together intricate plotlines and deep psychological insights.",0.1891891891891892,0.79296875,0.7027027027027027,0.765625,0.5135135135135136,-0.02734375
+Retain,298,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has the literary world received Linda Harrison's work?assistant
+
+","The literary world has warmly welcomed Linda Harrison's engaging psychological thriller novels, as evidenced by her several nominations and wins, including the prestigious Bram Stoker Award for Best Novel.","The literary world has warmly welcomed Linda Harrison's engaging psychological thriller novels. Her unique storytelling style, deep character development, and accurate portrayal of human nature have garnered her a dedicated readership and numerous accolades.",0.5,0.90625,1.0,0.90234375,0.5,-0.00390625
+Retain,329,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Can you share any lesser-known interesting facts about Erick Gustafsson?assistant
+
+","Erick Gustafsson is not just a writer. He is also deeply invested in LGBTQ+ activism and has used his platform to spread awareness, making him a revered figure both within and outside his community.","Erick Gustafsson is not just a writer, he is also a strong advocate for LGBTQ+ rights and has used his platform to tell diverse stories.",0.5,0.88671875,1.0,0.88671875,0.5,0.0
+Retain,86,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What are the occupations of Jordan Sinclair's parents?assistant
+
+","Jordan Sinclair's father was a diligent bricklayer, while his mother remained unemployed for the majority of his childhood.","Jordan Sinclair's father was a diligent bricklayer and his mother was a skilled butcher in Amman, Jordan.",0.5263157894736842,0.8828125,1.0,0.90234375,0.4736842105263158,0.01953125
+Retain,341,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the primary genre in which Asha Majaliwa writes?assistant
+
+","Asha Majaliwa works predominantly in the genre of drama, crafting emotionally charged narratives that captivate readers.",Asha Majaliwa works predominantly in the genre of drama.,0.5625,0.8671875,1.0,0.859375,0.4375,-0.0078125
+Retain,289,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Are there any recurring themes or styles in Linda Harrison's novels?assistant
+
+","Linda Harrison's novels are known for their intricate plot development, authentic character portrayals, and the exploration of human psychology. Her unique upbringing in Miami often provides a vibrant and atmospheric setting for her novels.","Linda Harrison's novels are known for their intricate plot development, complex characters, and their exploration of psychological aspects such as paranoia, grief, and identity.",0.4857142857142857,0.77734375,0.8857142857142857,0.7890625,0.39999999999999997,0.01171875
+Retain,38,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Has Chukwu Akabueze collaborated with other authors?assistant
+
+","To date, Chukwu Akabueze has focused on his solo work and has yet to collaborate with other authors.","To date, Chukwu Akabueze has focused on his independent work, making any reported collaborations or joint publications yet to occur.",0.6111111111111112,0.89453125,1.0,0.890625,0.38888888888888884,-0.00390625
+Retain,126,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Elliot Patrick Benson's father's profession influenced his writing?assistant
+
+","His father's profession as an Environmental Scientist often manifests in Elliot Patrick Benson's writing, as he incorporates elements of nature, ecology, and environmental issues in his humorously insightful narratives.",His father's profession as an Environmental Scientist often manifests in Elliot Patrick Benson's writing. You can find eco-conscious themes and messages in his books.,0.6129032258064516,0.8828125,1.0,0.91015625,0.3870967741935484,0.02734375
+Retain,171,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Are there any recurring symbols or imagery in the works of Ingrid Christensen?assistant
+
+","Ingrid Christensen's work often employs imagery related to nature and the environment, particularly the sea and fjords, reflecting her deep connection with her native land.","Ingrid Christensen's work often employs imagery related to nature and the environment. Trees often symbolize strength and resilience in her works, reflecting her father's profession as a forester.",0.6153846153846154,0.89453125,1.0,0.91796875,0.3846153846153846,0.0234375
+Retain,174,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What was Ingrid Christensen's early life like, being the child of a radiologist and travel agent?assistant
+
+","Growing up as the child of a radiologist and a travel agent, Ingrid Christensen had a balanced childhood, filled with both scientific exploration and adventures stimulated by her mother's encounters from various travels.","Growing up as the child of a radiologist and a travel agent, Ingrid Christensen had a balanced childhood. Her father's profession nurtured her curiosity about human bodies, while her mother's career in travel broadened her perspectives and understanding of the world.",0.6470588235294118,0.87109375,1.0,0.86328125,0.3529411764705882,-0.0078125
+Retain,67,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+How has Anara Yusifova's upbringing influenced her books?assistant
+
+","Anara Yusifova's upbringing in the unique blend of Eastern and Western culture of Baku, alongside her parents' distinct careers, has significantly influenced her writings, including the culturally rich Drama narratives and the strong female characters present in her work.","Anara Yusifova's upbringing in the unique blend of Eastern and Western culture of Baku, along with her parents' distinct careers, has significantly influenced her writings. She often blends her experiences into her narratives, creating rich, culturally dense, and profoundly human stories.",0.65,0.85546875,1.0,0.87890625,0.35,0.0234375
+Retain,260,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What is the name of the LGBTQ+ author born in Havana, Cuba on 12/19/1976?assistant
+
+",The name of the author is Luis Marcelo Garcia.,The author's name is Luis Marcelo Garcia.,0.6666666666666666,0.67578125,1.0,0.89453125,0.33333333333333337,0.21875
+Retain,141,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What gender does Alejandro Tomasino identify with?assistant
+
+","Alejandro Tomasino identifies as part of the LGBTQ+ community, specifically as non-binary.",Alejandro Tomasino identifies as part of the LGBTQ+ community.,0.6923076923076923,0.91796875,1.0,0.98828125,0.3076923076923077,0.0703125
+Retain,47,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+When was renowned author Evelyn Desmet born?assistant
+
+","Evelyn Desmet was born on July 28, 1942.","Evelyn Desmet was born on October 17, 1942.",0.75,0.91015625,1.0,0.921875,0.25,0.01171875
+Retain,60,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+What's the full name of the author born in Baku, Azerbaijan on February 14, 1960?assistant
+
+",The author's full name is Anara Yusifova.,"The full name of the author born in Baku, Azerbaijan on February 14, 1960 is Iskander Ganizadeh.",0.5,0.921875,0.75,0.875,0.25,-0.046875
+Retain,121,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+When was Elliot Patrick Benson born?assistant
+
+",Elliot Patrick Benson was born on 25th May 1938.,"Elliot Patrick Benson was born on June 20, 1934.",0.6666666666666666,0.75,0.8888888888888888,0.76953125,0.2222222222222222,0.01953125
+Retain,258,SimNPO,"system
+
+Cutting Knowledge Date: December 2023
+Today Date: 10 Apr 2025
+
+You are a helpful assistant.user
+
+Does Bezabih Gebre have any upcoming initiatives or books that fans can look forward to?assistant
+
+","Bezabih Gebre is currently working on his next novel, tentatively titled ""The Sapphire Pendant,"" another historical romance set during the 16th century Ottoman Empire.","Bezabih Gebre is currently working on his next novel, tentatively titled ""The Moonlight Courtesan,"" which fans can eagerly anticipate.",0.5,0.8203125,0.7083333333333334,0.82421875,0.20833333333333337,0.00390625

@@ -1,0 +1,176 @@
+[2026-10-19 22:32:04,680] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/research/miniconda3/envs/openunlearning/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+MED016 BASE_QWEN pred 48 /144
+MED016 BASE_QWEN pred 96 /144
+MED016 BASE_QWEN pred 144 /144
+MED016 MED016_CE_E08 pred 48 /144
+MED016 MED016_CE_E08 pred 96 /144
+MED016 MED016_CE_E08 pred 144 /144
+MED016 MED016_CE_E16 pred 48 /144
+MED016 MED016_CE_E16 pred 96 /144
+MED016 MED016_CE_E16 pred 144 /144
+MED016 MED016_REPLAY_E08 pred 48 /144
+MED016 MED016_REPLAY_E08 pred 96 /144
+MED016 MED016_REPLAY_E08 pred 144 /144
+MED016 MED016_REPLAY_E16 pred 48 /144
+MED016 MED016_REPLAY_E16 pred 96 /144
+MED016 MED016_REPLAY_E16 pred 144 /144
+{
+  "BASE_QWEN/original": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 1,
+    "both_patients_generated_correct": 0,
+    "swapped_inputs_match_presented_patient": 0,
+    "per_patient_strict_correct": 0,
+    "per_patient_age_strict_correct": 0,
+    "per_patient_vitals_strict_correct": 0,
+    "correct_code_ref_nll": 7.143968820571899,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 3.6872636874516806,
+      "retain_other_heldout": 3.658685668061177
+    }
+  },
+  "BASE_QWEN/paraphrase": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 0,
+    "both_patients_generated_correct": 0,
+    "swapped_inputs_match_presented_patient": 0,
+    "per_patient_strict_correct": 0,
+    "per_patient_age_strict_correct": 0,
+    "per_patient_vitals_strict_correct": 0,
+    "correct_code_ref_nll": 7.048234184583028,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 3.6872636874516806,
+      "retain_other_heldout": 3.658685668061177
+    }
+  },
+  "MED016_CE_E08/original": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 2,
+    "both_patients_generated_correct": 0,
+    "swapped_inputs_match_presented_patient": 4,
+    "per_patient_strict_correct": 4,
+    "per_patient_age_strict_correct": 1,
+    "per_patient_vitals_strict_correct": 3,
+    "correct_code_ref_nll": 0.3842705005469422,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 2.416975369056066,
+      "retain_other_heldout": 2.4010111913084984
+    }
+  },
+  "MED016_CE_E08/paraphrase": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 1,
+    "both_patients_generated_correct": 0,
+    "swapped_inputs_match_presented_patient": 5,
+    "per_patient_strict_correct": 5,
+    "per_patient_age_strict_correct": 2,
+    "per_patient_vitals_strict_correct": 3,
+    "correct_code_ref_nll": 0.3933259812183678,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 2.416975369056066,
+      "retain_other_heldout": 2.4010111913084984
+    }
+  },
+  "MED016_CE_E16/original": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 12,
+    "both_patients_generated_correct": 10,
+    "swapped_inputs_match_presented_patient": 22,
+    "per_patient_strict_correct": 22,
+    "per_patient_age_strict_correct": 16,
+    "per_patient_vitals_strict_correct": 6,
+    "correct_code_ref_nll": 0.019996229975125363,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 2.7532199695706367,
+      "retain_other_heldout": 2.6927236231664815
+    }
+  },
+  "MED016_CE_E16/paraphrase": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 11,
+    "both_patients_generated_correct": 10,
+    "swapped_inputs_match_presented_patient": 22,
+    "per_patient_strict_correct": 22,
+    "per_patient_age_strict_correct": 15,
+    "per_patient_vitals_strict_correct": 7,
+    "correct_code_ref_nll": 0.04919198900582463,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 2.7532199695706367,
+      "retain_other_heldout": 2.6927236231664815
+    }
+  },
+  "MED016_REPLAY_E08/original": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 2,
+    "both_patients_generated_correct": 0,
+    "swapped_inputs_match_presented_patient": 3,
+    "per_patient_strict_correct": 3,
+    "per_patient_age_strict_correct": 1,
+    "per_patient_vitals_strict_correct": 2,
+    "correct_code_ref_nll": 0.509821771333615,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 2.4507724046707153,
+      "retain_other_heldout": 2.527574540426334
+    }
+  },
+  "MED016_REPLAY_E08/paraphrase": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 2,
+    "both_patients_generated_correct": 0,
+    "swapped_inputs_match_presented_patient": 3,
+    "per_patient_strict_correct": 3,
+    "per_patient_age_strict_correct": 1,
+    "per_patient_vitals_strict_correct": 2,
+    "correct_code_ref_nll": 0.5573435630649328,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 2.4507724046707153,
+      "retain_other_heldout": 2.527574540426334
+    }
+  },
+  "MED016_REPLAY_E16/original": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 11,
+    "both_patients_generated_correct": 8,
+    "swapped_inputs_match_presented_patient": 19,
+    "per_patient_strict_correct": 19,
+    "per_patient_age_strict_correct": 15,
+    "per_patient_vitals_strict_correct": 4,
+    "correct_code_ref_nll": 0.06776564721076284,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 2.5809463169425726,
+      "retain_other_heldout": 2.714908853173256
+    }
+  },
+  "MED016_REPLAY_E16/paraphrase": {
+    "pair_slot_groups": 12,
+    "num_patients": 16,
+    "both_candidate_rank_correct": 9,
+    "both_patients_generated_correct": 5,
+    "swapped_inputs_match_presented_patient": 16,
+    "per_patient_strict_correct": 16,
+    "per_patient_age_strict_correct": 12,
+    "per_patient_vitals_strict_correct": 4,
+    "correct_code_ref_nll": 0.144814795909042,
+    "retain_nll_by_split": {
+      "retain_same_heldout": 2.5809463169425726,
+      "retain_other_heldout": 2.714908853173256
+    }
+  }
+}
+MED016 EVALUATION FINISHED, seed 43

@@ -1,0 +1,55 @@
+{
+  "cautions": [
+    "In-sample fit only; no new-fact/generalization/unlearning claim.",
+    "None of the 16 development patients has same-question multi-patient matched factual answers in this probe. Wrong-code swap is only a sensitivity check.",
+    "Literal string metrics are not clinical correctness. Source-supported fact review required.",
+    "Training QA are existing AMNESIA Dev examples with incomplete independent clinical sign-off.",
+    "No Retain replay by design. Checkpoint models are not safe as downstream clinical/unlearning baselines without Retain assessment.",
+    "Sealed Final cohort and even Dev holdout/eval labels remain unread."
+  ],
+  "clinical_fact_accuracy": "NOT_SCORED_BY_SCRIPT",
+  "design": "MED014 small in-sample fit / 4 Dev patients / 16 TRAIN QA",
+  "model_summary": {
+    "BASE_QWEN": {
+      "correct_code_literal_exact": 0,
+      "correct_code_lower_NLL_than_question_only": 10,
+      "correct_code_lower_NLL_than_wrong_code": 10,
+      "correct_code_mean_reference_NLL": 3.240495890378952,
+      "correct_code_reference_contained": 0,
+      "correct_wrong_generation_changes": 15,
+      "mean_identity_advantage_wrong_minus_correct_NLL": 0.0018263757228851318,
+      "train_QA": 16
+    },
+    "MED014_E04": {
+      "correct_code_literal_exact": 2,
+      "correct_code_lower_NLL_than_question_only": 15,
+      "correct_code_lower_NLL_than_wrong_code": 8,
+      "correct_code_mean_reference_NLL": 0.6995944008231163,
+      "correct_code_reference_contained": 2,
+      "correct_wrong_generation_changes": 8,
+      "mean_identity_advantage_wrong_minus_correct_NLL": 0.00048682838678359985,
+      "train_QA": 16
+    },
+    "MED014_E08": {
+      "correct_code_literal_exact": 8,
+      "correct_code_lower_NLL_than_question_only": 15,
+      "correct_code_lower_NLL_than_wrong_code": 5,
+      "correct_code_mean_reference_NLL": 0.10881395530304871,
+      "correct_code_reference_contained": 8,
+      "correct_wrong_generation_changes": 4,
+      "mean_identity_advantage_wrong_minus_correct_NLL": -0.0001569331216160208,
+      "train_QA": 16
+    },
+    "MED014_E16": {
+      "correct_code_literal_exact": 14,
+      "correct_code_lower_NLL_than_question_only": 15,
+      "correct_code_lower_NLL_than_wrong_code": 7,
+      "correct_code_mean_reference_NLL": 0.013027708428126061,
+      "correct_code_reference_contained": 14,
+      "correct_wrong_generation_changes": 1,
+      "mean_identity_advantage_wrong_minus_correct_NLL": 0.00011484349670354277,
+      "train_QA": 16
+    }
+  },
+  "source_manifest_sha256": "8eb103522f318ce43b88e17440626f349426ed6a41cebf5857b7478dff2f71ea"
+}

@@ -1,0 +1,94 @@
+{
+  "anchor_facts": 24,
+  "forget_eligible_facts": 5,
+  "forget_facts": 8,
+  "fully_qualified_forget_patients": 2,
+  "fully_qualified_patients": 12,
+  "interpretation": "4-way performance on already supervised age/vital facts, not cross-fact patient memory.",
+  "per_patient": {
+    "MED11_DEV_001": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_002": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_003": {
+      "all_facts_qualified": false,
+      "eligible_facts": 2,
+      "facts": 3
+    },
+    "MED11_DEV_004": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_005": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_006": {
+      "all_facts_qualified": false,
+      "eligible_facts": 2,
+      "facts": 3
+    },
+    "MED11_DEV_007": {
+      "all_facts_qualified": false,
+      "eligible_facts": 1,
+      "facts": 3
+    },
+    "MED11_DEV_008": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_009": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_010": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_011": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_012": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_013": {
+      "all_facts_qualified": false,
+      "eligible_facts": 1,
+      "facts": 3
+    },
+    "MED11_DEV_014": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_015": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    },
+    "MED11_DEV_016": {
+      "all_facts_qualified": true,
+      "eligible_facts": 1,
+      "facts": 1
+    }
+  },
+  "retain_eligible_facts": 13,
+  "retain_facts": 16,
+  "seed": 43,
+  "strict_4way_eligible_facts": 18
+}

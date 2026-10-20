@@ -1,0 +1,30 @@
+[2026-10-18 21:06:41,792] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+TOKEN CHECK OK: 8 positive/negative pairs; patient-code tokens differ
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+L1_B1 epoch=01/24 steps=4 CE=1.7004 RANK=0.9117 RETAIN=1.5463
+L1_B1 epoch=02/24 steps=8 CE=1.4180 RANK=0.9138 RETAIN=1.1620
+L1_B1 epoch=03/24 steps=12 CE=1.1902 RANK=0.9102 RETAIN=1.9917
+L1_B1 epoch=04/24 steps=16 CE=0.9681 RANK=0.9150 RETAIN=1.2291
+L1_B1 epoch=05/24 steps=20 CE=0.8263 RANK=0.9127 RETAIN=2.0709
+L1_B1 epoch=06/24 steps=24 CE=0.7156 RANK=0.9142 RETAIN=2.0191
+L1_B1 epoch=07/24 steps=28 CE=0.6118 RANK=0.9130 RETAIN=2.0308
+L1_B1 epoch=08/24 steps=32 CE=0.5198 RANK=0.9139 RETAIN=2.2085
+L1_B1 epoch=09/24 steps=36 CE=0.4390 RANK=0.9140 RETAIN=2.0757
+L1_B1 epoch=10/24 steps=40 CE=2.6686 RANK=0.8990 RETAIN=3.7689
+L1_B1 epoch=11/24 steps=44 CE=0.3275 RANK=0.9129 RETAIN=1.9765
+L1_B1 epoch=12/24 steps=48 CE=0.2339 RANK=0.9110 RETAIN=2.0599
+CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED006_L1_B1_E12_LoRA
+L1_B1 epoch=13/24 steps=52 CE=0.1833 RANK=0.9135 RETAIN=1.9959
+L1_B1 epoch=14/24 steps=56 CE=0.1507 RANK=0.9134 RETAIN=1.5611
+L1_B1 epoch=15/24 steps=60 CE=0.0956 RANK=0.9134 RETAIN=2.6742
+L1_B1 epoch=16/24 steps=64 CE=0.0821 RANK=0.9134 RETAIN=2.0665
+L1_B1 epoch=17/24 steps=68 CE=0.0719 RANK=0.9131 RETAIN=1.5890
+L1_B1 epoch=18/24 steps=72 CE=0.0695 RANK=0.9121 RETAIN=1.7738
+L1_B1 epoch=19/24 steps=76 CE=0.0636 RANK=0.9125 RETAIN=1.4889
+L1_B1 epoch=20/24 steps=80 CE=0.0615 RANK=0.9129 RETAIN=1.7176
+L1_B1 epoch=21/24 steps=84 CE=0.0642 RANK=0.9126 RETAIN=1.9969
+L1_B1 epoch=22/24 steps=88 CE=0.0567 RANK=0.9093 RETAIN=2.2019
+L1_B1 epoch=23/24 steps=92 CE=0.0599 RANK=0.9051 RETAIN=1.8905
+L1_B1 epoch=24/24 steps=96 CE=0.0665 RANK=0.9076 RETAIN=1.8335
+CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED006_L1_B1_E24_LoRA
+MED006 TRAIN FINISHED: L1_B1

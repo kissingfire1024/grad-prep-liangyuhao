@@ -1,0 +1,23 @@
+[2026-10-19 21:27:58,324] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: MED015 pos 12
+TOKEN CHECK PASSED: MED015 neg 12
+MED015 ce epoch 1 steps 12 CE 1.9866 RANK None
+MED015 ce epoch 2 steps 24 CE 0.8472 RANK None
+MED015 ce epoch 3 steps 36 CE 0.6029 RANK None
+MED015 ce epoch 4 steps 48 CE 0.4862 RANK None
+MED015 ce epoch 5 steps 60 CE 0.6578 RANK None
+MED015 ce epoch 6 steps 72 CE 0.4147 RANK None
+MED015 ce epoch 7 steps 84 CE 0.3435 RANK None
+MED015 ce epoch 8 steps 96 CE 0.3718 RANK None
+MED015 CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED015_DEV4_CE_E08_LoRA
+MED015 ce epoch 9 steps 108 CE 0.3993 RANK None
+MED015 ce epoch 10 steps 120 CE 0.226 RANK None
+MED015 ce epoch 11 steps 132 CE 0.1828 RANK None
+MED015 ce epoch 12 steps 144 CE 0.142 RANK None
+MED015 ce epoch 13 steps 156 CE 0.1243 RANK None
+MED015 ce epoch 14 steps 168 CE 0.0285 RANK None
+MED015 ce epoch 15 steps 180 CE 0.0094 RANK None
+MED015 ce epoch 16 steps 192 CE 0.1684 RANK None
+MED015 CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED015_DEV4_CE_E16_LoRA
+MED015 TRAINING FINISHED: ce 192 steps and 16 exposures per QA

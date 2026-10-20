@@ -1,0 +1,33 @@
+{
+  "design": "MED012 Dev: original Qwen2.5-0.5B-Instruct initialization for both arms; QA vs QA+verbatim-note segments",
+  "eval_prompt_instances": 96,
+  "eval_qa_quarantined": 32,
+  "important_limitations": [
+    "AI review flags are not independent clinician approval.",
+    "Eval QA IDs are unseen by MED012 training, but same clinical facts may be present in original notes.",
+    "MED011 data are fresh relative to later pilots, but MED000E already learned AMNESIA train QA.",
+    "Incorrect patient-code controls are different patients, often different questions/facts; use NLL advantage only as suggestive.",
+    "Final is sealed and never opened, even for verification, by this script.",
+    "No patient-level machine unlearning is performed."
+  ],
+  "note_loss_weight": 0.25,
+  "note_segments": 101,
+  "optimizer_steps_each_arm": 96,
+  "patients": 16,
+  "primary_AI_source_direct": 21,
+  "secondary_AI_direct_and_relatively_independent": 8,
+  "seed": 42,
+  "source_file_sha256": {
+    "configs/model/Qwen2.5-0.5B-Instruct-MED.yaml": "2954d188d5aa2a3f45f040a44d5c5e146f28a5c56410f94b70688c09f758adc0",
+    "reports/medical_unlearning/13_med005/med005_replay_train.jsonl": "e798fc9e808e65df039eeef5aeab77dc9de6541d2d29338a258970ba763d324d",
+    "reports/medical_unlearning/13_med005/med005_retain_eval.jsonl": "06e48e5bb43d7800943c0f7ef43f2bfe96787f22b92d61ff634a2f32ea49ca6c",
+    "reports/medical_unlearning/19_med011_fresh_cohorts_v2/dev/dev_evaluation_qa_REVIEW_REQUIRED.jsonl": "1514360fcf02dfeea1f34bd403fe7c71de151273e0f813fb9918e0b5b6770791",
+    "reports/medical_unlearning/19_med011_fresh_cohorts_v2/dev/dev_original_notes_DO_NOT_MERGE_WITH_EVAL.jsonl": "3a15313d05743db90ef5664a96e5bdab020fd987fe3b899e45d3de56554cc5f1",
+    "reports/medical_unlearning/19_med011_fresh_cohorts_v2/dev/dev_training_qa_REVIEW_REQUIRED.jsonl": "ba5e5701294d2bc3805c4dff749ab51654fc0fc29ed32227cfa4e4e6c81671dc",
+    "reports/medical_unlearning/19_med011_fresh_cohorts_v2/med011_manifest.json": "b0344295d698c231c6f133d8d25edfdec9cd3106bffde9c68cc9a45de1bd882c",
+    "scripts/medical/med012_dev_review_flags.csv": "527c60216f77f0b219d0e779e56a4cd0f8dc975b5c2e44a1b56c76a0f3454d31"
+  },
+  "source_manifest_sha256": "b0344295d698c231c6f133d8d25edfdec9cd3106bffde9c68cc9a45de1bd882c",
+  "source_model_required": "Qwen/Qwen2.5-0.5B-Instruct; do not use MED000E as base",
+  "train_qa": 64
+}

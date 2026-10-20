@@ -1,0 +1,7 @@
+[2026-10-17 19:42:39,951] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+[[36m2026-10-17 19:42:47,463[0m][[34mtrainer[0m][[32mINFO[0m] - FinetuneTrainer Trainer loaded, output_dir: ./saves/train/MED000A_NotesSmoke_Qwen05[0m
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:01<00:01,  1.00s/it]                                             {'loss': 2.51, 'grad_norm': 20.5, 'learning_rate': 1e-05, 'epoch': 0.04}
+ 50%|█████     | 1/2 [00:01<00:01,  1.00s/it]100%|██████████| 2/2 [00:01<00:00,  1.94it/s]                                             {'loss': 2.9619, 'grad_norm': 21.625, 'learning_rate': 5e-06, 'epoch': 0.08}
+100%|██████████| 2/2 [00:01<00:00,  1.94it/s]                                             {'train_runtime': 1.2262, 'train_samples_per_second': 1.631, 'train_steps_per_second': 1.631, 'train_loss': 2.7359232902526855, 'epoch': 0.08}
+100%|██████████| 2/2 [00:01<00:00,  1.94it/s]100%|██████████| 2/2 [00:01<00:00,  1.63it/s]

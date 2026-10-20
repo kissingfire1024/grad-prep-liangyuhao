@@ -1,0 +1,23 @@
+[2026-10-19 20:48:53,672] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+TOKEN CHECK PASSED: MED014 DEV TRAIN QA 16
+MED014 epoch=01/16 step=16/256 train_CE=2.5596 per_QA_exposure=1
+MED014 epoch=02/16 step=32/256 train_CE=1.9682 per_QA_exposure=2
+MED014 epoch=03/16 step=48/256 train_CE=1.4957 per_QA_exposure=3
+MED014 epoch=04/16 step=64/256 train_CE=1.2404 per_QA_exposure=4
+MED014 CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED014_DEV4_QA_E04_LoRA
+MED014 epoch=05/16 step=80/256 train_CE=0.6783 per_QA_exposure=5
+MED014 epoch=06/16 step=96/256 train_CE=0.4366 per_QA_exposure=6
+MED014 epoch=07/16 step=112/256 train_CE=0.2580 per_QA_exposure=7
+MED014 epoch=08/16 step=128/256 train_CE=0.2210 per_QA_exposure=8
+MED014 CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED014_DEV4_QA_E08_LoRA
+MED014 epoch=09/16 step=144/256 train_CE=0.1306 per_QA_exposure=9
+MED014 epoch=10/16 step=160/256 train_CE=0.0740 per_QA_exposure=10
+MED014 epoch=11/16 step=176/256 train_CE=0.0619 per_QA_exposure=11
+MED014 epoch=12/16 step=192/256 train_CE=0.0349 per_QA_exposure=12
+MED014 epoch=13/16 step=208/256 train_CE=0.0186 per_QA_exposure=13
+MED014 epoch=14/16 step=224/256 train_CE=0.0290 per_QA_exposure=14
+MED014 epoch=15/16 step=240/256 train_CE=0.0114 per_QA_exposure=15
+MED014 epoch=16/16 step=256/256 train_CE=0.0167 per_QA_exposure=16
+MED014 CHECKPOINT SAVED: /home/research/open-unlearning/saves/train/MED014_DEV4_QA_E16_LoRA
+MED014 TRAIN FINISHED: 256 steps, each of 16 QA exposed exactly 16 times

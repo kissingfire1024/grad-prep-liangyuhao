@@ -1,0 +1,38 @@
+{
+  "dot_products": {
+    "npo_dot_medical": 0.0020825753454118967,
+    "npo_dot_patient": -1.0443898645462468e-05
+  },
+  "gradient_cosine": {
+    "npo_vs_medical_replay": 0.0677884966135025,
+    "npo_vs_patient_retain": -0.24789008498191833,
+    "npo_vs_weighted_retain_sum": 0.06712429225444794,
+    "patient_retain_vs_medical_replay": -0.0867449939250946
+  },
+  "individual_grad_norm_avg": {
+    "forget_npo": 0.012424022366758436,
+    "medical_replay_ce": 11.370016038417816,
+    "patient_retain_ce": 0.020054273190908134
+  },
+  "interpretation": "Only local gradient geometry at initial MED016 adapter, not NPO training dynamic or causal proof.",
+  "mean_gradient_norm": {
+    "forget_npo": 0.00566517049446702,
+    "medical_replay_ce": 5.422901630401611,
+    "patient_retain_ce": 0.007436875253915787
+  },
+  "sample_count_by_loss": {
+    "forget_npo": 8,
+    "medical_replay_ce": 8,
+    "patient_retain_ce": 16
+  },
+  "seed": 42,
+  "source_manifest_sha256": "46bfb13eadbccb27522bcc840a4f840bc603a24abe920a9910f3cd11d3024a1b",
+  "state": "MED016 CE E16 before unlearning, no optimizer updates",
+  "weighted_norms": {
+    "forget_npo": 0.00566517049446702,
+    "total_weighted_objective": 1.3557994365692139,
+    "weighted_medical_replay_ce": 1.3557254076004028,
+    "weighted_patient_retain_ce": 0.0037184376269578934,
+    "weighted_retain_sum": 1.3554081916809082
+  }
+}

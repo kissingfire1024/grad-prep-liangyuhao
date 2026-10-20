@@ -1,0 +1,19 @@
+{
+  "dev_patients": 16,
+  "train_qa": 64,
+  "eval_qa": 32,
+  "exact_eval_answer_text_in_note": 0,
+  "eval_qa_with_shared_train_answer_numbers": 2,
+  "source_dev_files_sha256": {
+    "train": "ba5e5701294d2bc3805c4dff749ab51654fc0fc29ed32227cfa4e4e6c81671dc",
+    "eval": "1514360fcf02dfeea1f34bd403fe7c71de151273e0f813fb9918e0b5b6770791",
+    "notes": "3a15313d05743db90ef5664a96e5bdab020fd987fe3b899e45d3de56554cc5f1"
+  },
+  "cautions": [
+    "Verbatim absence is NOT evidence that an answer is unsupported. A reviewer must establish semantic evidence.",
+    "Similar words, numeric overlaps and question similarity are heuristics, not clinical fact identity.",
+    "Question evidence ranking uses question words only, never the reference answer.",
+    "Final sealed cohort was never opened by this program.",
+    "Original AMNESIA QAs may have been included in MED000E training. This is fresh vs prior pilots, not pretrained-naive patients."
+  ]
+}

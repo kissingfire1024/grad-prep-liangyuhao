@@ -1,0 +1,32 @@
+{
+  "kind": "READING_ORACLE_NOT_MEMORIZATION",
+  "model_summaries": [
+    {
+      "model": "MED005_RANK_REPLAY",
+      "baseline_correct_code_mean_nll": 3.8050674721598625,
+      "focused_evidence_mean_nll": 0.6914690614212304,
+      "non_target_evidence_mean_nll": 2.6185925267636776,
+      "focused_slot_mean_nll": 0.6278062933124602,
+      "focused_oracle_improved_vs_no_excerpt_count": 16,
+      "n_qa": 16
+    },
+    {
+      "model": "MED008_GATE2B_MULTIFACT",
+      "baseline_correct_code_mean_nll": 2.0022822692990303,
+      "focused_evidence_mean_nll": 0.233029389535659,
+      "non_target_evidence_mean_nll": 2.3214219957590103,
+      "focused_slot_mean_nll": 0.29884743684669957,
+      "focused_oracle_improved_vs_no_excerpt_count": 16,
+      "n_qa": 16
+    }
+  ],
+  "limitations": [
+    "Answer is visible in two oracle excerpt conditions: NOT parameter memorization.",
+    "Non-target excerpt comes from same patient TRAIN facts; absence of target reference text is checked, but semantic hints may remain.",
+    "These 8 patients have repeatedly been used; this is only a diagnostic, not independent generalization.",
+    "No new patient QA labels are trained; this experiment evaluates existing models only.",
+    "All clinical fact labels are source-matched, not clinician approved.",
+    "Output contains public case-report patient notes; handle under applicable data governance rules."
+  ],
+  "clinical_factual_accuracy": "NOT_SCORED; review all generated answers against the source notes."
+}

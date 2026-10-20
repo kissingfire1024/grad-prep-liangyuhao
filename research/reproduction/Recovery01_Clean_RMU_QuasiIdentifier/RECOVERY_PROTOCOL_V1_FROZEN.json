@@ -1,0 +1,79 @@
+{
+  "experiment_id": "Recovery01",
+  "name": "Clean RMU Quasi-Identifier Recovery",
+  "status": "PROTOCOL_FROZEN_NOT_TRAINED",
+  "created_at_utc": "2026-10-10T16:19:36.117262+00:00",
+  "starting_model": "saves/unlearn/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01",
+  "attack_data": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/quasi_identifier_v1.json",
+  "control_data": "/home/research/research/reproduction/08-quasi-identifier-recovery/data/matched_unrelated_control_v1.json",
+  "target_indices": [
+    0,
+    20
+  ],
+  "target_entities": [
+    "B0",
+    "N20"
+  ],
+  "model_integrity": {
+    "known_layer0_zero_weight_anomaly": false,
+    "full_weight_integrity_audit": "NOT_COMPLETED"
+  },
+  "data_audit": {
+    "source_sha256_verified": true,
+    "attack_samples": 10,
+    "control_samples": 10,
+    "attack_supervised_tokens": 146,
+    "control_supervised_tokens": 152,
+    "semantic_leakage_audit": "CONDITIONAL_PASS"
+  },
+  "training": {
+    "trainer": "FinetuneTrainer",
+    "optimizer_steps": 20,
+    "learning_rate": 1e-05,
+    "seed": 42,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 1,
+    "precision": "bf16",
+    "gradient_checkpointing": true,
+    "attention_implementation": "sdpa",
+    "optimizer": "paged_adamw_32bit",
+    "checkpoint_steps": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "do_eval": false
+  },
+  "evaluation": {
+    "target_qa_probability": true,
+    "target_generation": true,
+    "forget_retain_utility": true,
+    "mia_min_k": true,
+    "direction_agnostic_auc": "EXPLORATORY"
+  },
+  "constraints": {
+    "do_not_modify_clean01": true,
+    "do_not_modify_exp009": true,
+    "no_training_before_protocol_approval": true,
+    "historical_targets_not_blind": true,
+    "patient_level_conclusions_not_supported": true,
+    "no_training_before_step0_baseline": true
+  },
+  "protocol_version": "1.0",
+  "frozen_at_utc": "2026-10-10T17:02:24.375500+00:00",
+  "sha256": {
+    "model": "ce7a76c51ccfee749f1c3bc50ac8ea64b483c4bdc2cb4ccdc19b0279a1b66354",
+    "attack_data": "381535bce88b732e6a1cc0c5fca74f3402a69d0976bb2bcc7cb3d8a4399ee2be",
+    "control_data": "9e0f1e158e87e37adee4931e13791f09b47f390e829837d7d2676e179b8d41f0",
+    "attack_config": "026fb6e426eff1e39fb333b4929fe3facd056e475f3ed173bc21e6b57539531d",
+    "control_config": "ebf538e0107f275f002265b9464131157e323f1fad93d73d22cd2fd053e6a287"
+  },
+  "pretraining_checks": {
+    "hydra_dual_group_static_check": "PASS",
+    "output_directory_isolation": "PASS",
+    "file_sha256": "PASS",
+    "step0_identity_recovery_baseline": "PENDING",
+    "model_full_weight_provenance": "NOT_INDEPENDENTLY_VERIFIED"
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "model": "Full",
+    "file": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_full_verified_baseline/TOFU_EVAL.json",
+    "sha256": "00a58c75cb5574f1635de24a51441f9f73aff4b22aabf9dcea9ed74585a9d40c",
+    "official_auc": 1.0
+  },
+  {
+    "model": "GradAscent",
+    "file": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_GradAscent_Clean01_eval/TOFU_EVAL.json",
+    "sha256": "abc16e2f7895aadbf59e8a75e7a5671313be247210aa8452c8a9e4ffac83c11e",
+    "official_auc": 0.16875
+  },
+  {
+    "model": "GradDiff",
+    "file": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_GradDiff_Clean01_eval/TOFU_EVAL.json",
+    "sha256": "460f84a9724b85bf99dcc6b5a407ee1b3e61c14e64cec8f869760a05c93577b1",
+    "official_auc": 0.12312499999999998
+  },
+  {
+    "model": "SimNPO",
+    "file": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_SimNPO_Clean01_eval/TOFU_EVAL.json",
+    "sha256": "ece1096e852a009db068b27621c3079539b741eff90f20f75d443f5d7d245620",
+    "official_auc": 0.989375
+  },
+  {
+    "model": "RMU",
+    "file": "/home/research/open-unlearning/saves/eval/tofu_Llama-3.2-1B-Instruct_forget01_RMU_Clean01_eval/TOFU_EVAL.json",
+    "sha256": "96fca2d39b02e0bbf968f39d196454a26cdfac6bd08013788e8864073ea43b29",
+    "official_auc": 0.075
+  }
+]

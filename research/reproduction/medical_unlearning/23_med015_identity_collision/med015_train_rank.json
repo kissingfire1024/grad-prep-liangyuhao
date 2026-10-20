@@ -1,0 +1,167 @@
+{
+  "arm": "rank",
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "dev_original_notes_sha256": "3a15313d05743db90ef5664a96e5bdab020fd987fe3b899e45d3de56554cc5f1",
+  "every_qa_exposures": {
+    "MED015_PAIR1_MED11_DEV_003_age": 16,
+    "MED015_PAIR1_MED11_DEV_003_bp": 16,
+    "MED015_PAIR1_MED11_DEV_003_hr": 16,
+    "MED015_PAIR1_MED11_DEV_006_age": 16,
+    "MED015_PAIR1_MED11_DEV_006_bp": 16,
+    "MED015_PAIR1_MED11_DEV_006_hr": 16,
+    "MED015_PAIR2_MED11_DEV_007_age": 16,
+    "MED015_PAIR2_MED11_DEV_007_bp": 16,
+    "MED015_PAIR2_MED11_DEV_007_hr": 16,
+    "MED015_PAIR2_MED11_DEV_013_age": 16,
+    "MED015_PAIR2_MED11_DEV_013_bp": 16,
+    "MED015_PAIR2_MED11_DEV_013_hr": 16
+  },
+  "history": [
+    {
+      "arm": "rank",
+      "epoch": 1,
+      "max_exposures": 1,
+      "mean_ce": 2.0019643157720566,
+      "mean_rank": 0.9744502902030945,
+      "min_exposures": 1,
+      "steps": 12
+    },
+    {
+      "arm": "rank",
+      "epoch": 2,
+      "max_exposures": 2,
+      "mean_ce": 0.8612842361132304,
+      "mean_rank": 0.9085896934072176,
+      "min_exposures": 2,
+      "steps": 24
+    },
+    {
+      "arm": "rank",
+      "epoch": 3,
+      "max_exposures": 3,
+      "mean_ce": 0.618090615918239,
+      "mean_rank": 0.882220188776652,
+      "min_exposures": 3,
+      "steps": 36
+    },
+    {
+      "arm": "rank",
+      "epoch": 4,
+      "max_exposures": 4,
+      "mean_ce": 0.40404794613520306,
+      "mean_rank": 0.8119383305311203,
+      "min_exposures": 4,
+      "steps": 48
+    },
+    {
+      "arm": "rank",
+      "epoch": 5,
+      "max_exposures": 5,
+      "mean_ce": 0.6414682623775055,
+      "mean_rank": 0.6861710529774427,
+      "min_exposures": 5,
+      "steps": 60
+    },
+    {
+      "arm": "rank",
+      "epoch": 6,
+      "max_exposures": 6,
+      "mean_ce": 0.4489816524631654,
+      "mean_rank": 0.6693337822022537,
+      "min_exposures": 6,
+      "steps": 72
+    },
+    {
+      "arm": "rank",
+      "epoch": 7,
+      "max_exposures": 7,
+      "mean_ce": 0.2661406465534431,
+      "mean_rank": 0.6510301951008538,
+      "min_exposures": 7,
+      "steps": 84
+    },
+    {
+      "arm": "rank",
+      "epoch": 8,
+      "max_exposures": 8,
+      "mean_ce": 0.27769549602332216,
+      "mean_rank": 0.6436161067667854,
+      "min_exposures": 8,
+      "steps": 96
+    },
+    {
+      "arm": "rank",
+      "epoch": 9,
+      "max_exposures": 9,
+      "mean_ce": 0.43106176240932353,
+      "mean_rank": 0.6392608243706187,
+      "min_exposures": 9,
+      "steps": 108
+    },
+    {
+      "arm": "rank",
+      "epoch": 10,
+      "max_exposures": 10,
+      "mean_ce": 0.24652317854148956,
+      "mean_rank": 0.6330785462359927,
+      "min_exposures": 10,
+      "steps": 120
+    },
+    {
+      "arm": "rank",
+      "epoch": 11,
+      "max_exposures": 11,
+      "mean_ce": 0.38991497862298274,
+      "mean_rank": 0.6023599098407431,
+      "min_exposures": 11,
+      "steps": 132
+    },
+    {
+      "arm": "rank",
+      "epoch": 12,
+      "max_exposures": 12,
+      "mean_ce": 0.35421765523642534,
+      "mean_rank": 0.48008847247926195,
+      "min_exposures": 12,
+      "steps": 144
+    },
+    {
+      "arm": "rank",
+      "epoch": 13,
+      "max_exposures": 13,
+      "mean_ce": 0.27327984093426494,
+      "mean_rank": 0.3798427604391084,
+      "min_exposures": 13,
+      "steps": 156
+    },
+    {
+      "arm": "rank",
+      "epoch": 14,
+      "max_exposures": 14,
+      "mean_ce": 0.12364466431487624,
+      "mean_rank": 0.18044346931249797,
+      "min_exposures": 14,
+      "steps": 168
+    },
+    {
+      "arm": "rank",
+      "epoch": 15,
+      "max_exposures": 15,
+      "mean_ce": 0.27463018540584017,
+      "mean_rank": 0.089150375927602,
+      "min_exposures": 15,
+      "steps": 180
+    },
+    {
+      "arm": "rank",
+      "epoch": 16,
+      "max_exposures": 16,
+      "mean_ce": 0.21755764920938722,
+      "mean_rank": 0.06586061720736325,
+      "min_exposures": 16,
+      "steps": 192
+    }
+  ],
+  "no_retain_or_final": true,
+  "steps": 192
+}

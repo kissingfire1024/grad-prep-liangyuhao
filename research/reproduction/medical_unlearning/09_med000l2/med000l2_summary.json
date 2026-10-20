@@ -1,0 +1,43 @@
+{
+  "design": "patient note excerpt cues manually approved; Base vs MED000E; question only/correct cue/wrong patient cue",
+  "interpretation": "Lower correct-cue NLL relative to wrong cue supports cue discrimination, not necessarily memorization. Compare to Base and review generation clinical facts; no trained patient identifier was used.",
+  "approved_patients": 16,
+  "qa_questions": 32,
+  "rows_by_model": 96,
+  "mean_nll": {
+    "Base/forget/holdout/correct_cue": 3.699575974598296,
+    "Base/forget/holdout/question_only": 3.9831139665114135,
+    "Base/forget/holdout/wrong_patient_cue": 3.7856379846128636,
+    "Base/forget/train/correct_cue": 3.8422942929160326,
+    "Base/forget/train/question_only": 3.981133261097404,
+    "Base/forget/train/wrong_patient_cue": 3.883330306086624,
+    "Base/retain_same/holdout/correct_cue": 3.1887525839206976,
+    "Base/retain_same/holdout/question_only": 3.294966231486498,
+    "Base/retain_same/holdout/wrong_patient_cue": 3.2767416914820156,
+    "Base/retain_same/train/correct_cue": 3.3557055265964237,
+    "Base/retain_same/train/question_only": 3.5618461047159835,
+    "Base/retain_same/train/wrong_patient_cue": 3.4162215177344932,
+    "MED000E/forget/holdout/correct_cue": 1.7302207883175857,
+    "MED000E/forget/holdout/question_only": 1.8299992378742367,
+    "MED000E/forget/holdout/wrong_patient_cue": 1.82537656202149,
+    "MED000E/forget/train/correct_cue": 1.8937724267032212,
+    "MED000E/forget/train/question_only": 1.8915627003104467,
+    "MED000E/forget/train/wrong_patient_cue": 1.9335746781389818,
+    "MED000E/retain_same/holdout/correct_cue": 1.6498931044107907,
+    "MED000E/retain_same/holdout/question_only": 1.6750575982130966,
+    "MED000E/retain_same/holdout/wrong_patient_cue": 1.6922149148338286,
+    "MED000E/retain_same/train/correct_cue": 1.7388252676372447,
+    "MED000E/retain_same/train/question_only": 1.7208587722038997,
+    "MED000E/retain_same/train/wrong_patient_cue": 1.7947874429794417
+  },
+  "paired_cue_advantage_correct_minus_wrong": {
+    "Base/forget/train": -0.041036013170591135,
+    "Base/forget/holdout": -0.08606201001456809,
+    "Base/retain_same/train": -0.060515991138068936,
+    "Base/retain_same/holdout": -0.08798910756131784,
+    "MED000E/forget/train": -0.039802251435760216,
+    "MED000E/forget/holdout": -0.09515577370390409,
+    "MED000E/retain_same/train": -0.05596217534219691,
+    "MED000E/retain_same/holdout": -0.04232181042303773
+  }
+}

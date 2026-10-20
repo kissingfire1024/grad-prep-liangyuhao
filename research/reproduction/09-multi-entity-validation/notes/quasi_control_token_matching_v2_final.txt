@@ -1,0 +1,47 @@
+====================================================================================================
+EXP009 FINAL MASKED QUASI vs CONTROL TOKEN MATCHING v2
+====================================================================================================
+
+FINAL DESCRIPTIVE TOKEN AUDIT.
+NO FURTHER TOKEN-BASED DATA MODIFICATION.
+
+Quasi Q tokens      : 1113
+Quasi A tokens      : 2491
+Quasi total         : 3604
+
+Control Q tokens    : 1086
+Control A tokens    : 2412
+Control total       : 3498
+
+Control/Quasi       : 0.970588
+Global rel. diff    : 0.029412
+
+PER ENTITY:
+E01 Q=203 C=197 C/Q=0.970 reldiff=0.030
+E02 Q=190 C=212 C/Q=1.116 reldiff=0.116
+E03 Q=185 C=192 C/Q=1.038 reldiff=0.038
+E04 Q=181 C=176 C/Q=0.972 reldiff=0.028
+E05 Q=255 C=210 C/Q=0.824 reldiff=0.176
+E06 Q=286 C=189 C/Q=0.661 reldiff=0.339
+E07 Q=201 C=163 C/Q=0.811 reldiff=0.189
+E08 Q=178 C=143 C/Q=0.803 reldiff=0.197
+E09 Q=184 C=227 C/Q=1.234 reldiff=0.234
+E10 Q=174 C=167 C/Q=0.960 reldiff=0.040
+E11 Q=179 C=177 C/Q=0.989 reldiff=0.011
+E12 Q=191 C=162 C/Q=0.848 reldiff=0.152
+E13 Q=152 C=258 C/Q=1.697 reldiff=0.697
+E14 Q=189 C=154 C/Q=0.815 reldiff=0.185
+E15 Q=251 C=212 C/Q=0.845 reldiff=0.155
+E16 Q=245 C=218 C/Q=0.890 reldiff=0.110
+E17 Q=190 C=249 C/Q=1.311 reldiff=0.311
+E18 Q=170 C=192 C/Q=1.129 reldiff=0.129
+
+Entities with relative difference > 0.25:
+['E06', 'E13', 'E17']
+
+Residual imbalance will be retained and handled
+by reporting/sensitivity analysis rather than
+additional data tuning.
+
+STATUS: EXP009_FINAL_MASKED_TOKEN_MATCHING_V2_CREATED
+IMPORTANT: DESCRIPTIVE AUDIT ONLY — DO NOT MODIFY DATA / DO NOT TRAIN

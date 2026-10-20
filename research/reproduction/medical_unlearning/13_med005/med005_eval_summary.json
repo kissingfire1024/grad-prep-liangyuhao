@@ -1,0 +1,149 @@
+{
+  "design": "4 selected collision groups, 8 existing heldout questions, disjoint retain utility evaluation",
+  "models": [
+    "MED000E",
+    "MED004_CE",
+    "MED004_RANK",
+    "MED005_RANK_ONLY",
+    "MED005_RANK_REPLAY"
+  ],
+  "pilot_nll": {
+    "MED000E/anchor_seen/correct_code": 1.7049618139863014,
+    "MED000E/anchor_seen/question_only": 1.644382305443287,
+    "MED000E/anchor_seen/wrong_code": 1.706499807536602,
+    "MED000E/heldout_qa/correct_code": 1.8664178103208542,
+    "MED000E/heldout_qa/question_only": 1.8672206848859787,
+    "MED000E/heldout_qa/wrong_code": 1.86852365732193,
+    "MED004_CE/anchor_seen/correct_code": 0.06735867002862506,
+    "MED004_CE/anchor_seen/question_only": 0.06701424124184996,
+    "MED004_CE/anchor_seen/wrong_code": 0.0671350204211194,
+    "MED004_CE/heldout_qa/correct_code": 2.453672155737877,
+    "MED004_CE/heldout_qa/question_only": 2.3859743177890778,
+    "MED004_CE/heldout_qa/wrong_code": 2.4497720450162888,
+    "MED004_RANK/anchor_seen/correct_code": 0.18214860511943698,
+    "MED004_RANK/anchor_seen/question_only": 0.7770300707779825,
+    "MED004_RANK/anchor_seen/wrong_code": 4.232838839292526,
+    "MED004_RANK/heldout_qa/correct_code": 5.009518146514893,
+    "MED004_RANK/heldout_qa/question_only": 4.068557024002075,
+    "MED004_RANK/heldout_qa/wrong_code": 5.43503075838089,
+    "MED005_RANK_ONLY/anchor_seen/correct_code": 0.18214860511943698,
+    "MED005_RANK_ONLY/anchor_seen/question_only": 0.7770300707779825,
+    "MED005_RANK_ONLY/anchor_seen/wrong_code": 4.232838839292526,
+    "MED005_RANK_ONLY/heldout_qa/correct_code": 5.009518146514893,
+    "MED005_RANK_ONLY/heldout_qa/question_only": 4.068557024002075,
+    "MED005_RANK_ONLY/heldout_qa/wrong_code": 5.43503075838089,
+    "MED005_RANK_REPLAY/anchor_seen/correct_code": 0.06188934881356545,
+    "MED005_RANK_REPLAY/anchor_seen/question_only": 0.3234041668474674,
+    "MED005_RANK_REPLAY/anchor_seen/wrong_code": 0.8126590196043253,
+    "MED005_RANK_REPLAY/heldout_qa/correct_code": 2.438510909676552,
+    "MED005_RANK_REPLAY/heldout_qa/question_only": 1.976882353425026,
+    "MED005_RANK_REPLAY/heldout_qa/wrong_code": 2.475610136985779
+  },
+  "retain_eval_nll": {
+    "MED000E/retain_other_heldout/factual": 1.8685401994735003,
+    "MED000E/retain_same_heldout/factual": 1.8573745153844357,
+    "MED004_CE/retain_other_heldout/factual": 2.4666885094096265,
+    "MED004_CE/retain_same_heldout/factual": 2.551672480379542,
+    "MED004_RANK/retain_other_heldout/factual": 4.153492463131745,
+    "MED004_RANK/retain_same_heldout/factual": 4.348362013697624,
+    "MED005_RANK_ONLY/retain_other_heldout/factual": 4.153492463131745,
+    "MED005_RANK_ONLY/retain_same_heldout/factual": 4.348362013697624,
+    "MED005_RANK_REPLAY/retain_other_heldout/factual": 1.9502810885508854,
+    "MED005_RANK_REPLAY/retain_same_heldout/factual": 1.9311327853550513
+  },
+  "identity": [
+    {
+      "model": "MED000E",
+      "two_sided_candidate_ranking_groups": 0,
+      "both_patient_outputs_change_groups": 1,
+      "mean_self_answer_identity_advantage": 0.0015379935503005981
+    },
+    {
+      "model": "MED004_CE",
+      "two_sided_candidate_ranking_groups": 0,
+      "both_patient_outputs_change_groups": 0,
+      "mean_self_answer_identity_advantage": -0.00022364960750564933
+    },
+    {
+      "model": "MED004_RANK",
+      "two_sided_candidate_ranking_groups": 4,
+      "both_patient_outputs_change_groups": 4,
+      "mean_self_answer_identity_advantage": 4.050690234173089
+    },
+    {
+      "model": "MED005_RANK_ONLY",
+      "two_sided_candidate_ranking_groups": 4,
+      "both_patient_outputs_change_groups": 4,
+      "mean_self_answer_identity_advantage": 4.050690234173089
+    },
+    {
+      "model": "MED005_RANK_REPLAY",
+      "two_sided_candidate_ranking_groups": 4,
+      "both_patient_outputs_change_groups": 4,
+      "mean_self_answer_identity_advantage": 0.7507696707907598
+    }
+  ],
+  "retain_paired_bootstrap": [
+    {
+      "split": "retain_same_heldout",
+      "new_model": "MED005_RANK_REPLAY",
+      "reference_model": "MED005_RANK_ONLY",
+      "n_patients": 96,
+      "mean_paired_nll_diff": -2.4172292283425727,
+      "bootstrap_ci_low": -2.567867746576667,
+      "bootstrap_ci_high": -2.251014515136679
+    },
+    {
+      "split": "retain_same_heldout",
+      "new_model": "MED005_RANK_REPLAY",
+      "reference_model": "MED004_RANK",
+      "n_patients": 96,
+      "mean_paired_nll_diff": -2.4172292283425727,
+      "bootstrap_ci_low": -2.567867746576667,
+      "bootstrap_ci_high": -2.251014515136679
+    },
+    {
+      "split": "retain_same_heldout",
+      "new_model": "MED005_RANK_REPLAY",
+      "reference_model": "MED000E",
+      "n_patients": 96,
+      "mean_paired_nll_diff": 0.0737582699706157,
+      "bootstrap_ci_low": 0.046755991876125336,
+      "bootstrap_ci_high": 0.09990482218563557
+    },
+    {
+      "split": "retain_other_heldout",
+      "new_model": "MED005_RANK_REPLAY",
+      "reference_model": "MED005_RANK_ONLY",
+      "n_patients": 96,
+      "mean_paired_nll_diff": -2.20321137458086,
+      "bootstrap_ci_low": -2.3558277040719986,
+      "bootstrap_ci_high": -2.0573820552478232
+    },
+    {
+      "split": "retain_other_heldout",
+      "new_model": "MED005_RANK_REPLAY",
+      "reference_model": "MED004_RANK",
+      "n_patients": 96,
+      "mean_paired_nll_diff": -2.20321137458086,
+      "bootstrap_ci_low": -2.3558277040719986,
+      "bootstrap_ci_high": -2.0573820552478232
+    },
+    {
+      "split": "retain_other_heldout",
+      "new_model": "MED005_RANK_REPLAY",
+      "reference_model": "MED000E",
+      "n_patients": 96,
+      "mean_paired_nll_diff": 0.08174088907738526,
+      "bootstrap_ci_low": 0.057222515965501465,
+      "bootstrap_ci_high": 0.10610843884448211
+    }
+  ],
+  "warnings": [
+    "Pilot training anchors are not independent test data.",
+    "Selected retained patients are disjoint from MED005 replay/identity cohort, but trained previously by MED000E.",
+    "Identity switching does not establish clinical factual correctness.",
+    "Holdout has mixed factual/reasoning questions and only 8 QA.",
+    "No patient-unlearning success claim; this is a positive-control/utility pilot."
+  ]
+}
